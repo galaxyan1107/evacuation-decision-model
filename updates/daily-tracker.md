@@ -21,7 +21,7 @@ This page tracks daily changes across all model inputs, compares model predictio
 | 5 | Mar 4 | **3** | ~10 | 129 | ~130 | 0 | 132 | BM near-zero |
 | 6 | Mar 5 | **7** | ~8 | 131 | ~130 | 0 | 138 | BM rebound |
 | 7 | Mar 6 | **9** | ~6 | 112 | ~130 | 0 | 121 | ⚠️ BM broke monotonic decay |
-| 8 | Mar 7 | **0** | ~4 | 121 | ~130 | 0 | 121 | First zero-BM day |
+| **8** | **Mar 7** | **16** | ~4 | ~125 | ~130 | 0 | **141** | ⚠️⚠️ BM REBOUND — highest since Day 2 |
 
 ### Cumulative Totals
 
@@ -34,7 +34,7 @@ This page tracks daily changes across all model inputs, compares model predictio
 | 5 | Mar 4 | 189 | 941 | 8 | 1,138 |
 | 6 | Mar 5 | 196 | 1,072 | 8 | 1,276 |
 | 7 | Mar 6 | 205 | 1,184 | 8 | 1,397 |
-| **8** | **Mar 7** | **205** | **1,305** | **8** | **1,518** |
+| **8** | **Mar 7** | **221** | **~1,309** | **8** | **~1,538** |
 
 ---
 
@@ -49,9 +49,11 @@ This page tracks daily changes across all model inputs, compares model predictio
 | 5 | Mar 4 | 3 | 3 | 100% | 93.1% | OK | OK |
 | 6 | Mar 5 | 7 | 6 | **85.7%** | 93.4% | ⚠️ Day breach, 1 landed | **ALERT** |
 | 7 | Mar 6 | 9 | 9 | 100% | 92.7% | OK | OK |
-| 8 | Mar 7 | 0 | 0 | — | 92.7% | — | OK |
+| **8** | **Mar 7** | **16** | **15** | **93.8%** | **92.8%** | OK | ⚠️ BM rebound to 16 |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
+
+**Day 8 critical note:** 16 BMs detected — highest since Day 2 (28). Days 5→8 show **accelerating** trend: 3→7→9→16. This contradicts the exponential decay model and suggests either hidden TELs activated or resupply from deeper storage. Launcher depletion estimate revised from 85.7% to **~73%**.
 
 ---
 
@@ -66,7 +68,7 @@ This page tracks daily changes across all model inputs, compares model predictio
 | 5 | Mar 4 | 129 | 941 | 1,059 | 53.0% | OK |
 | 6 | Mar 5 | 131 | 1,072 | 928 | 46.4% | OK |
 | 7 | Mar 6 | 112 | 1,184 | 816 | 40.8% | OK |
-| **8** | **Mar 7** | **121** | **1,305** | **695** | **34.8%** | **Approaching** |
+| **8** | **Mar 7** | **~125** | **~1,309** | **~691** | **34.5%** | **Approaching** |
 
 At current rate (~120/day), stockpile hits 30% threshold around **Day 11 (March 10)**.
 
@@ -76,11 +78,13 @@ At current rate (~120/day), stockpile hits 30% threshold around **Day 11 (March 
 
 | Metric | Day 1 | Day 3 | Day 5 | Day 7 | Day 8 | Threshold |
 |--------|-------|-------|-------|-------|-------|-----------|
-| Launcher Depletion | ~39% | ~50% | ~54% | 85.7% | 85.7% | > 85% |
-| Drone Stockpile | 89.6% | 65.6% | 53.0% | 40.8% | 34.8% | < 30% |
-| Interception Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.7% | < 90% |
+| Launcher Depletion | ~39% | ~50% | ~54% | 85.7% | **~73%*** | > 85% |
+| Drone Stockpile | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | < 30% |
+| Interception Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | < 90% |
 | Daily Casualties | ~22/d | ~18/d | ~15/d | ~16/d | ~14/d | > 10 |
 | New Weapon Type | No | No | No | No | **Air base** | Yes |
+
+*Launcher depletion **revised downward** from 85.7% to ~73% due to Day 8 BM rebound (16 missiles — highest since Day 2). The accelerating trend 3→7→9→16 suggests more TELs remain operational than previously estimated.
 
 | Day | Breaches | Verdict |
 |-----|----------|---------|
@@ -99,24 +103,25 @@ At current rate (~120/day), stockpile hits 30% threshold around **Day 11 (March 
 | 1 | ~0.75 | ~12% | ~1.52 | METASTABLE | Initial assessment |
 | 7 (2 CSGs) | 0.739 | 12.2% | 1.523 | METASTABLE | Baseline model |
 | 7 (3 CSGs) | 0.496 | 5.8% | 1.063 | METASTABLE | CVN-77 deploying, proxy/Hormuz lowered |
-| **8 (realized)** | **2.211** | **100%** | **2.925** | **UNSTABLE** | Hormuz closed + proxy + air base |
+| **8 (corrected)** | **2.589** | **100%** | **3.304** | **UNSTABLE** | Hormuz + proxy + air base + BM rebound |
 
 ### What Changed on Day 8
 
 ```
 Day 7 → Day 8 Lambda Decomposition:
 
-Component          Day 7 (3 CSG)    Day 8 (realized)    Change
+Component          Day 7 (3 CSG)    Day 8 (corrected)   Change
 ─────────────────────────────────────────────────────────────────
-λ_launcher         -0.471           -0.471               0.000
-λ_drone            +0.148           +0.163              +0.015  (stockpile lower)
+λ_launcher         -0.471           -0.401              +0.070  (depletion 85.7%→~73%)
+λ_drone            +0.148           +0.164              +0.016  (stockpile lower)
 λ_intercept        +0.020           +0.020               0.000
 λ_proxy             0.000*          +0.500              +0.500  ⚠️ Hezbollah partial
 λ_hormuz            0.000*          +0.630              +0.630  ⚠️ REALIZED
 λ_weapon            0.000*          +0.400              +0.400  ⚠️ Air base strike
+λ_bm_rebound        0.000           +0.300              +0.300  ⚠️ 16 BM (accelerating)
 λ_naval            -0.240           -0.184              +0.056  (CVN-77 not yet arrived)
 ─────────────────────────────────────────────────────────────────
-λ total (median)    0.496            2.211              +1.715
+λ total (median)    0.496            2.589              +2.093
 
 * Stochastic tail risks, expected value ~0 at P=2-4%
 ```
@@ -251,6 +256,6 @@ Of the 7 divergences: 5 strengthen the evacuation case, 1 is positive (airport),
 | 3 | ~80 | — | METASTABLE | **LEAVE — good window** |
 | 5 | ~65 | — | METASTABLE | **LEAVE — window closing** |
 | 7 | ~55 | 0.496 | METASTABLE | **LEAVE — depart today** |
-| **8** | **~50** | **2.211** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
+| **8** | **~50** | **2.589** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 
 Despite the declining risk score (driven by airport recovery and BM attrition), the system-level stability has **dramatically worsened**. The Hormuz closure, proxy activation, and air base strike have pushed the conflict into cascade territory. The improved airport capacity provides a **narrow evacuation window** that should be used immediately.
