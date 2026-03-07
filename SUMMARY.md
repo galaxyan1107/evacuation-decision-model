@@ -17,6 +17,11 @@
 * [Naval Force Posture](data/naval-force-posture.md)
 * [Validation Scorecard](data/validation.md)
 
+## Daily Updates
+
+* [📊 Day-by-Day Tracker](updates/daily-tracker.md)
+* [Day 8 — March 7 ⚠️ UNSTABLE](updates/day8-march7.md)
+
 ## Reference
 
 * [Calibration Notes](reference/calibration.md)
@@ -40,6 +45,11 @@
 * [数据来源与验证](zh/data/sources.md)
 * [海军兵力态势](zh/data/naval-force-posture.md)
 * [验证记分卡](zh/data/validation.md)
+
+### 每日更新
+
+* [📊 逐日追踪](zh/updates/daily-tracker.md)
+* [第8天 — 3月7日 ⚠️ 不稳定](zh/updates/day8-march7.md)
 
 ### 参考
 
