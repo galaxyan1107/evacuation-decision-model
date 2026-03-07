@@ -6,9 +6,7 @@
 
 ---
 
-## Recommendation
-
-The evacuation risk score remains above 60 but is declining rapidly. Airport capacity is recovering (~25% of normal) and the optimal departure window is closing. All model divergences from live data strengthen — not weaken — the case for immediate departure.
+There’s a surprising crossover between my day job as a quant and how I navigate real life.
 
 ---
 
