@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "conflict_start": "2026-02-28",
+    "model_version": "2.1-ham-abc",
+    "drone_stockpile_estimate": 2000,
+    "tel_stockpile_estimate": 40,
+    "cascade_thresholds": {
+      "launcher_depletion": 0.85,
+      "drone_stockpile_remaining": 0.30,
+      "interception_rate_cumulative": 0.90,
+      "daily_casualties": 10,
+      "new_weapon_type": false
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-02-28",
+      "bm_detected": 137,
+      "bm_intercepted": 132,
+      "bm_fell_sea": 3,
+      "bm_fell_land": 2,
+      "drones_detected": 209,
+      "drones_intercepted": 198,
+      "drones_fell_uae": 11,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 15,
+      "airport_capacity_pct": 30,
+      "oil_wti": 72,
+      "vlcc_rate": 218000,
+      "hormuz_status": "open",
+      "hormuz_crossings": null,
+      "proxy_active": false,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": null,
+      "carrier_count": 2,
+      "carrier_effective": 2.0,
+      "key_events": [
+        "Iran launches 137 BMs + 209 drones at UAE",
+        "US Operation Epic Fury begins"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": false,
+        "proxy_activated": false,
+        "air_base_strike": false
+      },
+      "notes": "Opening salvo"
+    },
+    {
+      "day": 2,
+      "date": "2026-03-01",
+      "bm_detected": 28,
+      "bm_intercepted": 20,
+      "bm_fell_sea": 5,
+      "bm_fell_land": 3,
+      "drones_detected": 332,
+      "drones_intercepted": 321,
+      "drones_fell_uae": 11,
+      "cruise_missiles": 2,
+      "deaths": 1,
+      "injuries": 22,
+      "airport_capacity_pct": 0,
+      "oil_wti": 78,
+      "vlcc_rate": 245000,
+      "hormuz_status": "open",
+      "hormuz_crossings": null,
+      "proxy_active": false,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": null,
+      "carrier_count": 2,
+      "carrier_effective": 2.0,
+      "key_events": [
+        "Peak drone day: 332 launched",
+        "First fatality (Pakistani national)"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": false,
+        "proxy_activated": false,
+        "air_base_strike": false
+      },
+      "notes": "Peak drone day"
+    },
+    {
+      "day": 3,
+      "date": "2026-03-02",
+      "bm_detected": 9,
+      "bm_intercepted": 9,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 148,
+      "drones_intercepted": 140,
+      "drones_fell_uae": 8,
+      "cruise_missiles": 6,
+      "deaths": 0,
+      "injuries": 12,
+      "airport_capacity_pct": 2,
+      "oil_wti": 82,
+      "vlcc_rate": 310000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": null,
+      "carrier_count": 2,
+      "carrier_effective": 2.0,
+      "key_events": [
+        "IRGC declares Hormuz closed",
+        "Hezbollah launches rockets at Israel"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": false
+      },
+      "notes": "Hormuz closure day"
+    },
+    {
+      "day": 4,
+      "date": "2026-03-03",
+      "bm_detected": 12,
+      "bm_intercepted": 11,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 1,
+      "drones_detected": 123,
+      "drones_intercepted": 115,
+      "drones_fell_uae": 8,
+      "cruise_missiles": 0,
+      "deaths": 1,
+      "injuries": 10,
+      "airport_capacity_pct": 5,
+      "oil_wti": 86,
+      "vlcc_rate": 380000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": null,
+      "carrier_count": 2,
+      "carrier_effective": 2.0,
+      "key_events": [
+        "Container ship hit in Hormuz strait",
+        "Second fatality (Bangladeshi national)"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": false
+      },
+      "notes": "Container ship hit"
+    },
+    {
+      "day": 5,
+      "date": "2026-03-04",
+      "bm_detected": 3,
+      "bm_intercepted": 3,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 129,
+      "drones_intercepted": 125,
+      "drones_fell_uae": 4,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 8,
+      "airport_capacity_pct": 8,
+      "oil_wti": 90,
+      "vlcc_rate": 400000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 5,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": null,
+      "carrier_count": 2,
+      "carrier_effective": 2.0,
+      "key_events": [
+        "BMs near zero (3)",
+        "Only 5 ships through strait"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": false
+      },
+      "notes": "BMs near zero, supports decay model"
+    },
+    {
+      "day": 6,
+      "date": "2026-03-05",
+      "bm_detected": 7,
+      "bm_intercepted": 6,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 1,
+      "drones_detected": 131,
+      "drones_intercepted": 127,
+      "drones_fell_uae": 4,
+      "cruise_missiles": 0,
+      "deaths": 1,
+      "injuries": 11,
+      "airport_capacity_pct": 15,
+      "oil_wti": 93,
+      "vlcc_rate": 410000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 67,
+      "carrier_count": 2,
+      "carrier_effective": 2.0,
+      "key_events": [
+        "1 BM hits UAE soil (Day intercept rate 85.7%)",
+        "Etihad resumes limited flights",
+        "Third fatality"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": false
+      },
+      "notes": "First confirmed BM ground impact in UAE"
+    },
+    {
+      "day": 7,
+      "date": "2026-03-06",
+      "bm_detected": 9,
+      "bm_intercepted": 9,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 112,
+      "drones_intercepted": 109,
+      "drones_fell_uae": 3,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 15,
+      "airport_capacity_pct": 25,
+      "oil_wti": 95,
+      "vlcc_rate": 420000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 63,
+      "carrier_count": 3,
+      "carrier_effective": 2.3,
+      "key_events": [
+        "9 BMs — breaks monotonic decay",
+        "Emirates 40% network",
+        "CVN-77 Bush completes training"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": false
+      },
+      "notes": "BM breaks decay, 3rd carrier confirmed"
+    },
+    {
+      "day": 8,
+      "date": "2026-03-07",
+      "bm_detected": 16,
+      "bm_intercepted": 15,
+      "bm_fell_sea": 1,
+      "bm_fell_land": 0,
+      "drones_detected": 125,
+      "drones_intercepted": 119,
+      "drones_fell_uae": 6,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 19,
+      "airport_capacity_pct": 55,
+      "oil_wti": 97,
+      "vlcc_rate": 424000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": "Al Dhafra air base strike (IRGC claim)",
+      "polymarket_ceasefire_mar31": 61,
+      "carrier_count": 3,
+      "carrier_effective": 2.3,
+      "key_events": [
+        "16 BMs detected — highest since Day 2",
+        "IRGC claims Al Dhafra air base strike",
+        "Dubai shelter-in-place alert 7:05 PM",
+        "Emirates 60% network, 106 flights/day"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "BM rebound (Days 5-8: 3→7→9→16), air base escalation"
+    }
+  ]
+}

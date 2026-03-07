@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-03-07T16:03:18.767860",
+    "day": 8,
+    "slug": "day8-march7",
+    "lambda_median": 2.488239865872681,
+    "lambda_p95": 3.2060879121106,
+    "p_gt_1": 100.0,
+    "verdict": "UNSTABLE",
+    "breaches": 2
+  }
+]

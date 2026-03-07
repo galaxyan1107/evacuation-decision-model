@@ -8,6 +8,40 @@ This page tracks daily changes across all model inputs, compares model predictio
 
 ---
 
+## Model vs Actual — Divergence Summary
+
+### Divergence Heatmap
+
+Day-by-day percentage deviation across all 6 tracked metrics. Red = actual exceeds model, blue = actual below model. Lambda divergence dominates from Day 3 onward (+240% → +402%).
+
+![Divergence Heatmap](../charts/divergence_heatmap.png)
+
+### 6-Panel Comparison
+
+Side-by-side model (blue) vs actual (red) with ribbon fill showing the gap. Airport (green) is the only positive divergence. Lambda (bottom-right) shows the cascade zone breach.
+
+![Model vs Actual](../charts/model_vs_actual_bars.png)
+
+### Scorecard & Verdict Timeline
+
+Stacked divergence shows lambda (purple) dominating total model error. Verdict timeline: model predicted METASTABLE for all 8 days — reality crossed to UNSTABLE on Day 3 and never returned.
+
+![Divergence Scorecard](../charts/divergence_scorecard.png)
+
+### Lambda Evolution
+
+λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure) and reached 2.49 on Day 8 (air base strike + BM rebound). P(λ>1) has been 100% since Day 3.
+
+![Lambda Evolution](../charts/lambda_evolution_day8.png)
+
+### Ballistic Missile Trajectory
+
+The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→8: 3→7→9→16 shows an accelerating rebound, invalidating the TEL depletion hypothesis.
+
+![BM Trajectory](../charts/bm_trajectory.png)
+
+---
+
 ## Attack Volume Tracker
 
 ### Daily New Attacks
