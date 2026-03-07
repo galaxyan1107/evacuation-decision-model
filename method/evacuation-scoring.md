@@ -1,5 +1,8 @@
 # 5. Evacuation Risk Scoring
 
+> 🌐 **EN** | [中文](../zh/method/evacuation-scoring.md)
+
+
 The final module produces a **composite evacuation risk score (0–100)** that synthesizes all model outputs into a single actionable metric.
 
 ## Composite Score Formula

@@ -1,5 +1,8 @@
 # Reference
 
+> 🌐 **EN** | [中文](../zh/reference/bibliography.md)
+
+
 ## Core Framework
 
 **Brock, W.A. & Hommes, C.H. (1998).** "Heterogeneous beliefs and routes to chaos in a simple asset pricing model." *Journal of Economic Dynamics and Control*, 22(8-9), pp.1235-1274.

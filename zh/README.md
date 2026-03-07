@@ -1,5 +1,8 @@
 # 摘要
 
+> 🌐 [English](../README.md) | **中文**
+
+
 ## 撤离决策模型 — ABC + Brock-Hommes HAM 框架
 
 **更新时间：2026年3月7日（冲突第8天）**

@@ -1,5 +1,8 @@
 # UAE MOD Attack Data
 
+> 🌐 **EN** | [中文](../zh/data/mod-attack-data.md)
+
+
 ## Cumulative Data Table (Days 1-7)
 
 | Day | Date | Cum. BM | Intercepted | Sea Impact | Land | Cruise | Drones | Int. Rate |

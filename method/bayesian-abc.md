@@ -1,5 +1,8 @@
 # 2. Bayesian Conflict Forecast (ABC)
 
+> 🌐 **EN** | [中文](../zh/method/bayesian-abc.md)
+
+
 The core forecasting engine uses **Approximate Bayesian Computation** with 50,000 Monte Carlo simulations to estimate posterior probabilities over four conflict scenarios.
 
 ## Why ABC?

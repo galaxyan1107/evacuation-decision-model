@@ -1,5 +1,8 @@
 # Naval Force Posture
 
+> 🌐 **EN** | [中文](../zh/data/naval-force-posture.md)
+
+
 The U.S. has assembled its largest Middle East military buildup since the 2003 Iraq invasion. Naval force posture is a key stabilizing input to the HAM feedback gain model.
 
 ## Carrier Strike Groups Deployed

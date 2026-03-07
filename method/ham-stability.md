@@ -1,5 +1,8 @@
 # 3. HAM Stability Analysis
 
+> 🌐 **EN** | [中文](../zh/method/ham-stability.md)
+
+
 The Heterogeneous Agent Model stability module assesses whether the conflict system is in a **stable equilibrium**, **metastable** (resilient to small shocks), or approaching a **cascade tipping point**.
 
 ## Key Metric: Feedback Gain λ

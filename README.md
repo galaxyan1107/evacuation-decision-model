@@ -1,5 +1,8 @@
 # Summary
 
+> 🌐 **EN** | [中文](zh/README.md)
+
+
 ## Evacuation Decision Model — ABC + Brock-Hommes HAM Framework
 
 **Updated: March 7, 2026 (Day 8 of Conflict)**

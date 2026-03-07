@@ -1,5 +1,8 @@
 # 数据来源与验证
 
+> 🌐 [English](../../data/sources.md) | **中文**
+
+
 ## 一手来源
 
 ### 阿联酋国防部 (`@modgovae`)

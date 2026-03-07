@@ -1,5 +1,8 @@
 # Data Sources & Verification
 
+> 🌐 **EN** | [中文](../zh/data/sources.md)
+
+
 ## Primary Sources
 
 ### UAE Ministry of Defence (`@modgovae`)

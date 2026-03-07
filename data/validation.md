@@ -1,5 +1,8 @@
 # Validation Scorecard
 
+> 🌐 **EN** | [中文](../zh/data/validation.md)
+
+
 ## Day 7 Live Validation (March 6, 2026)
 
 | # | Check | Model Prediction | Observed | Result |

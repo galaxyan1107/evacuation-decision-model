@@ -1,5 +1,8 @@
 # Calibration Notes
 
+> 🌐 **EN** | [中文](../zh/reference/calibration.md)
+
+
 ## Iterative Calibration Process
 
 Four major calibration rounds were required to align the Python implementation with the PDF report outputs.

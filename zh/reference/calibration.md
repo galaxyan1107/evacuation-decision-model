@@ -1,5 +1,8 @@
 # 校准说明
 
+> 🌐 [English](../../reference/calibration.md) | **中文**
+
+
 ## 迭代校准过程
 
 将Python实现与PDF报告输出对齐共经历了四轮主要校准。

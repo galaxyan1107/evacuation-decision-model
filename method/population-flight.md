@@ -1,5 +1,8 @@
 # 4. Population Flight Model
 
+> 🌐 **EN** | [中文](../zh/method/population-flight.md)
+
+
 The population flight module adapts the **Brock & Hommes (1998) Heterogeneous Agent Model** for evacuation dynamics. Six agent types represent distinct civilian population segments, each with unique risk thresholds, departure speeds, and sensitivity profiles.
 
 ## Agent Types

@@ -1,5 +1,8 @@
 # 1. Situation Assessment
 
+> 🌐 **EN** | [中文](../zh/method/situation-assessment.md)
+
+
 The first module ingests cumulative attack data from UAE MOD infographics posted daily on X.com via the `@modgovae` account, cross-verified against wire services (WAM, Reuters) and regional press (Gulf News, Khaleeji Times). Cumulative figures are differenced to produce daily new-attack vectors.
 
 ## Data Ingestion
