@@ -19,10 +19,18 @@ The U.S. has assembled its largest Middle East military buildup since the 2003 I
 - **Operation:** Epic Fury
 
 ### CSG-12: USS Gerald R. Ford (CVN-78)
-- **Location:** Eastern Mediterranean Sea
+- **Location:** Red Sea (as of March 6, 2026)
 - **Deployed:** En route from mid-February 2026
-- **Significance:** Uncommon two-carrier deployment — signals high readiness
 - **Operation:** Epic Fury
+
+### CSG-10: USS George H.W. Bush (CVN-77) — NEW
+- **Status:** Completed COMPTUEX exercises; returned to Norfolk March 5 for replenishment
+- **Expected deployment:** Imminent — preparing to deploy to Middle East
+- **Escorts:** USS Gonzalez (DDG-66), USS Mason (DDG-87), USS Ross (DDG-71), USS Donald Cook (DDG-75)
+- **Significance:** Third carrier deployment — largest U.S. naval buildup in the region since 2003 Iraq invasion
+- **Operation:** Epic Fury
+
+> **UPDATE (March 7):** The deployment of a 3rd carrier strike group represents a significant escalation of U.S. force posture. Three simultaneous CSGs in theater is extremely rare and signals maximum deterrence posture.
 
 ## Independent Destroyers in Arabian Sea
 
@@ -35,7 +43,7 @@ The U.S. has assembled its largest Middle East military buildup since the 2003 I
 | USS Pickney | DDG-91 | BMD / Strike |
 | USS Mitscher | DDG-57 | BMD / Strike |
 
-**Total: 6 independent guided-missile destroyers** with Aegis BMD capability, plus 3 CSG escorts = 9+ Aegis-capable ships in theater.
+**Total: 6 independent guided-missile destroyers** with Aegis BMD capability, plus 3 CSG escorts + 4 incoming CSG-10 escorts = 13+ Aegis-capable ships in theater.
 
 ## Additional Assets
 
@@ -51,13 +59,13 @@ The U.S. has assembled its largest Middle East military buildup since the 2003 I
 Naval force posture feeds into the HAM stability model through two channels:
 
 ### 1. Interception Rate Support
-The Aegis BMD-capable destroyers supplement THAAD and Patriot land-based systems. The 9+ Aegis ships provide layered defense that supports the >92% interception rate. This is modeled as a **stabilizing factor** in the λ calculation.
+The Aegis BMD-capable destroyers supplement THAAD and Patriot land-based systems. The 13+ Aegis ships provide layered defense that supports the >92% interception rate. This is modeled as a **stabilizing factor** in the λ calculation.
 
 ### 2. Escalation Deterrence
-The two-carrier deployment creates a credible deterrent against further escalation. This affects:
-- **Proxy activation probability:** Reduced from 8% to 6% (Houthi/Hezbollah less likely to join with 2 CVNs in theater)
-- **Hormuz closure risk:** Reduced from 6% to 4% (naval dominance deters blockade attempts)
-- **Regime War scenario prior:** The massive force posture makes full-scale regime war less likely (reduced from 0.20 to 0.15 prior)
+The three-carrier deployment creates maximum credible deterrent against further escalation. This affects:
+- **Proxy activation probability:** Reduced from 8% to 4% (Houthi/Hezbollah far less likely to join with 3 CVNs in theater)
+- **Hormuz closure risk:** Reduced from 6% to 2% (overwhelming naval dominance deters blockade attempts)
+- **Regime War scenario prior:** The unprecedented force posture makes full-scale regime war extremely unlikely (reduced from 0.20 to 0.10 prior)
 
 ### Lambda Impact
 
@@ -65,4 +73,4 @@ The two-carrier deployment creates a credible deterrent against further escalati
 λ_naval_deterrence = -0.08 · carrier_count · (1 + N(0, 0.10))
 ```
 
-With 2 carriers: approximately -0.16 additional stabilizing effect, further pulling λ below the cascade threshold of 1.0.
+With 3 carriers: approximately **-0.24** additional stabilizing effect (up from -0.16 with 2 carriers), further pulling λ below the cascade threshold of 1.0. This reduces the P(λ > 1) cascade probability from ~12.2% to an estimated ~8-9%.

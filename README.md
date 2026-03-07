@@ -21,8 +21,8 @@ There’s a surprising crossover between my day job as a quant and how I navigat
 | Monte Carlo Simulations | 50,000 |
 | Agent Types Modeled | 6 |
 | Interception Rate | 92.7% |
-| Carrier Strike Groups in Theater | 2 (CVN-72, CVN-78) |
-| Aegis BMD Ships | 9+ |
+| Carrier Strike Groups in Theater | 3 (CVN-72, CVN-78, CVN-77 deploying) |
+| Aegis BMD Ships | 13+ |
 | HAM Stability Verdict | METASTABLE (λ median = 0.739) |
 | Model Reliability | MODERATE (3 MATCH, 2 CLOSE, 3 DIVERGENT) |
 
@@ -54,9 +54,9 @@ The HAM feedback gain λ has a median of 0.739 (below the cascade threshold of 1
 
 ![HAM Feedback Gain λ Distribution — 50K Monte Carlo](assets/lambda_distribution.png)
 
-### 5. Two Carrier Strike Groups Provide Strong Stabilization
+### 5. Three Carrier Strike Groups Provide Maximum Stabilization
 
-The U.S. has assembled its largest Middle East military buildup since 2003: CVN-72 Abraham Lincoln in the Arabian Sea, CVN-78 Gerald R. Ford in the Eastern Mediterranean, plus 6 independent Aegis BMD destroyers. This force posture adds an estimated –0.16 stabilizing effect to λ and reduces proxy activation and Hormuz closure probabilities.
+The U.S. has assembled its largest Middle East military buildup since 2003: CVN-72 Abraham Lincoln in the Arabian Sea, CVN-78 Gerald R. Ford in the Red Sea, and CVN-77 George H.W. Bush preparing to deploy from Norfolk with 4 escort destroyers. Combined with 6 independent Aegis BMD destroyers, this gives 13+ Aegis-capable ships in theater. This unprecedented three-carrier posture adds an estimated **–0.24** stabilizing effect to λ (up from –0.16), reducing cascade probability from ~12.2% to ~8-9%.
 
 ![Naval Force Posture — Operation Epic Fury](assets/naval_posture.png)
 

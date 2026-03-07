@@ -85,3 +85,5 @@ This is the dominant stabilizing force, pulling λ significantly below 1.0.
 | 14-day cumulative cascade probability | 1 - (1 - P_daily)^14 |
 
 **Interpretation:** The system is metastable — launcher attrition provides strong stabilization, but fat-tailed risks from proxy activation or Hormuz closure create a non-trivial cascade probability over a 14-day horizon.
+
+> **UPDATE (March 7):** With the 3rd carrier strike group (CVN-77 George H.W. Bush) deploying, the naval deterrence effect increases from –0.16 to –0.24 on λ. Proxy activation probability drops to 4% and Hormuz closure risk to 2%, reducing overall P(λ > 1) from ~12.2% to an estimated ~8-9%.
