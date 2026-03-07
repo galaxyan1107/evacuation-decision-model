@@ -22,10 +22,6 @@
 * [📊 Day-by-Day Tracker](updates/daily-tracker.md)
 * [Day 8 — March 7 ⚠️ UNSTABLE](updates/day8-march7.md)
 
-## Pipeline
-
-* [🔧 Daily Update Pipeline](pipeline/README.md)
-
 ## Reference
 
 * [Calibration Notes](reference/calibration.md)
@@ -54,10 +50,6 @@
 
 * [📊 逐日追踪](zh/updates/daily-tracker.md)
 * [第8天 — 3月7日 ⚠️ 不稳定](zh/updates/day8-march7.md)
-
-### 管线
-
-* [🔧 每日更新管线](zh/pipeline/README.md)
 
 ### 参考
 
