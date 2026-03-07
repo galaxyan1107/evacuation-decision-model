@@ -67,7 +67,7 @@ Transit passengers and tourists depart almost immediately (>90% by Day 20). Shor
 
 ### 7. Evacuation Risk Score Peaks Early, Decays Rapidly
 
-The composite risk score starts near 30 and peaks around Day 5–6 as airport queues build, then decays as attack intensity subsides and airport capacity recovers. The optimal departure window is **Days 1–5** (score above 25). By Day 15, the score drops below 15.
+The composite risk score starts at ~100 on Day 1 (LEAVE IMMEDIATELY), crosses below 80 by Day 3, and below 60 ("good window" closing) by Day 6. By Day 10 it reaches ~45 (ACCEPTABLE but risky), and settles near 27 by Day 30. The dominant early driver is the airport queue bottleneck (capacity at 0–15% of normal), followed by attack intensity and cascade tail risk.
 
 ![Composite Evacuation Risk Score](assets/risk_score.png)
 

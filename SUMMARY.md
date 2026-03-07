@@ -20,4 +20,4 @@
 ## Reference
 
 * [Calibration Notes](reference/calibration.md)
-* [Bibliography](reference/bibliography.md)
+* [Reference](reference/bibliography.md)
