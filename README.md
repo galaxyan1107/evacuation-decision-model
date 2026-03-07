@@ -23,7 +23,7 @@ There’s a surprising crossover between my day job as a quant and how I navigat
 | Interception Rate | 92.7% |
 | Carrier Strike Groups in Theater | 3 (CVN-72, CVN-78, CVN-77 deploying) |
 | Aegis BMD Ships | 13+ |
-| HAM Stability Verdict | METASTABLE (λ median = 0.739) |
+| HAM Stability Verdict | METASTABLE (λ median = 0.496) |
 | Model Reliability | MODERATE (3 MATCH, 2 CLOSE, 3 DIVERGENT) |
 
 ---
@@ -50,13 +50,13 @@ Bayesian ABC with 50K Monte Carlo simulations assigns 75.4% probability to the B
 
 ### 4. System Is Metastable — Fat-Tailed Cascade Risk Exists
 
-The HAM feedback gain λ has a median of 0.739 (below the cascade threshold of 1.0), meaning stabilizing forces dominate. However, 12.2% of Monte Carlo simulations show λ > 1.0, driven by fat-tailed risks: proxy activation (Houthi/Hezbollah, P=6%), Hormuz closure (P=4%), and interception degradation. The 95th percentile λ reaches 1.52.
+The HAM feedback gain λ has a median of 0.496 (below the cascade threshold of 1.0), meaning stabilizing forces strongly dominate. With three carrier strike groups providing naval deterrence (–0.24 effect on λ), only 5.8% of Monte Carlo simulations show λ > 1.0, driven by fat-tailed risks: proxy activation (Houthi/Hezbollah, P=4%), Hormuz closure (P=2%), and interception degradation. The 95th percentile λ reaches 1.06.
 
 ![HAM Feedback Gain λ Distribution — 50K Monte Carlo](assets/lambda_distribution.png)
 
 ### 5. Three Carrier Strike Groups Provide Maximum Stabilization
 
-The U.S. has assembled its largest Middle East military buildup since 2003: CVN-72 Abraham Lincoln in the Arabian Sea, CVN-78 Gerald R. Ford in the Red Sea, and CVN-77 George H.W. Bush preparing to deploy from Norfolk with 4 escort destroyers. Combined with 6 independent Aegis BMD destroyers, this gives 13+ Aegis-capable ships in theater. This unprecedented three-carrier posture adds an estimated **–0.24** stabilizing effect to λ (up from –0.16), reducing cascade probability from ~12.2% to ~8-9%.
+The U.S. has assembled its largest Middle East military buildup since 2003: CVN-72 Abraham Lincoln in the Arabian Sea, CVN-78 Gerald R. Ford in the Red Sea, and CVN-77 George H.W. Bush preparing to deploy from Norfolk with 4 escort destroyers. Combined with 6 independent Aegis BMD destroyers, this gives 13+ Aegis-capable ships in theater. This unprecedented three-carrier posture adds an estimated **–0.24** stabilizing effect to λ (up from –0.16 with 2 carriers), reducing cascade probability to 5.8% and pulling λ median down to 0.496.
 
 ![Naval Force Posture — Operation Epic Fury](assets/naval_posture.png)
 

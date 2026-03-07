@@ -32,10 +32,10 @@ Current status: **METASTABLE** (2/5 breached)
 
 ## Feedback Gain λ Decomposition
 
-The feedback gain is computed as a sum of six stochastic effects via 50K Monte Carlo simulations:
+The feedback gain is computed as a sum of seven stochastic effects via 50K Monte Carlo simulations:
 
 ```
-λ = 1.0 + λ_launcher + λ_drone + λ_intercept + λ_proxy + λ_hormuz + λ_weapon
+λ = 1.0 + λ_launcher + λ_drone + λ_intercept + λ_proxy + λ_hormuz + λ_weapon + λ_naval
 ```
 
 ### Stabilizing Effects (Negative Feedback)
@@ -58,14 +58,14 @@ This is the dominant stabilizing force, pulling λ significantly below 1.0.
 λ_intercept = +0.15 · Exp(0.03) / (1 - int_rate + 0.01)
 ```
 
-**Proxy Activation** — Houthi/Hezbollah joining (P=6%, high impact):
+**Proxy Activation** — Houthi/Hezbollah joining (P=4% with 3 CSGs, high impact):
 ```
-λ_proxy = +0.8 · Bernoulli(0.06) · U(0.5, 2.0)
+λ_proxy = +0.8 · Bernoulli(0.04) · U(0.5, 2.0)
 ```
 
-**Hormuz Closure** — Strait closure risk (P=4%):
+**Hormuz Closure** — Strait closure risk (P=2% with 3 CSGs):
 ```
-λ_hormuz = +0.6 · Bernoulli(0.04) · U(0.6, 1.5)
+λ_hormuz = +0.6 · Bernoulli(0.02) · U(0.6, 1.5)
 ```
 
 **New Weapon Introduction** — Novel capability emergence (P=3%):
@@ -73,17 +73,25 @@ This is the dominant stabilizing force, pulling λ significantly below 1.0.
 λ_weapon = +0.4 · Bernoulli(0.03) · U(0.5, 1.5)
 ```
 
+### Naval Deterrence (Stabilizing)
+
+**Three-Carrier Deterrence** — CVN-72, CVN-78, CVN-77 with 13+ Aegis ships:
+```
+λ_naval = -0.08 · carrier_count · (1 + N(0, 0.10))
+```
+With 3 carriers: approximately **–0.24** additional stabilizing effect, the second strongest stabilizing force after launcher attrition.
+
 ![HAM Feedback Gain λ Distribution](../assets/lambda_distribution.png)
 
 ## Results
 
 | Metric | Value |
 |--------|-------|
-| λ median | 0.729 |
-| λ 95th percentile | ~1.35 |
-| Daily cascade probability | P(λ > 1) per sim |
-| 14-day cumulative cascade probability | 1 - (1 - P_daily)^14 |
+| λ median | 0.496 |
+| λ 95th percentile | 1.063 |
+| P(λ > 1) | 5.8% |
+| 14-day cumulative cascade probability | 1 - (1 - 0.058)^14 ≈ 57% |
 
-**Interpretation:** The system is metastable — launcher attrition provides strong stabilization, but fat-tailed risks from proxy activation or Hormuz closure create a non-trivial cascade probability over a 14-day horizon.
+**Interpretation:** The system is metastable — launcher attrition and three-carrier naval deterrence (–0.24) provide strong stabilization, pulling the median λ well below 1.0. However, fat-tailed risks from proxy activation or Hormuz closure still create a non-trivial cumulative cascade probability over a 14-day horizon.
 
-> **UPDATE (March 7):** With the 3rd carrier strike group (CVN-77 George H.W. Bush) deploying, the naval deterrence effect increases from –0.16 to –0.24 on λ. Proxy activation probability drops to 4% and Hormuz closure risk to 2%, reducing overall P(λ > 1) from ~12.2% to an estimated ~8-9%.
+> **UPDATE (March 7):** With the 3rd carrier strike group (CVN-77 George H.W. Bush) deploying, the naval deterrence effect increases from –0.16 to –0.24 on λ. Proxy activation probability drops from 6% to 4% and Hormuz closure risk from 4% to 2%. The λ median shifts from 0.739 to 0.496, and P(λ > 1) drops from 12.2% to 5.8%.
