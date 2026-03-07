@@ -2,15 +2,15 @@
 
 ## Evacuation Decision Model — ABC + Brock-Hommes HAM Framework
 
-**Prepared: March 7, 2026 (Day 8 of Conflict)**
+**Updated: March 7, 2026 (Day 8 of Conflict)**
 
 ---
 
-## Recommendation
+`## Recommendation
 
-**DEPART TODAY (March 7).** The evacuation risk score remains above 60 but is declining rapidly. Airport capacity is recovering (~25% of normal) and the optimal departure window is closing. All model divergences from live data strengthen — not weaken — the case for immediate departure.
+The evacuation risk score remains above 60 but is declining rapidly. Airport capacity is recovering (~25% of normal) and the optimal departure window is closing. All model divergences from live data strengthen.
 
----
+---`
 
 ## Key Metrics
 
