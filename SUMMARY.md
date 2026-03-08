@@ -25,7 +25,6 @@
 
 ## Reference
 
-* [Calibration Notes](reference/calibration.md)
 * [Reference](reference/bibliography.md)
 
 ## 中文版
@@ -55,5 +54,4 @@
 
 ### 参考
 
-* [校准说明](zh/reference/calibration.md)
 * [参考文献](zh/reference/bibliography.md)
