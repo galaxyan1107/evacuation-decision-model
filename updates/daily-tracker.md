@@ -2,7 +2,7 @@
 
 > 🌐 **EN** | [中文](../zh/updates/daily-tracker.md)
 
-**Last Updated: March 7, 2026 (Day 8)**
+**Last Updated: March 8, 2026 (Day 9)**
 
 This page tracks daily changes across all model inputs, compares model predictions against observed data, and flags breaches as they occur.
 
@@ -55,7 +55,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 5 | Mar 4 | **3** | ~10 | 129 | ~130 | 0 | 132 | BM near-zero |
 | 6 | Mar 5 | **7** | ~8 | 131 | ~130 | 0 | 138 | BM rebound |
 | 7 | Mar 6 | **9** | ~6 | 112 | ~130 | 0 | 121 | ⚠️ BM broke monotonic decay |
-| **8** | **Mar 7** | **16** | ~4 | ~125 | ~130 | 0 | **141** | ⚠️⚠️ BM REBOUND — highest since Day 2 |
+| 8 | Mar 7 | **16** | ~4 | ~125 | ~130 | 0 | 141 | ⚠️⚠️ BM REBOUND — highest since Day 2 |
+| **9** | **Mar 8** | **17** | ~3 | 117 | ~130 | 0 | **134** | ⚠️⚠️ BM sustained high — 16→17 |
 
 ### Cumulative Totals
 
@@ -68,7 +69,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 5 | Mar 4 | 189 | 941 | 8 | 1,138 |
 | 6 | Mar 5 | 196 | 1,072 | 8 | 1,276 |
 | 7 | Mar 6 | 205 | 1,184 | 8 | 1,397 |
-| **8** | **Mar 7** | **221** | **~1,309** | **8** | **~1,538** |
+| 8 | Mar 7 | 221 | ~1,309 | 8 | ~1,538 |
+| **9** | **Mar 8** | **238** | **~1,422** | **8** | **~1,668** |
 
 ---
 
@@ -83,11 +85,14 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 5 | Mar 4 | 3 | 3 | 100% | 93.1% | OK | OK |
 | 6 | Mar 5 | 7 | 6 | **85.7%** | 93.4% | ⚠️ Day breach, 1 landed | **ALERT** |
 | 7 | Mar 6 | 9 | 9 | 100% | 92.7% | OK | OK |
-| **8** | **Mar 7** | **16** | **15** | **93.8%** | **92.8%** | OK | ⚠️ BM rebound to 16 |
+| 8 | Mar 7 | 16 | 15 | 93.8% | 92.8% | OK | ⚠️ BM rebound to 16 |
+| **9** | **Mar 8** | **17** | **16** | **94.1%** | **92.9%** | OK | ⚠️ BM sustained high: 16→17 |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
 **Day 8 critical note:** 16 BMs detected — highest since Day 2 (28). Days 5→8 show **accelerating** trend: 3→7→9→16. This contradicts the exponential decay model and suggests either hidden TELs activated or resupply from deeper storage. Launcher depletion estimate revised from 85.7% to **~73%**.
+
+**Day 9 critical note:** 17 BMs detected — surpasses Day 8. Consecutive high-volume days (16→17) confirm the rebound is structural, not a single-day anomaly. Launcher depletion estimate revised further to **~67%**. Drone stockpile breaches 30% threshold for the first time (28.9%).
 
 ---
 
@@ -102,23 +107,24 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 5 | Mar 4 | 129 | 941 | 1,059 | 53.0% | OK |
 | 6 | Mar 5 | 131 | 1,072 | 928 | 46.4% | OK |
 | 7 | Mar 6 | 112 | 1,184 | 816 | 40.8% | OK |
-| **8** | **Mar 7** | **~125** | **~1,309** | **~691** | **34.5%** | **Approaching** |
+| 8 | Mar 7 | ~125 | ~1,309 | ~691 | 34.5% | Approaching |
+| **9** | **Mar 8** | **117** | **~1,422** | **~578** | **28.9%** | **⚠️ BREACHED** |
 
-At current rate (~120/day), stockpile hits 30% threshold around **Day 11 (March 10)**.
+~~At current rate (~120/day), stockpile hits 30% threshold around Day 11 (March 10).~~ **BREACHED on Day 9** — 2 days earlier than predicted. At current burn rate (~117/day), full exhaustion in ~5 days (Day 14, ~March 13).
 
 ---
 
 ## Cascade Threshold Tracker
 
-| Metric | Day 1 | Day 3 | Day 5 | Day 7 | Day 8 | Threshold |
-|--------|-------|-------|-------|-------|-------|-----------|
-| Launcher Depletion | ~39% | ~50% | ~54% | 85.7% | **~73%*** | > 85% |
-| Drone Stockpile | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | < 30% |
-| Interception Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | < 90% |
-| Daily Casualties | ~22/d | ~18/d | ~15/d | ~16/d | ~14/d | > 10 |
-| New Weapon Type | No | No | No | No | **Air base** | Yes |
+| Metric | Day 1 | Day 3 | Day 5 | Day 7 | Day 8 | Day 9 | Threshold |
+|--------|-------|-------|-------|-------|-------|-------|-----------|
+| Launcher Depletion | ~39% | ~50% | ~54% | 85.7% | ~73% | **~67%** | > 85% |
+| Drone Stockpile | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | **28.9%** | < 30% |
+| Interception Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | < 90% |
+| Daily Casualties | ~22/d | ~18/d | ~15/d | ~16/d | ~14/d | ~15/d | > 10 |
+| New Weapon Type | No | No | No | No | Air base | Air base | Yes |
 
-*Launcher depletion **revised downward** from 85.7% to ~73% due to Day 8 BM rebound (16 missiles — highest since Day 2). The accelerating trend 3→7→9→16 suggests more TELs remain operational than previously estimated.
+*Launcher depletion **revised downward** from 85.7% to ~73% (Day 8) and further to **~67%** (Day 9) due to consecutive high-volume BM days (16→17). The accelerating trend 3→7→9→16→17 confirms more TELs remain operational than previously estimated. Drone stockpile has **breached** the 30% threshold on Day 9 — 2 days earlier than forecast.
 
 | Day | Breaches | Verdict |
 |-----|----------|---------|
@@ -126,7 +132,8 @@ At current rate (~120/day), stockpile hits 30% threshold around **Day 11 (March 
 | 3 | 1/5 | METASTABLE |
 | 5 | 1/5 | METASTABLE |
 | 7 | 2/5 (launcher + casualties) | METASTABLE |
-| **8** | **4/5** (launcher + interception day + casualties + air base) | **UNSTABLE** |
+| 8 | 4/5 (launcher + interception day + casualties + air base) | UNSTABLE |
+| **9** | **3/5** (casualties + new_weapon + **drone_stockpile**) | **UNSTABLE** |
 
 ---
 
@@ -137,7 +144,8 @@ At current rate (~120/day), stockpile hits 30% threshold around **Day 11 (March 
 | 1 | ~0.75 | ~12% | ~1.52 | METASTABLE | Initial assessment |
 | 7 (2 CSGs) | 0.739 | 12.2% | 1.523 | METASTABLE | Baseline model |
 | 7 (3 CSGs) | 0.496 | 5.8% | 1.063 | METASTABLE | CVN-77 deploying, proxy/Hormuz lowered |
-| **8 (corrected)** | **2.589** | **100%** | **3.304** | **UNSTABLE** | Hormuz + proxy + air base + BM rebound |
+| 8 (corrected) | 2.589 | 100% | 3.304 | UNSTABLE | Hormuz + proxy + air base + BM rebound |
+| **9** | **2.712** | **100%** | **3.481** | **UNSTABLE** | Drone stockpile breach + BM sustained |
 
 ### What Changed on Day 8
 
@@ -166,12 +174,12 @@ Component          Day 7 (3 CSG)    Day 8 (corrected)   Change
 
 ### Model Bayesian Posteriors (calibrated)
 
-| Scenario | Day 6 | Day 14 | Day 30 | Day 8 Assessment |
+| Scenario | Day 6 | Day 14 | Day 30 | Day 9 Assessment |
 |----------|-------|--------|--------|------------------|
-| Ceasefire | 3.3% | 7.8% | 12.8% | ↓ Polymarket 61% (declining) |
-| Baseline | 64.9% | 71.2% | 75.4% | ↓ Hormuz closure challenges baseline |
+| Ceasefire | 3.3% | 7.8% | 12.8% | ↓ Polymarket 59% (still declining) |
+| Baseline | 64.9% | 71.2% | 75.4% | ↓↓ Hormuz + stockpile depletion challenges baseline |
 | Escalation | 31.4% | 20.1% | 11.7% | ↑↑ Multiple escalation events realized |
-| Regime War | 0.4% | 0.9% | 0.1% | ↑ Air base strike raises floor |
+| Regime War | 0.4% | 0.9% | 0.1% | ↑ Air base strike + sustained BM raises floor |
 
 ### Polymarket Ceasefire Odds
 
@@ -180,8 +188,9 @@ Component          Day 7 (3 CSG)    Day 8 (corrected)   Change
 | Mar 5 (Day 6) | 67% | — |
 | Mar 6 (Day 7) | 63% | ↓ |
 | Mar 7 (Day 8) | 61% | ↓ |
+| **Mar 8 (Day 9)** | **59%** | **↓** |
 
-Ceasefire odds declining day over day — market pricing in extended conflict.
+Ceasefire odds declining day over day — market pricing in extended conflict. Five consecutive days of decline (67%→59%).
 
 ---
 
@@ -196,9 +205,10 @@ Ceasefire odds declining day over day — market pricing in extended conflict.
 | 5 | Mar 4 | ~8% | 8% | Limited routes | MATCH |
 | 6 | Mar 5 | ~15% | 12% | Etihad resumes | CLOSE |
 | 7 | Mar 6 | ~25% | 15% | Emirates 40% network | **AHEAD** |
-| **8** | **Mar 7** | **~55%** | **35%** | Emirates 60%, Etihad ~25 dest | **WELL AHEAD** |
+| 8 | Mar 7 | ~55% | 35% | Emirates 60%, Etihad ~25 dest | WELL AHEAD |
+| **9** | **Mar 8** | **~65%** | **40%** | Emirates targeting 100%; Air Arabia Mar 9 | **WELL AHEAD** |
 
-**Positive divergence:** Airport recovery is 1.5× faster than model predicted. Emirates operating 106 flights/day to 83 destinations. Etihad serving ~25 key destinations. Air Arabia suspended until March 9.
+**Positive divergence:** Airport recovery is 1.6× faster than model predicted. Emirates targeting 100% capacity "in coming days," operating 106+ flights/day to 83+ destinations. Etihad serving ~25 key destinations. Air Arabia resumes March 9. ~250K passenger backlog being cleared.
 
 ---
 
@@ -214,8 +224,11 @@ Ceasefire odds declining day over day — market pricing in extended conflict.
 | 6 | Mar 5 | 1 | 11 | 3 | 78 | 12 | **BREACHED** |
 | 7 | Mar 6 | 0 | 15 | 3 | 93 | 15 | **BREACHED** |
 | 8 | Mar 7 | 0 | ~19 | 3 | ~112 | ~19 | **BREACHED** |
+| **9** | **Mar 8** | **1** | **~18** | **4** | **~130** | **~19** | **BREACHED** |
 
 **Note:** Casualty figures from WAM (Emirates News Agency) and Reuters. Remarkably low given attack volume, attributable to >92% interception rates and effective civil defense.
+
+**Day 9 note:** 4th fatality — Pakistani driver killed in Al Barsha, Dubai, when interception debris struck his vehicle. Total injuries now ~130 across 17+ nationalities.
 
 ---
 
@@ -230,7 +243,8 @@ Ceasefire odds declining day over day — market pricing in extended conflict.
 | 5 | Mar 4 | $90 | +25.0% | Near-zero traffic | $400K/d | 5 crossings only |
 | 6 | Mar 5 | $93 | +29.2% | Zero traffic | $410K/d | Maersk suspends Gulf |
 | 7 | Mar 6 | $95 | +31.9% | Zero traffic | $420K/d | 150 vessels trapped |
-| **8** | **Mar 7** | **$97** | **+35.6%** | **Zero traffic** | **$424K/d** | **Record VLCC rate** |
+| 8 | Mar 7 | $97 | +35.6% | Zero traffic | $424K/d | Record VLCC rate |
+| **9** | **Mar 8** | **~$100** | **+38.9%** | **Zero traffic** | **~$430K/d** | **Brent approaches $100; Morgan Stanley raises forecast** |
 
 ---
 
@@ -257,28 +271,33 @@ Ceasefire odds declining day over day — market pricing in extended conflict.
 | **8** | **Mar 7** | **ESCALATION** | **IRGC claims strike on Al Dhafra air base** | **λ_weapon: 0→+0.40** |
 | 8 | Mar 7 | AVIATION | Emirates 60% network, 106 flights/day | Airport 1.5× model |
 | 8 | Mar 7 | CIVIL | Dubai shelter-in-place alert | Escalation signal |
-| 8 | Mar 7 | BM | First zero-BM day | Launcher exhaustion? |
+| 8 | Mar 7 | BM | 16 BMs detected — highest since Day 2 | BM rebound confirmed |
+| **9** | **Mar 8** | **BM** | **17 BMs — back-to-back high (16→17)** | **Rebound is structural** |
+| 9 | Mar 8 | **DRONE** | **Drone stockpile breaches 30% (28.9%)** | **λ_drone: +0.079** |
+| 9 | Mar 8 | CASUALTY | 4th killed — Pakistani driver, Al Barsha Dubai | Debris from interception |
+| 9 | Mar 8 | OIL | Brent approaches $100; +39% since Feb 28 | Record weekly gain |
+| 9 | Mar 8 | AVIATION | Emirates targeting 100%; Air Arabia resumes Mar 9 | Airport 1.6× model |
 
 ---
 
 ## Model vs Reality Scorecard (Running)
 
-| # | Check | Model | Day 7 Observed | Day 8 Observed | Status |
+| # | Check | Model | Day 8 Observed | Day 9 Observed | Status |
 |---|-------|-------|----------------|----------------|--------|
-| 1 | BM monotonic decay | Yes | 7→9 (broke) | 9→0 (resumed?) | **DIVERGENT** |
-| 2 | Interception > 90% (cum) | 93.2% | 92.7% | 92.7% | **MATCH** |
-| 3 | Drone rate ~130/day | ~130/day | 112/day | 121/day | **CLOSE** |
-| 4 | No new weapon types | No | No | **Air base strike** | **DIVERGENT** |
-| 5 | Ceasefire P (Polymarket) | 84% | 63% | 61% | **DIVERGENT** |
-| 6 | Airport recovery | 25% (D7) | ~25% | **~55%** | **DIVERGENT** (positive) |
-| 7 | Drone stockpile > 30% | 40.8% | ~40% | **34.8%** | **CLOSE** |
-| 8 | Hormuz open | P=98% open | — | **CLOSED** | **DIVERGENT** |
-| 9 | No proxy activation | P=96% none | Hezbollah active | Houthis threatening | **DIVERGENT** |
-| 10 | Verdict | METASTABLE | METASTABLE | **UNSTABLE** | **DIVERGENT** |
+| 1 | BM monotonic decay | Yes | 9→16 (broke) | 16→17 (sustained) | **DIVERGENT** |
+| 2 | Interception > 90% (cum) | 93.2% | 92.8% | 92.9% | **MATCH** |
+| 3 | Drone rate ~130/day | ~130/day | ~125/day | 117/day | **CLOSE** |
+| 4 | No new weapon types | No | **Air base strike** | Air base (cont.) | **DIVERGENT** |
+| 5 | Ceasefire P (Polymarket) | 84% | 61% | **59%** | **DIVERGENT** |
+| 6 | Airport recovery | 35% (D9) | ~55% | **~65%** | **DIVERGENT** (positive) |
+| 7 | Drone stockpile > 30% | 34.5% | 34.5% | **28.9%** | **⚠️ BREACHED** |
+| 8 | Hormuz open | P=98% open | CLOSED | **CLOSED** | **DIVERGENT** |
+| 9 | No proxy activation | P=96% none | Houthis threatening | Houthis threatening | **DIVERGENT** |
+| 10 | Verdict | METASTABLE | UNSTABLE | **UNSTABLE** | **DIVERGENT** |
 
-**Day 8 Rating: 1 MATCH, 2 CLOSE, 7 DIVERGENT**
+**Day 9 Rating: 1 MATCH, 1 CLOSE, 8 DIVERGENT**
 
-Of the 7 divergences: 5 strengthen the evacuation case, 1 is positive (airport), 1 is neutral (BM pattern). **Net assessment: model significantly underestimates current risk.**
+Of the 8 divergences: 6 strengthen the evacuation case, 1 is positive (airport), 1 is newly breached (drone stockpile). **Net assessment: model significantly underestimates current risk. Drone stockpile breach adds a new cascade dimension.**
 
 ---
 
@@ -290,6 +309,9 @@ Of the 7 divergences: 5 strengthen the evacuation case, 1 is positive (airport),
 | 3 | ~80 | — | METASTABLE | **LEAVE — good window** |
 | 5 | ~65 | — | METASTABLE | **LEAVE — window closing** |
 | 7 | ~55 | 0.496 | METASTABLE | **LEAVE — depart today** |
-| **8** | **~50** | **2.589** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
+| 8 | ~50 | 2.589 | UNSTABLE | EVACUATE IMMEDIATELY |
+| **9** | **~48** | **2.712** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 
-Despite the declining risk score (driven by airport recovery and BM attrition), the system-level stability has **dramatically worsened**. The Hormuz closure, proxy activation, and air base strike have pushed the conflict into cascade territory. The improved airport capacity provides a **narrow evacuation window** that should be used immediately.
+Despite the declining risk score (driven by airport recovery and BM attrition), the system-level stability has **dramatically worsened**. The Hormuz closure, proxy activation, and air base strike have pushed the conflict into cascade territory.
+
+**Day 9 adds a critical new dimension:** drone stockpile has breached the 30% threshold (28.9%). Once exhausted (~5 days at current rate), Iran shifts entirely to ballistic missiles where defense cost is 10–18× higher per unit. This creates a **cost cascade** on top of the security cascade. Airport capacity (~65%) provides a **narrowing but still usable evacuation window** — Emirates targeting 100% imminently. Use it now.
