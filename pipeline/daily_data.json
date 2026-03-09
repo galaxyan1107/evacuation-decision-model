@@ -288,6 +288,80 @@
         "air_base_strike": true
       },
       "notes": "BM rebound (Days 5-8: 3→7→9→16), air base escalation"
+    },
+    {
+      "day": 9,
+      "date": "2026-03-08",
+      "bm_detected": 17,
+      "bm_intercepted": 16,
+      "bm_fell_sea": 1,
+      "bm_fell_land": 0,
+      "drones_detected": 117,
+      "drones_intercepted": 113,
+      "drones_fell_uae": 4,
+      "cruise_missiles": 0,
+      "deaths": 1,
+      "injuries": 0,
+      "airport_capacity_pct": 60,
+      "oil_wti": 100,
+      "vlcc_rate": 430000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 59,
+      "carrier_count": 3,
+      "carrier_effective": 2.3,
+      "key_events": [
+        "17 BMs — back-to-back daily high (16→17), rebound confirmed",
+        "4th civilian killed: Pakistani driver in Dubai (Al Barsha)",
+        "Drone stockpile breaches 30% threshold (28.9%)",
+        "Air Arabia resumes operations March 9",
+        "Brent crude hits ~$100; 35% weekly gain (largest since 1983)"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "BM rebound continues (3→7→9→16→17), drone stockpile breaches 30%"
+    },
+    {
+      "day": 10,
+      "date": "2026-03-09",
+      "bm_detected": 12,
+      "bm_intercepted": 11,
+      "bm_fell_sea": 1,
+      "bm_fell_land": 0,
+      "drones_detected": 110,
+      "drones_intercepted": 105,
+      "drones_fell_uae": 5,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 2,
+      "airport_capacity_pct": 65,
+      "oil_wti": 103,
+      "vlcc_rate": 435000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 24,
+      "carrier_count": 3,
+      "carrier_effective": 2.5,
+      "key_events": [
+        "12 BMs detected — first daily decline in 5 days, breaks rebound trend",
+        "2 injured in Abu Dhabi from interception debris",
+        "WTI surges past $103; Brent touches $119 intraday",
+        "Polymarket ceasefire odds crash to 24% (from 59%)",
+        "Air Arabia resumes; Emirates targeting 100% capacity"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "BM rebound breaks (17→12), oil surges past $100, ceasefire odds collapse"
     }
   ]
 }

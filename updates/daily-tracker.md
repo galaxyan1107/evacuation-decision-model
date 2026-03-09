@@ -32,7 +32,7 @@ Stacked divergence shows lambda (purple) dominating total model error. Verdict t
 
 λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure) and reached 2.71 on Day 9 (drone stockpile breach + sustained BM rebound). P(λ>1) has been 100% since Day 3.
 
-![Lambda Evolution](../charts/lambda_evolution_day9.png)
+![Lambda Evolution](../charts/lambda_evolution_day10.png)
 
 ### Ballistic Missile Trajectory
 
@@ -57,6 +57,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 7 | Mar 6 | **9** | ~6 | 112 | ~130 | 0 | 121 | ⚠️ BM broke monotonic decay |
 | 8 | Mar 7 | **16** | ~4 | ~125 | ~130 | 0 | 141 | ⚠️⚠️ BM REBOUND — highest since Day 2 |
 | **9** | **Mar 8** | **17** | ~3 | 117 | ~130 | 0 | **134** | ⚠️⚠️ BM sustained high — 16→17 |
+| **10** | **Mar 9** | **15** | ~2 | 110 | ~130 | 0 | **125** | BM 15→15 → |
 
 ### Cumulative Totals
 
@@ -71,6 +72,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 7 | Mar 6 | 205 | 1,184 | 8 | 1,397 |
 | 8 | Mar 7 | 221 | ~1,309 | 8 | ~1,538 |
 | **9** | **Mar 8** | **238** | **~1,422** | **8** | **~1,668** |
+| **10** | **Mar 9** | **253** | **~1536** | **8** | **~1,797** |
 
 ---
 
@@ -87,6 +89,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 7 | Mar 6 | 9 | 9 | 100% | 92.7% | OK | OK |
 | 8 | Mar 7 | 16 | 15 | 93.8% | 92.8% | OK | ⚠️ BM rebound to 16 |
 | **9** | **Mar 8** | **17** | **16** | **94.1%** | **92.9%** | OK | ⚠️ BM sustained high: 16→17 |
+| **10** | **Mar 9** | **15** | **14** | **93.3%** | **92.9%** | OK | ⚠️ BM BM 15→15 → |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
@@ -109,6 +112,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 7 | Mar 6 | 112 | 1,184 | 816 | 40.8% | OK |
 | 8 | Mar 7 | ~125 | ~1,309 | ~691 | 34.5% | Approaching |
 | **9** | **Mar 8** | **117** | **~1,422** | **~578** | **28.9%** | **⚠️ BREACHED** |
+| **10** | **Mar 9** | **110** | **~1536** | **~464** | **23.2%** | **⚠️ BREACHED** |
 
 ~~At current rate (~120/day), stockpile hits 30% threshold around Day 11 (March 10).~~ **BREACHED on Day 9** — 2 days earlier than predicted. At current burn rate (~117/day), full exhaustion in ~5 days (Day 14, ~March 13).
 
@@ -207,6 +211,7 @@ Ceasefire odds declining day over day — market pricing in extended conflict. F
 | 7 | Mar 6 | ~25% | 15% | Emirates 40% network | **AHEAD** |
 | 8 | Mar 7 | ~55% | 35% | Emirates 60%, Etihad ~25 dest | WELL AHEAD |
 | **9** | **Mar 8** | **~65%** | **40%** | Emirates targeting 100%; Air Arabia Mar 9 | **WELL AHEAD** |
+| **10** | **Mar 9** | **~70%** | **45%** | TBD | **WELL AHEAD** |
 
 **Positive divergence:** Airport recovery is 1.6× faster than model predicted. Emirates targeting 100% capacity "in coming days," operating 106+ flights/day to 83+ destinations. Etihad serving ~25 key destinations. Air Arabia resumes March 9. ~250K passenger backlog being cleared.
 
@@ -225,6 +230,7 @@ Ceasefire odds declining day over day — market pricing in extended conflict. F
 | 7 | Mar 6 | 0 | 15 | 3 | 93 | 15 | **BREACHED** |
 | 8 | Mar 7 | 0 | ~19 | 3 | ~112 | ~19 | **BREACHED** |
 | **9** | **Mar 8** | **1** | **~18** | **4** | **~130** | **~19** | **BREACHED** |
+| **10** | **Mar 9** | **0** | **~12** | **4** | **~142** | **~12** | **BREACHED** |
 
 **Note:** Casualty figures from WAM (Emirates News Agency) and Reuters. Remarkably low given attack volume, attributable to >92% interception rates and effective civil defense.
 
@@ -245,6 +251,7 @@ Ceasefire odds declining day over day — market pricing in extended conflict. F
 | 7 | Mar 6 | $95 | +31.9% | Zero traffic | $420K/d | 150 vessels trapped |
 | 8 | Mar 7 | $97 | +35.6% | Zero traffic | $424K/d | Record VLCC rate |
 | **9** | **Mar 8** | **~$100** | **+38.9%** | **Zero traffic** | **~$430K/d** | **Brent approaches $100; Morgan Stanley raises forecast** |
+| **10** | **Mar 9** | **~$102** | **TBD** | **Zero traffic** | **TBD** | **TBD** |
 
 ---
 
@@ -311,6 +318,7 @@ Of the 8 divergences: 6 strengthen the evacuation case, 1 is positive (airport),
 | 7 | ~55 | 0.496 | METASTABLE | **LEAVE — depart today** |
 | 8 | ~50 | 2.589 | UNSTABLE | EVACUATE IMMEDIATELY |
 | **9** | **~48** | **2.712** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
+| **10** | **~28** | **2.651** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 
 Despite the declining risk score (driven by airport recovery and BM attrition), the system-level stability has **dramatically worsened**. The Hormuz closure, proxy activation, and air base strike have pushed the conflict into cascade territory.
 

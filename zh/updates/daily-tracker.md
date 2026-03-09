@@ -32,7 +32,7 @@
 
 λ在第3天从0.47跳至1.70（霍尔木兹关闭），第9天达2.71（无人机库存突破+弹道持续反弹）。P(λ>1)从第3天起一直为100%。
 
-![Lambda演变](../../charts/lambda_evolution_day9.png)
+![Lambda演变](../../charts/lambda_evolution_day10.png)
 
 ### 弹道导弹轨迹
 
