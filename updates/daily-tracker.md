@@ -2,7 +2,7 @@
 
 > 🌐 **EN** | [中文](../zh/updates/daily-tracker.md)
 
-**Last Updated: March 8, 2026 (Day 9)**
+**Last Updated: March 9, 2026 (Day 10)**
 
 This page tracks daily changes across all model inputs, compares model predictions against observed data, and flags breaches as they occur.
 
@@ -30,13 +30,13 @@ Stacked divergence shows lambda (purple) dominating total model error. Verdict t
 
 ### Lambda Evolution
 
-λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure) and reached 2.71 on Day 9 (drone stockpile breach + sustained BM rebound). P(λ>1) has been 100% since Day 3.
+λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure) and reached 2.71 on Day 9 (drone stockpile breach + sustained BM rebound), then eased to 2.06 on Day 10 (BM rebound breaks, naval deterrence increases). P(λ>1) has been 100% since Day 3.
 
 ![Lambda Evolution](../charts/lambda_evolution_day10.png)
 
 ### Ballistic Missile Trajectory
 
-The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 shows an accelerating rebound, invalidating the TEL depletion hypothesis.
+The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 showed an accelerating rebound. Day 10 (12 BMs) breaks the monotonic trend — first decline in 5 days — though volume remains elevated well above model predictions.
 
 ![BM Trajectory](../charts/bm_trajectory.png)
 
@@ -57,7 +57,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 7 | Mar 6 | **9** | ~6 | 112 | ~130 | 0 | 121 | ⚠️ BM broke monotonic decay |
 | 8 | Mar 7 | **16** | ~4 | ~125 | ~130 | 0 | 141 | ⚠️⚠️ BM REBOUND — highest since Day 2 |
 | **9** | **Mar 8** | **17** | ~3 | 117 | ~130 | 0 | **134** | ⚠️⚠️ BM sustained high — 16→17 |
-| **10** | **Mar 9** | **15** | ~2 | 110 | ~130 | 0 | **125** | BM 15→15 → |
+| **10** | **Mar 9** | **12** | ~2 | 110 | ~130 | 0 | **122** | BM drops 17→12: rebound breaks |
 
 ### Cumulative Totals
 
@@ -72,7 +72,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 7 | Mar 6 | 205 | 1,184 | 8 | 1,397 |
 | 8 | Mar 7 | 221 | ~1,309 | 8 | ~1,538 |
 | **9** | **Mar 8** | **238** | **~1,422** | **8** | **~1,668** |
-| **10** | **Mar 9** | **253** | **~1536** | **8** | **~1,797** |
+| **10** | **Mar 9** | **250** | **~1,536** | **8** | **~1,794** |
 
 ---
 
@@ -89,7 +89,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 7 | Mar 6 | 9 | 9 | 100% | 92.7% | OK | OK |
 | 8 | Mar 7 | 16 | 15 | 93.8% | 92.8% | OK | ⚠️ BM rebound to 16 |
 | **9** | **Mar 8** | **17** | **16** | **94.1%** | **92.9%** | OK | ⚠️ BM sustained high: 16→17 |
-| **10** | **Mar 9** | **15** | **14** | **93.3%** | **92.9%** | OK | ⚠️ BM BM 15→15 → |
+| **10** | **Mar 9** | **12** | **11** | **91.7%** | **92.8%** | OK | BM drops 17→12: rebound breaks |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
@@ -120,13 +120,13 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 
 ## Cascade Threshold Tracker
 
-| Metric | Day 1 | Day 3 | Day 5 | Day 7 | Day 8 | Day 9 | Threshold |
-|--------|-------|-------|-------|-------|-------|-------|-----------|
-| Launcher Depletion | ~39% | ~50% | ~54% | 85.7% | ~73% | **~67%** | > 85% |
-| Drone Stockpile | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | **28.9%** | < 30% |
-| Interception Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | < 90% |
-| Daily Casualties | ~22/d | ~18/d | ~15/d | ~16/d | ~14/d | ~15/d | > 10 |
-| New Weapon Type | No | No | No | No | Air base | Air base | Yes |
+| Metric | Day 1 | Day 3 | Day 5 | Day 7 | Day 8 | Day 9 | Day 10 | Threshold |
+|--------|-------|-------|-------|-------|-------|-------|--------|-----------|
+| Launcher Depletion | ~39% | ~50% | ~54% | 85.7% | ~73% | ~67% | **~99%** | > 85% |
+| Drone Stockpile | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | **23.2%** | < 30% |
+| Interception Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | < 90% |
+| Daily Casualties | ~22/d | ~18/d | ~15/d | ~16/d | ~14/d | ~15/d | **2/d** | > 10 |
+| New Weapon Type | No | No | No | No | Air base | Air base | Air base | Yes |
 
 *Launcher depletion **revised downward** from 85.7% to ~73% (Day 8) and further to **~67%** (Day 9) due to consecutive high-volume BM days (16→17). The accelerating trend 3→7→9→16→17 confirms more TELs remain operational than previously estimated. Drone stockpile has **breached** the 30% threshold on Day 9 — 2 days earlier than forecast.
 
@@ -137,7 +137,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 5 | 1/5 | METASTABLE |
 | 7 | 2/5 (launcher + casualties) | METASTABLE |
 | 8 | 4/5 (launcher + interception day + casualties + air base) | UNSTABLE |
-| **9** | **3/5** (casualties + new_weapon + **drone_stockpile**) | **UNSTABLE** |
+| 9 | 3/5 (casualties + new_weapon + drone_stockpile) | UNSTABLE |
+| **10** | **2/5** (launcher + **drone_stockpile**) | **UNSTABLE** |
 
 ---
 
@@ -149,7 +150,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 7 (2 CSGs) | 0.739 | 12.2% | 1.523 | METASTABLE | Baseline model |
 | 7 (3 CSGs) | 0.496 | 5.8% | 1.063 | METASTABLE | CVN-77 deploying, proxy/Hormuz lowered |
 | 8 (corrected) | 2.589 | 100% | 3.304 | UNSTABLE | Hormuz + proxy + air base + BM rebound |
-| **9** | **2.712** | **100%** | **3.481** | **UNSTABLE** | Drone stockpile breach + BM sustained |
+| 9 | 2.712 | 100% | 3.481 | UNSTABLE | Drone stockpile breach + BM sustained |
+| **10** | **2.061** | **100%** | **2.770** | **UNSTABLE** | BM rebound breaks (17→12), λ eases but still CASCADE |
 
 ### What Changed on Day 8
 

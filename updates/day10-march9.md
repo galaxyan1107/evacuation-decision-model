@@ -133,6 +133,10 @@ As of Day 10, the cumulative defense interceptor inventory and cost:
 
 | Source | Type |
 |--------|------|
-| @modgovae (X.com) | UAE MOD daily update |
+| [@modgovae](https://x.com/modgovae) | UAE MOD daily update (Mar 9) |
+| [Gulf News](https://gulfnews.com/uae/uae-air-defence-intercepts-threats-debris-injures-two-in-abu-dhabi-1.500468237) | 2 injured in Abu Dhabi from debris |
+| [The National](https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/) | Missile threat alerts, loud bangs |
+| [CNBC](https://www.cnbc.com/2026/03/08/crude-oil-prices-today-iran-war.html) | Oil surges above $100 |
+| [Polymarket](https://polymarket.com/event/us-x-iran-ceasefire-by) | Ceasefire odds collapse to 24% |
 | Model pipeline | ABC + HAM (50K MC) |
-| Generated | 2026-03-09 22:28 |
+| Generated | 2026-03-09 |
