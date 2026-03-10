@@ -362,6 +362,43 @@
         "air_base_strike": true
       },
       "notes": "BM rebound breaks (17→12), oil surges past $100, ceasefire odds collapse"
+    },
+    {
+      "day": 11,
+      "date": "2026-03-10",
+      "bm_detected": 9,
+      "bm_intercepted": 8,
+      "bm_fell_sea": 1,
+      "bm_fell_land": 0,
+      "drones_detected": 35,
+      "drones_intercepted": 26,
+      "drones_fell_uae": 9,
+      "cruise_missiles": 0,
+      "deaths": 2,
+      "injuries": 8,
+      "airport_capacity_pct": 70,
+      "oil_wti": 100,
+      "vlcc_rate": 440000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 22,
+      "carrier_count": 3,
+      "carrier_effective": 2.3,
+      "key_events": [
+        "Only 35 drones detected — dramatic 68% drop, lowest since conflict began",
+        "9 BMs detected (8 intercepted, 1 sea) — continued decline from Day 10",
+        "2 additional fatalities; cumulative toll reaches 6 dead, 122 injured",
+        "Emirates targeting 100% capacity; DXB operating at ~70%",
+        "Hormuz effectively closed to non-Iranian traffic; ~1,000 vessels queued outside strait"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "Dramatic drone drop (110→35), BM continues declining (12→9), 2 more fatalities"
     }
   ]
 }
