@@ -186,7 +186,7 @@ LAMBDA_OFFICIAL = {
     4:  1.677,
     5:  1.669,
     6:  1.754,
-    7:  0.496,
+    7:  1.721,   # realized events (Hormuz + proxy); was 0.496 under old 3-CSG scenario
     8:  2.589,
     9:  2.712,
     10: 2.061,
@@ -201,7 +201,7 @@ P_LAMBDA_GT1 = {
     4:  99.7,
     5:  99.7,
     6:  100.0,
-    7:  5.8,
+    7:  99.9,   # realized events; was 5.8 under old 3-CSG scenario
     8:  100.0,
     9:  100.0,
     10: 100.0,

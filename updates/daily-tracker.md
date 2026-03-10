@@ -156,10 +156,14 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 
 | Day | λ Median | P(λ > 1) | 95th Pctl | Verdict | Key Change |
 |-----|----------|----------|-----------|---------|------------|
-| 1 | ~0.75 | ~12% | ~1.52 | METASTABLE | Initial assessment |
-| 7 (2 CSGs) | 0.739 | 12.2% | 1.523 | METASTABLE | Baseline model |
-| 7 (3 CSGs) | 0.496 | 5.8% | 1.063 | METASTABLE | CVN-77 deploying, proxy/Hormuz lowered |
-| 8 (corrected) | 2.589 | 100% | 3.304 | UNSTABLE | Hormuz + proxy + air base + BM rebound |
+| 1 | 0.750 | 5.5% | ~1.52 | METASTABLE | Initial assessment |
+| 2 | 0.470 | 5.4% | ~1.10 | METASTABLE | Post-opening salvo |
+| 3 | 1.703 | 99.9% | 2.40 | UNSTABLE | Hormuz closes → λ jumps |
+| 4 | 1.677 | 99.7% | 2.38 | UNSTABLE | Hormuz confirmed |
+| 5 | 1.669 | 99.7% | 2.37 | UNSTABLE | BM near-zero, Hormuz persists |
+| 6 | 1.754 | 100% | 2.45 | UNSTABLE | BM rebound begins |
+| 7 | 1.721 | 99.9% | 2.43 | UNSTABLE | Hormuz + proxy realized; BM breaks monotonic decay |
+| 8 | 2.589 | 100% | 3.304 | UNSTABLE | + air base strike + BM rebound (16) |
 | 9 | 2.712 | 100% | 3.481 | UNSTABLE | Drone stockpile breach + BM sustained |
 | 10 | 2.061 | 100% | 2.770 | UNSTABLE | BM rebound breaks (17→12), λ eases but still CASCADE |
 | **11** | **2.081** | **100%** | **2.790** | **UNSTABLE** | Drone collapse (110→35); new breach (interception_day); λ holds steady |
@@ -169,20 +173,18 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 ```
 Day 7 → Day 8 Lambda Decomposition:
 
-Component          Day 7 (3 CSG)    Day 8 (corrected)   Change
+Component          Day 7 (realized)  Day 8 (realized)    Change
 ─────────────────────────────────────────────────────────────────
 λ_launcher         -0.471           -0.401              +0.070  (depletion 85.7%→~73%)
 λ_drone            +0.148           +0.164              +0.016  (stockpile lower)
 λ_intercept        +0.020           +0.020               0.000
-λ_proxy             0.000*          +0.500              +0.500  ⚠️ Hezbollah partial
-λ_hormuz            0.000*          +0.630              +0.630  ⚠️ REALIZED
-λ_weapon            0.000*          +0.400              +0.400  ⚠️ Air base strike
+λ_proxy            +0.500           +0.500               0.000  Hezbollah already active
+λ_hormuz           +0.630           +0.630               0.000  Already closed
+λ_weapon            0.000           +0.400              +0.400  ⚠️ Air base strike (NEW)
 λ_bm_rebound        0.000           +0.300              +0.300  ⚠️ 16 BM (accelerating)
-λ_naval            -0.240           -0.184              +0.056  (CVN-77 not yet arrived)
+λ_naval            -0.200           -0.184              +0.016  (CVN-77 not yet arrived)
 ─────────────────────────────────────────────────────────────────
-λ total (median)    0.496            2.589              +2.093
-
-* Stochastic tail risks, expected value ~0 at P=2-4%
+λ total (median)    1.721            2.589              +0.868
 ```
 
 ---
@@ -346,7 +348,7 @@ Dramatic shift: drone launch rate collapsed 68% (110→35) — largest single-da
 | 1 | ~100 | — | — | **LEAVE IMMEDIATELY** |
 | 3 | ~80 | — | METASTABLE | **LEAVE — good window** |
 | 5 | ~65 | — | METASTABLE | **LEAVE — window closing** |
-| 7 | ~55 | 0.496 | METASTABLE | **LEAVE — depart today** |
+| 7 | ~55 | 1.721 | UNSTABLE | **LEAVE — depart today** |
 | 8 | ~50 | 2.589 | UNSTABLE | EVACUATE IMMEDIATELY |
 | 9 | ~48 | 2.712 | UNSTABLE | EVACUATE IMMEDIATELY |
 | 10 | ~45 | 2.061 | UNSTABLE | EVACUATE IMMEDIATELY |
