@@ -135,7 +135,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | Interception Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | **92.7%** | < 90% |
 | Interception Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | **88.9%** | < 90% |
 | Daily Casualties | ~22/d | ~18/d | ~15/d | ~16/d | ~14/d | ~15/d | 2/d | **10/d** | > 10 |
-| New Weapon Type | No | No | No | No | Air base | Air base | Air base | Air base | Yes |
+| New Weapon Type | No | No | No | No | Air base | Air base | Air base | **Refinery** | Yes |
 
 *Launcher depletion **revised downward** from 85.7% to ~73% (Day 8) and further to **~67%** (Day 9) due to consecutive high-volume BM days (16→17). The accelerating trend 3→7→9→16→17 confirms more TELs remain operational than previously estimated. Drone stockpile has **breached** the 30% threshold on Day 9 — 2 days earlier than forecast. Day 11 adds a **new breach**: daily interception rate (88.9%), the third daily breach in the conflict.
 
@@ -271,7 +271,7 @@ Ceasefire odds continue declining — seventh consecutive day of decline (67%→
 | 8 | Mar 7 | $97 | +35.6% | Zero traffic | $424K/d | Record VLCC rate |
 | 9 | Mar 8 | ~$100 | +38.9% | Zero traffic | ~$430K/d | Brent hits $100; Morgan Stanley raises forecast |
 | 10 | Mar 9 | $103 | +43.1% | Zero traffic | ~$435K/d | WTI $103; Brent touches $119 intraday |
-| **11** | **Mar 10** | **~$100** | **+38.9%** | **Zero traffic** | **~$440K/d** | **WTI pulls back to ~$100; Israel oil depot strikes weigh on supply** |
+| **11** | **Mar 10** | **~$100** | **+38.9%** | **Zero traffic** | **~$440K/d** | **⚠️ Ruwais refinery (922K bbl/d) hit by drone, halted; WTI ~$100** |
 
 ---
 
@@ -313,6 +313,7 @@ Ceasefire odds continue declining — seventh consecutive day of decline (67%→
 | 11 | Mar 10 | BM | 9 BMs (8 intercepted, 1 sea) — 2nd consecutive decline | BM decay resuming; daily rate 88.9% (< 90% breach) |
 | 11 | Mar 10 | CASUALTY | 2 additional fatalities; cumulative 6 dead, 122 injured | Drone penetration rate up (26% vs normal ~5-8%) |
 | 11 | Mar 10 | MARITIME | ~1,000 vessels queued outside Hormuz; zero non-Iranian crossings | Selective blockade: Iran allowing own + Chinese ships only |
+| 11 | Mar 10 | **ENERGY** | **⚠️ Drone strike hits ADNOC Ruwais refinery (922K bbl/d) — fire, precautionary shutdown** | **First direct hit on UAE energy infrastructure; λ_weapon escalation** |
 | 11 | Mar 10 | AVIATION | Emirates at 84 destinations; DXB limited ops; Virgin/KLM/Finnair suspended | Airport ~70%, some int'l carriers pulling out |
 
 ---
@@ -324,7 +325,7 @@ Ceasefire odds continue declining — seventh consecutive day of decline (67%→
 | 1 | BM monotonic decay | Yes | 17→12 (breaks rebound) | 12→9 (2nd decline) | **DIVERGENT** (improving) |
 | 2 | Interception > 90% (cum) | 93.2% | 92.8% | 92.7% | **MATCH** |
 | 3 | Drone rate ~130/day | ~130/day | 110/day | **35/day** | **⚠️ EXTREME DIVERGENT** (−73%) |
-| 4 | No new weapon types | No | Air base (cont.) | Air base (cont.) | **DIVERGENT** |
+| 4 | No new weapon types | No | Air base (cont.) | **Ruwais refinery hit** | **⚠️ ESCALATION** |
 | 5 | Ceasefire P (Polymarket) | 84% | 24% | **22%** | **DIVERGENT** (collapsed) |
 | 6 | Airport recovery | 50% (D11) | ~65% | **~70%** | **DIVERGENT** (positive) |
 | 7 | Drone stockpile > 30% | ~20% | 23.2% | **21.4%** | **⚠️ CRITICAL** |
@@ -334,7 +335,7 @@ Ceasefire odds continue declining — seventh consecutive day of decline (67%→
 
 **Day 11 Rating: 1 MATCH, 0 CLOSE, 9 DIVERGENT**
 
-Dramatic shift: drone launch rate collapsed 68% (110→35) — largest single-day change in any metric since Day 1. BMs continue declining (12→9). But daily interception rate breached 90% (88.9%), adding a 3rd cascade breach. **Net assessment: attack volume declining rapidly, but penetration rate worsening and structural destabilizers persist. The drone collapse is the single most important data point since Hormuz closure — its cause (conservation vs exhaustion vs strategic shift) will determine the next phase of the conflict.**
+Dramatic shift: drone launch rate collapsed 68% (110→35) — largest single-day change in any metric since Day 1. BMs continue declining (12→9). But daily interception rate breached 90% (88.9%), adding a 3rd cascade breach. **⚠️ BREAKING: Drone strike hits ADNOC Ruwais refinery (922K bbl/d) — fire, precautionary shutdown. First direct hit on UAE energy infrastructure.** The drone collapse now appears to be a strategic pivot: fewer drones but targeted at high-value infrastructure. One drone reaching Ruwais is more economically consequential than 130 drones/day in area saturation. **Net assessment: Iran is shifting from volume to precision — this is potentially more dangerous for civilians and critical infrastructure.**
 
 ---
 
@@ -351,10 +352,10 @@ Dramatic shift: drone launch rate collapsed 68% (110→35) — largest single-da
 | 10 | ~45 | 2.061 | UNSTABLE | EVACUATE IMMEDIATELY |
 | **11** | **~43** | **2.081** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 
-λ holds nearly flat at 2.081 (from 2.061) despite dramatically reduced attack volume. The system remains **firmly in cascade territory** because the structural destabilizers — Hormuz closure (Day 9), proxy activation, air base vulnerability — persist unchanged and dominate the λ calculation.
+λ holds nearly flat at 2.081 (from 2.061) despite dramatically reduced attack volume. The system remains **firmly in cascade territory** because the structural destabilizers — Hormuz closure (Day 9), proxy activation, air base vulnerability, **and now energy infrastructure targeting** — persist and dominate the λ calculation.
 
 **Day 11 key dynamics:**
 - **Positive:** BMs continue declining (12→9), confirming rebound has broken. Drone launch rate collapses 68% (110→35) — fewest since conflict began. Airport capacity ~70% with Emirates targeting 100%
-- **Negative:** Daily interception rate breaches 90% (88.9%, 8/9 BMs) — new 3rd cascade breach. 9 drones fell within UAE (26% penetration vs ~5-8% normal) — fewer drones but higher lethality per launch. 2 additional fatalities (cumulative: 6). Ceasefire odds at 22%, 7th consecutive decline
-- **Critical question:** Why did drone launches collapse? Three hypotheses: (a) stockpile conservation ahead of exhaustion at 21.4%, (b) drone launcher/infrastructure damage from US strikes, (c) strategic pivot to fewer but more targeted attacks. The answer determines the next phase
-- **Window:** Airport capacity ~70% remains the **best evacuation window since Day 1**. Use it — this window may close if Iran shifts to targeted airport attacks or if international carriers continue suspending routes (Virgin Atlantic, KLM, Finnair already suspended)
+- **Negative:** **⚠️ RUWAIS REFINERY HIT** — drone strike causes fire at ADNOC's Ruwais Industrial Complex (922K bbl/d, largest refinery in the Middle East); halted as precaution. First direct hit on UAE energy infrastructure. Daily interception rate breaches 90% (88.9%, 8/9 BMs) — new 3rd cascade breach. 9 drones fell within UAE (26% penetration vs ~5-8% normal) — fewer drones but higher lethality and **targeting critical infrastructure**. 2 additional fatalities (cumulative: 6). Ceasefire odds at 22%, 7th consecutive decline
+- **Critical question:** The drone collapse now has a clearer interpretation — Iran may be pivoting from volume saturation to **targeted strikes on high-value infrastructure**. 35 drones total, but one reached Ruwais, the most economically consequential single hit since the conflict began. This is arguably more dangerous than 130 drones/day in area saturation mode
+- **Window:** Airport capacity ~70% remains the **best evacuation window since Day 1**. Use it immediately — energy infrastructure targeting raises the risk of cascading disruptions to civilian services, power, and water desalination

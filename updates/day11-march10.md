@@ -19,6 +19,7 @@
 | Drone Stockpile | — | — | 21.4% (429/2000) |
 
 **Key Events:**
+- **⚠️ RUWAIS REFINERY HIT** — Drone strike causes fire at ADNOC's Ruwais Industrial Complex (922K bbl/day, largest in Middle East); refinery halted as precaution. First direct hit on UAE energy infrastructure
 - Only 35 drones detected — dramatic 68% drop, lowest since conflict began
 - 9 BMs detected (8 intercepted, 1 sea) — continued decline from Day 10
 - 2 additional fatalities; cumulative toll reaches 6 dead, 122 injured
@@ -125,7 +126,7 @@ As of Day 11, the cumulative defense interceptor inventory and cost:
 
 ## Recommendation
 
-**EVACUATE IMMEDIATELY.** λ = 2.081 remains deep in cascade territory with a new third breach (daily interception rate). The dramatic drone drop (110→35, −68%) could signal either stockpile conservation ahead of exhaustion or strategic shift — neither is reassuring. Structural destabilizers — Hormuz closure (9th day), proxy activation, air base vulnerability — persist unchanged. Drone stockpile at 21.4% gives ~12 days at the new lower rate, but if Iran reverts to >100/day, exhaustion comes in ~4 days. Ceasefire odds at 22% continue declining. Airport capacity at ~70% provides a **viable evacuation window** — use it before any strategic shift closes it.
+**EVACUATE IMMEDIATELY.** λ = 2.081 remains deep in cascade territory with a new third breach (daily interception rate). The **Ruwais refinery strike** marks a critical new escalation — Iran has now demonstrated capability and willingness to hit UAE energy infrastructure directly, not just military targets. The 922K bbl/day facility shutdown adds domestic refining disruption on top of the Hormuz export blockade. The dramatic drone drop (110→35, −68%) now has a darker interpretation: fewer drones overall but **targeted at high-value energy infrastructure** rather than broad area saturation. Structural destabilizers — Hormuz closure (9th day), proxy activation, air base vulnerability, **and now energy infrastructure targeting** — are compounding. Ceasefire odds at 22% continue declining. Airport capacity at ~70% provides a **viable evacuation window** — use it before energy infrastructure attacks disrupt civilian operations.
 
 ---
 
@@ -139,6 +140,8 @@ As of Day 11, the cumulative defense interceptor inventory and cost:
 | [CNBC — Oil prices decline from $120](https://www.cnbc.com/2026/03/08/crude-oil-prices-today-iran-war.html) | WTI ~$100, Brent volatile |
 | [Polymarket](https://polymarket.com/event/us-x-iran-ceasefire-by) | Ceasefire odds ~22% |
 | [USNI Fleet Tracker — Mar 9](https://news.usni.org/2026/03/09/usni-news-fleet-and-marine-tracker-march-9-2026) | 2 CSGs on station (Ford + Lincoln) |
+| [Gulf News — Ruwais fire after drone attack](https://gulfnews.com/uae/fire-breaks-out-in-ruwais-complex-in-abu-dhabi-after-drone-attack-1.500469721) | Ruwais refinery strike |
+| [Bloomberg — UAE refinery halted](https://www.bloomberg.com/news/articles/2026-03-10/uae-says-drone-attack-causes-fire-in-zone-that-houses-refinery) | Ruwais shutdown confirmation |
 | [Al Jazeera — Israel bombs 30 oil depots](https://www.aljazeera.com/news/2026/3/8/israel-strikes-irans-oil-facilities-for-first-time-as-war-enters-ninth-day) | Major escalation context |
 | Model pipeline | ABC + HAM (50K MC) |
 | Generated | 2026-03-10 |
