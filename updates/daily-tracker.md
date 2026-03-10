@@ -191,12 +191,12 @@ Component          Day 7 (3 CSG)    Day 8 (corrected)   Change
 
 ### Model Bayesian Posteriors (calibrated)
 
-| Scenario | Day 6 | Day 14 | Day 30 | Day 9 Assessment |
-|----------|-------|--------|--------|------------------|
-| Ceasefire | 3.3% | 7.8% | 12.8% | ↓ Polymarket 59% (still declining) |
-| Baseline | 64.9% | 71.2% | 75.4% | ↓↓ Hormuz + stockpile depletion challenges baseline |
-| Escalation | 31.4% | 20.1% | 11.7% | ↑↑ Multiple escalation events realized |
-| Regime War | 0.4% | 0.9% | 0.1% | ↑ Air base strike + sustained BM raises floor |
+| Scenario | Day 6 | Day 14 | Day 30 | Day 11 Assessment |
+|----------|-------|--------|--------|-------------------|
+| Ceasefire | 3.3% | 7.8% | 12.8% | ↓↓ Polymarket 22% — 7th consecutive decline; market pricing extended war |
+| Baseline | 64.9% | 71.2% | 75.4% | ↓↓↓ Hormuz Day 9, drone collapse, 3/5 breaches — baseline model severely challenged |
+| Escalation | 31.4% | 20.1% | 11.7% | ↑↑↑ 3 tail risks realized; drone collapse may signal phase shift |
+| Regime War | 0.4% | 0.9% | 0.1% | ↑ Israel oil depot strikes + sustained BM raises floor; λ=2.081 |
 
 ### Polymarket Ceasefire Odds
 
