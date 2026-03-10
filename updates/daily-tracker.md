@@ -20,7 +20,7 @@ Day-by-day percentage deviation across all 6 tracked metrics. Red = actual excee
 
 Side-by-side model (blue) vs actual (red) with ribbon fill showing the gap. Airport (green) is the only positive divergence. Lambda (bottom-right) shows deep cascade zone. Drone stockpile (bottom-center) breaches 30% threshold on Day 9.
 
-![Model vs Actual](../charts/model_vs_actual_bars.png)
+![Model vs Actual](../charts/model_vs_actual_lines.png)
 
 ### Scorecard & Verdict Timeline
 
