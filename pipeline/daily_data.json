@@ -399,6 +399,43 @@
         "air_base_strike": true
       },
       "notes": "Dramatic drone drop (110→35), BM continues declining (12→9), 2 more fatalities"
+    },
+    {
+      "day": 12,
+      "date": "2026-03-11",
+      "bm_detected": 7,
+      "bm_intercepted": 7,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 45,
+      "drones_intercepted": 38,
+      "drones_fell_uae": 7,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 4,
+      "airport_capacity_pct": 60,
+      "oil_wti": 86,
+      "vlcc_rate": 420000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": "DXB airport targeted — 2 drones fell near terminal",
+      "polymarket_ceasefire_mar31": 20,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "IEA announces record 400M barrel strategic reserve release — largest in IEA history",
+        "Two drones fall near Dubai International Airport — 4 injured, concourse minor structural damage",
+        "Three cargo ships struck in Gulf — Thailand-flagged Mayuree Naree engulfed in fire in Hormuz",
+        "US destroys 16 Iranian mine-laying vessels near Strait of Hormuz",
+        "Ruwais refinery remains shut following Day 11 drone strike; ADNOC planning plant-wide safety shutdown"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "IEA record 400M bbl reserve release crashes oil $100→$86; Iran targets DXB directly; US mine-clearing ops in Hormuz"
     }
   ]
 }
