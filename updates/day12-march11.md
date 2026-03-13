@@ -10,13 +10,15 @@
 
 | Metric | Day 11 | Day 12 | Cumulative |
 |--------|-------|-------|------------|
-| Ballistic Missiles | 9 | **7** | **266** |
-| BM Intercepted | 8 | 7 | 247 |
-| Drones Detected | 35 | ~45 | ~1616 |
-| Drones Intercepted | 26 | 38 | ~1536 |
-| Cruise Missiles | 0 | 0 | 8 |
-| BM Intercept Rate (cum) | — | — | 92.9% |
-| Drone Stockpile | — | — | 19.2% (384/2000) |
+| Ballistic Missiles | 9 | **6** | **265** |
+| BM Intercepted | 8 | 6 | 246 |
+| Drones Detected | 35 | ~39 | ~1610 |
+| Drones Intercepted | 26 | ~32 | ~1530 |
+| Cruise Missiles | 0 | **7** | **15** |
+| BM Intercept Rate (cum) | — | — | 92.8% |
+| Drone Stockpile | — | — | 19.5% (390/2000) |
+
+*Note: Day 12 data corrected per @modgovae official figures (March 11): 6 BM, 7 cruise missiles, 39 drones. Previous preliminary data showed 7 BM, 0 cruise, 45 drones. Cruise missiles reappear for the first time since Day 3.*
 
 **Key Events:**
 - IEA announces record 400M barrel strategic reserve release — largest in IEA history
