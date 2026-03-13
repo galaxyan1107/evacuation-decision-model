@@ -2,7 +2,7 @@
 
 > 🌐 **EN** | [中文](../zh/updates/daily-tracker.md)
 
-**Last Updated: March 12, 2026 (Day 13)**
+**Last Updated: March 13, 2026 (Day 14)**
 
 This page tracks daily changes across all model inputs, compares model predictions against observed data, and flags breaches as they occur.
 
@@ -12,7 +12,7 @@ This page tracks daily changes across all model inputs, compares model predictio
 
 ### Divergence Heatmap
 
-Day-by-day percentage deviation across all 6 tracked metrics. Red = actual exceeds model, blue = actual below model. Lambda divergence dominates from Day 3 onward (+240% → +447%). Day 13 drones at extreme divergence (actual 26 vs model ~130), further collapse from Day 12's 39. BMs rebound to 10 after three-day decline.
+Day-by-day percentage deviation across all 6 tracked metrics. Red = actual exceeds model, blue = actual below model. Lambda divergence dominates from Day 3 onward (+240% → +447%). Day 14 drones at extreme divergence (actual 27 vs model ~130), stable near Day 13's record-low 26. BMs decline to 7, resuming downward trend after Day 13's uptick to 10.
 
 ![Divergence Heatmap](../charts/divergence_heatmap.png)
 
@@ -24,19 +24,19 @@ Side-by-side model (blue) vs actual (red) with ribbon fill showing the gap. Airp
 
 ### Scorecard & Verdict Timeline
 
-Stacked divergence shows lambda (purple) dominating total model error. Verdict timeline: model predicted METASTABLE for all 13 days — reality crossed to UNSTABLE on Day 3 and never returned.
+Stacked divergence shows lambda (purple) dominating total model error. Verdict timeline: model predicted METASTABLE for all 14 days — reality crossed to UNSTABLE on Day 3 and never returned.
 
 ![Divergence Scorecard](../charts/divergence_scorecard.png)
 
 ### Lambda Evolution
 
-λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure) and reached 2.71 on Day 9 (drone stockpile breach + sustained BM rebound), then eased to 2.06 on Day 10 (BM rebound breaks, naval deterrence increases), held at 2.08 on Day 11 despite drone collapse, rose to 2.14 on Day 12 (naval deterrence weakens further: 3→2 carriers), and eased to 2.11 on Day 13 (improved interception rate, no new escalation). P(λ>1) has been 100% since Day 3. BMs uptick to 10 (from 6) but drones collapse further to 26 — lowest since conflict began.
+λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure) and reached 2.71 on Day 9 (drone stockpile breach + sustained BM rebound), then eased to 2.06 on Day 10 (BM rebound breaks, naval deterrence increases), held at 2.08 on Day 11 despite drone collapse, rose to 2.14 on Day 12 (naval deterrence weakens further: 3→2 carriers), eased to 2.11 on Day 13, and continues easing to 2.08 on Day 14 (BMs resume decline 10→7, interception rate improves to 93.3%). P(λ>1) has been 100% since Day 3. Third consecutive day of marginal λ improvement (2.14→2.11→2.08). Attack volume at new record low (34 total).
 
-![Lambda Evolution](../charts/lambda_evolution_day13.png)
+![Lambda Evolution](../charts/lambda_evolution_day14.png)
 
 ### Ballistic Missile Trajectory
 
-The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 showed an accelerating rebound. Days 10-12 (12→9→6 BMs) showed three consecutive declines. Day 13: **6→10 BMs**, reversal of decay trend — BMs uptick 67%. Drones collapse further (39→26, −33%), lowest since conflict began. No cruise missiles fired (Day 12 had 7, first since Day 3).
+The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 showed an accelerating rebound. Days 10-12 (12→9→6 BMs) showed three consecutive declines. Day 13: 6→10 BMs, one-day reversal. Day 14: **10→7 BMs**, resuming downward trend. Five-day pattern: 12→9→6→10→7 — clearly trending down with noise. Drones stable at record lows (26→27). No cruise missiles (2nd consecutive day). Total projectiles at new record low (34).
 
 ![BM Trajectory](../charts/bm_trajectory.png)
 
@@ -60,7 +60,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 10 | Mar 9 | **12** | ~2 | 110 | ~130 | 0 | 122 | BM drops 17→12: rebound breaks |
 | 11 | Mar 10 | 9 | ~1 | 35 | ~130 | 0 | 44 | ⚠️ Drone collapse: 110→35 (−68%) |
 | **12** | **Mar 11** | **6** | ~1 | **39** | ~130 | **7** | **52** | ⚠️ First cruise missiles since Day 3; BM 3rd decline; drones −68% recovery |
-| **13** | **Mar 12** | **10** | ~1 | **26** | ~130 | 0 | **36** | BM uptick 6→10 (+67%); drones collapse further; lowest total since Day 1 |
+| 13 | Mar 12 | 10 | ~1 | 26 | ~130 | 0 | 36 | BM uptick 6→10 (+67%); drones collapse further |
+| **14** | **Mar 13** | **7** | ~1 | **~27** | ~130 | 0 | **~34** | BM resumes decline 10→7; drones stable at record low; **new record low total** |
 
 ### Cumulative Totals
 
@@ -78,7 +79,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 10 | Mar 9 | 250 | ~1,536 | 8 | ~1,794 |
 | 11 | Mar 10 | 259 | ~1,571 | 8 | ~1,838 |
 | **12** | **Mar 11** | **265** | **~1,610** | **15** | **~1,890** |
-| **13** | **Mar 12** | **275** | **~1,636** | **15** | **~1,926** |
+| 13 | Mar 12 | 275 | ~1,636 | 15 | ~1,926 |
+| **14** | **Mar 13** | **282** | **~1,663** | **15** | **~1,960** |
 
 ---
 
@@ -98,7 +100,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 10 | Mar 9 | 12 | 11 | 91.7% | 92.8% | OK | BM drops 17→12: rebound breaks |
 | 11 | Mar 10 | 9 | 8 | 88.9% | 92.7% | ⚠️ Day breach | 1 BM fell sea; daily rate <90% |
 | **12** | **Mar 11** | **6** | **6** | **100%** | **92.8%** | OK | BM all intercepted; 7 cruise intercepted; drones fell in UAE incl. 2 near DXB |
-| **13** | **Mar 12** | **10** | **10** | **100%** | **93.1%** | OK | All 10 BM intercepted per @modgovae; no cruise; 26 drones engaged |
+| 13 | Mar 12 | 10 | 10 | 100% | 93.1% | OK | All 10 BM intercepted per @modgovae; no cruise; 26 drones engaged |
+| **14** | **Mar 13** | **7** | **~7** | **~100%** | **93.3%** | OK | BM resumes decline 10→7; debris hits DIFC building; ~27 drones engaged |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
@@ -128,22 +131,23 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 10 | Mar 9 | 110 | ~1536 | ~464 | 23.2% | ⚠️ BREACHED |
 | 11 | Mar 10 | 35 | ~1571 | ~429 | 21.4% | ⚠️ BREACHED |
 | **12** | **Mar 11** | **39** | **~1,610** | **~390** | **19.5%** | **⚠️ BREACHED** |
-| **13** | **Mar 12** | **26** | **~1,636** | **~364** | **18.2%** | **⚠️ BREACHED** |
+| 13 | Mar 12 | 26 | ~1,636 | ~364 | 18.2% | ⚠️ BREACHED |
+| **14** | **Mar 13** | **~27** | **~1,663** | **~337** | **16.9%** | **⚠️ BREACHED** |
 
-~~At current rate (~120/day), stockpile hits 30% threshold around Day 11 (March 10).~~ **BREACHED on Day 9** — 2 days earlier than predicted. Day 11 collapsed to 35 (−68%), Day 12 partial recovery to 39, Day 13 collapses further to **26** — lowest daily launch count since conflict began. Three consecutive days below 40 drones. If this low rate sustains (~30/day), remaining 364 drones last ~12 days (exhaustion ~Day 25, March 24). If Iran reverts to >100/day, exhaustion comes in <4 days (Day 17, March 16). Pattern strongly suggests stockpile exhaustion forcing conservation.
+~~At current rate (~120/day), stockpile hits 30% threshold around Day 11 (March 10).~~ **BREACHED on Day 9** — 2 days earlier than predicted. Day 11 collapsed to 35 (−68%), Day 12 partial recovery to 39, Day 13-14 stable at record lows (26→27). **Four consecutive days below 40 drones.** If this low rate sustains (~27/day), remaining 337 drones last ~12 days (exhaustion ~Day 26, March 25). If Iran reverts to >100/day, exhaustion comes in <3.5 days (Day 18, March 17). Pattern strongly suggests stockpile exhaustion forcing conservation.
 
 ---
 
 ## Cascade Threshold Tracker
 
-| Metric | Day 1 | Day 3 | Day 5 | Day 7 | Day 8 | Day 9 | Day 10 | Day 11 | Day 12 | Day 13 | Threshold |
-|--------|-------|-------|-------|-------|-------|-------|--------|--------|--------|--------|------|
-| Launcher Depletion | ~39% | ~50% | ~54% | 85.7% | ~73% | ~67% | ~99% | ~99% | ~99% | **~99%** | > 85% |
-| Drone Stockpile | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | **18.2%** | < 30% |
-| Interception Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | **93.1%** | < 90% |
-| Interception Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | **100%** | < 90% |
-| Daily Casualties | ~22/d | ~18/d | ~15/d | ~16/d | ~14/d | ~15/d | 2/d | 10/d | 4/d | **0/d** | > 10 |
-| New Weapon Type | No | No | No | No | Air base | Air base | Air base | Refinery | DXB airport | **No** | Yes |
+| Metric | Day 1 | Day 3 | Day 5 | Day 7 | Day 8 | Day 9 | Day 10 | Day 11 | Day 12 | Day 13 | Day 14 | Threshold |
+|--------|-------|-------|-------|-------|-------|-------|--------|--------|--------|--------|--------|------|
+| Launcher Depletion | ~39% | ~50% | ~54% | 85.7% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | **~99%** | > 85% |
+| Drone Stockpile | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | **16.9%** | < 30% |
+| Interception Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | **93.3%** | < 90% |
+| Interception Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | **~100%** | < 90% |
+| Daily Casualties | ~22/d | ~18/d | ~15/d | ~16/d | ~14/d | ~15/d | 2/d | 10/d | 4/d | 0/d | **0/d** | > 10 |
+| New Weapon Type | No | No | No | No | Air base | Air base | Air base | Refinery | DXB airport | No | **No** | Yes |
 
 *Launcher depletion **revised downward** from 85.7% to ~73% (Day 8) and further to **~67%** (Day 9) due to consecutive high-volume BM days (16→17). The accelerating trend 3→7→9→16→17 confirms more TELs remain operational than previously estimated. Drone stockpile has **breached** the 30% threshold on Day 9 — 2 days earlier than forecast. Day 11 adds a **new breach**: daily interception rate (88.9%), the third daily breach in the conflict.
 
@@ -158,7 +162,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 10 | 2/5 (launcher + drone_stockpile) | UNSTABLE |
 | 11 | 3/5 (launcher + drone_stockpile + interception_day) | UNSTABLE |
 | 12 | 3/5 (launcher + drone_stockpile + DXB airport) | UNSTABLE |
-| **13** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
+| 13 | 2/5 (launcher + drone_stockpile) | UNSTABLE |
+| **14** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 
 ---
 
@@ -178,7 +183,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 10 | 2.061 | 100% | 2.770 | UNSTABLE | BM rebound breaks (17→12), λ eases but still CASCADE |
 | 11 | 2.081 | 100% | 2.790 | UNSTABLE | Drone collapse (110→35); new breach (interception_day); λ holds steady |
 | 12 | 2.141 | 100% | 2.851 | UNSTABLE | Naval deterrence weakens (3→2 carriers); 7 cruise missiles (first since Day 3); drone stockpile continues declining |
-| **13** | **2.110** | **100%** | **2.810** | **UNSTABLE** | BM uptick 6→10 but interception rate improves (93.1%); drone collapse continues (26); no cruise; two helo crash deaths (operational) |
+| 13 | 2.110 | 100% | 2.810 | UNSTABLE | BM uptick 6→10 but interception rate improves (93.1%); drone collapse continues (26); no cruise; two helo crash deaths (operational) |
+| **14** | **2.080** | **100%** | **2.780** | **UNSTABLE** | BM resumes decline (10→7); interception improves (93.3%); drones stable at record low (27); Khamenei confirms Hormuz closed; DIFC debris; KC-135 crash |
 
 ### What Changed on Day 8
 
@@ -205,12 +211,12 @@ Component          Day 7 (realized)  Day 8 (realized)    Change
 
 ### Model Bayesian Posteriors (calibrated)
 
-| Scenario | Day 6 | Day 14 | Day 30 | Day 12 Assessment |
+| Scenario | Day 6 | Day 14 | Day 30 | Day 14 Assessment |
 |----------|-------|--------|--------|-------------------|
-| Ceasefire | 3.3% | 7.8% | 12.8% | ↓↓ Polymarket 20% — 8th consecutive decline; markets pricing extended conflict |
-| Baseline | 64.9% | 71.2% | 75.4% | ↓↓↓ Hormuz Day 9, drone collapse, 3/5 breaches, DXB airport strike — baseline model severely challenged |
-| Escalation | 31.4% | 20.1% | 11.7% | ↑↑↑ 4 tail risks realized; DXB airport strike shows precision targeting escalation |
-| Regime War | 0.4% | 0.9% | 0.1% | ↑ Energy infrastructure + airport strikes + BM decay + naval deterrence weakens; λ=2.141 |
+| Ceasefire | 3.3% | 7.8% | 12.8% | ↓↓↓ Polymarket ~17% — 10th consecutive decline; Khamenei confirms Hormuz closed |
+| Baseline | 64.9% | 71.2% | 75.4% | ↓↓↓ Hormuz Day 12, drone exhaustion, Khamenei statement — baseline model severely challenged |
+| Escalation | 31.4% | 20.1% | 11.7% | ↑↑↑ 4 tail risks realized; Khamenei locks in Hormuz closure; oil rebounds to $99 |
+| Regime War | 0.4% | 0.9% | 0.1% | ↑ Energy infrastructure + DIFC debris + KC-135 crash + proxy claims; λ=2.080 |
 
 ### Polymarket Ceasefire Odds
 
@@ -223,9 +229,10 @@ Component          Day 7 (realized)  Day 8 (realized)    Change
 | Mar 9 (Day 10) | 24% | ↓↓↓ |
 | Mar 10 (Day 11) | 22% | ↓ |
 | Mar 11 (Day 12) | 20% | ↓ |
-| **Mar 12 (Day 13)** | **~19%** | **↓** |
+| Mar 12 (Day 13) | ~19% | ↓ |
+| **Mar 13 (Day 14)** | **~17%** | **↓** |
 
-Ceasefire odds continue declining — ninth consecutive day of decline (67%→~19%). Markets firmly pricing extended, entrenched conflict with no near-term resolution. Despite dramatic reduction in daily attack volume (36 total projectiles, lowest since Day 1), Iran's continued attacks and Hormuz closure signal no imminent ceasefire. Two UAE military helicopter crash deaths (operational accidents) add to conflict fatigue narrative.
+Ceasefire odds continue declining — **tenth consecutive day of decline** (67%→~17%). Khamenei's explicit statement that Hormuz will remain closed as a "tool of pressure" drives odds lower. Markets firmly pricing extended, entrenched conflict with no near-term resolution. Despite record-low daily attack volume (34 projectiles), the new supreme leader's first public act being to confirm Hormuz closure signals no imminent de-escalation. Oil rebound to $99 reinforces market pessimism.
 
 ---
 
@@ -245,7 +252,8 @@ Ceasefire odds continue declining — ninth consecutive day of decline (67%→~1
 | 10 | Mar 9 | ~65% | 45% | Air Arabia resumes; Emirates nearing 100% | WELL AHEAD |
 | 11 | Mar 10 | ~70% | 50% | Emirates at 84 destinations; DXB limited ops | WELL AHEAD |
 | 12 | Mar 11 | ~60% | 55% | DXB drone strike; concourse damage; still operating | AHEAD but narrowing |
-| **13** | **Mar 12** | **~55%** | **58%** | Minor drone incidents in Dubai; low attack volume | **CLOSE** |
+| 13 | Mar 12 | ~55% | 58% | Minor drone incidents in Dubai; low attack volume | CLOSE |
+| **14** | **Mar 13** | **~50%** | **60%** | DIFC debris; shelter alerts in Abu Dhabi & Dubai; record-low attack volume | **DIVERGENT** |
 
 **Positive divergence:** Airport recovery is 1.4× faster than model predicted. Emirates targeting "coming days" to 100% capacity, operating to 84 destinations. Etihad serving ~25 major destinations. Air Arabia resumed. Some international carriers (Virgin Atlantic, KLM, Finnair) still suspended. ~250K passenger backlog being cleared.
 
@@ -267,7 +275,8 @@ Ceasefire odds continue declining — ninth consecutive day of decline (67%→~1
 | 10 | Mar 9 | 0 | 2 | 4 | 114 | 2 | OK |
 | 11 | Mar 10 | 2 | 8 | 6 | 122 | 10 | THRESHOLD |
 | 12 | Mar 11 | 0 | 4 | 6 | 126 | 4 | OK |
-| **13** | **Mar 12** | **0** | **5** | **6** | **131** | **5** | OK |
+| 13 | Mar 12 | 0 | 5 | 6 | 131 | 5 | OK |
+| **14** | **Mar 13** | **0** | **0** | **6** | **~131** | **0** | OK |
 
 **Note:** Casualty figures from WAM (Emirates News Agency), Gulf News, and Reuters. Remarkably low given attack volume, attributable to >92% interception rates and effective civil defense.
 
@@ -278,6 +287,8 @@ Ceasefire odds continue declining — ninth consecutive day of decline (67%→~1
 **Day 12 note:** 4 injured near Dubai International Airport from 2 drones that fell after interception. No additional fatalities. Cumulative toll: 6 dead, 126 injured. Daily rate back to OK (4/d < 10). Injuries cluster near DXB, consistent with airport-precision targeting.
 
 **Day 13 note:** 5 injuries per @modgovae (cumulative 131). No new fatalities. Despite lower drone volume (26), some debris injuries from interception. Two UAE military personnel (Captain Pilot Saeed Rashid Al Balushi and First Lieutenant Ali Saleh Al Taniji) killed in helicopter crash due to technical malfunction — operational accidents, not combat casualties. Not included in attack casualty count.
+
+**Day 14 note:** No confirmed new injuries or fatalities. DIFC Innovation Hub debris incident confirmed "no injuries" by Dubai Media Office. Cumulative toll remains at 6 dead, ~131 injured pending full @modgovae update. Lowest casualty day of the conflict — zero combat casualties, zero injuries from 34 projectiles. Despite continued interceptions over urban areas (DIFC debris), civil defense measures proving effective.
 
 ---
 
@@ -297,7 +308,8 @@ Ceasefire odds continue declining — ninth consecutive day of decline (67%→~1
 | 10 | Mar 9 | $103 | +43.1% | Zero traffic | ~$435K/d | WTI $103; Brent touches $119 intraday |
 | 11 | Mar 10 | ~$100 | +38.9% | Zero traffic | ~$440K/d | Ruwais refinery hit by drone, halted; WTI ~$100 |
 | 12 | Mar 11 | ~$86 | +19.4% | Zero traffic | ~$420K/d | ⚠️ IEA 400M bbl reserve release; WTI crashes $100→$86; 3 ships struck; US destroys 16 minelayers |
-| **13** | **Mar 12** | **~$88** | **+22.2%** | Zero traffic | **~$415K/d** | Oil stabilizes post-IEA release; minor drone incidents in Dubai; attack volume at record low |
+| 13 | Mar 12 | ~$88 | +22.2% | Zero traffic | ~$415K/d | Oil stabilizes post-IEA release; minor drone incidents in Dubai; attack volume at record low |
+| **14** | **Mar 13** | **~$95** | **+31.9%** | Zero traffic | **~$425K/d** | ⚠️ Oil rebounds ~$86→$95 as Khamenei confirms Hormuz closed; Brent near $100; IEA release impact fading |
 
 ---
 
@@ -352,27 +364,33 @@ Ceasefire odds continue declining — ninth consecutive day of decline (67%→~1
 | 13 | Mar 12 | DRONE | Only 26 drones — lowest daily count since conflict began | Drone stockpile exhaustion accelerating; 3 consecutive days <40 |
 | 13 | Mar 12 | MILITARY | Two UAE military helicopter crash deaths (operational) | Captain Al Balushi + 1st Lt. Al Taniji; technical malfunction |
 | 13 | Mar 12 | CASUALTY | 5 injured per @modgovae (cumulative 131); no fatalities | Low casualty day despite BM uptick; all BMs intercepted |
+| **14** | **Mar 13** | **POLITICAL** | **Mojtaba Khamenei first public statement: Hormuz stays closed** | **Removes ambiguity about near-term reopening; locks λ_hormuz at +0.630** |
+| 14 | Mar 13 | DRONE/DIFC | Debris from intercepted attack hits DIFC Innovation Hub, central Dubai | No injuries; 2nd consecutive day of urban debris incidents |
+| 14 | Mar 13 | MILITARY | US KC-135 refueling tanker crashes in western Iraq — 4 of 6 crew killed | Operation Epic Fury; Islamic Resistance in Iraq claims responsibility |
+| 14 | Mar 13 | BM | 7 BMs — resumes decline after Day 13 uptick (10→7) | Five-day pattern: 12→9→6→10→7 — trending down with noise |
+| 14 | Mar 13 | OIL | Brent ~$99, WTI ~$95 — oil rebounds from IEA crash | Khamenei Hormuz statement erases ~75% of IEA intervention gains |
+| 14 | Mar 13 | ENERGY | UAE Energy Minister confirms energy supplies stable | Ruwais refinery still shut but national system operating normally |
 
 ---
 
 ## Model vs Reality Scorecard (Running)
 
-| # | Check | Model | Day 12 Observed | Day 13 Observed | Status |
+| # | Check | Model | Day 13 Observed | Day 14 Observed | Status |
 |---|-------|-------|-----------------|-----------------|--------|
-| 1 | BM monotonic decay | Yes | 9→6 (3rd consecutive decline) | **6→10 (reversal, +67%)** | **⚠️ DIVERGENT** (decay broken again) |
-| 2 | Interception > 90% (cum) | 93.2% | 92.8% | **93.1%** | **MATCH** (improving) |
-| 3 | Drone rate ~130/day | ~130/day | **39/day** | **26/day** | **⚠️ EXTREME DIVERGENT** (−80%, new record low) |
-| 4 | No new weapon types | No | DXB airport strike + 7 cruise | No new types | STABLE |
-| 5 | Ceasefire P (Polymarket) | 84% | **20%** | **~19%** | **DIVERGENT** (9th decline) |
-| 6 | Airport recovery | 55% (Day 12) | **~60%** | **~55%** | **DIVERGENT** (positive but narrowing) |
-| 7 | Drone stockpile > 30% | ~20% | **19.5%** | **18.2%** | **⚠️ CRITICAL** |
-| 8 | Hormuz open | P=98% open | **CLOSED** | **CLOSED** | **DIVERGENT** |
-| 9 | No proxy activation | P=96% none | Houthis threatening | Houthis threatening | **DIVERGENT** |
+| 1 | BM monotonic decay | Yes | 6→10 (reversal) | **10→7 (resumes decline)** | **⚠️ DIVERGENT** (noisy but trending down) |
+| 2 | Interception > 90% (cum) | 93.2% | 93.1% | **93.3%** | **MATCH** (improving, best since Day 4) |
+| 3 | Drone rate ~130/day | ~130/day | **26/day** | **~27/day** | **⚠️ EXTREME DIVERGENT** (−79%, stable at record low) |
+| 4 | No new weapon types | No | No new types | No new types | STABLE |
+| 5 | Ceasefire P (Polymarket) | 84% | **~19%** | **~17%** | **DIVERGENT** (10th decline) |
+| 6 | Airport recovery | 55% (Day 12) | **~55%** | **~50%** | **DIVERGENT** (narrowing, shelter alerts) |
+| 7 | Drone stockpile > 30% | ~20% | **18.2%** | **16.9%** | **⚠️ CRITICAL** (approaching exhaustion) |
+| 8 | Hormuz open | P=98% open | **CLOSED** | **CLOSED** (Khamenei confirms) | **DIVERGENT** |
+| 9 | No proxy activation | P=96% none | Houthis threatening | Iraq proxy claims KC-135 | **DIVERGENT** |
 | 10 | Verdict | METASTABLE | **UNSTABLE** | **UNSTABLE** | **DIVERGENT** |
 
-**Day 13 Rating: 1 MATCH, 1 STABLE, 0 CLOSE, 8 DIVERGENT**
+**Day 14 Rating: 1 MATCH, 1 STABLE, 0 CLOSE, 8 DIVERGENT**
 
-Major changes: **BMs reverse three-day decline** — jumping from 6 to 10 (+67%), suggesting BM decay is not monotonic and Iran retains launch capability. All 10 BMs intercepted, pushing cumulative rate to 93.1% (best since Day 5). Drones collapse to **record low 26** — 80% below model's 130/day prediction and the lowest single-day count since the conflict began. No cruise missiles (Day 12 had 7, first since Day 3). Total daily projectiles at 36 — **lowest since Day 1**. Zero fatalities, 5 injuries. Two UAE military personnel killed in helicopter crash (operational accident, not combat). **@modgovae cumulative through Day 13: 278 BM, 15 cruise, 1540 UAVs.** Net assessment: Attack volume is collapsing but BM capability persists — Iran appears to be conserving drones while maintaining ballistic missile pressure. The shift from saturation (130+ drones/day) to conservation (~26/day) suggests stockpile exhaustion is driving tactical changes.
+Major changes: **BMs resume decline** (10→7), confirming Day 13's uptick was noise, not a structural rebound. Five-day BM pattern: 12→9→6→10→7 — noisy but clearly trending downward. Interception rate improves to 93.3% — best since Day 4. Drones stable at record low (~27, vs 26 yesterday) — four consecutive days below 40. Total daily projectiles at **new record low 34**. Zero fatalities, zero confirmed injuries. Debris from intercepted attack hits DIFC Innovation Hub in central Dubai — no injuries. Mojtaba Khamenei's first public statement as new supreme leader **explicitly confirms Hormuz stays closed**. Oil rebounds to ~$99 (Brent), erasing most IEA intervention gains. KC-135 refueling tanker crashes in Iraq, 4 US crew killed. **@modgovae cumulative through Day 14: 285 BM, 15 cruise, 1567 UAVs.** Net assessment: Attack volume at record lows, BMs declining, interceptions improving — but structural instability factors (Hormuz closure now explicitly locked in by new supreme leader, proxy activation, drone exhaustion forcing tactical shifts) keep the system firmly in cascade territory.
 
 ---
 
@@ -389,12 +407,14 @@ Major changes: **BMs reverse three-day decline** — jumping from 6 to 10 (+67%)
 | 10 | ~45 | 2.061 | UNSTABLE | EVACUATE IMMEDIATELY |
 | 11 | ~43 | 2.081 | UNSTABLE | EVACUATE IMMEDIATELY |
 | 12 | ~42 | 2.141 | UNSTABLE | EVACUATE IMMEDIATELY |
-| **13** | **~41** | **2.110** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
+| 13 | ~41 | 2.110 | UNSTABLE | EVACUATE IMMEDIATELY |
+| **14** | **~40** | **2.080** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 
-λ eases slightly to 2.110 (from 2.141), as improved interception rate (93.1%, best since Day 5) offsets the BM uptick (6→10). No new weapon types or escalation events. System remains **firmly in cascade territory** as structural instability factors — Hormuz closure (Day 11), proxy activation, drone stockpile exhaustion — continue dominating the λ calculation.
+λ eases further to 2.080 (from 2.110) — third consecutive day of marginal improvement (2.141→2.110→2.080). BMs resume decline (10→7), interception rate improves to 93.3% (best since Day 4). Attack volume at **new record low** (34 total). However, Mojtaba Khamenei's first public statement as new supreme leader **explicitly locks in Hormuz closure**, oil rebounds to ~$99, and structural instability factors remain dominant.
 
-**Day 13 key dynamics:**
-- **Positive:** All 10 BMs intercepted (100% daily rate), pushing cumulative to 93.1% — best since Day 5. No cruise missiles (Day 12 had 7). Total daily volume at 36 — lowest since conflict began. Zero fatalities, only 5 injuries. Drone attack volume at record low (26), suggesting Iranian drone stockpile exhaustion
-- **Negative:** BMs **reverse three-day decline** (6→10, +67%), signaling Iran retains ballistic missile launch capability even as drones run low. Two UAE military helicopter crash deaths (operational accidents — Captain Pilot Saeed Rashid Al Balushi and 1st Lt. Ali Saleh Al Taniji). Ceasefire odds continue decline (~19%), 9th consecutive drop. Hormuz remains closed; zero non-Iranian traffic
-- **Critical assessment:** Iran appears to be in **stockpile conservation mode** for drones while maintaining BM pressure. Three consecutive days below 40 drones (35→39→26) compared to >100/day through Day 10. The BM uptick to 10 may signal a tactical shift: fewer drones, more ballistic missiles — higher cost per attack but harder to intercept. This is consistent with the JPost analysis that "Iran's missile fire rate has collapsed by 92%"
-- **Window:** Airport capacity ~55%, still operational. The reduced attack volume provides a **relative calm window** for evacuation — but BM capability persists and could escalate. Leave immediately while volume is low
+**Day 14 key dynamics:**
+- **Positive:** BMs resume decline (10→7), confirming Day 13's uptick was noise. Cumulative interception rate 93.3% — best since Day 4. Total attack volume at new record low (34). Zero fatalities, zero confirmed injuries. DIFC debris — no injuries. UAE Energy Minister confirms energy supplies stable. Attack volume collapsed ~90% from peak
+- **Negative:** **Khamenei explicitly confirms Hormuz stays closed** — new supreme leader's first public act is to lock in the blockade. Oil rebounds to ~$99 (Brent), erasing ~75% of IEA reserve release gains. KC-135 refueling tanker crash in Iraq kills 4 US crew. Islamic Resistance in Iraq claims KC-135 shootdown. Ceasefire odds decline to ~17% (10th consecutive drop)
+- **Critical assessment:** The system shows a **divergence between tactical and strategic indicators**. Tactically, the situation is improving — attack volume at record lows, interceptions near-perfect, zero casualties. Strategically, it's hardening — Khamenei locking in Hormuz, oil rebounding, ceasefire odds falling, Iraq proxies active. Iran is running out of drones but the structural instability factors that drive λ above 1.0 (Hormuz, proxy, weapon escalation history) are not resolving
+- **Drone exhaustion timeline:** At ~27/day, remaining ~337 drones last ~12 days (exhaustion ~Day 26, March 25). Iran may shift entirely to BMs or seek resupply — either outcome triggers a new conflict phase
+- **Window:** Airport capacity ~50%. Low attack volume maintains **tactical calm window**. Khamenei's statement signals no near-term de-escalation. Leave while volume is low
