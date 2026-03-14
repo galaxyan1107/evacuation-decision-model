@@ -1,6 +1,6 @@
 # Day 15 Update — March 14, 2026
 
-> 🌐 **EN** | [中文](../zh/updates/day15-mar14.md)
+> 🌐 **EN** | [中文](../zh/updates/day15-march14.md)
 
 **Status: UNSTABLE** | **Breaches: 2/5** | **λ median = 2.054**
 
