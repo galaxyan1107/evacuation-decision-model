@@ -32,7 +32,7 @@ Stacked divergence shows lambda (purple) dominating total model error. Verdict t
 
 λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure) and reached 2.71 on Day 9 (drone stockpile breach + sustained BM rebound), then eased to 2.06 on Day 10 (BM rebound breaks, naval deterrence increases), held at 2.08 on Day 11 despite drone collapse, rose to 2.14 on Day 12 (naval deterrence weakens further: 3→2 carriers), eased to 2.11 on Day 13, and continues easing to 2.08 on Day 14 (BMs resume decline 10→7, interception rate improves to 93.3%). P(λ>1) has been 100% since Day 3. Third consecutive day of marginal λ improvement (2.14→2.11→2.08). Attack volume at new record low (34 total).
 
-![Lambda Evolution](../charts/lambda_evolution_day14.png)
+![Lambda Evolution](../charts/lambda_evolution_day15.png)
 
 ### Ballistic Missile Trajectory
 
@@ -62,6 +62,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **12** | **Mar 11** | **6** | ~1 | **39** | ~130 | **7** | **52** | ⚠️ First cruise missiles since Day 3; BM 3rd decline; drones −68% recovery |
 | 13 | Mar 12 | 10 | ~1 | 26 | ~130 | 0 | 36 | BM uptick 6→10 (+67%); drones collapse further |
 | **14** | **Mar 13** | **7** | ~1 | **~27** | ~130 | 0 | **~34** | BM resumes decline 10→7; drones stable at record low; **new record low total** |
+| **15** | **Mar 14** | **9** | ~2 | 33 | ~130 | 0 | **42** | BM 9→9 → |
 
 ### Cumulative Totals
 
@@ -81,6 +82,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **12** | **Mar 11** | **265** | **~1,610** | **15** | **~1,890** |
 | 13 | Mar 12 | 275 | ~1,636 | 15 | ~1,926 |
 | **14** | **Mar 13** | **282** | **~1,663** | **15** | **~1,960** |
+| **15** | **Mar 14** | **247** | **~1459** | **8** | **~1,714** |
 
 ---
 
@@ -102,6 +104,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **12** | **Mar 11** | **6** | **6** | **100%** | **92.8%** | OK | BM all intercepted; 7 cruise intercepted; drones fell in UAE incl. 2 near DXB |
 | 13 | Mar 12 | 10 | 10 | 100% | 93.1% | OK | All 10 BM intercepted per @modgovae; no cruise; 26 drones engaged |
 | **14** | **Mar 13** | **7** | **~7** | **~100%** | **93.3%** | OK | BM resumes decline 10→7; debris hits DIFC building; ~27 drones engaged |
+| **15** | **Mar 14** | **9** | **9** | **100.0%** | **93.1%** | OK | ⚠️ BM BM 9→9 → |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
@@ -133,6 +136,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **12** | **Mar 11** | **39** | **~1,610** | **~390** | **19.5%** | **⚠️ BREACHED** |
 | 13 | Mar 12 | 26 | ~1,636 | ~364 | 18.2% | ⚠️ BREACHED |
 | **14** | **Mar 13** | **~27** | **~1,663** | **~337** | **16.9%** | **⚠️ BREACHED** |
+| **15** | **Mar 14** | **33** | **~1459** | **~541** | **27.1%** | **⚠️ BREACHED** |
 
 ~~At current rate (~120/day), stockpile hits 30% threshold around Day 11 (March 10).~~ **BREACHED on Day 9** — 2 days earlier than predicted. Day 11 collapsed to 35 (−68%), Day 12 partial recovery to 39, Day 13-14 stable at record lows (26→27). **Four consecutive days below 40 drones.** If this low rate sustains (~27/day), remaining 337 drones last ~12 days (exhaustion ~Day 26, March 25). If Iran reverts to >100/day, exhaustion comes in <3.5 days (Day 18, March 17). Pattern strongly suggests stockpile exhaustion forcing conservation.
 
@@ -254,6 +258,7 @@ Ceasefire odds continue declining — **tenth consecutive day of decline** (67%�
 | 12 | Mar 11 | ~60% | 55% | DXB drone strike; concourse damage; still operating | AHEAD but narrowing |
 | 13 | Mar 12 | ~55% | 58% | Minor drone incidents in Dubai; low attack volume | CLOSE |
 | **14** | **Mar 13** | **~50%** | **60%** | DIFC debris; shelter alerts in Abu Dhabi & Dubai; record-low attack volume | **DIVERGENT** |
+| **15** | **Mar 14** | **~55%** | **45%** | TBD | **AHEAD** |
 
 **Positive divergence:** Airport recovery is 1.4× faster than model predicted. Emirates targeting "coming days" to 100% capacity, operating to 84 destinations. Etihad serving ~25 major destinations. Air Arabia resumed. Some international carriers (Virgin Atlantic, KLM, Finnair) still suspended. ~250K passenger backlog being cleared.
 
@@ -277,6 +282,7 @@ Ceasefire odds continue declining — **tenth consecutive day of decline** (67%�
 | 12 | Mar 11 | 0 | 4 | 6 | 126 | 4 | OK |
 | 13 | Mar 12 | 0 | 5 | 6 | 131 | 5 | OK |
 | **14** | **Mar 13** | **0** | **0** | **6** | **~131** | **0** | OK |
+| **15** | **Mar 14** | **0** | **~10** | **4** | **~140** | **~10** | OK |
 
 **Note:** Casualty figures from WAM (Emirates News Agency), Gulf News, and Reuters. Remarkably low given attack volume, attributable to >92% interception rates and effective civil defense.
 
@@ -310,6 +316,7 @@ Ceasefire odds continue declining — **tenth consecutive day of decline** (67%�
 | 12 | Mar 11 | ~$86 | +19.4% | Zero traffic | ~$420K/d | ⚠️ IEA 400M bbl reserve release; WTI crashes $100→$86; 3 ships struck; US destroys 16 minelayers |
 | 13 | Mar 12 | ~$88 | +22.2% | Zero traffic | ~$415K/d | Oil stabilizes post-IEA release; minor drone incidents in Dubai; attack volume at record low |
 | **14** | **Mar 13** | **~$95** | **+31.9%** | Zero traffic | **~$425K/d** | ⚠️ Oil rebounds ~$86→$95 as Khamenei confirms Hormuz closed; Brent near $100; IEA release impact fading |
+| **15** | **Mar 14** | **~$103** | **TBD** | **Zero traffic** | **TBD** | **TBD** |
 
 ---
 
@@ -409,6 +416,7 @@ Major changes: **BMs resume decline** (10→7), confirming Day 13's uptick was n
 | 12 | ~42 | 2.141 | UNSTABLE | EVACUATE IMMEDIATELY |
 | 13 | ~41 | 2.110 | UNSTABLE | EVACUATE IMMEDIATELY |
 | **14** | **~40** | **2.080** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
+| **15** | **~18** | **2.054** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 
 λ eases further to 2.080 (from 2.110) — third consecutive day of marginal improvement (2.141→2.110→2.080). BMs resume decline (10→7), interception rate improves to 93.3% (best since Day 4). Attack volume at **new record low** (34 total). However, Mojtaba Khamenei's first public statement as new supreme leader **explicitly locks in Hormuz closure**, oil rebounds to ~$99, and structural instability factors remain dominant.
 
