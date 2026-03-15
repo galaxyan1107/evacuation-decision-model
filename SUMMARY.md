@@ -28,6 +28,7 @@
 * [Day 10 — March 9 ⚠️ UNSTABLE](updates/day10-march9.md)
 * [Day 9 — March 8 ⚠️ UNSTABLE](updates/day9-march8.md)
 * [Day 8 — March 7 ⚠️ UNSTABLE](updates/day8-march7.md)
+* [Day 16 — March 15 ⚠️ UNSTABLE](updates/day16-march15.md)
 
 ## Reference
 
@@ -63,6 +64,7 @@
 * [第10天 — 3月9日 ⚠️ 不稳定](zh/updates/day10-march9.md)
 * [第9天 — 3月8日 ⚠️ 不稳定](zh/updates/day9-march8.md)
 * [第8天 — 3月7日 ⚠️ 不稳定](zh/updates/day8-march7.md)
+* [第16天 — 3月15日 ⚠️ 不稳定](zh/updates/day16-march15.md)
 
 ### 参考
 

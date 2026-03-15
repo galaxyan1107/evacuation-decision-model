@@ -38,5 +38,45 @@
     "p_gt_1": 100.0,
     "verdict": "UNSTABLE",
     "breaches": 3
+  },
+  {
+    "timestamp": "2026-03-15T20:11:24.788977",
+    "day": 13,
+    "slug": "day13-march12",
+    "lambda_median": 2.1434596129147874,
+    "lambda_p95": 2.8549320003425818,
+    "p_gt_1": 100.0,
+    "verdict": "UNSTABLE",
+    "breaches": 2
+  },
+  {
+    "timestamp": "2026-03-15T20:11:35.832120",
+    "day": 14,
+    "slug": "day14-march13",
+    "lambda_median": 2.1461044801866,
+    "lambda_p95": 2.857935927703598,
+    "p_gt_1": 100.0,
+    "verdict": "UNSTABLE",
+    "breaches": 2
+  },
+  {
+    "timestamp": "2026-03-15T20:11:44.256921",
+    "day": 15,
+    "slug": "day15-march14",
+    "lambda_median": 2.1493965880224017,
+    "lambda_p95": 2.8613682442770574,
+    "p_gt_1": 100.0,
+    "verdict": "UNSTABLE",
+    "breaches": 3
+  },
+  {
+    "timestamp": "2026-03-15T20:11:53.802165",
+    "day": 16,
+    "slug": "day16-march15",
+    "lambda_median": 2.1522289885323516,
+    "lambda_p95": 2.864483600005724,
+    "p_gt_1": 100.0,
+    "verdict": "UNSTABLE",
+    "breaches": 3
   }
 ]

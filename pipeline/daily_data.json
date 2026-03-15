@@ -436,6 +436,153 @@
         "air_base_strike": true
       },
       "notes": "IEA record 400M bbl reserve release crashes oil $100→$86; Iran targets DXB directly; US mine-clearing ops in Hormuz"
+    },
+    {
+      "day": 13,
+      "date": "2026-03-12",
+      "bm_detected": 10,
+      "bm_intercepted": 10,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 26,
+      "drones_intercepted": 20,
+      "drones_fell_uae": 6,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 5,
+      "airport_capacity_pct": 55,
+      "oil_wti": 88,
+      "vlcc_rate": 415000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 19,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "10 BMs all intercepted (@modgovae confirmed); 26 drones — lowest single-day since conflict began",
+        "Two UAE military pilots killed in helicopter crash (operational accident, not combat)",
+        "5 injured from interception debris (@modgovae confirmed cumulative 131 injuries)",
+        "Oil stabilizes at ~$88 post-IEA release; minor Dubai drone incidents"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "BM rebounds 6→10 (+67%); drones collapse to 26 (historic low); no cruise missiles; 2 pilots KIA (operational)"
+    },
+    {
+      "day": 14,
+      "date": "2026-03-13",
+      "bm_detected": 7,
+      "bm_intercepted": 7,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 27,
+      "drones_intercepted": 21,
+      "drones_fell_uae": 6,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 0,
+      "airport_capacity_pct": 50,
+      "oil_wti": 95,
+      "vlcc_rate": 425000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 17,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "7 BMs all intercepted — resumes decline (10→7); ~27 drones at historic low",
+        "Mojtaba Khamenei confirms Hormuz closure publicly for first time",
+        "DIFC Innovation Hub hit by interception debris — no injuries",
+        "US KC-135 tanker crashes in western Iraq — 4 of 6 crew killed; Iraqi resistance claims responsibility",
+        "Oil rebounds $86→$95 (Khamenei statement erases ~75% of IEA intervention gains)"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "BM resumes decline 10→7; attack volume historic low (~34 total); Khamenei locks Hormuz closure politically; oil rebounds"
+    },
+    {
+      "day": 15,
+      "date": "2026-03-14",
+      "bm_detected": 9,
+      "bm_intercepted": 8,
+      "bm_fell_sea": 1,
+      "bm_fell_land": 0,
+      "drones_detected": 33,
+      "drones_intercepted": 27,
+      "drones_fell_uae": 6,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 10,
+      "airport_capacity_pct": 55,
+      "oil_wti": 99,
+      "vlcc_rate": 430000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 15,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "9 BMs + 33 drones (@modgovae via Gulf News); cumulative 294 BMs, 15 cruise, ~1,700 drones",
+        "Fujairah bunkering hub fire from drone interception debris; 1 Jordanian citizen injured",
+        "Two killed in Oman by stray drones; several drones also fired at Saudi Arabia",
+        "Cumulative: 6 dead, 141 injured (@modgovae)",
+        "Brent closes above $100 for second consecutive day; WTI ~$99"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "9 BMs + 33 drones; drone volume rebounds from historic lows; Fujairah fire; Iran attacks spread to Oman/Saudi; oil stays >$100 Brent"
+    },
+    {
+      "day": 16,
+      "date": "2026-03-15",
+      "bm_detected": 10,
+      "bm_intercepted": 9,
+      "bm_fell_sea": 1,
+      "bm_fell_land": 0,
+      "drones_detected": 30,
+      "drones_intercepted": 24,
+      "drones_fell_uae": 6,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 3,
+      "airport_capacity_pct": 55,
+      "oil_wti": 99,
+      "vlcc_rate": 430000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": "IRGC claims second Al Dhafra air base strike",
+      "polymarket_ceasefire_mar31": 14,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "IRGC claims 10 missiles + drones targeting Al Dhafra Air Base (second claimed strike)",
+        "AN/TPY-2 radar reportedly destroyed; MQ-9 Reaper and U-2 facilities hit (Defence Security Asia)",
+        "Heavy US-Israeli strikes on Isfahan, Shiraz, Tehran, Dezful, Khomein, Hamedan",
+        "Emirates ~60% capacity (~200 flights/day); flydubai ~35% (~64 flights)",
+        "Brent ~$103; WTI ~$99; Iran warns oil could hit $200"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "IRGC claims second Al Dhafra strike (AN/TPY-2 radar, MQ-9/U-2 hangars); @modgovae daily statement pending; estimates based on IRGC claims + trend"
     }
   ]
 }
