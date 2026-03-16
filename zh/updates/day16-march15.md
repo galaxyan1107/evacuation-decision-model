@@ -2,7 +2,7 @@
 
 > 🌐 [English](../../updates/day16-march15.md) | **中文**
 
-**状态：不稳定** | **突破：3/5** | **λ中位数 = 2.152**
+**状态：不稳定** | **突破：2/5** | **λ中位数 = 2.150**
 
 ---
 
@@ -10,20 +10,20 @@
 
 | 指标 | 第15天 | 第16天 | 累计 |
 |------|-------|-------|------|
-| 弹道导弹 | 9 | **10** | **302** |
-| 弹道导弹拦截 | 8 | 9 | 281 |
-| 无人机探测 | 33 | ~30 | ~1732 |
-| 无人机拦截 | 27 | 24 | ~1628 |
+| 弹道导弹 | 9 | **4** | **296** |
+| 弹道导弹拦截 | 8 | 4 | 276 |
+| 无人机探测 | 33 | ~6 | ~1708 |
+| 无人机拦截 | 27 | 5 | ~1609 |
 | 巡航导弹 | 0 | 0 | 8 |
-| 弹道导弹拦截率（累计） | — | — | 93.0% |
-| 无人机库存剩余 | — | — | 13.4%（268/2000） |
+| 弹道导弹拦截率（累计） | — | — | 93.2% |
+| 无人机库存剩余 | — | — | 14.6%（292/2000） |
 
 **关键事件：**
-- IRGC claims 10 missiles + drones targeting Al Dhafra Air Base (second claimed strike)
-- AN/TPY-2 radar reportedly destroyed; MQ-9 Reaper and U-2 facilities hit (Defence Security Asia)
+- @modgovae: 4 BMs intercepted, 6 drones detected (confirmed by Gulf News, CGTN, Khaleej Times, Peninsula Qatar)
+- Cumulative: 298 BMs, 15 cruise, 1,606 drones (@modgovae official)
+- Lowest daily volume since conflict began (10 total projectiles)
 - Heavy US-Israeli strikes on Isfahan, Shiraz, Tehran, Dezful, Khomein, Hamedan
-- Emirates ~60% capacity (~200 flights/day); flydubai ~35% (~64 flights)
-- Brent ~$103; WTI ~$99; Iran warns oil could hit $200
+- Brent ~$103; WTI ~$99
 
 ---
 
@@ -32,7 +32,7 @@
 ```
 λ = 1.0
   + λ_发射装置         = -0.544
-  + λ_无人机          = +0.173
+  + λ_无人机          = +0.171
   + λ_拦截           = +0.000
   + λ_霍尔木兹         = +0.630
   + λ_代理人          = +0.500
@@ -40,18 +40,18 @@
   + λ_弹道反弹         = +0.000
   + λ_海军威慑         = -0.128
   ────────────────────────────
-  λ 中位数       = 2.152（50K蒙特卡罗）
+  λ 中位数       = 2.150（50K蒙特卡罗）
 ```
 
 | 指标 | 数值 |
 |------|------|
-| λ 中位数 | **2.152** |
-| λ 第95百分位 | **2.864** |
+| λ 中位数 | **2.150** |
+| λ 第95百分位 | **2.862** |
 | P(λ > 1.0) | **100.0%** |
 | P(λ > 1.5) | **98.3%** |
-| P(λ > 2.0) | **66.5%** |
+| P(λ > 2.0) | **66.2%** |
 | 判定 | **不稳定** |
-| 突破数 | **3/5** |
+| 突破数 | **2/5** |
 
 ---
 
@@ -75,4 +75,4 @@
 |------|------|
 | @modgovae (X.com) | 阿联酋国防部每日更新 |
 | 模型管线 | ABC + HAM (50K MC) |
-| 生成时间 | 2026-03-15 20:11 |
+| 生成时间 | 2026-03-16 23:29 |

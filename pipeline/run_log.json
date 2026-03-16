@@ -78,5 +78,25 @@
     "p_gt_1": 100.0,
     "verdict": "UNSTABLE",
     "breaches": 3
+  },
+  {
+    "timestamp": "2026-03-16T23:29:12.208822",
+    "day": 16,
+    "slug": "day16-march15",
+    "lambda_median": 2.1499718127473457,
+    "lambda_p95": 2.8619493778336653,
+    "p_gt_1": 100.0,
+    "verdict": "UNSTABLE",
+    "breaches": 2
+  },
+  {
+    "timestamp": "2026-03-16T23:29:15.678764",
+    "day": 17,
+    "slug": "day17-march16",
+    "lambda_median": 2.1523492817874184,
+    "lambda_p95": 2.864622508768003,
+    "p_gt_1": 100.0,
+    "verdict": "UNSTABLE",
+    "breaches": 4
   }
 ]

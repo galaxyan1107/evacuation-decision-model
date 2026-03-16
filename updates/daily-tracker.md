@@ -2,7 +2,7 @@
 
 > 🌐 **EN** | [中文](../zh/updates/daily-tracker.md)
 
-**Last Updated: March 15, 2026 (Day 16)**
+**Last Updated: March 16, 2026 (Day 17)**
 
 This page tracks daily changes across all model inputs, compares model predictions against observed data, and flags breaches as they occur.
 
@@ -12,7 +12,7 @@ This page tracks daily changes across all model inputs, compares model predictio
 
 ### Divergence Heatmap
 
-Day-by-day percentage deviation across all 6 tracked metrics (16 days). Red = actual exceeds model, blue = actual below model. Lambda divergence dominates from Day 3 onward (+240% → +330%). Drone divergence extreme from Day 11 onward (actual 26-35 vs model ~130). BMs oscillate in 6-10 range (Days 12-16), well above model's near-zero prediction.
+Day-by-day percentage deviation across all 6 tracked metrics (17 days). Red = actual exceeds model, blue = actual below model. Lambda divergence dominates from Day 3 onward (+240% → +330%). Drone divergence extreme from Day 11 onward (actual 26-35 vs model ~130). BMs oscillate in 6-10 range (Days 12-16), well above model's near-zero prediction.
 
 ![Divergence Heatmap](../charts/divergence_heatmap.png)
 
@@ -24,19 +24,19 @@ Side-by-side model (blue) vs actual (red) with ribbon fill showing the gap. Airp
 
 ### Scorecard & Verdict Timeline
 
-Stacked divergence shows lambda (purple) dominating total model error. Verdict timeline: model predicted METASTABLE for all 16 days — reality crossed to UNSTABLE on Day 3 and never returned.
+Stacked divergence shows lambda (purple) dominating total model error. Verdict timeline: model predicted METASTABLE for all 17 days — reality crossed to UNSTABLE on Day 3 and never returned.
 
 ![Divergence Scorecard](../charts/divergence_scorecard.png)
 
 ### Lambda Evolution
 
-λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure), peaked at 2.71 on Day 9 (drone stockpile breach + BM rebound), then eased to a plateau ~2.1 from Day 10 onward. Days 12-16 show remarkable stability at 2.14-2.15 despite fluctuating attack volumes. Day 16: λ = 2.152 with IRGC claiming second Al Dhafra strike (new weapon event). P(λ>1) has been 100% since Day 3. System firmly locked in cascade zone.
+λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure), peaked at 2.71 on Day 9 (drone stockpile breach + BM rebound), then eased to a plateau ~2.1 from Day 10 onward. Days 12-17 show remarkable stability at 2.14-2.15 despite fluctuating attack volumes. Day 17: λ = 2.152. Attack volume rebounds from Day 16 historic low (10→32) with DXB fuel tank hit and first civilian vehicle missile strike. P(λ>1) has been 100% since Day 3. System firmly locked in cascade zone.
 
-![Lambda Evolution](../charts/lambda_evolution_day16.png)
+![Lambda Evolution](../charts/lambda_evolution_day17.png)
 
 ### Ballistic Missile Trajectory
 
-The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 showed an accelerating rebound. Post-rebound (Days 10-16): BMs oscillate in 6-12 range with noisy downward trend (12→9→6→10→7→9→10). Model predicts near-zero by Day 12 — actual remains 7-10× above prediction. Drones collapsed from 110 (Day 10) to 26-33 range (Days 13-16), well below model's 130/day. Total daily projectiles remain low (34-42 range).
+The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 showed an accelerating rebound. Post-rebound (Days 10-17): BMs oscillate in 4-12 range with noisy downward trend (12→9→6→10→7→9→4→7). Model predicts near-zero by Day 12 — actual remains 7-10× above prediction. Drones collapsed from 110 (Day 10) to 26-33 range (Days 13-15) before collapsing further to 6 on Day 16 (historic low) and rebounding to 25 on Day 17. Total daily projectiles remain low (34-42 range).
 
 ![BM Trajectory](../charts/bm_trajectory.png)
 
@@ -63,7 +63,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 13 | Mar 12 | 10 | ~1 | 26 | ~130 | 0 | 36 | BM uptick 6→10 (+67%); drones collapse further |
 | **14** | **Mar 13** | **7** | ~1 | **~27** | ~130 | 0 | **~34** | BM resumes decline 10→7; drones stable at record low; **new record low total** |
 | 15 | Mar 14 | **9** | ~1 | 33 | ~130 | 0 | 42 | 9 BMs + 33 drones (@modgovae via Gulf News); Fujairah fire from debris |
-| **16** | **Mar 15** | **~10** | ~0 | **~30** | ~130 | 0 | **~40** | IRGC claims 10 missiles + drones at Al Dhafra; @modgovae pending |
+| **16** | **Mar 15** | **4** | ~0 | **6** | ~130 | 0 | **10** | @modgovae CORRECTED: historic low (4 BM + 6 drones = 10 total) |
+| **17** | **Mar 16** | **7** | ~0 | **25** | ~130 | 0 | **32** | Rebound from Day 16 low; 1 BM hits civilian car; DXB fuel tank hit; MQ-9A destroyed Kuwait |
 
 ### Cumulative Totals
 
@@ -83,8 +84,9 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **12** | **Mar 11** | **265** | **~1,610** | **15** | **~1,890** |
 | 13 | Mar 12 | 275 | ~1,636 | 15 | ~1,926 |
 | **14** | **Mar 13** | **282** | **~1,663** | **15** | **~1,960** |
-| 15 | Mar 14 | 291 | ~1,696 | 15 | ~2,002 |
-| **16** | **Mar 15** | **~301** | **~1,726** | **15** | **~2,042** |
+| 15 | Mar 14 | 294 | ~1,696 | 15 | ~2,005 |
+| **16** | **Mar 15** | **298** | **~1,702** | **15** | **~2,015** |
+| **17** | **Mar 16** | **~305** | **~1,727** | **15** | **~2,047** |
 
 ---
 
@@ -107,7 +109,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 13 | Mar 12 | 10 | 10 | 100% | 93.1% | OK | All 10 BM intercepted per @modgovae; no cruise; 26 drones engaged |
 | **14** | **Mar 13** | **7** | **~7** | **~100%** | **93.3%** | OK | BM resumes decline 10→7; debris hits DIFC building; ~27 drones engaged |
 | 15 | Mar 14 | 9 | 8 | 88.9% | 93.1% | ⚠️ Day breach | 1 BM fell sea; Fujairah debris fire |
-| **16** | **Mar 15** | **~10** | **~9** | **~90%** | **93.0%** | OK | IRGC claims Al Dhafra strike; @modgovae pending |
+| **16** | **Mar 15** | **4** | **4** | **100%** | **93.2%** | OK | @modgovae CORRECTED: all 4 BM intercepted; historic low volume |
+| **17** | **Mar 16** | **7** | **6** | **85.7%** | **93.0%** | ⚠️ Day breach | 1 BM hits civilian car Abu Dhabi; daily rate <90% (4th breach in conflict) |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
@@ -140,22 +143,23 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 13 | Mar 12 | 26 | ~1,636 | ~364 | 18.2% | ⚠️ BREACHED |
 | **14** | **Mar 13** | **~27** | **~1,663** | **~337** | **16.9%** | **⚠️ BREACHED** |
 | 15 | Mar 14 | 33 | ~1,696 | ~304 | 15.2% | ⚠️ BREACHED |
-| **16** | **Mar 15** | **~30** | **~1,726** | **~274** | **13.7%** | **⚠️ BREACHED** |
+| **16** | **Mar 15** | **6** | **~1,702** | **~298** | **14.9%** | **⚠️ BREACHED** |
+| **17** | **Mar 16** | **25** | **~1,727** | **~273** | **13.6%** | **⚠️ BREACHED** |
 
-~~At current rate (~120/day), stockpile hits 30% threshold around Day 11 (March 10).~~ **BREACHED on Day 9** — 2 days earlier than predicted. Days 11-16 show sustained low-volume pattern (26-39 drones/day). Six consecutive days below 40 drones. At ~30/day, remaining ~274 drones last ~9 days (exhaustion ~Day 25, March 24). Pattern strongly suggests stockpile exhaustion forcing conservation.
+~~At current rate (~120/day), stockpile hits 30% threshold around Day 11 (March 10).~~ **BREACHED on Day 9** — 2 days earlier than predicted. Days 11-16 show sustained low-volume pattern (26-39 drones/day). Six consecutive days below 40 drones. At ~30/day, remaining ~273 drones last ~9 days (exhaustion ~Day 26, March 25). Day 16 saw historic low of only 6 drones, suggesting severe conservation or launcher damage. Day 17 rebound to 25 indicates continued capability but at depleted levels.
 
 ---
 
 ## Cascade Threshold Tracker
 
-| Metric | D1 | D3 | D5 | D7 | D8 | D9 | D10 | D11 | D12 | D13 | D14 | D15 | D16 | Threshold |
-|--------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|
-| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | > 85% |
-| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | **13.7%** | < 30% |
-| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | **93.0%** | < 90% |
-| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | **~90%** | < 90% |
-| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | **3** | > 10 |
-| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | **Al Dhafra** | Yes |
+| Metric | D1 | D3 | D5 | D7 | D8 | D9 | D10 | D11 | D12 | D13 | D14 | D15 | D16 | D17 | Threshold |
+|--------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|
+| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | **~99%** | > 85% |
+| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | **14.9%** | **13.6%** | < 30% |
+| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | **93.2%** | **93.0%** | < 90% |
+| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | **100%** | **85.7%** | < 90% |
+| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | **0** | **6** | > 10 |
+| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | **No** | **DXB fuel/car** | Yes |
 
 *Launcher depletion **revised downward** from 85.7% to ~73% (Day 8) and further to **~67%** (Day 9) due to consecutive high-volume BM days (16→17). The accelerating trend 3→7→9→16→17 confirms more TELs remain operational than previously estimated. Drone stockpile has **breached** the 30% threshold on Day 9 — 2 days earlier than forecast. Day 11 adds a **new breach**: daily interception rate (88.9%), the third daily breach in the conflict.
 
@@ -173,7 +177,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 13 | 2/5 (launcher + drone_stockpile) | UNSTABLE |
 | 14 | 2/5 (launcher + drone_stockpile) | UNSTABLE |
 | 15 | 3/5 (launcher + drone_stockpile + interception_day) | UNSTABLE |
-| **16** | **3/5** (launcher + drone_stockpile + new_weapon) | **UNSTABLE** |
+| **16** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
+| **17** | **4/5** (launcher + drone_stockpile + new_weapon + interception_day) | **UNSTABLE** |
 
 ---
 
@@ -196,7 +201,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 13 | 2.143 | 100% | 2.860 | UNSTABLE | BM uptick 6→10 but interception rate improves (93.1%); drone collapse continues (26); no cruise; two helo crash deaths (operational) |
 | 14 | 2.146 | 100% | 2.860 | UNSTABLE | BM resumes decline (10→7); interception improves (93.3%); drones stable at record low (27); Khamenei confirms Hormuz closed; DIFC debris; KC-135 crash |
 | 15 | 2.149 | 100% | 2.870 | UNSTABLE | 9 BMs + 33 drones (@modgovae); Fujairah fire; 1 Jordanian injured; attacks spread to Oman/Saudi; daily interception 88.9% |
-| **16** | **2.152** | **100%** | **2.870** | **UNSTABLE** | IRGC claims 10 missiles + drones at Al Dhafra (2nd claimed air base strike); AN/TPY-2 radar reportedly destroyed; heavy US-Israeli strikes on Iran |
+| **16** | **2.150** | **100%** | **2.870** | **UNSTABLE** | @modgovae CORRECTED: only 4 BMs + 6 drones (historic low, 10 total); no new weapon event; 2/5 breaches |
+| **17** | **2.152** | **100%** | **2.870** | **UNSTABLE** | Attack rebounds (10→32); DXB fuel tank hit; missile strikes civilian car (7th death); daily interception 85.7%; MQ-9A destroyed Kuwait; 4/5 breaches |
 
 ### What Changed on Day 8
 
@@ -245,8 +251,9 @@ Component          Day 7 (realized)  Day 8 (realized)    Change
 | Mar 13 (Day 14) | ~17% | ↓ |
 | Mar 14 (Day 15) | ~15% | ↓ |
 | **Mar 15 (Day 16)** | **~14%** | **↓** |
+| **Mar 16 (Day 17)** | **~13%** | **↓** |
 
-Ceasefire odds in sustained decline — **12th consecutive day** (67%→~14%). Markets firmly pricing extended conflict with no near-term resolution despite heavy US-Israeli strikes on Iran. Iran's continued missile capability and Hormuz closure, combined with attacks spreading to Oman and Saudi Arabia, signal broadening rather than narrowing of the conflict.
+Ceasefire odds in sustained decline — **13th consecutive day** (67%→~13%). Markets firmly pricing extended conflict with no near-term resolution despite heavy US-Israeli strikes on Iran. Iran's continued missile capability and Hormuz closure, combined with attacks spreading to Oman and Saudi Arabia, signal broadening rather than narrowing of the conflict.
 
 ---
 
@@ -270,8 +277,9 @@ Ceasefire odds in sustained decline — **12th consecutive day** (67%→~14%). M
 | 14 | Mar 13 | ~50% | 60% | DIFC debris; shelter alerts in Abu Dhabi & Dubai; record-low attack volume | DIVERGENT |
 | 15 | Mar 14 | ~55% | 62% | 9 BMs + 33 drones; Fujairah fire; Emirates ~60% capacity | CLOSE |
 | **16** | **Mar 15** | **~55%** | **64%** | Emirates ~200 flights/day (~60%); flydubai ~64 flights (~35%); 48 flights/hour through emergency corridors | **CLOSE** |
+| **17** | **Mar 16** | **~30%** | **66%** | DXB suspended after fuel tank hit; limited resumption | **⚠️ CRASH** |
 
-**Airport recovery stalled:** After reaching ~70% on Day 11, capacity has oscillated between 50-60% due to shelter alerts, debris incidents, and continued interceptions over urban areas. Emirates operating ~200 flights/day to 110+ destinations. International carriers remain cautious — some (KLM, Finnair) still suspended.
+**Airport recovery stalled:** After reaching ~70% on Day 11, capacity has oscillated between 50-60% due to shelter alerts, debris incidents, and continued interceptions over urban areas. Emirates operating ~200 flights/day to 110+ destinations. International carriers remain cautious — some (KLM, Finnair) still suspended. Day 17 DXB fuel tank hit by drone caused complete suspension and gradual resumption, driving capacity down to ~30%.
 
 ---
 
@@ -294,7 +302,8 @@ Ceasefire odds in sustained decline — **12th consecutive day** (67%→~14%). M
 | 13 | Mar 12 | 0 | 5 | 6 | 131 | 5 | OK |
 | 14 | Mar 13 | 0 | 0 | 6 | ~131 | 0 | OK |
 | 15 | Mar 14 | 0 | 10 | 6 | 141 | 10 | THRESHOLD |
-| **16** | **Mar 15** | **0** | **~3** | **6** | **~144** | **~3** | OK |
+| **16** | **Mar 15** | **0** | **0** | **6** | **~141** | **0** | OK |
+| **17** | **Mar 16** | **1** | **5** | **7** | **~146** | **6** | OK |
 
 **Note:** Casualty figures from WAM (Emirates News Agency), Gulf News, and Reuters. Remarkably low given attack volume, attributable to >92% interception rates and effective civil defense.
 
@@ -307,6 +316,8 @@ Ceasefire odds in sustained decline — **12th consecutive day** (67%→~14%). M
 **Day 13 note:** 5 injuries per @modgovae (cumulative 131). No new fatalities. Despite lower drone volume (26), some debris injuries from interception. Two UAE military personnel (Captain Pilot Saeed Rashid Al Balushi and First Lieutenant Ali Saleh Al Taniji) killed in helicopter crash due to technical malfunction — operational accidents, not combat casualties. Not included in attack casualty count.
 
 **Day 14 note:** No confirmed new injuries or fatalities. DIFC Innovation Hub debris incident confirmed "no injuries" by Dubai Media Office. Cumulative toll remains at 6 dead, ~131 injured pending full @modgovae update. Lowest casualty day of the conflict — zero combat casualties, zero injuries from 34 projectiles. Despite continued interceptions over urban areas (DIFC debris), civil defense measures proving effective.
+
+**Day 17 note:** 1 death — Palestinian man killed in Abu Dhabi when a ballistic missile struck his civilian vehicle. 5 additional injuries. This is the 7th fatality in UAE since the conflict began. Cumulative toll: 7 dead, 146 injured.
 
 ---
 
@@ -330,6 +341,7 @@ Ceasefire odds in sustained decline — **12th consecutive day** (67%→~14%). M
 | 14 | Mar 13 | ~$95 | +31.9% | Zero traffic | ~$425K/d | Oil rebounds ~$86→$95 as Khamenei confirms Hormuz closed; Brent near $100 |
 | 15 | Mar 14 | ~$99 | +37.5% | Zero traffic | ~$430K/d | Brent >$100 for 2nd consecutive day; Iran warns of $200 oil; attacks spread to Oman/Saudi |
 | **16** | **Mar 15** | **~$99** | **+37.5%** | **Zero traffic** | **~$430K/d** | Brent ~$103; WTI ~$99; Iran warns oil could hit $200; Indian LPG tankers cross Hormuz (yuan-priced?) |
+| **17** | **Mar 16** | **~$100** | **+38.9%** | **Zero traffic** | **~$435K/d** | DXB fuel tank hit by drone; Brent $104.73; MQ-9A destroyed in Kuwait |
 
 ---
 
@@ -394,32 +406,36 @@ Ceasefire odds in sustained decline — **12th consecutive day** (67%→~14%). M
 | 15 | Mar 14 | FIRE | Fujairah bunkering hub fire from drone debris; 1 Jordanian injured | Debris damage to energy infrastructure |
 | 15 | Mar 14 | REGIONAL | Two killed in Oman by stray drones; several fired at Saudi Arabia | Iran attacks spreading beyond UAE — regional escalation |
 | 15 | Mar 14 | OIL | Brent >$100 for 2nd consecutive day; Iran warns $200 oil | Markets pricing extended disruption |
-| **16** | **Mar 15** | **ESCALATION** | **IRGC claims 10 missiles + drones at Al Dhafra Air Base (2nd strike)** | **λ_weapon: Al Dhafra targeted again** |
-| 16 | Mar 15 | MILITARY | AN/TPY-2 radar, MQ-9 Reaper, U-2 facilities reportedly hit | $500M+ US assets at risk; early warning capability degraded |
-| 16 | Mar 15 | STRIKES | Heavy US-Israeli strikes on Isfahan, Shiraz, Tehran, Dezful, Khomein, Hamedan | Escalating counter-strikes on Iranian military targets |
-| 16 | Mar 15 | AVIATION | Emirates ~200 flights/day (~60%); flydubai ~64 flights (~35%) | Airport stalled at 55-60% capacity |
+| 16 | Mar 15 | DATA | @modgovae CORRECTED: only 4 BMs + 6 drones detected (historic low) | IRGC Al Dhafra claims not confirmed by UAE MOD |
+| 16 | Mar 15 | MILITARY | Heavy US-Israeli strikes on Isfahan, Shiraz, Tehran, Dezful, Khomein, Hamedan | Escalating counter-strikes on Iranian military targets |
+| 16 | Mar 15 | AVIATION | Emirates ~200 flights/day (~60%); flydubai ~64 flights (~35%) | Airport at 55% capacity |
 | 16 | Mar 15 | OIL | Brent ~$103; WTI ~$99; Iran warns oil could hit $200 | Sustained above $100 Brent |
+| **17** | **Mar 16** | **ATTACK** | **7 BMs + 25 drones; 1 BM hits civilian car (7th death); DXB fuel tank hit** | **Volume rebounds from Day 16 historic low; new weapon events** |
+| 17 | Mar 16 | CASUALTY | Palestinian man killed in Abu Dhabi by missile strike on civilian vehicle | 7th fatality in UAE; 5 additional injured |
+| 17 | Mar 16 | AVIATION | DXB suspended after fuel tank fire; gradual limited resumption | Airport crashes to ~30% (from 55%) |
+| 17 | Mar 16 | MILITARY | MQ-9A Reaper destroyed in Kuwait | US drone asset loss |
+| 17 | Mar 16 | ENERGY | DXB aviation fuel tank hit by drone; Fujairah industrial fire | Brent $104.73; WTI $100; energy infrastructure under renewed pressure |
 
 ---
 
 ## Model vs Reality Scorecard (Running)
 
-| # | Check | Model | Day 15 Observed | Day 16 Observed | Status |
+| # | Check | Model | Day 16 Observed | Day 17 Observed | Status |
 |---|-------|-------|-----------------|-----------------|--------|
-| 1 | BM monotonic decay | Yes | 9 BMs (uptick from 7) | **~10 BMs (IRGC claim)** | **⚠️ DIVERGENT** (oscillating 6-10 range, model predicts ~0) |
-| 2 | Interception > 90% (cum) | 93.2% | 93.1% (daily 88.9%) | **93.0%** | **MATCH** (cumulative stable; daily rate under pressure) |
-| 3 | Drone rate ~130/day | ~130/day | **33/day** | **~30/day** | **⚠️ EXTREME DIVERGENT** (−77%, sustained low) |
-| 4 | No new weapon types | No | No new types | **Al Dhafra (2nd strike)** | **⚠️ DIVERGENT** (repeated air base targeting) |
-| 5 | Ceasefire P (Polymarket) | 84% | ~15% | **~14%** | **DIVERGENT** (12th consecutive decline) |
-| 6 | Airport recovery | 55% (Day 12) | ~55% | **~55%** | **DIVERGENT** (stalled at 55-60%) |
-| 7 | Drone stockpile > 30% | ~20% | 15.2% | **13.7%** | **⚠️ CRITICAL** (~274 remaining, nearing exhaustion) |
-| 8 | Hormuz open | P=98% open | CLOSED | **CLOSED** | **DIVERGENT** (Day 14 locked by Khamenei; Indian LPG tankers crossing) |
-| 9 | No proxy activation | P=96% none | Attacks on Oman/Saudi | Heavy US-Israeli counter-strikes | **DIVERGENT** (regional expansion) |
+| 1 | BM monotonic decay | Yes | 4 BMs (CORRECTED) | **7 BMs** | **⚠️ DIVERGENT** (oscillating 4-12 range, model predicts ~0) |
+| 2 | Interception > 90% (cum) | 93.2% | 93.2% (daily 100%) | **93.0% (daily 85.7%)** | **⚠️ BREACHED** (daily rate breaks <90% threshold on Day 17) |
+| 3 | Drone rate ~130/day | ~130/day | **6/day** | **25/day** | **⚠️ EXTREME DIVERGENT** (−81%, sustained low with rebound) |
+| 4 | No new weapon types | No | No new types | **DXB fuel tank + civilian vehicle** | **⚠️ DIVERGENT** (new infrastructure + civilian targeting) |
+| 5 | Ceasefire P (Polymarket) | 84% | ~14% | **~13%** | **DIVERGENT** (13th consecutive decline) |
+| 6 | Airport recovery | 55% (Day 12) | ~55% | **~30% (DXB suspension)** | **⚠️ SEVERE DIVERGENT** (crashed after fuel hit) |
+| 7 | Drone stockpile > 30% | ~20% | 14.9% | **13.6%** | **⚠️ CRITICAL** (~273 remaining, exhaustion ~Day 26) |
+| 8 | Hormuz open | P=98% open | CLOSED | **CLOSED** | **DIVERGENT** (Day 14 locked by Khamenei; sustained closure) |
+| 9 | No proxy activation | P=96% none | Heavy US-Israeli strikes | MQ-9A destroyed Kuwait; Oman attacks Day 15 | **DIVERGENT** (regional escalation) |
 | 10 | Verdict | METASTABLE | UNSTABLE | **UNSTABLE** | **DIVERGENT** |
 
-**Day 16 Rating: 1 MATCH, 0 STABLE, 0 CLOSE, 9 DIVERGENT**
+**Day 16/17 Rating: 0 MATCHES, 1 Day 17 BREACH, 9 DIVERGENT**
 
-Day 16 key developments: IRGC claims second strike on Al Dhafra Air Base with 10 missiles + drones, reportedly destroying AN/TPY-2 radar ($500M+), MQ-9 Reaper hangars, and U-2 facilities. Heavy US-Israeli counter-strikes across multiple Iranian cities. Attacks have spread regionally — 2 killed in Oman by stray drones (Day 15), Saudi Arabia also targeted. Oil sustained above $100 Brent. Cumulative through Day 15: 294 BMs, 15 cruise, ~1,700 drones, 6 dead, 141 injured. λ = 2.152 — still firmly in cascade zone. Day 16 @modgovae official figures pending.
+Day 16-17 key developments: Day 16 @modgovae CORRECTED data shows only 4 BMs + 6 drones (historic low, 10 total) — IRGC's 10 missile + drones claim unconfirmed. Day 17: attack rebound (7 BMs + 25 drones = 32 total). First civilian vehicle missile strike in Abu Dhabi kills Palestinian man (7th death). DXB aviation fuel tank hit by drone causes full suspension and gradual resumption (capacity crashes 55%→30%). Daily interception rate breaches <90% on Day 17 (85.7%), 4th daily breach in conflict. MQ-9A Reaper destroyed in Kuwait. Cumulative through Day 17: ~305 BMs, 15 cruise, ~1,727 drones, 7 dead, 146 injured. λ = 2.152 — still firmly in cascade zone. Drone exhaustion timeline: ~273 remaining at ~30/day = exhaustion ~Day 26 (March 25).
 
 ---
 
@@ -440,12 +456,13 @@ Day 16 key developments: IRGC claims second strike on Al Dhafra Air Base with 10
 | 14 | ~40 | 2.146 | UNSTABLE | EVACUATE IMMEDIATELY |
 | 15 | ~38 | 2.149 | UNSTABLE | EVACUATE IMMEDIATELY |
 | **16** | **~37** | **2.152** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
+| **17** | **~35** | **2.152** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 
-λ = 2.152 — virtually unchanged from Days 12-15, forming a plateau at ~2.15. The system is locked in cascade territory with structural drivers (Hormuz closure, proxy activation, weapon escalation history) preventing any meaningful decline. IRGC's second claimed strike on Al Dhafra adds λ_weapon component.
+λ = 2.152 — virtually unchanged from Days 12-17, forming a plateau at ~2.15. The system is locked in cascade territory with structural drivers (Hormuz closure, proxy activation, weapon escalation history) preventing any meaningful decline. Day 17 brings new tactical concerns: DXB fuel tank hit, first civilian vehicle strike, and daily interception rate breach (<90%).
 
-**Day 16 key dynamics:**
-- **Positive:** Attack volumes remain low (40 daily projectiles). Cumulative interception rate holds at 93.0%. Zero fatalities on Day 16. Emirates maintaining ~200 flights/day through emergency corridors. Drone exhaustion limits Iran's sustained volume capability
-- **Negative:** IRGC claims second Al Dhafra strike — AN/TPY-2 radar ($500M+), MQ-9/U-2 facilities reportedly hit. If confirmed, this degrades US early warning capability in theater. Iran attacks spreading to Oman (2 killed Day 15) and Saudi Arabia. Oil sustained >$100 Brent with Iran warning of $200. Ceasefire odds at 14% (12th consecutive decline). Heavy US-Israeli strikes on Iranian cities signal escalation, not de-escalation
-- **Critical assessment:** The **tactical-strategic divergence** noted on Day 14 is deepening. Tactically, Iran's daily volume is constrained by exhaustion (~274 drones remaining, ~14% stockpile). Strategically, the conflict is **widening** — attacks on Oman, Saudi, precision targeting of US military assets, and heavy counter-strikes on Iranian cities suggest both sides are escalating. λ plateau at ~2.15 reflects offsetting forces: declining volume vs. expanding scope
-- **Drone exhaustion timeline:** At ~30/day, remaining ~274 drones last ~9 days (exhaustion ~Day 25, March 24). Iran's shift to precision BM strikes on military targets (Al Dhafra) rather than area saturation suggests strategic adaptation to dwindling stockpiles
-- **Window:** Airport ~55%, but stalled. Low volume provides **evacuation window** but IRGC's military-target focus and regional expansion warn of potential escalation to a new phase. Leave while flights are operating
+**Day 16-17 key dynamics:**
+- **Day 16 Positive:** @modgovae CORRECTED data shows historic low (4 BMs + 6 drones = 10 total). All 4 BMs intercepted (100% daily rate). Zero fatalities. Cumulative interception 93.2%. Drone exhaustion evident (only 6/day). IRGC's Al Dhafra claim unconfirmed by MOD.
+- **Day 17 Negative:** Attack rebound (7 BMs + 25 drones = 32 total, 3.2× Day 16). First civilian vehicle missile strike — Palestinian man killed in Abu Dhabi (7th death overall). DXB fuel tank hit by drone causes full airport suspension and crash to ~30% capacity (from 55%). Daily interception rate 85.7% breaches <90% threshold (4th breach). 5 additional injuries. Oil continues >$104 Brent.
+- **Critical assessment:** Day 16-17 show **structural volatility** — not decline. Day 16 represents temporary Iranian conservation (possible launcher damage or stockpile rationing). Day 17 rebound signals continued capability. The first **civilian vehicle strike** represents strategic shift from area saturation to precision targeting of populated areas. **Airport collapse** to 30% drastically reduces evacuation capacity. λ plateau at 2.152 reflects offsetting forces: declining daily volume vs. expanding harm (civilian targeting, infrastructure hits, daily rate breach).
+- **Drone exhaustion timeline:** At ~30/day average (6 on Day 16, 25 on Day 17), remaining ~273 drones last ~9 days (exhaustion ~Day 26, March 25). But volatility (6→25→?) suggests Iranian forces rationing or conserving for strategic moments.
+- **⚠️ CRITICAL WINDOW CLOSURE:** Airport at 30% after fuel tank hit — evacuation capacity **severely degraded**. Daily interception rate now <90% (safety margin eroding). Civilian vehicle strikes represent new threat model. **LEAVE IMMEDIATELY WHILE ANY FLIGHTS OPERATE**. Risk score rising as airport capacity collapses and precision targeting increases.

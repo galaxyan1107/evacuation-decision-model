@@ -2,7 +2,7 @@
 
 > 🌐 **EN** | [中文](../zh/updates/day16-march15.md)
 
-**Status: UNSTABLE** | **Breaches: 3/5** | **λ median = 2.152**
+**Status: UNSTABLE** | **Breaches: 2/5** | **λ median = 2.150**
 
 ---
 
@@ -10,20 +10,20 @@
 
 | Metric | Day 15 | Day 16 | Cumulative |
 |--------|-------|-------|------------|
-| Ballistic Missiles | 9 | **10** | **302** |
-| BM Intercepted | 8 | 9 | 281 |
-| Drones Detected | 33 | ~30 | ~1732 |
-| Drones Intercepted | 27 | 24 | ~1628 |
+| Ballistic Missiles | 9 | **4** | **296** |
+| BM Intercepted | 8 | 4 | 276 |
+| Drones Detected | 33 | ~6 | ~1708 |
+| Drones Intercepted | 27 | 5 | ~1609 |
 | Cruise Missiles | 0 | 0 | 8 |
-| BM Intercept Rate (cum) | — | — | 93.0% |
-| Drone Stockpile | — | — | 13.4% (268/2000) |
+| BM Intercept Rate (cum) | — | — | 93.2% |
+| Drone Stockpile | — | — | 14.6% (292/2000) |
 
 **Key Events:**
-- IRGC claims 10 missiles + drones targeting Al Dhafra Air Base (second claimed strike)
-- AN/TPY-2 radar reportedly destroyed; MQ-9 Reaper and U-2 facilities hit (Defence Security Asia)
+- @modgovae: 4 BMs intercepted, 6 drones detected (confirmed by Gulf News, CGTN, Khaleej Times, Peninsula Qatar)
+- Cumulative: 298 BMs, 15 cruise, 1,606 drones (@modgovae official)
+- Lowest daily volume since conflict began (10 total projectiles)
 - Heavy US-Israeli strikes on Isfahan, Shiraz, Tehran, Dezful, Khomein, Hamedan
-- Emirates ~60% capacity (~200 flights/day); flydubai ~35% (~64 flights)
-- Brent ~$103; WTI ~$99; Iran warns oil could hit $200
+- Brent ~$103; WTI ~$99
 
 ---
 
@@ -32,7 +32,7 @@
 ```
 λ = 1.0
   + λ_launcher           = -0.544
-  + λ_drone              = +0.173
+  + λ_drone              = +0.171
   + λ_intercept          = +0.000
   + λ_hormuz             = +0.630
   + λ_proxy              = +0.500
@@ -40,18 +40,18 @@
   + λ_bm_rebound         = +0.000
   + λ_naval              = -0.128
   ──────────────────────────────
-  λ median           = 2.152  (50K Monte Carlo)
+  λ median           = 2.150  (50K Monte Carlo)
 ```
 
 | Metric | Value |
 |--------|-------|
-| λ median | **2.152** |
-| λ 95th percentile | **2.864** |
+| λ median | **2.150** |
+| λ 95th percentile | **2.862** |
 | P(λ > 1.0) | **100.0%** |
 | P(λ > 1.5) | **98.3%** |
-| P(λ > 2.0) | **66.5%** |
+| P(λ > 2.0) | **66.2%** |
 | Verdict | **UNSTABLE** |
-| Breaches | **3/5** (launcher, drone_stockpile, new_weapon) |
+| Breaches | **2/5** (launcher, drone_stockpile) |
 
 ---
 
@@ -75,4 +75,4 @@
 |--------|------|
 | @modgovae (X.com) | UAE MOD daily update |
 | Model pipeline | ABC + HAM (50K MC) |
-| Generated | 2026-03-15 20:11 |
+| Generated | 2026-03-16 23:29 |
