@@ -622,6 +622,81 @@
         "air_base_strike": true
       },
       "notes": "7th death in UAE (Palestinian, Abu Dhabi missile strike). DXB suspended then resumed limited. Fujairah industrial fire. Attack volume rebounds from Day 16 historic low (10→32). MQ-9A destroyed in Kuwait."
+    },
+    {
+      "day": 18,
+      "date": "2026-03-17",
+      "bm_detected": 10,
+      "bm_intercepted": 10,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 45,
+      "drones_intercepted": 38,
+      "drones_fell_uae": 7,
+      "cruise_missiles": 0,
+      "deaths": 1,
+      "injuries": 11,
+      "airport_capacity_pct": 35,
+      "oil_wti": 97,
+      "vlcc_rate": 440000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 5,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 11,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "@modgovae: 10 BMs intercepted, 45 drones detected; cumulative 314 BMs, 1,672 drones, 15 cruise",
+        "Pakistani citizen killed by interception debris in Baniyas, Abu Dhabi (8th death total)",
+        "UAE airspace closed early morning, reopened by 5am; flights gradually resumed",
+        "Fujairah Oil Industry Zone fire from drone attack; no casualties",
+        "HRW condemns Iran unlawful strikes across Gulf endangering civilians",
+        "~90 ships crossed Hormuz since war began; selective Iran-permitted transit emerging"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "10 BMs all intercepted; 45 drones; 8th death (Pakistani, Abu Dhabi debris); airspace briefly closed; Fujairah fire; selective Hormuz transits emerging"
+    },
+    {
+      "day": 19,
+      "date": "2026-03-18",
+      "bm_detected": 13,
+      "bm_intercepted": 13,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 27,
+      "drones_intercepted": 22,
+      "drones_fell_uae": 5,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 5,
+      "airport_capacity_pct": 40,
+      "oil_wti": 94,
+      "vlcc_rate": 445000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 8,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 10,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "@modgovae: 13 BMs intercepted, 27 drones; cumulative 327 BMs, 1,699 drones, 15 cruise",
+        "Brent surges to $108.78 (+$5.80); WTI at $94; VLCC rates hit record $423K-445K/day",
+        "Iran allowing more ships through Hormuz; selective transit expanding (~90 since war began)",
+        "Fed begins two-day policy meeting amid oil price surge concerns",
+        "Emirates operating limited schedule to 110 destinations; most intl carriers still suspended"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "13 BMs all intercepted; 27 drones; Brent surges to $108; VLCC rates hit record; selective Hormuz transit expanding; Fed meeting begins"
     }
   ]
 }
