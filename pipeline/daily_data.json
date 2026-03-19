@@ -697,6 +697,45 @@
         "air_base_strike": true
       },
       "notes": "13 BMs all intercepted; 27 drones; Brent surges to $108; VLCC rates hit record; selective Hormuz transit expanding; Fed meeting begins"
+    },
+    {
+      "day": 20,
+      "date": "2026-03-19",
+      "bm_detected": 7,
+      "bm_intercepted": 7,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 15,
+      "drones_intercepted": 13,
+      "drones_fell_uae": 2,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 0,
+      "airport_capacity_pct": 45,
+      "oil_wti": 97,
+      "vlcc_rate": 450000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 12,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 10,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "@modgovae: 7 BMs intercepted, 15 drones detected (~13 intercepted); cumulative 334 BMs, 1,714 drones, 15 cruise",
+        "Iran strikes Qatar Ras Laffan LNG facility — 17% of Qatar LNG capacity knocked out for 3-5 years; QatarEnergy may declare force majeure",
+        "Oil briefly hits $119/bbl intraday; Brent closes ~$113; WTI ~$97; largest single-day energy infrastructure hit of conflict",
+        "Qatar expels Iranian military attaches following LNG facility strike",
+        "Missile warning sent to Dubai and Abu Dhabi residents at 7:30am; DXB operating ~45% capacity",
+        "Hormuz selective transits nearly doubled; ~12 vessels through today; IMO emergency talks underway",
+        "Cumulative: 8 dead, ~158 injured (@modgovae); no new casualties reported today"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "Lowest UAE attack volume of conflict (22 total projectiles: 7 BMs + 15 drones). Major escalation: Iran destroys 17% of Qatar LNG capacity at Ras Laffan. Oil spikes to $119 intraday. Hormuz selective transits expanding. Sources: @modgovae via Dubai Eye 103.8, The National, ARN News; Al Jazeera, Bloomberg, CNBC on Qatar/oil."
     }
   ]
 }
