@@ -20,6 +20,7 @@
 ## Daily Updates
 
 * [📊 Day-by-Day Tracker](updates/daily-tracker.md)
+* [Day 21 — March 20 ⚠️ UNSTABLE](updates/day21-march20.md)
 * [Day 20 — March 19 ⚠️ UNSTABLE](updates/day20-march19.md)
 * [Day 19 — March 18 ⚠️ UNSTABLE](updates/day19-march18.md)
 * [Day 18 — March 17 ⚠️ UNSTABLE](updates/day18-march17.md)
@@ -33,7 +34,6 @@
 * [Day 10 — March 9 ⚠️ UNSTABLE](updates/day10-march9.md)
 * [Day 9 — March 8 ⚠️ UNSTABLE](updates/day9-march8.md)
 * [Day 8 — March 7 ⚠️ UNSTABLE](updates/day8-march7.md)
-* [Day 21 — March 20 ⚠️ UNSTABLE](updates/day21-march20.md)
 
 ## Reference
 
@@ -61,6 +61,7 @@
 ### 每日更新
 
 * [📊 逐日追踪](zh/updates/daily-tracker.md)
+* [第21天 — 3月20日 ⚠️ 不稳定](zh/updates/day21-march20.md)
 * [第20天 — 3月19日 ⚠️ 不稳定](zh/updates/day20-march19.md)
 * [第19天 — 3月18日 ⚠️ 不稳定](zh/updates/day19-march18.md)
 * [第18天 — 3月17日 ⚠️ 不稳定](zh/updates/day18-march17.md)
@@ -74,7 +75,6 @@
 * [第10天 — 3月9日 ⚠️ 不稳定](zh/updates/day10-march9.md)
 * [第9天 — 3月8日 ⚠️ 不稳定](zh/updates/day9-march8.md)
 * [第8天 — 3月7日 ⚠️ 不稳定](zh/updates/day8-march7.md)
-* [第21天 — 3月20日 ⚠️ 不稳定](zh/updates/day21-march20.md)
 
 ### 参考
 
