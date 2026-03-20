@@ -736,6 +736,46 @@
         "air_base_strike": true
       },
       "notes": "Lowest UAE attack volume of conflict (22 total projectiles: 7 BMs + 15 drones). Major escalation: Iran destroys 17% of Qatar LNG capacity at Ras Laffan. Oil spikes to $119 intraday. Hormuz selective transits expanding. Sources: @modgovae via Dubai Eye 103.8, The National, ARN News; Al Jazeera, Bloomberg, CNBC on Qatar/oil."
+    },
+    {
+      "day": 21,
+      "date": "2026-03-20",
+      "bm_detected": 4,
+      "bm_intercepted": 4,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 26,
+      "drones_intercepted": 22,
+      "drones_fell_uae": 4,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 3,
+      "airport_capacity_pct": 40,
+      "oil_wti": 97,
+      "vlcc_rate": 450000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 15,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 8,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "@modgovae: 4 BMs intercepted, 26 drones detected (~22 intercepted); cumulative 338 BMs, 15 cruise, 1,740 drones",
+        "Eid al-Fitr — conflict continues through holiday; no ceasefire despite diplomatic hopes",
+        "Foreign airlines remain banned from DXB since Mar 17; only Emirates and flydubai operating (~40% capacity)",
+        "US weighs releasing sanctioned Iranian crude to ease oil prices (CNBC)",
+        "Brent drops to ~$107 (from $113 close); WTI ~$97; Citi raises forecast to $120 near-term",
+        "Polymarket ceasefire-by-Mar-31 odds collapse to 8% (from 10%)",
+        "Hormuz selective transits continue expanding; ~15 vessels through today; IMO emergency talks ongoing",
+        "Cumulative: 8 dead, ~161 injured (@modgovae)"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "Eid al-Fitr day. @modgovae confirms 4 BMs + 26 drones (30 total projectiles, slight rebound from Day 20 historic low of 22). All BMs intercepted. 0 deaths; 3 minor debris injuries. Brent eases to ~$107 as US considers releasing seized Iranian crude. Polymarket ceasefire odds hit new low at 8%. Hormuz selective transits expanding (~15/day). Sources: @modgovae via Dubai Eye 103.8, TAG91.1, Dubai92; CNBC, Fortune on oil; Polymarket."
     }
   ]
 }
