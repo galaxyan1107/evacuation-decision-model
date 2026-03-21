@@ -2,7 +2,7 @@
 
 > 🌐 **EN** | [中文](../zh/updates/daily-tracker.md)
 
-**Last Updated: March 20, 2026 (Day 21)**
+**Last Updated: March 21, 2026 (Day 22)**
 
 This page tracks daily changes across all model inputs, compares model predictions against observed data, and flags breaches as they occur.
 
@@ -12,13 +12,13 @@ This page tracks daily changes across all model inputs, compares model predictio
 
 ### Divergence Heatmap
 
-Day-by-day percentage deviation across all 6 tracked metrics (21 days). Red = actual exceeds model, blue = actual below model. Lambda divergence dominates from Day 3 onward (+240% → +360%). Drone divergence extreme from Day 11 onward (actual 6-45 vs model ~130). BMs oscillate in 4-13 range (Days 12-21), well above model's near-zero prediction. Day 21: 4 BMs + 26 drones (30 total, slight rebound from Day 20's conflict low of 22); Brent eases to $107 as US considers releasing seized Iranian crude; Eid al-Fitr passes without ceasefire.
+Day-by-day percentage deviation across all 6 tracked metrics (22 days). Red = actual exceeds model, blue = actual below model. Lambda divergence dominates from Day 3 onward (+240% → +360%). Drone divergence extreme from Day 11 onward (actual 6-45 vs model ~130). BMs oscillate in 3-13 range (Days 12-22), well above model's near-zero prediction. Day 22: 3 BMs + 8 drones (11 total, second-lowest after Day 16's 10); US strikes Natanz nuclear facility; Iran offers Japan Hormuz passage; Diego Garcia targeted unsuccessfully.
 
 ![Divergence Heatmap](../charts/divergence_heatmap.png)
 
 ### 6-Panel Comparison
 
-Side-by-side model (blue) vs actual (red) with ribbon fill showing the gap. Airport (green) was positive divergence until Day 17 DXB crash. Lambda (bottom-right) shows deep cascade zone. Drone stockpile (bottom-center) breaches 30% threshold on Day 9. Day 21 data included.
+Side-by-side model (blue) vs actual (red) with ribbon fill showing the gap. Airport (green) was positive divergence until Day 17 DXB crash. Lambda (bottom-right) shows deep cascade zone. Drone stockpile (bottom-center) breaches 30% threshold on Day 9. Day 22 data included.
 
 ![Model vs Actual](../charts/model_vs_actual_bars.png)
 
@@ -30,13 +30,13 @@ Stacked divergence shows lambda (purple) dominating total model error. Verdict t
 
 ### Lambda Evolution
 
-λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure), peaked at 2.71 on Day 9 (drone stockpile breach + BM rebound), then eased to a plateau ~2.1 from Day 10 onward. Days 12-18 showed remarkable stability at 2.14-2.16. Day 19 saw λ surge to 2.596 on BM rebound signal (3-day acceleration 7→10→13). Days 20-21: λ holds at ~2.16 as BMs remain low (7→4). P(λ>1) has been 100% since Day 3. Day 21 λ = 2.163 — essentially flat from Day 20 (2.161). The system is locked in a stable cascade regime. Eid al-Fitr passes without ceasefire; Polymarket odds at 8%.
+λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure), peaked at 2.71 on Day 9 (drone stockpile breach + BM rebound), then eased to a plateau ~2.1 from Day 10 onward. Days 12-18 showed remarkable stability at 2.14-2.16. Day 19 saw λ surge to 2.596 on BM rebound signal (3-day acceleration 7→10→13). Days 20-22: λ holds steady at ~2.16 as BMs remain low (7→4→3). P(λ>1) has been 100% since Day 3. Day 22 λ = 2.164 — essentially flat. The system is locked in a stable cascade regime. US strikes Natanz; Iran offers Japan Hormuz passage; Trump mulls 'winding down' war.
 
-![Lambda Evolution](../charts/lambda_evolution_day21.png)
+![Lambda Evolution](../charts/lambda_evolution_day22.png)
 
 ### Ballistic Missile Trajectory
 
-The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 showed an accelerating rebound. Post-rebound (Days 10-21): BMs oscillate in 4-13 range with noisy pattern (12→9→6→10→7→9→4→7→10→13→7→4). Day 21: 4 BMs — ties Day 16 for lowest BM count. Drones rebound slightly to 26 (from 15 on Day 20). Total projectiles at 30, a slight uptick from Day 20's conflict-low 22 but still in the low-volume regime (Days 16-21 avg ~30/day vs Days 1-10 avg ~170/day). Iran may be conserving for regional energy targets. Brent eases to $107 as US considers releasing seized Iranian crude. VLCC rates hold at $450K/day.
+The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 showed an accelerating rebound. Post-rebound (Days 10-22): BMs oscillate in 3-13 range with noisy pattern (12→9→6→10→7→9→4→7→10→13→7→4→3). Day 22: 3 BMs — lowest BM count of entire conflict. Drones down to 8 (from 26 on Day 21). Total projectiles at 11, the second-lowest since Day 16's 10. Iran dramatically curtailing UAE strikes (Days 16-22 avg ~20/day vs Days 1-10 avg ~170/day). US strikes Natanz nuclear facility; Iran offers Japan Hormuz passage; Trump mulls 'winding down' war suggests strategic shift. VLCC rates at $440K/day.
 
 ![BM Trajectory](../charts/bm_trajectory.png)
 
@@ -69,6 +69,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **19** | **Mar 18** | **13** | ~0 | **27** | ~130 | 0 | **40** | @modgovae: 13 BMs + 27 drones; all BMs intercepted; Brent $108.78 (conflict high); VLCC $445K/d record; Fed meeting begins |
 | **20** | **Mar 19** | **7** | ~0 | **15** | ~130 | 0 | **22** | **Lowest UAE volume of conflict (22 total)**; Iran hits Qatar Ras Laffan LNG (17% capacity); Brent $113; oil briefly $119 |
 | **21** | **Mar 20** | **4** | ~0 | **26** | ~130 | 0 | **30** | Eid al-Fitr; BMs tie historic low (4); drones rebound 15→26; Brent eases to $107; Polymarket 8%; foreign airlines still banned from DXB |
+| **22** | **Mar 21** | **3** | ~0 | **8** | ~130 | 0 | **11** | **Second-lowest (Day 16: 10)**; US strikes Natanz nuclear facility; Iran offers Japan Hormuz passage; Diego Garcia targeted unsuccessfully; Trump mulls 'winding down' war |
 
 ### Cumulative Totals
 
@@ -95,6 +96,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **19** | **Mar 18** | **327** | **~1,699** | **15** | **~2,041** |
 | **20** | **Mar 19** | **334** | **~1,714** | **15** | **~2,063** |
 | **21** | **Mar 20** | **338** | **~1,740** | **15** | **~2,093** |
+| **22** | **Mar 21** | **341** | **1,748** | **15** | **2,104** |
 
 ---
 
@@ -123,6 +125,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **19** | **Mar 18** | **13** | **13** | **100%** | **~92.7%** | OK | @modgovae: 13 BMs all intercepted; cumulative 327 BMs; rate stable at 92.7% |
 | **20** | **Mar 19** | **7** | **7** | **100%** | **~92.8%** | OK | @modgovae: 7 BMs all intercepted; cumulative 334 BMs; 3rd consecutive 100% day rate |
 | **21** | **Mar 20** | **4** | **4** | **100%** | **~92.9%** | OK | @modgovae: 4 BMs all intercepted; cumulative 338 BMs; 4th consecutive 100% daily rate |
+| **22** | **Mar 21** | **3** | **3** | **100%** | **~93.0%** | OK | 3 BMs all intercepted; cumulative 341 BMs; 5th consecutive 100% daily rate; 8 drones engaged |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
@@ -161,23 +164,24 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **19** | **Mar 18** | **27** | **~1,699** | **~301** | **15.1%** | **⚠️ BREACHED** |
 | **20** | **Mar 19** | **15** | **~1,714** | **~286** | **14.3%** | **⚠️ BREACHED** |
 | **21** | **Mar 20** | **26** | **~1,740** | **~260** | **13.0%** | **⚠️ BREACHED** |
+| **22** | **Mar 21** | **8** | **1,748** | **252** | **12.6%** | **⚠️ BREACHED** |
 
 †**@modgovae correction:** Official cumulative through Day 18 is 1,672 UAVs (per @modgovae verified data), lower than tracker estimates (~1,727 through Day 17). Previous daily drone estimates used "~" approximations. @modgovae authoritative cumulative now adopted as baseline. Remaining stockpile revised upward to ~328 (16.4%).
 
-~~At current rate (~120/day), stockpile hits 30% threshold around Day 11 (March 10).~~ **BREACHED on Day 9** — 2 days earlier than predicted. Days 11-21 show sustained low-volume pattern (6-45 drones/day) with extreme volatility. Day 21's 26 drones is a slight rebound from Day 20's conflict-low 15. At @modgovae-verified cumulative of 1,740/2,000, remaining ~260 drones last ~10-17 days at current average (15-26/day). Pattern suggests Iran preserving UAV stockpile while escalating against energy infrastructure regionally.
+~~At current rate (~120/day), stockpile hits 30% threshold around Day 11 (March 10).~~ **BREACHED on Day 9** — 2 days earlier than predicted. Days 11-22 show sustained low-volume pattern (3-45 drones/day) with extreme volatility. Day 22's 8 drones represents dramatic curtailment. At @modgovae-verified cumulative of 1,748/2,000, remaining ~252 drones last ~15-30 days at current average (8/day). Pattern confirms Iran aggressively conserving UAV stockpile. Days 20-22: 15→26→8 drones shows tactical flexibility and reduced emphasis on UAE targeting, consistent with strategic shift toward regional energy infrastructure and diplomatic negotiations.
 
 ---
 
 ## Cascade Threshold Tracker
 
-| Metric | D1 | D3 | D5 | D7 | D8 | D9 | D10 | D11 | D12 | D13 | D14 | D15 | D16 | D17 | D18 | D19 | D20 | D21 | Threshold |
-|--------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|------|------|------|
-| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | > 85% |
-| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | 14.9% | 13.6% | 16.4%† | 15.1% | 14.3% | **13.0%** | < 30% |
-| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | 93.2% | 93.0% | ~92.7% | ~92.7% | ~92.8% | **~92.9%** | < 90% |
-| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | ~90% | 100% | 100% | **100%** | < 90% |
-| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | 0 | 6 | 12 | ~5 | 0 | **3** | > 10 |
-| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | No | DXB fuel/car | Fujairah port | No | No | **No** | Yes |
+| Metric | D1 | D3 | D5 | D7 | D8 | D9 | D10 | D11 | D12 | D13 | D14 | D15 | D16 | D17 | D18 | D19 | D20 | D21 | D22 | Threshold |
+|--------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | **~99%** | > 85% |
+| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | 14.9% | 13.6% | 16.4%† | 15.1% | 14.3% | **13.0%** | **12.6%** | < 30% |
+| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | 93.2% | 93.0% | ~92.7% | ~92.7% | ~92.8% | **~92.9%** | **~93.0%** | < 90% |
+| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | ~90% | 100% | 100% | **100%** | **100%** | < 90% |
+| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | 0 | 6 | 12 | ~5 | 0 | **3** | **0** | > 10 |
+| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | No | DXB fuel/car | Fujairah port | No | No | **No** | **No** | Yes |
 
 *Launcher depletion **revised downward** from 85.7% to ~73% (Day 8) and further to **~67%** (Day 9) due to consecutive high-volume BM days (16→17). The accelerating trend 3→7→9→16→17 confirms more TELs remain operational than previously estimated. Drone stockpile has **breached** the 30% threshold on Day 9 — 2 days earlier than forecast. Day 11 adds a **new breach**: daily interception rate (88.9%), the third daily breach in the conflict.
 
@@ -201,6 +205,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **19** | **1/5** (drone_stockpile) | **UNSTABLE** |
 | **20** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **21** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
+| **22** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 
 ---
 
@@ -229,6 +234,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **19** | **2.596** | **100%** | **3.310** | **UNSTABLE** | λ breaks plateau — surges 2.155→2.596 (+20%); BM rebound signal reactivates (7→10→13); 13 BMs all intercepted; 27 drones; Brent $108.78 (conflict high); VLCC $445K/d record; selective Hormuz transit expanding; Fed meeting; 1/5 breaches |
 | **20** | **2.161** | **100%** | **2.860** | **UNSTABLE** | λ corrects 2.596→2.161 (−17%) as BMs drop 13→7, deactivating rebound signal; drones hit conflict low (15); **Iran destroys 17% Qatar LNG at Ras Laffan**; Brent $113 ($119 intraday); 0 casualties; 2/5 breaches |
 | **21** | **2.163** | **100%** | **2.862** | **UNSTABLE** | λ flat at 2.163 (from 2.161); 4 BMs + 26 drones; Eid al-Fitr — no ceasefire; Polymarket 8%; Brent eases $107; foreign airlines banned from DXB; 3 minor injuries; 2/5 breaches |
+| **22** | **2.164** | **100%** | **2.863** | **UNSTABLE** | λ essentially flat at 2.164; 3 BMs + 8 drones (lowest BM count of conflict); US strikes Natanz; Iran offers Japan Hormuz passage; Diego Garcia targeted unsuccessfully; Trump mulls 'winding down' war; 0 casualties; 2/5 breaches |
 
 ### What Changed on Day 8
 
@@ -282,8 +288,9 @@ Component          Day 7 (realized)  Day 8 (realized)    Change
 | **Mar 18 (Day 19)** | **~10%** | **↑** |
 | **Mar 19 (Day 20)** | **~10%** | **→** |
 | **Mar 20 (Day 21)** | **~8%** | **↓** |
+| **Mar 21 (Day 22)** | **~7%** | **↓** |
 
-Ceasefire odds drop to 8% — new all-time low. Eid al-Fitr passes without any ceasefire or diplomatic breakthrough. Qatar Ras Laffan attack — the most significant energy infrastructure hit of the conflict — demonstrates Iran's willingness to strike beyond UAE, which paradoxically may not change ceasefire calculus (already priced at near-zero). The "military action through March 31" contract at ~89.5% implies markets see no end in sight. Iran's strategic shift from UAE targets to regional energy infrastructure (Qatar, Saudi) suggests broadening of the conflict rather than resolution.
+Ceasefire odds drop to 7% — new all-time low on Day 22. Markets have now priced in 16 consecutive days of ceasefire odds decline (Day 5: 67% → Day 22: 7%). Qatar Ras Laffan attack and expanded regional targeting combined with Trump's emerging "wind down" signals create contradictory market inputs. Iran's dramatic curtailment of UAE strikes (11 projectiles Day 22, second-lowest after Day 16) may reflect strategic consolidation rather than de-escalation intent. US Natanz strike and Iranian offer of Hormuz passage to Japan suggests multi-track diplomatic and military repositioning. The "military action through March 31" contract likely hovering ~85-90% implies markets see no ceasefire resolution by month-end.
 
 ---
 
@@ -312,8 +319,9 @@ Ceasefire odds drop to 8% — new all-time low. Eid al-Fitr passes without any c
 | **19** | **Mar 18** | **~40%** | **70%** | Emirates limited schedule to 110 destinations; flights gradually resuming; most intl carriers still suspended | ⚠️ RECOVERING |
 | **20** | **Mar 19** | **~45%** | **72%** | Missile warning sent 7:30am; DXB operating with gradual resumption; Emirates 5.3% cancel rate; Air India 48 flights | ⚠️ RECOVERING |
 | **21** | **Mar 20** | **~40%** | **74%** | Eid al-Fitr; foreign airlines banned since Mar 17; only Emirates + flydubai; Air France suspended through today; IndiGo/Air India resumed | ⚠️ LIMITED |
+| **22** | **Mar 21** | **~40%** | **75%** | Day 22; foreign airline ban continues; low attack volume (11 projectiles) provides stability; gradual resumption expected as threat perception eases | ⚠️ LIMITED |
 
-**Airport in crisis then partial recovery:** After reaching ~70% on Day 11, capacity crashed to ~30% on Day 17 (DXB fuel tank hit) and further to ~20% on Day 18 after GCAA closed entire UAE airspace. Days 19-21 show partial recovery to ~40-45% with Emirates and flydubai as only operators after GCAA banned foreign airlines from DXB on Mar 17. BA flights cancelled through May 31; Air France suspended through Mar 20; Air Canada through May 1. Indian carriers (IndiGo, Air India) resumed limited services. Model predicts 74% vs reality 40% — 1.85× gap, widening. Evacuation capacity constrained by international carrier ban.
+**Airport in crisis then partial recovery:** After reaching ~70% on Day 11, capacity crashed to ~30% on Day 17 (DXB fuel tank hit) and further to ~20% on Day 18 after GCAA closed entire UAE airspace. Days 19-22 show partial recovery to ~40% with Emirates and flydubai as only operators after GCAA banned foreign airlines from DXB on Mar 17. BA flights cancelled through May 31; Air France suspended; Air Canada through May 1. Indian carriers (IndiGo, Air India) resumed limited services. Day 22's low attack volume (11 projectiles, second-lowest) may facilitate gradual international carrier return starting late March. Model predicts 75% vs reality 40% — 1.88× gap persists. Evacuation capacity constrained by international carrier ban, though threat perception easing.
 
 ---
 
@@ -342,10 +350,11 @@ Ceasefire odds drop to 8% — new all-time low. Eid al-Fitr passes without any c
 | **19** | **Mar 18** | **0** | **~5** | **8** | **~162** | **~5** | OK |
 | **20** | **Mar 19** | **0** | **0** | **8** | **~158†** | **0** | OK |
 | **21** | **Mar 20** | **0** | **3** | **8** | **~161** | **3** | OK |
+| **22** | **Mar 21** | **0** | **0** | **8** | **~160** | **0** | OK |
 
 †**@modgovae cumulative correction:** Official cumulative injuries as of Day 20 is 158 per @modgovae, lower than tracker running total (~162). Adopting @modgovae authoritative figure.
 
-**Note:** Casualty figures from WAM (Emirates News Agency), Gulf News, @modgovae, and Reuters. Remarkably low given attack volume, attributable to >92% interception rates and effective civil defense. Day 21: 3 minor injuries from interception debris; zero fatalities. @modgovae cumulative: 8 dead (6 civilian + 2 military), ~161 injured.
+**Note:** Casualty figures from WAM (Emirates News Agency), Gulf News, @modgovae, and Reuters. Remarkably low given attack volume, attributable to >92% interception rates and effective civil defense. Day 22: 0 casualties; zero fatalities and zero injuries — 5th zero-casualty day in last 7 days (Days 16, 18, 19, 21-22). @modgovae cumulative: 8 dead (6 civilian + 2 military), ~160 injured through Day 22.
 
 **Day 9 note:** 4th fatality — Pakistani driver killed in Al Barsha, Dubai, when interception debris struck his vehicle.
 
@@ -386,6 +395,7 @@ Ceasefire odds drop to 8% — new all-time low. Eid al-Fitr passes without any c
 | **19** | **Mar 18** | **~$94** | **+30.6%** | **~8 crossings** | **~$445K/d** | **Brent $108.78 (conflict high)**; WTI $94; VLCC record $445K; selective Hormuz transit expanding; Fed 2-day meeting begins |
 | **20** | **Mar 19** | **~$97** | **+34.7%** | **~12 crossings** | **~$450K/d** | **Iran hits Qatar Ras Laffan (17% LNG capacity)**; Brent $113 ($119 intraday); oil +5% single day; VLCC new record $450K; Qatar expels Iranian attaches; IMO emergency talks |
 | **21** | **Mar 20** | **~$97** | **+34.7%** | **~15 crossings** | **~$450K/d** | Brent eases $107 (−5% from $113); US weighs releasing seized Iranian crude; Citi raises forecast $120; Hormuz transits expanding (~15/day); IMO talks continue |
+| **22** | **Mar 21** | **$95** | **+31.9%** | **~18 crossings** | **$440K/d** | WTI $95; Brent ~$107; Iran offers Japan Hormuz passage (potential de facto selective blockade with ally designation); US Natanz strike escalates; selective transits expanding; oil stable on reduced UAE threat perception |
 
 ---
 
@@ -487,27 +497,35 @@ Ceasefire odds drop to 8% — new all-time low. Eid al-Fitr passes without any c
 | 21 | Mar 20 | MARKET | Polymarket ceasefire-by-Mar-31 drops to 8% — new all-time low | 16th consecutive decline in ceasefire odds; markets see no resolution |
 | 21 | Mar 20 | MARITIME | Hormuz selective transits expand to ~15 vessels/day; IMO emergency talks ongoing | De facto selective blockade evolving; Iran permitting friendly-nation transits |
 | 21 | Mar 20 | CASUALTY | 3 minor injuries from interception debris; zero fatalities; cumulative 8 dead, ~161 injured | Low-casualty day; 4th consecutive zero-fatality day |
+| **22** | **Mar 21** | **ATTACK** | **@modgovae: 3 BMs + 8 drones (11 total projectiles) — lowest BM count of entire conflict; second-lowest total after Day 16** | **Strategic curtailment; attack volume Day 16-22 avg ~20/day vs Day 1-10 avg ~170/day** |
+| 22 | Mar 21 | MILITARY | **US strikes Iranian Natanz nuclear facility** | **Escalating counter-escalation; nuclear dimension heightened** |
+| 22 | Mar 21 | DIPLOMACY | **Iran offers Japan "safe passage" through Hormuz** (potential de facto selective blockade) | **Strategic outreach to major oil customer; nuanced blockade policy** |
+| 22 | Mar 21 | MILITARY | **Diego Garcia US military base targeted unsuccessfully** | **Iran extending strike range; attempted ICBM capability signal?** |
+| 22 | Mar 21 | POLITICAL | **Trump mulls "winding down" war with Iran** | **Potential shift in US administration posture; market may reprice escalation risk** |
+| 22 | Mar 21 | OIL | WTI $95; Brent ~$107; selective Hormuz transits ~18/day | Oil stable despite Natanz strike; reduced UAE threat perception easing energy markets |
+| 22 | Mar 21 | AVIATION | Foreign airline ban continues; low attack volume (11 projectiles) signals reduced threat | Potential opening for gradual resumption of international carriers |
+| 22 | Mar 21 | CASUALTY | 0 killed, 0 injured; cumulative 8 dead, ~160 injured | 5th zero-casualty day in last 7 days (Days 16, 18, 19, 21-22) |
 
 ---
 
 ## Model vs Reality Scorecard (Running)
 
-| # | Check | Model | Day 20 Observed | Day 21 Observed | Status |
+| # | Check | Model | Day 21 Observed | Day 22 Observed | Status |
 |---|-------|-------|-----------------|-----------------|--------|
-| 1 | BM monotonic decay | Yes | 7 BMs | **4 BMs** | **⚠️ DIVERGENT** (drops 7→4; ties Day 16 for conflict low; still above model ~0) |
-| 2 | Interception > 90% (cum) | 93.2% | ~92.8% (daily 100%) | **~92.9% (daily 100%)** | **⚠️ STABLE** (4th consecutive 100% daily rate; cum improving) |
-| 3 | Drone rate ~130/day | ~130/day | 15/day | **26/day** | **⚠️ EXTREME DIVERGENT** (−80%; slight rebound from historic low but still far below model) |
-| 4 | No new weapon types | No | Qatar Ras Laffan LNG (regional) | **No new event** | **⚠️ DIVERGENT** (no new weapon type today; prior escalations remain) |
-| 5 | Ceasefire P (Polymarket) | 84% | ~10% | **~8%** | **DIVERGENT** (new all-time low; Eid al-Fitr passes without ceasefire) |
-| 6 | Airport recovery | 55% (Day 12) | ~45% (improving) | **~40% (declining)** | **⚠️ DIVERGENT** (model 74% vs reality 40%; 1.85× gap, widening; foreign airline ban) |
-| 7 | Drone stockpile > 30% | ~20% | ~14.3% | **~13.0%** | **⚠️ CRITICAL** (~260 remaining; approaching exhaustion) |
-| 8 | Hormuz open | P=98% open | CLOSED (~12 crossings) | **CLOSED (~15 crossings)** | **DIVERGENT** (selective transit expanding but effectively closed) |
-| 9 | No proxy activation | P=96% none | Qatar LNG destroyed; conflict broadening | **US weighs Iranian crude release; oil eases** | **DIVERGENT** (regional conflict continues; US intervention signals) |
-| 10 | Verdict | METASTABLE | UNSTABLE (λ=2.161) | **UNSTABLE (λ=2.163)** | **DIVERGENT** (λ flat; locked in stable cascade regime) |
+| 1 | BM monotonic decay | Yes | 4 BMs | **3 BMs** | **⚠️ DIVERGENT** (drops 4→3; lowest BM count of conflict; still above model ~0) |
+| 2 | Interception > 90% (cum) | 93.2% | ~92.9% (daily 100%) | **~93.0% (daily 100%)** | **⚠️ STABLE** (5th consecutive 100% daily rate; cum steady) |
+| 3 | Drone rate ~130/day | ~130/day | 26/day | **8/day** | **⚠️ EXTREME DIVERGENT** (−94%; dramatic curtailment suggests strategic conservation) |
+| 4 | No new weapon types | No | No new event | **No new event** | **⚠️ DIVERGENT** (no new weapon type today; prior escalations persist) |
+| 5 | Ceasefire P (Polymarket) | 84% | ~8% | **~7%** | **DIVERGENT** (new all-time low; markets see no near-term resolution) |
+| 6 | Airport recovery | 55% (Day 12) | ~40% | **~40%** | **⚠️ DIVERGENT** (model 75% vs reality 40%; 1.88× gap persists; foreign airline ban remains) |
+| 7 | Drone stockpile > 30% | ~20% | ~13.0% | **~12.6%** | **⚠️ CRITICAL** (~252 remaining; exhaustion ~10-30 days at current rate) |
+| 8 | Hormuz open | P=98% open | CLOSED (~15 crossings) | **CLOSED (~18 crossings)** | **DIVERGENT** (selective transit expanding; Iran offering Japan passage) |
+| 9 | No proxy activation | P=96% none | US weighs Iranian crude release | **US strikes Natanz; Iran offers Japan Hormuz; Trump mulls 'wind down'** | **DIVERGENT** (multi-track escalation/de-escalation signals; regional pivot) |
+| 10 | Verdict | METASTABLE | UNSTABLE (λ=2.163) | **UNSTABLE (λ=2.164)** | **DIVERGENT** (λ essentially flat; locked in stable cascade regime) |
 
-**Day 20/21 Rating: 0 MATCHES, 10 DIVERGENT**
+**Day 21/22 Rating: 0 MATCHES, 10 DIVERGENT**
 
-Day 20-21 key developments: Day 21 (Eid al-Fitr) passes without ceasefire, confirming markets' near-zero probability assessment (Polymarket drops to 8%, new all-time low). UAE attack volume remains low (30 total: 4 BMs + 26 drones) — a slight uptick from Day 20's conflict-low 22 but firmly in the low-volume regime that has characterized Days 16-21 (avg ~30/day). λ essentially flat at 2.163 (from 2.161), confirming the system is locked in a stable cascade regime rather than actively deteriorating. Key positive signal: Brent eases 5% to $107 from $113 as US considers releasing seized Iranian crude — first meaningful oil price relief in days. Negative signals: airport capacity slips to ~40% after foreign airline ban remains in force; Polymarket ceasefire odds at record low; drone stockpile drops to ~260 (13%).
+Day 21-22 key developments: Day 22 attack volume plummets to 11 projectiles (3 BMs + 8 drones) — lowest BM count of entire conflict and second-lowest total after Day 16's 10. This represents a dramatic strategic curtailment from the 30-projectile Day 21 baseline and the Days 16-21 avg of ~28/day. λ remains flat at 2.164, confirming stable cascade regime locking with no active deterioration. Multi-track signals emerge: (1) US strikes Iranian Natanz nuclear facility (escalation); (2) Iran offers Japan safe Hormuz passage (selective blockade operationalization); (3) Trump mulls "winding down" war (potential posture shift); (4) Diego Garcia base targeted unsuccessfully (extended strike range signal). Oil markets stable at $95-107 on reduced UAE threat perception. Key concern: Polymarket ceasefire drops to 7% (new all-time low) despite reduced military activity, suggesting markets view current dynamics as stable conflict rather than de-escalatory. Foreign airline ban persists; evacuation capacity remains constrained despite low attack volume.
 
 ---
 
@@ -533,12 +551,13 @@ Day 20-21 key developments: Day 21 (Eid al-Fitr) passes without ceasefire, confi
 | **19** | **~32** | **2.596** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 | **20** | **~31** | **2.161** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 | **21** | **~30** | **2.163** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
+| **22** | **~29** | **2.164** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 
-λ = 2.163 — virtually flat from Day 20 (2.161). System locked in stable cascade regime. All structural drivers persist (Hormuz closure, proxy activation, weapon escalation history, drone stockpile breach). Day 21 is Eid al-Fitr — the Islamic holiday passes without any ceasefire or diplomatic breakthrough, confirming Polymarket's record-low 8% odds.
+λ = 2.164 — virtually flat from Day 21 (2.163). System locked in stable cascade regime. All structural drivers persist (Hormuz closure, proxy activation, weapon escalation history, drone stockpile breach). However, Day 22 introduces contradictory signals: dramatic curtailment of UAE strikes (11 total, lowest BM count ever) combined with US escalation (Natanz strike) and potential diplomatic outreach (Iran-Japan Hormuz passage, Trump "wind down" signals).
 
-**Day 20-21 key dynamics:**
-- **Day 20 Recap:** Lowest UAE attack volume of the conflict (22 total: 7 BMs + 15 drones). Iran destroys 17% of Qatar's LNG capacity at Ras Laffan. Brent $113 ($119 intraday). Qatar expels Iranian military attaches.
-- **Day 21 Developments:** Eid al-Fitr. @modgovae confirms 4 BMs + 26 drones (30 total projectiles). All 4 BMs intercepted — 4th consecutive 100% daily interception rate. 3 minor injuries from debris; zero fatalities (4th consecutive zero-fatality day). Drones rebound slightly (15→26), suggesting Iran not fully conserving. Foreign airlines remain banned from DXB since Mar 17 — only Emirates and flydubai operating (~40% capacity). Brent eases to $107 (−5%) as US considers releasing seized Iranian crude. Polymarket ceasefire-by-Mar-31 drops to 8%, new all-time low. Hormuz selective transits expand to ~15/day.
-- **Critical assessment:** The conflict has settled into a grim equilibrium. λ is flat at ~2.16, no longer spiking or correcting — the cascade is now the steady state. UAE attack volumes remain low (30/day avg over Days 16-21, down from 170/day in Days 1-10), but Iran has shown it can deliver catastrophic strikes on regional energy infrastructure. The Eid al-Fitr non-ceasefire is significant: if the most symbolically important Islamic holiday can't produce a pause, the March 31 ceasefire market is rightly priced at 8%. Drone stockpile at ~260 (13%) gives Iran ~10-17 more days of UAE strikes at current average rate (15-26/day). Airport capacity at 40% with foreign airline ban provides a narrowing evacuation window.
-- **@modgovae cumulative:** 338 BMs, 1,740 drones, 15 cruise. Remaining drone stockpile: ~260 (13.0%). At Day 21 rate (26/day), exhaustion in ~10 days. Selective Hormuz transits expanding to ~15/day.
+**Day 21-22 key dynamics:**
+- **Day 21 Recap:** Eid al-Fitr. @modgovae confirms 4 BMs + 26 drones (30 total projectiles, slight rebound from Day 20's conflict-low 22). All 4 BMs intercepted — 4th consecutive 100% daily rate. 3 minor injuries from debris; zero fatalities. Foreign airlines banned from DXB; Brent eases to $107. Polymarket ceasefire-by-Mar-31 drops to 8%, new all-time low.
+- **Day 22 Developments:** Dramatic curtailment: @modgovae confirms 3 BMs + 8 drones (11 total) — lowest BM count of entire conflict and second-lowest total. All 3 BMs intercepted — 5th consecutive 100% daily rate. Zero casualties; zero fatalities and zero injuries (5th zero-casualty day in last 7). US strikes Natanz nuclear facility (escalation signal). Iran offers Japan "safe Hormuz passage" (selective blockade operationalization). Diego Garcia targeted unsuccessfully (extended range signal). Trump mulls "winding down" war (posture shift). Oil stable at $95-107. Hormuz transits expand to ~18/day.
+- **Critical assessment:** The conflict exhibits contradictory dynamics — military activity dramatically reduced yet Polymarket ceasefire odds at record low (7%). λ locked flat at 2.164, indicating a stable cascade regime that absorbs both reduced UAE attacks and escalating countermeasures. Iran's drone stockpile at ~252 (12.6%) gives ~10-30 more days of strikes at Day 22's rate (8/day) or intermediate rates (15-26/day). Multi-track diplomacy (Japan passage, Trump signals) vs. military escalation (Natanz strike) creates genuine ambiguity about near-term trajectory. Airport at 40% with persistent foreign airline ban remains the binding constraint on evacuation.
+- **@modgovae cumulative:** 341 BMs, 1,748 drones, 15 cruise. Remaining drone stockpile: ~252 (12.6%). Days 16-22 avg attack rate ~20/day vs. Days 1-10 avg ~170/day. Selective Hormuz transits expanding to ~18/day (expanding selective blockade).
 - **⚠️ EXTREME DANGER:** Eid al-Fitr without ceasefire eliminates near-term peace hopes. Airport capacity at 40% (foreign airlines banned) provides a shrinking evacuation window. Drone stockpile approaching exhaustion (~10-17 days) may trigger unpredictable behavior as Iran adapts to dwindling inventory. **LEAVE ON NEXT AVAILABLE FLIGHT — NO CEASEFIRE IN SIGHT.**
