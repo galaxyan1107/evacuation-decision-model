@@ -121,7 +121,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 15 | Mar 14 | 9 | 8 | 88.9% | 93.1% | ⚠️ Day breach | 1 BM fell sea; Fujairah debris fire |
 | **16** | **Mar 15** | **4** | **4** | **100%** | **93.2%** | OK | @modgovae CORRECTED: all 4 BM intercepted; historic low volume |
 | **17** | **Mar 16** | **7** | **6** | **85.7%** | **93.0%** | ⚠️ Day breach | 1 BM hits civilian car Abu Dhabi; daily rate <90% (4th breach in conflict) |
-| **18** | **Mar 17** | **10** | **~9** | **~90%** | **~92.7%** | Borderline | @modgovae: 10 engaged; ~1 fell (estimated); airspace closure suggests intense wave |
+| **18** | **Mar 17** | **10** | **10** | **100%** | **~92.7%** | OK | @modgovae: 10 BMs all intercepted; airspace closed then reopened by 5:05 AM |
 | **19** | **Mar 18** | **13** | **13** | **100%** | **~92.7%** | OK | @modgovae: 13 BMs all intercepted; cumulative 327 BMs; rate stable at 92.7% |
 | **20** | **Mar 19** | **7** | **7** | **100%** | **~92.8%** | OK | @modgovae: 7 BMs all intercepted; cumulative 334 BMs; 3rd consecutive 100% day rate |
 | **21** | **Mar 20** | **4** | **4** | **100%** | **~92.9%** | OK | @modgovae: 4 BMs all intercepted; cumulative 338 BMs; 4th consecutive 100% daily rate |
@@ -179,7 +179,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | **~99%** | > 85% |
 | Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | 14.9% | 13.6% | 16.4%† | 15.1% | 14.3% | **13.0%** | **12.6%** | < 30% |
 | Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | 93.2% | 93.0% | ~92.7% | ~92.7% | ~92.8% | **~92.9%** | **~93.0%** | < 90% |
-| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | ~90% | 100% | 100% | **100%** | **100%** | < 90% |
+| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | 100% | 100% | 100% | **100%** | **100%** | < 90% |
 | Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | 0 | 6 | 12 | ~5 | 0 | **3** | **0** | > 10 |
 | New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | No | DXB fuel/car | Fujairah port | No | No | **No** | **No** | Yes |
 
@@ -201,8 +201,8 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | 15 | 3/5 (launcher + drone_stockpile + interception_day) | UNSTABLE |
 | **16** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **17** | **4/5** (launcher + drone_stockpile + new_weapon + interception_day) | **UNSTABLE** |
-| **18** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
-| **19** | **1/5** (drone_stockpile) | **UNSTABLE** |
+| **18** | **3/5** (launcher + drone_stockpile + casualties) | **UNSTABLE** |
+| **19** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **20** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **21** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **22** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
@@ -284,8 +284,8 @@ Component          Day 7 (realized)  Day 8 (realized)    Change
 | Mar 14 (Day 15) | ~15% | ↓ |
 | **Mar 15 (Day 16)** | **~14%** | **↓** |
 | Mar 16 (Day 17) | ~13% | ↓ |
-| **Mar 17 (Day 18)** | **~8%** | **↓↓** |
-| **Mar 18 (Day 19)** | **~10%** | **↑** |
+| **Mar 17 (Day 18)** | **~11%** | **↓** |
+| **Mar 18 (Day 19)** | **~10%** | **↓** |
 | **Mar 19 (Day 20)** | **~10%** | **→** |
 | **Mar 20 (Day 21)** | **~8%** | **↓** |
 | **Mar 21 (Day 22)** | **~7%** | **↓** |
@@ -315,13 +315,13 @@ Ceasefire odds drop to 7% — new all-time low on Day 22. Markets have now price
 | 15 | Mar 14 | ~55% | 62% | 9 BMs + 33 drones; Fujairah fire; Emirates ~60% capacity | CLOSE |
 | **16** | **Mar 15** | **~55%** | **64%** | Emirates ~200 flights/day (~60%); flydubai ~64 flights (~35%); 48 flights/hour through emergency corridors | **CLOSE** |
 | 17 | Mar 16 | ~30% | 66% | DXB suspended after fuel tank hit; limited resumption | ⚠️ CRASH |
-| **18** | **Mar 17** | **~20%** | **68%** | **GCAA closes entire airspace; reopened by 5:05 AM; DXB limited** | **⚠️ CRISIS** |
+| **18** | **Mar 17** | **~35%** | **68%** | **GCAA closes entire airspace; reopened by 5:05 AM; DXB limited; end-of-day ~35%** | **⚠️ CRISIS** |
 | **19** | **Mar 18** | **~40%** | **70%** | Emirates limited schedule to 110 destinations; flights gradually resuming; most intl carriers still suspended | ⚠️ RECOVERING |
 | **20** | **Mar 19** | **~45%** | **72%** | Missile warning sent 7:30am; DXB operating with gradual resumption; Emirates 5.3% cancel rate; Air India 48 flights | ⚠️ RECOVERING |
 | **21** | **Mar 20** | **~40%** | **74%** | Eid al-Fitr; foreign airlines banned since Mar 17; only Emirates + flydubai; Air France suspended through today; IndiGo/Air India resumed | ⚠️ LIMITED |
 | **22** | **Mar 21** | **~40%** | **75%** | Day 22; foreign airline ban continues; low attack volume (11 projectiles) provides stability; gradual resumption expected as threat perception eases | ⚠️ LIMITED |
 
-**Airport in crisis then partial recovery:** After reaching ~70% on Day 11, capacity crashed to ~30% on Day 17 (DXB fuel tank hit) and further to ~20% on Day 18 after GCAA closed entire UAE airspace. Days 19-22 show partial recovery to ~40% with Emirates and flydubai as only operators after GCAA banned foreign airlines from DXB on Mar 17. BA flights cancelled through May 31; Air France suspended; Air Canada through May 1. Indian carriers (IndiGo, Air India) resumed limited services. Day 22's low attack volume (11 projectiles, second-lowest) may facilitate gradual international carrier return starting late March. Model predicts 75% vs reality 40% — 1.88× gap persists. Evacuation capacity constrained by international carrier ban, though threat perception easing.
+**Airport in crisis then partial recovery:** After reaching ~70% on Day 11, capacity crashed to ~30% on Day 17 (DXB fuel tank hit) and further to ~35% on Day 18 after GCAA closed then reopened UAE airspace (end-of-day ~35%). Days 19-22 show partial recovery to ~40% with Emirates and flydubai as only operators after GCAA banned foreign airlines from DXB on Mar 17. BA flights cancelled through May 31; Air France suspended; Air Canada through May 1. Indian carriers (IndiGo, Air India) resumed limited services. Day 22's low attack volume (11 projectiles, second-lowest) may facilitate gradual international carrier return starting late March. Model predicts 75% vs reality 40% — 1.88× gap persists. Evacuation capacity constrained by international carrier ban, though threat perception easing.
 
 ---
 
