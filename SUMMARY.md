@@ -20,6 +20,7 @@
 ## Daily Updates
 
 * [📊 Day-by-Day Tracker](updates/daily-tracker.md)
+* [Day 23 — March 22 ⚠️ UNSTABLE](updates/day23-march22.md)
 * [Day 22 — March 21 ⚠️ UNSTABLE](updates/day22-march21.md)
 * [Day 21 — March 20 ⚠️ UNSTABLE](updates/day21-march20.md)
 * [Day 20 — March 19 ⚠️ UNSTABLE](updates/day20-march19.md)
@@ -35,7 +36,6 @@
 * [Day 10 — March 9 ⚠️ UNSTABLE](updates/day10-march9.md)
 * [Day 9 — March 8 ⚠️ UNSTABLE](updates/day9-march8.md)
 * [Day 8 — March 7 ⚠️ UNSTABLE](updates/day8-march7.md)
-* [Day 23 — March 22 ⚠️ UNSTABLE](updates/day23-march22.md)
 
 ## Reference
 
