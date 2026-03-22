@@ -63,6 +63,7 @@
 ### 每日更新
 
 * [📊 逐日追踪](zh/updates/daily-tracker.md)
+* [第23天 — 3月22日 ⚠️ 不稳定](zh/updates/day23-march22.md)
 * [第22天 — 3月21日 ⚠️ 不稳定](zh/updates/day22-march21.md)
 * [第21天 — 3月20日 ⚠️ 不稳定](zh/updates/day21-march20.md)
 * [第20天 — 3月19日 ⚠️ 不稳定](zh/updates/day20-march19.md)
@@ -78,7 +79,6 @@
 * [第10天 — 3月9日 ⚠️ 不稳定](zh/updates/day10-march9.md)
 * [第9天 — 3月8日 ⚠️ 不稳定](zh/updates/day9-march8.md)
 * [第8天 — 3月7日 ⚠️ 不稳定](zh/updates/day8-march7.md)
-* [第23天 — 3月22日 ⚠️ 不稳定](zh/updates/day23-march22.md)
 
 ### 参考
 
