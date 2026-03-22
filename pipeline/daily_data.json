@@ -815,6 +815,44 @@
         "air_base_strike": true
       },
       "notes": "Second-lowest daily attack volume (11 total: 3 BMs + 8 drones, vs Day 16's 10). All BMs intercepted. US strikes Natanz nuclear facility again. Iran expands selective Hormuz passage to Japan. Diego Garcia targeted unsuccessfully. 0 deaths, 0 injuries. Sources: @modgovae via Gulf News, TAG91.1, Dubai92; Times of Israel, Al Jazeera, CGTN, Euronews on Natanz; Japan Times, Bloomberg on Hormuz/Japan."
+    },
+    {
+      "day": 23,
+      "date": "2026-03-22",
+      "bm_detected": 4,
+      "bm_intercepted": 4,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 25,
+      "drones_intercepted": 21,
+      "drones_fell_uae": 4,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 2,
+      "airport_capacity_pct": 40,
+      "oil_wti": 98,
+      "vlcc_rate": 435000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 20,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 8,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "@modgovae: 4 BMs intercepted, 25 drones detected (~21 intercepted); cumulative 345 BMs, 15 cruise, 1,773 drones",
+        "Trump issues 48-hour ultimatum: open Hormuz fully or US will 'obliterate' Iran's power plants",
+        "Iran threatens full Hormuz closure and strikes on Israeli/regional energy infrastructure if power plants targeted",
+        "US grants temporary license for Iran to sell ~140M barrels crude to calm markets",
+        "WTI ~$98; Brent ~$107; VLCC rates ~$435K/day",
+        "Cumulative: 8 dead, ~162 injured (@modgovae); no new deaths"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "Lowest BM count since Day 16 (4 BMs + 25 drones = 29 total). All BMs intercepted. Trump 48-hour Hormuz ultimatum is major escalation risk — Iran threatens full closure + energy infrastructure retaliation. US licenses 140M bbl Iranian crude sale. Selective Hormuz transits expanding (~20/day). Polymarket ceasefire-by-Mar-31 steady at 8%. Sources: @modgovae via Manorama Online, Al Jazeera liveblog; Bloomberg, NBC, Euronews on Trump ultimatum; CNN on Iran response; oilpriceapi.com on WTI."
     }
   ]
 }
