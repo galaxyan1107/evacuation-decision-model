@@ -853,6 +853,46 @@
         "air_base_strike": true
       },
       "notes": "Lowest BM count since Day 16 (4 BMs + 25 drones = 29 total). All BMs intercepted. Trump 48-hour Hormuz ultimatum is major escalation risk — Iran threatens full closure + energy infrastructure retaliation. US licenses 140M bbl Iranian crude sale. Selective Hormuz transits expanding (~20/day). Polymarket ceasefire-by-Mar-31 steady at 8%. Sources: @modgovae via Manorama Online, Al Jazeera liveblog; Bloomberg, NBC, Euronews on Trump ultimatum; CNN on Iran response; oilpriceapi.com on WTI."
+    },
+    {
+      "day": 24,
+      "date": "2026-03-23",
+      "bm_detected": 7,
+      "bm_intercepted": 7,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 16,
+      "drones_intercepted": 14,
+      "drones_fell_uae": 2,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 0,
+      "airport_capacity_pct": 45,
+      "oil_wti": 88,
+      "vlcc_rate": 430000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 22,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 12,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "@modgovae: 7 BMs intercepted, 16 drones detected; cumulative 352 BMs, 15 cruise, 1,789 drones",
+        "Trump postpones 48-hour Hormuz ultimatum, citing 'very good and productive conversations' with Iran",
+        "Iran denies any direct talks; state media claims Trump 'retreated out of fear of Iran's response'",
+        "Oil crashes: WTI plunges >10% to $88.13; Brent falls to ~$100 (Trump de-escalation signal + prior IEA release effect)",
+        "ADNOC CEO calls Iran Hormuz attacks 'economic terrorism against every nation'",
+        "Emirates + flydubai operating 198 flights from DXB; missile warning issued but flights continued normally",
+        "Polymarket ceasefire-by-Mar-31 odds spike from 8% to ~12% on diplomatic hopes",
+        "Selective Hormuz transits continue expanding; ~22 vessels/day"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "7 BMs + 16 drones = 23 total projectiles (lowest of conflict). All BMs intercepted. Major de-escalation signal: Trump postpones power plant strikes, cites 'productive' Iran talks. Iran denies talks. Oil crashes >10% on de-escalation hopes. Cumulative 352 BMs, 15 cruise, 1,789 drones. 8 dead, ~162 injured total. Sources: @modgovae via Kurdistan24, Manorama Online; CBS News, NBC, PBS, CNBC, CNN on Trump postponement; NPR on Iran denial; Fortune, CNBC on oil prices; UANI on Hormuz shipping; CoinDesk/Polymarket on ceasefire odds."
     }
   ]
 }

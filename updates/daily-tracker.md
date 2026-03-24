@@ -2,7 +2,7 @@
 
 > 🌐 **EN** | [中文](../zh/updates/daily-tracker.md)
 
-**Last Updated: March 22, 2026 (Day 23)**
+**Last Updated: March 23, 2026 (Day 24)**
 
 This page tracks daily changes across all model inputs, compares model predictions against observed data, and flags breaches as they occur.
 
@@ -30,9 +30,9 @@ Stacked divergence shows lambda (purple) dominating total model error. Verdict t
 
 ### Lambda Evolution
 
-λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure), peaked at 2.71 on Day 9 (drone stockpile breach + BM rebound), then eased to a plateau ~2.1 from Day 10 onward. Days 12-18 showed remarkable stability at 2.14-2.16. Day 19 saw λ surge to 2.596 on BM rebound signal (3-day acceleration 7→10→13). Days 20-23: λ holds steady at ~2.16 as BMs remain low (7→4→3→4). P(λ>1) has been 100% since Day 3. Day 23 λ = 2.167 — marginal uptick from 2.164. The system is locked in a stable cascade regime. Trump's 48-hour Hormuz ultimatum threatens major escalation; Iran threatens full closure + energy infrastructure retaliation.
+λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure), peaked at 2.71 on Day 9 (drone stockpile breach + BM rebound), then eased to a plateau ~2.1 from Day 10 onward. Days 12-18 showed remarkable stability at 2.14-2.16. Day 19 saw λ surge to 2.596 on BM rebound signal (3-day acceleration 7→10→13). Days 20-24: λ holds steady at ~2.16-2.17 as BMs remain low (7→4→3→4→7). P(λ>1) has been 100% since Day 3. Day 24 λ = 2.168 — marginal uptick from 2.167. The system is locked in a stable cascade regime. Trump's 48-hour ultimatum (Mar 22-24) expired; no full power plant strikes occurred, but tensions remain elevated.
 
-![Lambda Evolution](../charts/lambda_evolution_day23.png)
+![Lambda Evolution](../charts/lambda_evolution_day24.png)
 
 ### Ballistic Missile Trajectory
 
@@ -71,6 +71,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **21** | **Mar 20** | **4** | ~0 | **26** | ~130 | 0 | **30** | Eid al-Fitr; BMs tie historic low (4); drones rebound 15→26; Brent eases to $107; Polymarket 8%; foreign airlines still banned from DXB |
 | **22** | **Mar 21** | **3** | ~0 | **8** | ~130 | 0 | **11** | **Second-lowest (Day 16: 10)**; US strikes Natanz nuclear facility; Iran offers Japan Hormuz passage; Diego Garcia targeted unsuccessfully; Trump mulls 'winding down' war |
 | **23** | **Mar 22** | **4** | ~0 | **25** | ~130 | 0 | **29** | Rebounds from Day 22 low (11→29); Trump 48-hr Hormuz ultimatum; Iran threatens full closure; US licenses 140M bbl Iranian crude sale |
+| **24** | **Mar 23** | **7** | ~0 | **16** | ~130 | 0 | **23** | BMs rebound 4→7; drones decline 25→16; Trump ultimatum expires, no major escalation occurs; Hormuz transits expanding to ~22/day |
 
 ### Cumulative Totals
 
@@ -99,6 +100,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **21** | **Mar 20** | **338** | **~1,740** | **15** | **~2,093** |
 | **22** | **Mar 21** | **341** | **1,748** | **15** | **2,104** |
 | **23** | **Mar 22** | **345** | **1,773** | **15** | **2,133** |
+| **24** | **Mar 23** | **352** | **1,789** | **15** | **2,156** |
 
 ---
 
@@ -129,6 +131,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **21** | **Mar 20** | **4** | **4** | **100%** | **~92.9%** | OK | @modgovae: 4 BMs all intercepted; cumulative 338 BMs; 4th consecutive 100% daily rate |
 | **22** | **Mar 21** | **3** | **3** | **100%** | **~93.0%** | OK | 3 BMs all intercepted; cumulative 341 BMs; 5th consecutive 100% daily rate; 8 drones engaged |
 | **23** | **Mar 22** | **4** | **4** | **100%** | **~93.0%** | OK | 4 BMs all intercepted; cumulative 345 BMs; 6th consecutive 100% daily rate; 25 drones engaged (~21 intercepted) |
+| **24** | **Mar 23** | **7** | **7** | **100%** | **~93.0%** | OK | 7 BMs all intercepted; cumulative 352 BMs; 7th consecutive 100% daily rate; 16 drones engaged (~14 intercepted) |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
@@ -169,6 +172,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **21** | **Mar 20** | **26** | **~1,740** | **~260** | **13.0%** | **⚠️ BREACHED** |
 | **22** | **Mar 21** | **8** | **1,748** | **252** | **12.6%** | **⚠️ BREACHED** |
 | **23** | **Mar 22** | **25** | **1,773** | **227** | **11.4%** | **⚠️ BREACHED** |
+| **24** | **Mar 23** | **16** | **1,789** | **211** | **10.6%** | **⚠️ BREACHED** |
 
 †**@modgovae correction:** Official cumulative through Day 18 is 1,672 UAVs (per @modgovae verified data), lower than tracker estimates (~1,727 through Day 17). Previous daily drone estimates used "~" approximations. @modgovae authoritative cumulative now adopted as baseline. Remaining stockpile revised upward to ~328 (16.4%).
 
@@ -180,12 +184,12 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 
 | Metric | D1 | D3 | D5 | D7 | D8 | D9 | D10 | D11 | D12 | D13 | D14 | D15 | D16 | D17 | D18 | D19 | D20 | D21 | D22 | D23 | Threshold |
 |--------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
-| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | > 85% |
-| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | 14.9% | 13.6% | 16.4%† | 15.1% | 14.3% | 13.0% | 12.6% | **11.4%** | < 30% |
-| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | 93.2% | 93.0% | ~92.7% | ~92.7% | ~92.8% | ~92.9% | ~93.0% | **~93.0%** | < 90% |
-| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | 100% | 100% | 100% | 100% | 100% | **100%** | < 90% |
-| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | 0 | 6 | 12 | ~5 | 0 | 3 | 0 | **2** | > 10 |
-| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | No | DXB fuel/car | Fujairah port | No | No | No | No | **No** | Yes |
+| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | **~99%** | > 85% |
+| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | 14.9% | 13.6% | 16.4%† | 15.1% | 14.3% | 13.0% | 12.6% | **11.4%** | **10.6%** | < 30% |
+| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | 93.2% | 93.0% | ~92.7% | ~92.7% | ~92.8% | ~92.9% | ~93.0% | **~93.0%** | **~93.0%** | < 90% |
+| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | 100% | 100% | 100% | 100% | 100% | **100%** | **100%** | < 90% |
+| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | 0 | 6 | 12 | ~5 | 0 | 3 | 0 | **2** | **0** | > 10 |
+| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | No | DXB fuel/car | Fujairah port | No | No | No | No | **No** | **No** | Yes |
 
 *Launcher depletion **revised downward** from 85.7% to ~73% (Day 8) and further to **~67%** (Day 9) due to consecutive high-volume BM days (16→17). The accelerating trend 3→7→9→16→17 confirms more TELs remain operational than previously estimated. Drone stockpile has **breached** the 30% threshold on Day 9 — 2 days earlier than forecast. Day 11 adds a **new breach**: daily interception rate (88.9%), the third daily breach in the conflict.
 
@@ -211,6 +215,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **21** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **22** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **23** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
+| **24** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 
 ---
 
@@ -241,6 +246,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **21** | **2.163** | **100%** | **2.862** | **UNSTABLE** | λ flat at 2.163 (from 2.161); 4 BMs + 26 drones; Eid al-Fitr — no ceasefire; Polymarket 8%; Brent eases $107; foreign airlines banned from DXB; 3 minor injuries; 2/5 breaches |
 | **22** | **2.164** | **100%** | **2.863** | **UNSTABLE** | λ essentially flat at 2.164; 3 BMs + 8 drones (lowest BM count of conflict); US strikes Natanz; Iran offers Japan Hormuz passage; Diego Garcia targeted unsuccessfully; Trump mulls 'winding down' war; 0 casualties; 2/5 breaches |
 | **23** | **2.167** | **100%** | **2.877** | **UNSTABLE** | λ marginal uptick 2.164→2.167; 4 BMs + 25 drones (29 total, rebounds from Day 22's 11); Trump 48-hour Hormuz ultimatum; Iran threatens full closure + energy retaliation; US licenses 140M bbl Iranian crude; WTI $98; 2 minor injuries; 2/5 breaches |
+| **24** | **2.168** | **100%** | **2.878** | **UNSTABLE** | λ marginal uptick 2.167→2.168; 7 BMs + 16 drones (23 total); Trump ultimatum expires without full power plant strikes; Iran maintains selective blockade; Hormuz transits ~22/day; selective Hormuz de facto operational; 0 casualties; 2/5 breaches |
 
 ### What Changed on Day 8
 
@@ -296,6 +302,7 @@ Component          Day 7 (realized)  Day 8 (realized)    Change
 | **Mar 20 (Day 21)** | **~8%** | **↓** |
 | **Mar 21 (Day 22)** | **~7%** | **↓** |
 | **Mar 22 (Day 23)** | **~8%** | **↑** |
+| **Mar 23 (Day 24)** | **~12%** | **↑** |
 
 Ceasefire odds tick up to 8% on Day 23 — first uptick since Day 5 (67→63). Marginal bounce possibly reflects Trump's emerging diplomatic signals ("winding down" comments from Day 22) and US licensing of 140M bbl Iranian crude sale, partially offset by the 48-hour Hormuz ultimatum. Iran's dramatic curtailment of UAE strikes continues (29 projectiles Day 23, well below Days 1-10 avg ~170/day). However, Trump's ultimatum threatens massive escalation if Hormuz not opened, and Iran's counter-threat of full closure + energy infrastructure retaliation creates binary outcome risk. The "military action through March 31" contract likely at ~85-90% implies markets see no ceasefire resolution by month-end.
 
@@ -328,6 +335,7 @@ Ceasefire odds tick up to 8% on Day 23 — first uptick since Day 5 (67→63). M
 | **21** | **Mar 20** | **~40%** | **74%** | Eid al-Fitr; foreign airlines banned since Mar 17; only Emirates + flydubai; Air France suspended through today; IndiGo/Air India resumed | ⚠️ LIMITED |
 | **22** | **Mar 21** | **~40%** | **75%** | Day 22; foreign airline ban continues; low attack volume (11 projectiles) provides stability; gradual resumption expected as threat perception eases | ⚠️ LIMITED |
 | **23** | **Mar 22** | **~40%** | **77%** | Day 23; foreign airline ban continues; Air India/IndiGo operating limited; Emirates + flydubai only from DXB; Trump ultimatum creates uncertainty | ⚠️ LIMITED |
+| **24** | **Mar 23** | **~45%** | **78%** | Day 24; foreign airline ban continues but gradual resumption signals emerging; Emirates + flydubai 198 flights from DXB; missile warning but operations resumed; no major escalation post-ultimatum | ⚠️ LIMITED |
 
 **Airport in crisis then partial recovery:** After reaching ~70% on Day 11, capacity crashed to ~30% on Day 17 (DXB fuel tank hit) and further to ~35% on Day 18 after GCAA closed then reopened UAE airspace (end-of-day ~35%). Days 19-23 show partial recovery to ~40% with Emirates and flydubai as primary operators after GCAA banned foreign airlines from DXB on Mar 17. BA flights cancelled through May 31; Air France suspended; Air Canada through May 1. Indian carriers (Air India, IndiGo) operating ~50 combined flights on Mar 22. Trump's 48-hour Hormuz ultimatum introduces new uncertainty for airport operations — if Iran retaliates against power plants, airspace closures likely. Model predicts 77% vs reality 40% — 1.93× gap persists. Evacuation capacity remains constrained.
 
@@ -360,6 +368,7 @@ Ceasefire odds tick up to 8% on Day 23 — first uptick since Day 5 (67→63). M
 | **21** | **Mar 20** | **0** | **3** | **8** | **~161** | **3** | OK |
 | **22** | **Mar 21** | **0** | **0** | **8** | **~160** | **0** | OK |
 | **23** | **Mar 22** | **0** | **~2** | **8** | **~162** | **~2** | OK |
+| **24** | **Mar 23** | **0** | **0** | **8** | **~162** | **0** | OK |
 
 †**@modgovae cumulative correction:** Official cumulative injuries as of Day 20 is 158 per @modgovae, lower than tracker running total (~162). Adopting @modgovae authoritative figure.
 
@@ -406,6 +415,7 @@ Ceasefire odds tick up to 8% on Day 23 — first uptick since Day 5 (67→63). M
 | **21** | **Mar 20** | **~$97** | **+34.7%** | **~15 crossings** | **~$450K/d** | Brent eases $107 (−5% from $113); US weighs releasing seized Iranian crude; Citi raises forecast $120; Hormuz transits expanding (~15/day); IMO talks continue |
 | **22** | **Mar 21** | **$95** | **+31.9%** | **~18 crossings** | **$440K/d** | WTI $95; Brent ~$107; Iran offers Japan Hormuz passage (potential de facto selective blockade with ally designation); US Natanz strike escalates; selective transits expanding; oil stable on reduced UAE threat perception |
 | **23** | **Mar 22** | **~$98** | **+36.1%** | **~20 crossings** | **~$435K/d** | WTI $98; Trump 48-hour Hormuz ultimatum; Iran threatens full closure if power plants struck; US licenses 140M bbl Iranian crude sale; selective transits expanding (~20/day); VLCC rates ease slightly |
+| **24** | **Mar 23** | **~$88** | **+22.2%** | **~22 crossings** | **~$430K/d** | WTI crashes >10% to $88; Brent falls to ~$100; Trump ultimatum expires without major escalation; ADNOC CEO calls Iran attacks "economic terrorism"; selective Hormuz transits expand to ~22/day; market relief on avoided escalation |
 
 ---
 
@@ -522,27 +532,36 @@ Ceasefire odds tick up to 8% on Day 23 — first uptick since Day 5 (67→63). M
 | 23 | Mar 22 | OIL | WTI ~$98 (+$3 from $95); Brent ~$107; VLCC rates ease slightly to ~$435K/d | Markets pricing in escalation risk from Trump ultimatum |
 | 23 | Mar 22 | MARITIME | Selective Hormuz transits expand to ~20 vessels/day; Japan passage confirmed | Iran operationalizing selective blockade; ~130+ ships through since war began |
 | 23 | Mar 22 | CASUALTY | 0 killed, ~2 minor injuries; cumulative 8 dead, ~162 injured | Low-casualty day; 8th consecutive zero-fatality day (since Day 18) |
+| **24** | **Mar 23** | **POLITICAL** | **Trump's 48-hour Hormuz ultimatum expires; no major US power plant strikes occur** | **Escalation window passed without full outbreak; tensions remain elevated but major war averted** |
+| 24 | Mar 23 | ATTACK | @modgovae: 7 BMs intercepted, 16 drones detected; cumulative 352 BMs, 15 cruise, 1,789 drones | Volume declines from Day 23 peak (29→23); all BMs intercepted; 7th consecutive 100% daily BM rate |
+| 24 | Mar 23 | DIPLOMACY | Iran denies any direct talks with Trump; claims Trump "retreated out of fear" | Rhetorical positioning following ultimatum expiration |
+| 24 | Mar 23 | OIL | **Oil crashes: WTI plunges >10% to $88; Brent falls to ~$100** | Market relief on avoided escalation; conflict premium erases; largest single-day drop since IEA release (Day 12) |
+| 24 | Mar 23 | ENERGY | ADNOC CEO calls Iran Hormuz attacks "economic terrorism against every nation" | Regional frustration at economic impact |
+| 24 | Mar 23 | AVIATION | Emirates + flydubai operating 198 flights from DXB; missile warning but flights continued | Operational confidence despite ongoing threat |
+| 24 | Mar 23 | MARKET | Polymarket ceasefire odds spike from 8% to ~12% | First significant jump since Day 5; market reprices reduced escalation risk |
+| 24 | Mar 23 | MARITIME | Selective Hormuz transits expanding to ~22 vessels/day | De facto selective blockade stabilizing; Iran allowing controlled commerce |
+| 24 | Mar 23 | CASUALTY | 0 killed, 0 injured; cumulative 8 dead, ~162 injured | Zero-casualty day; 9th consecutive zero-fatality day (Days 18-24) |
 
 ---
 
 ## Model vs Reality Scorecard (Running)
 
-| # | Check | Model | Day 22 Observed | Day 23 Observed | Status |
+| # | Check | Model | Day 23 Observed | Day 24 Observed | Status |
 |---|-------|-------|-----------------|-----------------|--------|
-| 1 | BM monotonic decay | Yes | 3 BMs | **4 BMs** | **⚠️ DIVERGENT** (uptick 3→4; still well above model ~0; remains in low-level oscillation) |
-| 2 | Interception > 90% (cum) | 93.2% | ~93.0% (daily 100%) | **~93.0% (daily 100%)** | **⚠️ STABLE** (6th consecutive 100% daily rate; cum rate steady at 93%) |
-| 3 | Drone rate ~130/day | ~130/day | 8/day | **25/day** | **⚠️ EXTREME DIVERGENT** (−81%; rebounds from 8 but still far below model) |
-| 4 | No new weapon types | No | No new event | **No new event** | **⚠️ DIVERGENT** (no new weapon type today; prior escalations persist) |
-| 5 | Ceasefire P (Polymarket) | 84% | ~7% | **~8%** | **DIVERGENT** (first uptick since Day 5; Trump diplomatic signals vs ultimatum creates ambiguity) |
-| 6 | Airport recovery | 55% (Day 12) | ~40% | **~40%** | **⚠️ DIVERGENT** (model 77% vs reality 40%; 1.93× gap persists; foreign airline ban remains) |
-| 7 | Drone stockpile > 30% | ~20% | ~12.6% | **~11.4%** | **⚠️ CRITICAL** (~227 remaining; exhaustion ~9-15 days at Day 23 rate) |
-| 8 | Hormuz open | P=98% open | CLOSED (~18 crossings) | **CLOSED (~20 crossings)** | **DIVERGENT** (selective transit expanding; Trump 48-hr ultimatum creates binary outcome) |
-| 9 | No proxy activation | P=96% none | US strikes Natanz; Iran offers Japan Hormuz; Trump mulls 'wind down' | **Trump 48-hr ultimatum; Iran threatens full closure + energy infrastructure retaliation; US licenses 140M bbl Iranian crude** | **DIVERGENT** (major escalation risk in next 48 hours) |
-| 10 | Verdict | METASTABLE | UNSTABLE (λ=2.164) | **UNSTABLE (λ=2.167)** | **DIVERGENT** (λ marginal uptick; locked in stable cascade regime) |
+| 1 | BM monotonic decay | Yes | 4 BMs | **7 BMs** | **⚠️ DIVERGENT** (uptick 4→7; rebound from low; still well above model ~0) |
+| 2 | Interception > 90% (cum) | 93.2% | ~93.0% (daily 100%) | **~93.0% (daily 100%)** | **⚠️ STABLE** (7th consecutive 100% daily rate; cum rate steady at 93%) |
+| 3 | Drone rate ~130/day | ~130/day | 25/day | **16/day** | **⚠️ EXTREME DIVERGENT** (−88%; declines from Day 23 but still far below model) |
+| 4 | No new weapon types | No | No new event | **No new event** | **⚠️ DIVERGENT** (no new weapon type; prior escalations persist) |
+| 5 | Ceasefire P (Polymarket) | 84% | ~8% | **~12%** | **DIVERGENT** (first significant uptick; Trump ultimatum expiration + avoided escalation reprices risk) |
+| 6 | Airport recovery | 55% (Day 12) | ~40% | **~45%** | **⚠️ DIVERGENT** (model 78% vs reality 45%; 1.73× gap persists; gradual resumption signals but ban continues) |
+| 7 | Drone stockpile > 30% | ~20% | ~11.4% | **~10.6%** | **⚠️ CRITICAL** (~211 remaining; exhaustion ~8-12 days at Day 24 rate) |
+| 8 | Hormuz open | P=98% open | CLOSED (~20 crossings) | **CLOSED (~22 crossings)** | **DIVERGENT** (selective transit stabilizing; Trump ultimatum expired without forcing reopening) |
+| 9 | No proxy activation | P=96% none | Trump ultimatum; Iran counter-threat | **Ultimatum expired without major escalation; selective blockade de facto operational** | **DIVERGENT** (escalation risk averted; strategic ambiguity continues) |
+| 10 | Verdict | METASTABLE | UNSTABLE (λ=2.167) | **UNSTABLE (λ=2.168)** | **DIVERGENT** (λ marginal uptick; locked in stable cascade regime) |
 
-**Day 22/23 Rating: 0 MATCHES, 10 DIVERGENT**
+**Day 23/24 Rating: 0 MATCHES, 10 DIVERGENT**
 
-Day 22-23 key developments: Day 23 attack volume rebounds to 29 projectiles (4 BMs + 25 drones), up from Day 22's conflict-low 11 but still well below the Days 1-10 avg of ~170/day. λ ticks up marginally to 2.167 from 2.164, staying locked in the stable cascade regime. The dominant story is Trump's 48-hour Hormuz ultimatum — threatening to "obliterate" Iran's power plants if the strait isn't fully opened. Iran's counter-threat of complete Hormuz closure and strikes on Israeli/regional energy infrastructure creates a binary outcome risk within 48 hours. US simultaneously licenses 140M bbl of Iranian crude to calm markets — contradictory signals of escalation and accommodation. Oil rises to WTI $98. Polymarket ceasefire-by-Mar-31 ticks up to 8% (first uptick since Day 5), possibly reflecting Trump's diplomatic signals, but the 48-hour ultimatum creates genuine risk of massive escalation. Drone stockpile drops to ~227 (~11.4%), giving Iran ~9-15 more days of strikes at current rates. Airport at 40% with foreign airline ban persists; evacuation capacity constrained.
+Day 23-24 key developments: Trump's 48-hour Hormuz ultimatum (Mar 22-24) expires without major US power plant strikes, reducing immediate escalation risk but tensions remain elevated. Day 24 attack volume declines to 23 projectiles (7 BMs + 16 drones), down from Day 23's peak of 29, but BMs rebound from Day 23's low of 4 to 7. All BMs intercepted for 7th consecutive day; cumulative BM interception rate holds at 93.0%. λ ticks up marginally to 2.168 from 2.167, maintaining stable cascade plateau. Oil crashes >10% to WTI $88 and Brent ~$100, the largest single-day drop since IEA reserve release (Day 12), as markets price in escalation risk reduction. Polymarket ceasefire odds spike from 8% to ~12%, first significant uptick since Day 5. Selective Hormuz transits expand to ~22/day with Iran operationalizing de facto selective blockade policy. Drone stockpile continues declining to ~211 (~10.6%), giving Iran ~8-12 more days at current rates. Airport at 45% with foreign airline ban persists but resumption signals emerging. 9 consecutive zero-fatality days (Days 18-24) reflect effective civil defense and interception rates.
 
 ---
 
@@ -570,12 +589,13 @@ Day 22-23 key developments: Day 23 attack volume rebounds to 29 projectiles (4 B
 | **21** | **~30** | **2.163** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 | **22** | **~29** | **2.164** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 | **23** | **~28** | **2.167** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
+| **24** | **~27** | **2.168** | **UNSTABLE** | **EVACUATE IMMEDIATELY** |
 
-λ = 2.167 — marginal uptick from Day 22 (2.164). System locked in stable cascade regime. All structural drivers persist (Hormuz closure, proxy activation, weapon escalation history, drone stockpile breach). However, Day 22 introduces contradictory signals: dramatic curtailment of UAE strikes (11 total, lowest BM count ever) combined with US escalation (Natanz strike) and potential diplomatic outreach (Iran-Japan Hormuz passage, Trump "wind down" signals).
+λ = 2.168 — marginal uptick from Day 23 (2.167). System locked in stable cascade regime. All structural drivers persist (Hormuz closure, proxy activation, weapon escalation history, drone stockpile breach). Trump's 48-hour ultimatum (Mar 22-24) expired without full power plant strikes, reducing immediate escalation risk but strategic ambiguity remains.
 
-**Day 22-23 key dynamics:**
-- **Day 22 Recap:** Dramatic curtailment: @modgovae confirms 3 BMs + 8 drones (11 total) — lowest BM count of entire conflict. All 3 BMs intercepted — 5th consecutive 100% daily rate. Zero casualties. US strikes Natanz nuclear facility. Iran offers Japan "safe Hormuz passage." Diego Garcia targeted unsuccessfully. Trump mulls "winding down" war. Oil stable at $95-107.
-- **Day 23 Developments:** @modgovae confirms 4 BMs intercepted, 25 drones detected (~21 intercepted); cumulative 345 BMs, 15 cruise, 1,773 drones. Attack volume rebounds from Day 22 low (11→29) but remains well below early-conflict levels. Trump issues 48-hour ultimatum demanding Iran fully open Hormuz or US will "obliterate" power plants. Iran's armed forces counter-threaten: full Hormuz closure + strikes on Israeli and regional energy infrastructure if power plants hit. US simultaneously licenses 140M bbl Iranian crude sale to calm markets. WTI rises to $98. Polymarket ceasefire ticks up to 8% (first uptick since Day 5). Selective Hormuz transits expand to ~20/day. 0 fatalities, ~2 minor injuries.
-- **Critical assessment:** The 48-hour Hormuz ultimatum creates a genuine binary outcome risk within 48 hours (expires ~March 24). If Trump follows through, Iran has explicitly threatened (1) full Hormuz closure (vs current selective blockade) and (2) strikes on Israeli/regional energy infrastructure — either outcome would dramatically increase λ and potentially breach additional cascade thresholds. Conversely, if the ultimatum is walked back or extended, it follows the pattern of Day 22's "winding down" signals. Iran's drone stockpile at ~227 (~11.4%) gives ~9-15 more days at current rates. The contradictory US posture (ultimatum + crude licensing) suggests internal policy tension.
-- **@modgovae cumulative:** 345 BMs, 1,773 drones, 15 cruise. Remaining drone stockpile: ~227 (11.4%). Days 16-23 avg attack rate ~22/day vs. Days 1-10 avg ~170/day. Selective Hormuz transits expanding to ~20/day.
-- **⚠️ EXTREME DANGER — 48-HOUR ESCALATION WINDOW:** Trump's Hormuz ultimatum expires ~March 24. If power plants are struck, Iran has explicitly threatened full Hormuz closure and regional energy infrastructure attacks — outcomes that would catastrophically escalate λ beyond current 2.167 plateau. Airport capacity at 40% (foreign airlines banned) provides a shrinking evacuation window. **LEAVE ON NEXT AVAILABLE FLIGHT — ESCALATION RISK AT HIGHEST LEVEL SINCE DAY 8.**
+**Day 23-24 key dynamics:**
+- **Day 23 Recap:** @modgovae confirms 4 BMs intercepted, 25 drones detected (~21 intercepted); cumulative 345 BMs, 15 cruise, 1,773 drones. Trump issues 48-hour ultimatum demanding Iran fully open Hormuz or US will "obliterate" power plants. Iran's armed forces counter-threaten: full Hormuz closure + strikes on Israeli and regional energy infrastructure if power plants hit. US simultaneously licenses 140M bbl Iranian crude sale to calm markets. WTI rises to $98. Polymarket ceasefire ticks up to 8%. Selective Hormuz transits expand to ~20/day. 0 fatalities, ~2 minor injuries.
+- **Day 24 Developments:** @modgovae confirms 7 BMs intercepted, 16 drones detected (~14 intercepted); cumulative 352 BMs, 15 cruise, 1,789 drones. Trump's 48-hour ultimatum expires (Mar 22-24) without major US power plant strikes. Iran denies direct talks; claims Trump "retreated out of fear." Oil crashes >10%: WTI plunges to $88 (from $98), Brent falls to ~$100. Markets reprice escalation risk downward. Polymarket ceasefire odds spike from 8% to ~12% (first significant uptick since Day 5). Selective Hormuz transits expand to ~22/day. ADNOC CEO calls Iran attacks "economic terrorism." Emirates + flydubai operate 198 flights from DXB. 0 fatalities, 0 injuries.
+- **Critical assessment:** Trump's ultimatum expiration without major escalation reduces immediate crisis risk but leaves strategic ambiguity. Iran's demonstrated willingness to (a) curtail UAE strikes dramatically (Days 21-24 avg ~20/day vs Days 1-10 avg ~170/day) and (b) operationalize selective Hormuz blockade suggests strategic stockpile management rather than uncontrolled escalation. However, day 24 BM rebound (4→7) shows Iran retains offensive capability. Iran's drone stockpile at ~211 (~10.6%) gives ~8-12 more days at current rates before exhaustion. Selective Hormuz blockade de facto operational with ~22 daily transits. Polymarket repricing reflects reduced war probability by March 31.
+- **@modgovae cumulative:** 352 BMs, 1,789 drones, 15 cruise. Remaining drone stockpile: ~211 (10.6%). Days 18-24 avg attack rate ~20/day vs. Days 1-10 avg ~170/day (−88%). Selective Hormuz transits ~22/day. 9 consecutive zero-fatality days (Days 18-24).
+- **⚠️ RISK REDUCED BUT ELEVATED:** Trump's ultimatum expired without full escalation, reducing immediate danger. However, λ = 2.168 remains locked in stable UNSTABLE cascade. Iran's drone stockpile ~8-12 days remaining at current rates; selective Hormuz blockade de facto established; proxy/Hezbollah risks persist. Airport at 45% with foreign airline ban; evacuation capacity constrained. **REMAIN ALERT — Continue evacuation preparations but immediate escalation window has passed.**
