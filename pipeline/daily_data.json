@@ -893,6 +893,45 @@
         "air_base_strike": true
       },
       "notes": "7 BMs + 16 drones = 23 total projectiles (lowest of conflict). All BMs intercepted. Major de-escalation signal: Trump postpones power plant strikes, cites 'productive' Iran talks. Iran denies talks. Oil crashes >10% on de-escalation hopes. Cumulative 352 BMs, 15 cruise, 1,789 drones. 8 dead, ~162 injured total. Sources: @modgovae via Kurdistan24, Manorama Online; CBS News, NBC, PBS, CNBC, CNN on Trump postponement; NPR on Iran denial; Fortune, CNBC on oil prices; UANI on Hormuz shipping; CoinDesk/Polymarket on ceasefire odds."
+    },
+    {
+      "day": 25,
+      "date": "2026-03-24",
+      "bm_detected": 5,
+      "bm_intercepted": 5,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 17,
+      "drones_intercepted": 14,
+      "drones_fell_uae": 3,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 1,
+      "airport_capacity_pct": 45,
+      "oil_wti": 92,
+      "vlcc_rate": 435000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 24,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 20,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "@modgovae: 5 BMs intercepted, 17 drones detected (~14 intercepted); cumulative ~357 BMs, 15 cruise, ~1,806 drones",
+        "Trump 5-day delay on Iran power plant strikes enters Day 2; Pakistan/Turkey/Egypt/Oman mediating",
+        "Iranian source acknowledges US 'outreach' to CNN; possible Vance-Iran meeting in Pakistan this week",
+        "Oil rebounds: WTI $92.39 (+4.8%), Brent $102.47 — markets skeptical of de-escalation durability",
+        "Indian national suffers minor injuries from interception debris in al-Shawamekh, Abu Dhabi",
+        "Polymarket ceasefire-by-Mar-31 surges to ~20% amid suspected insider trading (10 new accounts wagered $160K)",
+        "Selective Hormuz transits continue expanding; ~24 vessels/day; Japan, China, India, Pakistan permitted"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "5 BMs + 17 drones = 22 total projectiles (new conflict low, beating Day 24's 23). All BMs intercepted. Ceasefire diplomacy intensifies — Trump 5-day strike delay, Pakistan hosting proposed Vance-Iran meeting. Iranian source admits 'outreach'. Oil rebounds from Monday crash but stays below $100 Brent. Polymarket ceasefire odds spike on suspected insider trading. Cumulative ~357 BMs, 15 cruise, ~1,806 drones. 8 dead, ~163 injured total. Sources: @modgovae via Emirates247; CNN live updates Mar 24; Bloomberg, CBS, WashPost on ceasefire talks; CNBC, Fortune on oil; Futurism, CoinDesk on Polymarket."
     }
   ]
 }
