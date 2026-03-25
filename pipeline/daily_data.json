@@ -932,6 +932,46 @@
         "air_base_strike": true
       },
       "notes": "5 BMs + 17 drones = 22 total projectiles (new conflict low, beating Day 24's 23). All BMs intercepted. Ceasefire diplomacy intensifies — Trump 5-day strike delay, Pakistan hosting proposed Vance-Iran meeting. Iranian source admits 'outreach'. Oil rebounds from Monday crash but stays below $100 Brent. Polymarket ceasefire odds spike on suspected insider trading. Cumulative ~357 BMs, 15 cruise, ~1,806 drones. 8 dead, ~163 injured total. Sources: @modgovae via Emirates247; CNN live updates Mar 24; Bloomberg, CBS, WashPost on ceasefire talks; CNBC, Fortune on oil; Futurism, CoinDesk on Polymarket."
+    },
+    {
+      "day": 26,
+      "date": "2026-03-25",
+      "bm_detected": 0,
+      "bm_intercepted": 0,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 9,
+      "drones_intercepted": 7,
+      "drones_fell_uae": 2,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 0,
+      "airport_capacity_pct": 45,
+      "oil_wti": 88,
+      "vlcc_rate": 430000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 6,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 15,
+      "carrier_count": 2,
+      "carrier_effective": 1.6,
+      "key_events": [
+        "FIRST DAY WITHOUT BALLISTIC MISSILES — 0 BMs detected since conflict began Feb 28 (@modgovae via Gulf News)",
+        "Only 9 drones engaged; cumulative 357 BMs, 15 cruise, 1,815 drones (@modgovae)",
+        "Trump claims US and Iran 'in negotiations now'; Iran denies: 'no talks or negotiations for 25 days'",
+        "Iran formally requires crew/cargo manifests and IRGC approval for Hormuz transit; 6 vessels transited openly",
+        "Oil crashes: WTI -5.1% to $87.63; Brent -5% to $99.30 on Trump diplomacy claims",
+        "Air India resumes ad-hoc Dubai-Delhi flights (26 flights); Emirates limited schedule continues",
+        "Iran says 'non-hostile' ships can pass Hormuz safely; formalizing selective blockade regime",
+        "Iran won't accept ceasefire offer per state media (FARS); Trump's 15-point peace plan received by Iran (AP)"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "HISTORIC: First day with 0 ballistic missiles since conflict began. Only 9 drones (cumulative 1,815). Total projectiles = 9 (new all-time low, crushing Day 24's 22). Oil crashes on Trump claiming negotiations — WTI $87.63 (-5.1%), Brent $99.30 (-5%). Iran categorically denies talks, refuses ceasefire (FARS). Iran formalizing Hormuz selective blockade with IRGC crew/cargo approval process. Polymarket ceasefire-by-Mar-31 at ~15%. 0 casualties today. Cumulative 357 BMs, 15 cruise, 1,815 drones. 8 dead, ~163 injured total. Sources: @modgovae via Gulf News Day 26 liveblog; CNBC on oil/Trump claims; NPR, Al Jazeera on Iran denial; Insurance Journal on Hormuz requirements; Fortune on oil prices."
     }
   ]
 }
