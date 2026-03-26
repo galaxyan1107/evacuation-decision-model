@@ -19,14 +19,17 @@
 | 无人机库存剩余 | — | — | 4.0%（79/2000） |
 
 **关键事件：**
-- FIRST DAY WITHOUT BALLISTIC MISSILES — 0 BMs detected since conflict began Feb 28 (@modgovae via Gulf News)
-- Only 9 drones engaged; cumulative 357 BMs, 15 cruise, 1,815 drones (@modgovae)
-- Trump claims US and Iran 'in negotiations now'; Iran denies: 'no talks or negotiations for 25 days'
-- Iran formally requires crew/cargo manifests and IRGC approval for Hormuz transit; 6 vessels transited openly
-- Oil crashes: WTI -5.1% to $87.63; Brent -5% to $99.30 on Trump diplomacy claims
-- Air India resumes ad-hoc Dubai-Delhi flights (26 flights); Emirates limited schedule continues
-- Iran says 'non-hostile' ships can pass Hormuz safely; formalizing selective blockade regime
-- Iran won't accept ceasefire offer per state media (FARS); Trump's 15-point peace plan received by Iran (AP)
+- FIRST DAY WITHOUT BALLISTIC MISSILES — 0 BMs detected since conflict began Feb 28 (@modgovae via Sharjah24, Gulf News)
+- Only 9 UAVs engaged (@modgovae); cumulative 357 BMs, 15 cruise, 1,815 UAVs
+- Iranian drones hit fuel tank at Kuwait International Airport — fire ignited; Kuwait airport largely closed to commercial traffic
+- Iran rejects Trump's 15-point peace plan as 'maximalist, unreasonable'; sets 5 counter-conditions including Hormuz sovereignty and reparations
+- Trump declares war 'won'; claims US-Iran 'in negotiations now'; Iran: 'negotiating with yourselves'
+- Oil drops: WTI -2.2% to $90.32; Brent -2.2% to $102.22 on diplomatic signals
+- ~1,000 US troops (82nd Airborne) deploying to Middle East
+- Emirates at ~60% pre-war capacity; Air India 26 flights; Emirates aiming full restoration by Mar 29
+- Iran formalizes Hormuz transit: crew/cargo manifests + IRGC approval required; 6 vessels transited openly
+- Polymarket ceasefire-by-Mar-31 at ~17% (down from ~20%); insider trading under Al Jazeera/Wall Street scrutiny
+- White House says timeline for war end is 4-6 weeks; 'productive' talks continue per Karoline Leavitt
 
 ---
 
@@ -78,4 +81,4 @@
 |------|------|
 | @modgovae (X.com) | 阿联酋国防部每日更新 |
 | 模型管线 | ABC + HAM (50K MC) |
-| 生成时间 | 2026-03-25 23:09 |
+| 生成时间 | 2026-03-26 17:40 |
