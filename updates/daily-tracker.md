@@ -2,7 +2,7 @@
 
 > 🌐 **EN** | [中文](../zh/updates/daily-tracker.md)
 
-**Last Updated: March 26, 2026 (Day 27)**
+**Last Updated: March 27, 2026 (Day 28)**
 
 This page tracks daily changes across all model inputs, compares model predictions against observed data, and flags breaches as they occur.
 
@@ -12,13 +12,13 @@ This page tracks daily changes across all model inputs, compares model predictio
 
 ### Divergence Heatmap
 
-Day-by-day percentage deviation across all 6 tracked metrics (27 days). Red = actual exceeds model, blue = actual below model. Lambda divergence dominates from Day 3 onward (+240% → +360%). Drone divergence extreme from Day 11 onward (actual 6-45 vs model ~130). BMs oscillate in 3-13 range (Days 12-25), drop to historic 0 on Day 26, then **MASSIVE REBOUND on Day 27: 0→15 BMs detected** — largest daily BM surge since Day 2 (28 BMs), shattering zero-BM milestone. Day 27: 15 BMs + 11 drones (~130 total); 2 killed in Abu Dhabi from intercepted debris; Jebel Ali Port fire from interception debris; Iran rejects direct US talks.
+Day-by-day percentage deviation across all 6 tracked metrics (28 days). Red = actual exceeds model, blue = actual below model. Lambda divergence dominates from Day 3 onward (+240% → +360%). Drone divergence extreme from Day 11 onward (actual 6-45 vs model ~130). BMs oscillate in 3-13 range (Days 12-25), drop to historic 0 on Day 26, then **MASSIVE REBOUND on Day 27: 0→15 BMs detected** — largest daily BM surge since Day 2 (28 BMs), shattering zero-BM milestone. **Day 28: 6 BMs + 9 drones (15 total); BMs decline sharply 15→6 (−60%); Chinese ships turned away from Hormuz; Trump delays energy strikes 10 days.** Day 27: 15 BMs + 11 drones (~130 total); 2 killed in Abu Dhabi from intercepted debris; Jebel Ali Port fire from interception debris; Iran rejects direct US talks.
 
 ![Divergence Heatmap](../charts/divergence_heatmap.png)
 
 ### 6-Panel Comparison
 
-Side-by-side model (blue) vs actual (red) with ribbon fill showing the gap. Airport (green) was positive divergence until Day 17 DXB crash. Lambda (bottom-right) shows deep cascade zone. Drone stockpile (bottom-center) breaches 30% threshold on Day 9. Day 27 data included: **15 BMs (MASSIVE REBOUND: largest since Day 2; 0→15 surge), 11 drones (~130 total)**, λ=2.172 (marginal uptick from 2.171); 2 killed Abu Dhabi from debris; Jebel Ali fire.
+Side-by-side model (blue) vs actual (red) with ribbon fill showing the gap. Airport (green) was positive divergence until Day 17 DXB crash. Lambda (bottom-right) shows deep cascade zone. Drone stockpile (bottom-center) breaches 30% threshold on Day 9. Day 28 data included: **6 BMs (sharp decline from Day 27 rebound: 15→6), 9 drones (~15 total)**, λ=2.118 (decline from 2.172); Day 27 data included: **15 BMs (MASSIVE REBOUND: largest since Day 2; 0→15 surge), 11 drones (~130 total)**, λ=2.172 (marginal uptick from 2.171); 2 killed Abu Dhabi from debris; Jebel Ali fire.
 
 ![Model vs Actual](../charts/model_vs_actual_bars.png)
 
@@ -30,13 +30,13 @@ Stacked divergence shows lambda (purple) dominating total model error. Verdict t
 
 ### Lambda Evolution
 
-λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure), peaked at 2.71 on Day 9 (drone stockpile breach + BM rebound), then eased to a plateau ~2.1 from Day 10 onward. Days 12-18 showed remarkable stability at 2.14-2.16. Day 19 saw λ surge to 2.596 on BM rebound signal (3-day acceleration 7→10→13). Days 20-25: λ holds steady at ~2.16-2.17 as BMs remain low (7→4→3→4→7→5). Day 26: λ = 2.171 — marginal uptick from 2.170 despite historic 0 BMs. **Day 27: λ = 2.172** — marginal uptick from 2.171 despite MASSIVE BM REBOUND (0→15: largest since Day 2); 2 killed Abu Dhabi; Jebel Ali fire. P(λ>1) has been 100% since Day 3. The system remains locked in stable cascade regime. **Iran rejects direct US talks**, setting 5 counter-conditions; oil rebounds on BM rebound signal + Iran rejection.
+λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure), peaked at 2.71 on Day 9 (drone stockpile breach + BM rebound), then eased to a plateau ~2.1 from Day 10 onward. Days 12-18 showed remarkable stability at 2.14-2.16. Day 19 saw λ surge to 2.596 on BM rebound signal (3-day acceleration 7→10→13). Days 20-25: λ holds steady at ~2.16-2.17 as BMs remain low (7→4→3→4→7→5). Day 26: λ = 2.171 — marginal uptick from 2.170 despite historic 0 BMs. Day 27: λ = 2.172 — marginal uptick from 2.171 despite MASSIVE BM REBOUND (0→15: largest since Day 2); 2 killed Abu Dhabi; Jebel Ali fire. **Day 28: λ = 2.118** — declines from 2.172 as BM rebound corrects (15→6); Chinese ships turned away from Hormuz — IRGC declares strait 'shut', contradicting Trump; Trump delays energy strikes 10 days. P(λ>1) has been 100% since Day 3. The system remains locked in stable cascade regime despite BM correction. **Iran rejects direct US talks**, setting 5 counter-conditions; oil rebounds on BM rebound signal + Iran rejection.
 
-![Lambda Evolution](../charts/lambda_evolution_day27.png)
+![Lambda Evolution](../charts/lambda_evolution_day28.png)
 
 ### Ballistic Missile Trajectory
 
-The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 showed an accelerating rebound. Post-rebound (Days 10-25): BMs oscillate in 3-13 range with noisy pattern (12→9→6→10→7→9→4→7→10→13→7→4→3→4→7→5). Day 26: 0 BMs — historic first day without ballistic missiles. **Day 27: MASSIVE BM REBOUND 0→15 (largest since Day 2: 28 BMs)** — shattering zero-BM milestone; only 11 drones detected (~130 total). 2 killed in Abu Dhabi from intercepted debris (Indian + Pakistani on Sweihan Road); Jebel Ali Port fire from interception debris. Iran rejects direct US talks, sets 5 counter-conditions (halt attacks, no future war guarantees, reparations, cease proxies, Hormuz sovereignty). Days 20-27 avg attack rate shifts as Day 27 rebound erases Days 21-26 containment pattern. Oil rebounds: WTI $93.61 (+3.6%), Brent $106.12 on BM rebound signal + Iran rejection. VLCC $440K/day. Hormuz ~5 crossings (formal IRGC approval system).
+The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onward. Days 5→9: 3→7→9→16→17 showed an accelerating rebound. Post-rebound (Days 10-25): BMs oscillate in 3-13 range with noisy pattern (12→9→6→10→7→9→4→7→10→13→7→4→3→4→7→5). Day 26: 0 BMs — historic first day without ballistic missiles. Day 27: MASSIVE BM REBOUND 0→15 (largest since Day 2: 28 BMs) — shattering zero-BM milestone; only 11 drones detected (~130 total). 2 killed in Abu Dhabi from intercepted debris (Indian + Pakistani on Sweihan Road); Jebel Ali Port fire from interception debris. Iran rejects direct US talks, sets 5 counter-conditions (halt attacks, no future war guarantees, reparations, cease proxies, Hormuz sovereignty). **Day 28: 6 BMs (sharp decline 15→6, −60% correction); 9 drones; Chinese ships turned from Hormuz; Trump delays energy strikes 10d.** Days 20-28 avg attack rate shows Day 27 spike erased partially by Day 28 correction. Oil rebounds: WTI $93.61 (+3.6%), Brent $106.12 on Day 27 BM rebound signal + Iran rejection, then moderates on Day 28 BM decline. VLCC ~$445K/day. Hormuz ~5 crossings or fewer (Chinese ships turned away; IRGC formal approval system).
 
 ![BM Trajectory](../charts/bm_trajectory.png)
 
@@ -75,6 +75,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **25** | **Mar 24** | **5** | ~0 | **17** | ~130 | 0 | **22** | BMs decline 7→5; drones rebound 16→17; continued selectivity in attack pattern; Pakistan/Turkey/Egypt/Oman mediation active |
 | **26** | **Mar 25** | **0** | ~0 | **9** | ~130 | 0 | **9** | **HISTORIC: First day with 0 BMs; all-time low total (9)** |
 | **27** | **Mar 26** | **15** | ~0 | **11** | ~130 | 0 | **26** | **MASSIVE BM REBOUND: 0→15 (largest since Day 2); 2 killed Abu Dhabi; Jebel Ali fire** |
+| **28** | **Mar 27** | **6** | ~0 | **9** | ~130 | 0 | **15** | BM sharp decline 15→6 (−60%); Chinese ships turned from Hormuz; Trump delays energy strikes 10d |
 
 ### Cumulative Totals
 
@@ -107,6 +108,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **25** | **Mar 24** | **357** | **1,806** | **15** | **2,178** |
 | **26** | **Mar 25** | **357** | **1,815** | **15** | **2,187** |
 | **27** | **Mar 26** | **372** | **1,826** | **15** | **2,213** |
+| **28** | **Mar 27** | **378** | **1,835** | **15** | **2,228** |
 
 ---
 
@@ -141,6 +143,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **25** | **Mar 24** | **5** | **5** | **100%** | **~93.0%** | OK | 5 BMs all intercepted; cumulative 357 BMs; 8th consecutive 100% daily rate; 17 drones detected, ~14 intercepted (~82%) |
 | **26** | **Mar 25** | **0** | **0** | **N/A** | **93.0%** | N/A (0 BMs) | **HISTORIC: 0 BMs** |
 | **27** | **Mar 26** | **15** | **15** | **100%** | **~93.1%** | OK | **All 15 BMs intercepted; debris kills 2 in Abu Dhabi; 9th consecutive 100% daily rate** |
+| **28** | **Mar 27** | **6** | **6** | **100%** | **~93.2%** | OK | **All 6 BMs intercepted; 10th consecutive 100% daily rate; Chinese ships turned from Hormuz** |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
@@ -185,6 +188,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **25** | **Mar 24** | **17** | **1,806** | **194** | **9.7%** | **⚠️ BREACHED** |
 | **26** | **Mar 25** | **9** | **1,815** | **185** | **9.25%** | **⚠️ BREACHED** |
 | **27** | **Mar 26** | **11** | **1,826** | **174** | **8.7%** | **⚠️ BREACHED** |
+| **28** | **Mar 27** | **9** | **1,835** | **165** | **8.25%** | **⚠️ BREACHED** |
 
 †**@modgovae correction:** Official cumulative through Day 18 is 1,672 UAVs (per @modgovae verified data), lower than tracker estimates (~1,727 through Day 17). Previous daily drone estimates used "~" approximations. @modgovae authoritative cumulative now adopted as baseline. Remaining stockpile revised upward to ~328 (16.4%).
 
@@ -194,14 +198,14 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 
 ## Cascade Threshold Tracker
 
-| Metric | D1 | D3 | D5 | D7 | D8 | D9 | D10 | D11 | D12 | D13 | D14 | D15 | D16 | D17 | D18 | D19 | D20 | D21 | D22 | D23 | D24 | D25 | D26 | D27 | Threshold |
-|--------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
-| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | > 85% |
-| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | 14.9% | 13.6% | 16.4%† | 15.1% | 14.3% | 13.0% | 12.6% | **11.4%** | **10.6%** | **9.7%** | **9.25%** | **8.7%** | < 30% |
-| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | 93.2% | 93.0% | ~92.7% | ~92.7% | ~92.8% | ~92.9% | ~93.0% | **~93.0%** | **~93.0%** | **~93.0%** | **93.0%** | **~93.1%** | < 90% |
-| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | 100% | 100% | 100% | 100% | 100% | **100%** | **100%** | **100%** | **N/A (0 BMs)** | **100%** | < 90% |
-| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | 0 | 6 | 12 | ~5 | 0 | 3 | 0 | **2** | **0** | **0** | **0** | **5** | > 10 |
-| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | No | DXB fuel/car | Fujairah port | No | No | No | No | **No** | **No** | **No** | **No** | **Jebel Ali** | Yes |
+| Metric | D1 | D3 | D5 | D7 | D8 | D9 | D10 | D11 | D12 | D13 | D14 | D15 | D16 | D17 | D18 | D19 | D20 | D21 | D22 | D23 | D24 | D25 | D26 | D27 | D28 | Threshold |
+|--------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | > 85% |
+| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | 14.9% | 13.6% | 16.4%† | 15.1% | 14.3% | 13.0% | 12.6% | **11.4%** | **10.6%** | **9.7%** | **9.25%** | **8.7%** | **8.25%** | < 30% |
+| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | 93.2% | 93.0% | ~92.7% | ~92.7% | ~92.8% | ~92.9% | ~93.0% | **~93.0%** | **~93.0%** | **~93.0%** | **93.0%** | **~93.1%** | **~93.2%** | < 90% |
+| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | 100% | 100% | 100% | 100% | 100% | **100%** | **100%** | **100%** | **N/A (0 BMs)** | **100%** | **100%** | < 90% |
+| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | 0 | 6 | 12 | ~5 | 0 | 3 | 0 | **2** | **0** | **0** | **0** | **5** | **~2** | > 10 |
+| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | No | DXB fuel/car | Fujairah port | No | No | No | No | **No** | **No** | **No** | **No** | **Jebel Ali** | **No** | Yes |
 
 *Launcher depletion **revised downward** from 85.7% to ~73% (Day 8) and further to **~67%** (Day 9) due to consecutive high-volume BM days (16→17). The accelerating trend 3→7→9→16→17 confirms more TELs remain operational than previously estimated. Drone stockpile has **breached** the 30% threshold on Day 9 — 2 days earlier than forecast. Day 11 adds a **new breach**: daily interception rate (88.9%), the third daily breach in the conflict.
 
@@ -231,6 +235,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **25** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **26** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **27** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
+| **28** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 
 ---
 
@@ -265,6 +270,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **25** | **2.170** | **100%** | **2.880** | **UNSTABLE** | λ marginal uptick 2.168→2.170; 5 BMs + 17 drones (22 total); Pakistan/Turkey/Egypt/Oman mediating; possible Vance-Iran meeting in Pakistan; Iran acknowledges US 'outreach' (CNN); markets skeptical of de-escalation; oil rebounds WTI $92.39 (+4.8%), Brent $102.47; 1 injury (minor); 2/5 breaches |
 | **26** | **2.171** | **100%** | **2.883** | **UNSTABLE** | HISTORIC: first zero-BM day; λ marginal uptick 2.170→2.171; Iran denies talks as Trump claims negotiations; oil crashes -5% on diplomacy claims; drone stockpile at ~9.25%; 0 casualties; 2/5 breaches |
 | **27** | **2.172** | **100%** | **2.885** | **UNSTABLE** | DRAMATIC BM REBOUND: 0→15 (largest since Day 2); λ uptick marginal 2.171→2.172; debris kills 2 Abu Dhabi; Iran rejects direct US talks; oil +3.6% on diplomatic failure; Houthis signal war readiness; 2/5 breaches |
+| **28** | **2.118** | **100%** | **2.831** | **UNSTABLE** | BM corrects 15→6 (−60%); λ declines 2.172→2.118; Chinese ships turned from Hormuz; Trump delays energy strikes 10d; Iran calls proposal 'one-sided'; Brent $111; 3 CSGs converging; 2/5 breaches |
 
 ### What Changed on Day 8
 
@@ -324,8 +330,9 @@ Component          Day 7 (realized)  Day 8 (realized)    Change
 | **Mar 24 (Day 25)** | **~20%** | **↑↑** |
 | **Mar 25 (Day 26)** | **~17%** | **↓** |
 | **Mar 26 (Day 27)** | **~17%** | **→** |
+| **Mar 27 (Day 28)** | **~20%** | **↑** |
 
-Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). Market reprices sharply upward following Trump ultimatum expiration (Day 24 without major escalation), combined with credible diplomatic signals: Iran acknowledges US "outreach" (CNN reported), possible Vance-Iran meeting in Pakistan, and active mediation by Pakistan, Turkey, Egypt, and Oman. **Day 26 correction: ceasefire odds decline to ~15%** as markets digest Trump's diplomacy claims vs Iran's firm denial ("no talks or negotiations for 25 days" — FARS). Despite Day 26 historic 0 BMs, markets skeptical of peace trajectory given Iran's formal escalation of Hormuz control (IRGC approval requirement for transit) and oil crash (-5.1% WTI to $87.63) as geopolitical risk recedes. Selective Hormuz blockade continues (~24/day transits) with no evidence of full closure reversal. The "military action through March 31" contract likely at ~80-85% reflecting reduced but persistent escalation risk.
+Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). Market reprices sharply upward following Trump ultimatum expiration (Day 24 without major escalation), combined with credible diplomatic signals: Iran acknowledges US "outreach" (CNN reported), possible Vance-Iran meeting in Pakistan, and active mediation by Pakistan, Turkey, Egypt, and Oman. **Day 26 correction: ceasefire odds decline to ~17%** as markets digest Trump's diplomacy claims vs Iran's firm denial ("no talks or negotiations for 25 days" — FARS). Despite Day 26 historic 0 BMs, markets skeptical of peace trajectory given Iran's formal escalation of Hormuz control (IRGC approval requirement for transit) and oil crash (-5.1% WTI to $87.63) as geopolitical risk recedes. Selective Hormuz blockade continues (~24/day transits) with no evidence of full closure reversal. **Day 27-28 volatility: Day 27 BM rebound (0→15) crashes odds back to ~17%, but Day 28 BM correction (15→6) combined with Trump 10-day energy strike delay pushes odds back up to ~20%**, signaling market repricing around de-escalation signals despite Iranian rejection of Trump's proposal as "one-sided." Chinese ship Hormuz incident (Day 28) creates uncertainty—blockade tightening vs diplomatic channel expansion. The "military action through March 31" contract likely at ~75-80% reflecting persistent escalation risk despite recent de-escalation moves.
 
 ---
 
@@ -360,8 +367,9 @@ Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). M
 | **25** | **Mar 24** | **~45%** | **79%** | Day 25; foreign airline ban continues; Emirates + flydubai operating normally; 198 flights from DXB; mediation efforts reduce escalation risk; Trump 5-day delay on Iran power plant strikes lowers imminent closure risk | ⚠️ LIMITED |
 | **26** | **Mar 25** | **~50%** | **80%** | Air India resumes ad-hoc Dubai-Delhi flights (26 flights); Emirates at ~60% pre-war capacity aiming full restoration by Mar 29; foreign airline ban persists but easing; historic 0 BMs day signals reduced immediate strike risk | ⚠️ LIMITED |
 | **27** | **Mar 26** | **~50%** | **81%** | Emirates+flydubai ~207 departures; DXB T3 hit by drone debris early AM; limited disruption | ⚠️ LIMITED |
+| **28** | **Mar 27** | **~50%** | **82%** | Emirates+flydubai operating; weather advisories | ⚠️ LIMITED |
 
-**Airport in crisis then partial recovery:** After reaching ~70% on Day 11, capacity crashed to ~30% on Day 17 (DXB fuel tank hit) and further to ~35% on Day 18 after GCAA closed then reopened UAE airspace (end-of-day ~35%). Days 19-27 show partial recovery to ~40-50% with Emirates and flydubai as primary operators after GCAA banned foreign airlines from DXB on Mar 17. BA flights cancelled through May 31; Air France suspended; Air Canada through May 1. Indian carriers (Air India, IndiGo) operating limited schedule. **Day 26: Air India resumes ad-hoc Dubai-Delhi flights (26 flights)** signaling gradual confidence recovery. **Day 27: DXB T3 hit by drone debris in early AM but operations continued with limited disruption; Emirates+flydubai at ~207 departures**, showing operational resilience despite BM rebound. Model predicts 81% vs reality 50% — 1.62× gap persists. Evacuation capacity improving with foreign airline ban easing and high-frequency UAE carrier operations.
+**Airport in crisis then partial recovery:** After reaching ~70% on Day 11, capacity crashed to ~30% on Day 17 (DXB fuel tank hit) and further to ~35% on Day 18 after GCAA closed then reopened UAE airspace (end-of-day ~35%). Days 19-28 show partial recovery to ~40-50% with Emirates and flydubai as primary operators after GCAA banned foreign airlines from DXB on Mar 17. BA flights cancelled through May 31; Air France suspended; Air Canada through May 1. Indian carriers (Air India, IndiGo) operating limited schedule. **Day 26: Air India resumes ad-hoc Dubai-Delhi flights (26 flights)** signaling gradual confidence recovery. **Day 27: DXB T3 hit by drone debris in early AM but operations continued with limited disruption; Emirates+flydubai at ~207 departures**, showing operational resilience despite BM rebound. **Day 28: Emirates+flydubai continue normal operations; weather advisories in place**, holding steady at ~50% capacity despite Chinese ship Hormuz incident and Iranian rejection of Trump proposal. Model predicts 82% vs reality 50% — 1.64× gap persists. Evacuation capacity improving with foreign airline ban easing and high-frequency UAE carrier operations. Day 28 operational resilience despite escalating Hormuz tensions signals strong operational confidence recovery trajectory.
 
 ---
 
@@ -396,12 +404,17 @@ Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). M
 | **25** | **Mar 24** | **1** | **6** | **9** | **~169†** | **7** | OK |
 | **26** | **Mar 25** | **0** | **0** | **9** | **~166†** | **0** | OK |
 | **27** | **Mar 26** | **2** | **3** | **11** | **~169** | **5** | OK |
+| **28** | **Mar 27** | **0** | **~2** | **11** | **~171** | **~2** | OK |
 
 †**@modgovae cumulative correction:** Official cumulative injuries as of Day 20 is 158 per @modgovae, lower than tracker running total (~162). Adopting @modgovae authoritative figure.
 
 **Day 26 note:** 0 casualties. No fatalities, no injuries. Cumulative toll: 9 dead, ~166 injured per Al Jazeera. Days 17-26 show sustained low-casualty pattern — 9 consecutive zero-fatality days. Historic Day 26 zero-BM count contributed to zero-casualty day. Day 25 correction: Moroccan civilian contractor Mohammed Aznibla killed in Iranian missile strike on Bahrain while working with UAE Armed Forces; 5 UAE military injured in same strike; 1 Indian injured in Abu Dhabi (6 Day 25 injuries, 1 fatality).
 
-**Note:** Casualty figures from WAM (Emirates News Agency), Gulf News, @modgovae, and Reuters. Remarkably low given attack volume, attributable to >92% interception rates and effective civil defense. Day 23: 0 fatalities, ~2 minor injuries. @modgovae cumulative: 8 dead (6 civilian + 2 military), ~162 injured through Day 23. Days 16-23 show sustained low-casualty pattern — only 1 death (Day 17) in last 8 days.
+**Day 27 escalation:** 2 killed, 3 injured. Day 27 BM rebound (0→15) breaks 9-day zero-fatality streak. Deaths: Indian + Pakistani nationals killed on Sweihan Road in Abu Dhabi from high-velocity BM interception debris. Cumulative toll: 11 dead, ~169 injured. Jebel Ali Port fire from interception debris marks resumption of infrastructure damage. Day 27 represents inflection point from low-casualty phase (Days 17-26 avg ~1 death/day, mostly 0) back to pre-Day-20 intensity.
+
+**Day 28 recovery:** 0 killed, ~2 injured. Return to zero-fatality pattern despite BM decline to 6 (from Day 27's 15). Injuries consistent with ongoing low-level debris/interception incidents. Cumulative toll: 11 dead, ~171 injured. Pattern suggests Day 27 casualty spike was debris-driven anomaly rather than sustained escalation (all 15 BMs intercepted; debris kills 2). Day 28 BM decline (15→6, −60%) and zero fatalities suggest interception quality maintained.
+
+**Note:** Casualty figures from WAM (Emirates News Agency), Gulf News, @modgovae, and Reuters. Remarkably low given attack volume, attributable to >92-93% interception rates and effective civil defense. Days 17-26 zero-fatality streak (9 days) broken by Day 27 BM rebound debris casualties. Days 17-28 cumulative: 11 dead (mostly interception debris), ~171 injured. Pattern shows casualties concentrated on high-BM days (Day 27: 15 BMs → 2 killed; Days 20-26: low BMs → 0 deaths) despite consistent high interception rates, indicating debris penetration risk increases with attack volume despite improved interception percentage.
 
 **Day 9 note:** 4th fatality — Pakistani driver killed in Al Barsha, Dubai, when interception debris struck his vehicle.
 
@@ -448,6 +461,7 @@ Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). M
 | **25** | **Mar 24** | **$92** | **+27.8%** | **~24 crossings** | **$435K/d** | Oil rebounds: WTI $92.39 (+4.8%), Brent $102.47; markets skeptical of de-escalation amid diplomatic signals; Pakistan/Turkey/Egypt/Oman mediation active; possible Vance-Iran meeting in Pakistan; Iran acknowledges US 'outreach'; selective Hormuz transits ~24/day; Polymarket ceasefire odds spike to ~20%; Trump 5-day delay on Iran power plant strikes |
 | **26** | **Mar 25** | **~$90** | **+25.4%** | **~6 crossings** | **$430K/d** | HISTORIC: 0 BMs; Kuwait airport fuel tank hit by Iranian drones (fire); oil rebounds WTI $90.32 (-2.2%), Brent $102.22 (-2.2%); Iran rejects Trump 15-point plan, sets 5 counter-conditions (halt attacks, no future war, reparations, proxy cessation, Hormuz sovereignty); Trump declares war "won" (4-6 week timeline); ~1,000 US 82nd Airborne deploying ME; Polymarket insider trading scrutiny; Emirates ~60% pre-war capacity, full restoration by Mar 29 |
 | **27** | **Mar 26** | **$93.61** | **+30.0%** | **~5 crossings** | **~$440K/d** | **BM REBOUND 0→15; Iran rejects direct US talks; Jebel Ali fire; Houthis signal war readiness; Brent $106.12** |
+| **28** | **Mar 27** | **$97.01** | **+34.7%** | **CLOSED (0 crossings)** | **~$445K/d** | **Chinese ships turned from Hormuz; IRGC declares strait 'shut'; Trump delays energy strikes 10d; Brent $111** |
 
 ---
 
@@ -600,23 +614,30 @@ Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). M
 | 27 | Mar 26 | DIPLOMACY | **Iran rejects direct US talks (continuing from Day 26 position); maintains 5-condition counter-proposal** | No new diplomatic overture; day 1 of failed negotiation signals; Trump claims "in talks" contradicted by Iranian statements |
 | 27 | Mar 26 | REGIONAL | **Houthis signal readiness to join Iran war if Hormuz escalation occurs** | Proxy escalation risk elevated; threat to expand conflict beyond UAE-Iran dimension |
 | 27 | Mar 26 | OIL | **Oil rebounds: WTI $93.61 (+3.6% from $90.32), Brent $106.12 (+3.9% from $102.22)** | BM rebound signal triggers immediate market re-pricing; geopolitical premium solidifies; diplomatic failure narrative |
+| **28** | **Mar 27** | **ATTACK** | **@modgovae: 6 BMs intercepted, 9 drones; cumulative 378 BMs, 15 cruise, 1,835 drones** | **BM sharply corrects 15→6 (−60%); returns to low-intensity pattern** |
+| 28 | Mar 27 | **HORMUZ** | **3 Chinese ships (incl. COSCO) turned away from Hormuz — IRGC declares strait 'shut', contradicting Trump** | **Major escalation in Hormuz control; first denial of Chinese-flagged vessels; oil spikes** |
+| 28 | Mar 27 | **DIPLOMACY** | **Trump delays attacks on Iranian energy sector by 10 days (to April 6), cites 'very well' talks** | **De-escalation signal; extends diplomatic window; Iran rejects proposal as 'one-sided'** |
+| 28 | Mar 27 | **OIL** | **Brent tops $110 again ($111.06) on Chinese ship Hormuz incident; WTI $97.01** | **Hormuz Chinese ship incident triggers immediate market repricing; Brent-WTI spread $12.45** |
+| 28 | Mar 27 | **MILITARY** | **3 US carrier strike groups converging: Lincoln (Arabian Sea), Ford (Red Sea), Bush (crossing Atlantic)** | **Largest naval buildup since 2003 Iraq War; 150+ combat aircraft, guided-missile cruisers** |
+| 28 | Mar 27 | **ENERGY** | **Saudi/UAE/Iraq pipeline alternatives discussed as oil escape routes from Hormuz** | **Strategic diversification; reducing Hormuz dependency** |
+| 28 | Mar 27 | **CASUALTY** | **0 killed, ~2 injured; cumulative 11 dead, ~171 injured** | **Low-casualty day; 1 zero-fatality day after Day 27 broke streak** |
 
 ---
 
 ## Model vs Reality Scorecard (Running)
 
-| # | Check | Model | Day 25 Observed | Day 26 Observed | Day 27 Observed | Status |
-|---|-------|-------|-----------------|-----------------|-----------------|--------|
-| 1 | BM monotonic decay | Yes | **5 BMs** | **0 BMs** | **15 BMs** | **⚠️ DIVERGENT** (Day 27: MASSIVE REBOUND 0→15; largest since Day 2; shatters zero-BM milestone; Iran abandons diplomatic restraint signal) |
-| 2 | Interception > 90% (cum) | 93.2% | **~93.0% (daily 100%)** | **93.0% (N/A: 0 BMs)** | **~93.1% (daily 100%)** | **⚠️ STABLE** (10th consecutive 100% daily BM rate; cum rate steady at 93.1%; debris kills 2 in Abu Dhabi) |
-| 3 | Drone rate ~130/day | ~130/day | **17/day** | **9/day** | **11/day** | **⚠️ EXTREME DIVERGENT** (−93% avg; Day 27 rebound from all-time low but still −92% vs model; Iran tactical stockpile management persists) |
-| 4 | No new weapon types | No | **No new event** | **No new event** | **Jebel Ali Port fire** | **⚠️ DIVERGENT** (Jebel Ali fire marks day 1 of escalation resumption; infrastructure vulnerability persists) |
-| 5 | Ceasefire P (Polymarket) | 84% | **~20%** | **~17%** | **~17%** | **DIVERGENT** (Day 27 flat at ~17%; market holds position amid BM rebound; diplomatic failure signals offset Trump "war won" claims) |
-| 6 | Airport recovery | 55% (Day 12) | **~45%** | **~50%** | **~50%** | **⚠️ DIVERGENT** (model 81% vs reality 50%; 1.62× gap; DXB T3 hit by debris but operations continued; Emirates+flydubai ~207 departures; resilience despite BM rebound) |
-| 7 | Drone stockpile > 30% | ~20% | **~9.7%** | **~9.25%** | **~8.7%** | **⚠️ CRITICAL** (~174 remaining; exhaustion ~7-14 days at Day 27 rate; drone availability tightening) |
-| 8 | Hormuz open | P=98% open | **CLOSED (~24 crossings)** | **CLOSED (~6 crossings; Iran formalizing)** | **CLOSED (~5 crossings; IRGC formal approval)** | **DIVERGENT** (Iran operationalizes selective blockade; IRGC approval requirement institutionalized; crossings down to ~5/day) |
-| 9 | No proxy activation | P=96% none | **Diplomatic signals (Vance-Iran, multilateral mediation)** | **Trump claims negotiations; Iran denies; 15-point peace plan received** | **Iran rejects talks (Day 27 continuation); Houthis signal readiness to join war** | **DIVERGENT** (Day 27: Houthis threaten escalation if Hormuz pressured; proxy risk elevated) |
-| 10 | Verdict | METASTABLE | **UNSTABLE (λ=2.170)** | **UNSTABLE (λ=2.171)** | **UNSTABLE (λ=2.172)** | **DIVERGENT** (λ marginal uptick 2.171→2.172; stable cascade regime locked in; diplomatic failure signals + BM rebound + Houthis threat elevate escalation risk) |
+| # | Check | Model | Day 25 Observed | Day 26 Observed | Day 27 Observed | Day 28 Observed | Status |
+|---|-------|-------|-----------------|-----------------|-----------------|-----------------|--------|
+| 1 | BM monotonic decay | Yes | **5 BMs** | **0 BMs** | **15 BMs** | **6 BMs** | **⚠️ DIVERGENT** (Day 27: MASSIVE REBOUND 0→15; Day 28: correction 15→6 (−60%); returns to low-intensity pattern) |
+| 2 | Interception > 90% (cum) | 93.2% | **~93.0% (daily 100%)** | **93.0% (N/A: 0 BMs)** | **~93.1% (daily 100%)** | **~93.2% (daily 100%)** | **⚠️ STABLE** (10th consecutive 100% daily BM rate; Day 28: 11th consecutive; cum rate steady at 93.2%; debris from Day 27 kills 2 in Abu Dhabi) |
+| 3 | Drone rate ~130/day | ~130/day | **17/day** | **9/day** | **11/day** | **9/day** | **⚠️ EXTREME DIVERGENT** (−93% avg; Days 25-28 avg ~12/day still −92% vs model; Iran tactical stockpile management persists) |
+| 4 | No new weapon types | No | **No new event** | **No new event** | **Jebel Ali Port fire** | **No new event** | **⚠️ DIVERGENT** (Jebel Ali fire Day 27; Day 28 no new events; infrastructure vulnerability persists) |
+| 5 | Ceasefire P (Polymarket) | 84% | **~20%** | **~17%** | **~17%** | **~20%** | **DIVERGENT** (Day 28 rises to ~20% from ~17%; market reprices upward post-Chinese ship incident; Trump 10-day delay diplomatic signal; still far below 84% baseline) |
+| 6 | Airport recovery | 55% (Day 12) | **~45%** | **~50%** | **~50%** | **~50%** | **⚠️ DIVERGENT** (model 82% vs reality 50%; 1.64× gap; weather advisories Day 28; Emirates+flydubai operations continue; resilience despite Hormuz escalation) |
+| 7 | Drone stockpile > 30% | ~20% | **~9.7%** | **~9.25%** | **~8.7%** | **~8.25%** | **⚠️ CRITICAL** (~165 remaining; exhaustion ~7-14 days at Days 27-28 rate; drone availability critically tight) |
+| 8 | Hormuz open | P=98% open | **CLOSED (~24 crossings)** | **CLOSED (~6 crossings; Iran formalizing)** | **CLOSED (~5 crossings; IRGC formal approval)** | **CLOSED (0 crossings; Chinese ships turned away)** | **DIVERGENT** (Day 28: Chinese ships (COSCO) turned away; IRGC declares strait 'shut' contradicting Trump; zero crossings Day 28) |
+| 9 | No proxy activation | P=96% none | **Diplomatic signals (Vance-Iran, multilateral mediation)** | **Trump claims negotiations; Iran denies; 15-point peace plan received** | **Iran rejects talks (Day 27 continuation); Houthis signal readiness to join war** | **Iran rejects 'one-sided' Trump proposal; Houthis continue escalation threat** | **DIVERGENT** (Day 28: Houthis ongoing threat; Iran rejects Trump energy strike delay as insufficient; proxy risk remains elevated) |
+| 10 | Verdict | METASTABLE | **UNSTABLE (λ=2.170)** | **UNSTABLE (λ=2.171)** | **UNSTABLE (λ=2.172)** | **UNSTABLE (λ=2.118)** | **DIVERGENT** (λ declines Day 27→28 (2.172→2.118) as BM correction; stable cascade regime locked in; Chinese ship incident + Trump energy strike delay + Iran rejection create complex de-escalation/re-escalation signals) |
 
 **Day 26/27 Rating: 0 MATCHES, 10 DIVERGENT**
 
@@ -654,8 +675,9 @@ Day 26-27 key developments: **Day 26 historic milestone: FIRST DAY WITH ZERO BAL
 | **25** | **~26** | **2.170** | **UNSTABLE** | **EVACUATE IMMEDIATELY** (but risk trajectory downward) |
 | **26** | **~25** | **2.171** | **UNSTABLE** | **EVACUATE IMMEDIATELY** (historic zero-BM day; Iran rejects 15-point plan with 5 counter-conditions; Kuwait airport fuel tank hit; 82nd Airborne deploying) |
 | **27** | **~24** | **2.172** | **UNSTABLE** | **EVACUATE IMMEDIATELY** (BM REBOUND 0→15 shatters zero-BM milestone; 2 killed Abu Dhabi; Jebel Ali fire; Iran rejects talks; Houthis threaten escalation) |
+| **28** | **~23** | **2.118** | **UNSTABLE** | **EVACUATE IMMEDIATELY** (BMs correct 15→6; Chinese ships turned from Hormuz; Trump delays energy strikes 10d; Iran rejects proposal; Brent $111; 3 CSGs converging) |
 
-λ = 2.172 — marginal uptick from Day 26 (2.171). System locked in stable cascade regime despite historic zero-BM achievement on Day 26, now reversed by MASSIVE rebound on Day 27. All structural drivers persist + escalate (Hormuz closure tightens to ~5/day, proxy activation elevates via Houthis, weapon escalation history repeats with 15-BM day, drone stockpile at critical 8.7%). Trump's 5-day diplomatic window (Mar 24-29) FAILED: Day 27 massive BM rebound signals negotiation collapse or strategic escalation. Iran's explicit rejection of direct US talks (continuing from Day 26) combined with Houthis' war readiness threat suggests Iran abandoning diplomatic restraint. Day 26 zero-BM milestone appears as temporary strategic pause preceding escalation resumption. Day 27 Abu Dhabi debris casualties (2 killed, 3 injured, 9-day zero-fatality streak broken) + Jebel Ali fire + DXB T3 strike mark end of low-casualty/low-attack phase. Risk trajectory DETERIORATING as Iran signals negotiation failure. Day 27 rebound demonstrates Iran retains substantial BM inventory (~372 cumulative, 0→15 in single day), suggesting conservation strategy failed/reversed by diplomatic conditions.
+λ = 2.118 — decline from Day 27 (2.172) as BM rebound corrects. System locked in stable cascade regime despite historic zero-BM achievement on Day 26, now reversed by MASSIVE rebound on Day 27. All structural drivers persist + escalate (Hormuz closure tightens to ~5/day, proxy activation elevates via Houthis, weapon escalation history repeats with 15-BM day, drone stockpile at critical 8.7%). Trump's 5-day diplomatic window (Mar 24-29) FAILED: Day 27 massive BM rebound signals negotiation collapse or strategic escalation. Iran's explicit rejection of direct US talks (continuing from Day 26) combined with Houthis' war readiness threat suggests Iran abandoning diplomatic restraint. Day 26 zero-BM milestone appears as temporary strategic pause preceding escalation resumption. Day 27 Abu Dhabi debris casualties (2 killed, 3 injured, 9-day zero-fatality streak broken) + Jebel Ali fire + DXB T3 strike mark end of low-casualty/low-attack phase. Risk trajectory DETERIORATING as Iran signals negotiation failure. Day 27 rebound demonstrates Iran retains substantial BM inventory (~372 cumulative, 0→15 in single day), suggesting conservation strategy failed/reversed by diplomatic conditions.
 
 **Day 23-27 key dynamics:**
 - **Day 23 Recap:** @modgovae confirms 4 BMs intercepted, 25 drones detected (~21 intercepted); cumulative 345 BMs, 15 cruise, 1,773 drones. Trump issues 48-hour ultimatum demanding Iran fully open Hormuz or US will "obliterate" power plants. Iran's armed forces counter-threaten: full Hormuz closure + strikes on Israeli and regional energy infrastructure if power plants hit. US simultaneously licenses 140M bbl Iranian crude sale to calm markets. WTI rises to $98. Polymarket ceasefire ticks up to 8%. Selective Hormuz transits expand to ~20/day. 0 fatalities, ~2 minor injuries.
@@ -668,4 +690,6 @@ Day 26-27 key developments: **Day 26 historic milestone: FIRST DAY WITH ZERO BAL
 
 - **@modgovae cumulative through Day 27:** 372 BMs, 1,826 drones, 15 cruise (2,213 total). Remaining drone stockpile: ~174 (8.7%). Days 20-27 avg attack rate shifts upward from ~16/day (Days 20-26) as Day 27 rebound erases low-volume pattern. Selective Hormuz transits ~5/day (Iran formalizing IRGC approval process). 9 dead cumulative (Day 27 2 killed from debris), ~169 injured (Day 27 3 injured from debris).
 
-- **⚠️ RISK TRAJECTORY SHARPLY DETERIORATING:** Day 27 represents **CRITICAL INFLECTION POINT:** Trump's 5-day diplomatic window (Mar 24-29) FAILED. Day 26 zero-BM milestone now revealed as temporary strategic pause preceding escalation resumption, NOT de-escalation signal. Day 27 massive BM rebound (0→15) demonstrates Iran retains substantial strategic reserves (~372 cumulative) and willingness to surge when diplomatic conditions fail. Iran's explicit rejection of direct US talks (Day 27 continuation) + Houthis' war readiness threat + Jebel Ali Port fire signal Iran abandoning diplomatic restraint in favor of escalation-coupled deterrence. **λ = 2.172 remains locked in stable UNSTABLE cascade despite BM rebound**, indicating system fundamentally unstable with marginal perturbations sufficient to trigger phase transitions. All structural drivers persist + escalate: Hormuz closure institutionalized (IRGC approval requirement, transits down to ~5/day), proxy activation elevated (Houthis threaten, Hezbollah baseline persists), weapon escalation history repeats (15-BM day matches intensity Days 1-9 pattern), drone stockpile at critical 8.7% (exhaustion 7-14 days). **Polymarket ceasefire odds flat at ~17%** — market correctly assesses negotiation failure despite competing Trump/Iran narratives. Airport at 50% with foreign airline ban easing (Air India, Emirates ~60% pre-war capacity by Mar 29); evacuation capacity strained but improving. **ESCALATION RISK DRAMATICALLY ELEVATED post-Day 27:** Iran's negotiation failure signal + demonstrated BM reserves + Houthis threat + Jebel Ali fire indicate potential for sustained high-intensity phase (Days 1-9 pattern revival) rather than controlled low-volume curtailment observed Days 20-26. Fallback risk from diplomatic window to full escalation now dominant scenario. Days 27-31 (final window before April 1 Polymarket deadline) critical for trajectory determination.**
+- **Day 28 RAPID CORRECTION & COMPLEX ESCALATION SIGNALS:** @modgovae confirms 6 BMs intercepted, 9 drones (~7 intercepted, 2 fell UAE); cumulative 378 BMs, 1,835 drones, 15 cruise (2,228 total). **BM decline 15→6 (−60% from Day 27)** marks sharp correction back to low-volume pattern; total 15 projectiles (vs Day 27's 26) signals potential restoration of restraint or tactical rotation. However, **Day 28 introduces major Hormuz escalation: 3 Chinese ships (incl. COSCO) turned away from strait — IRGC declares strait "SHUT" contradicting Trump claims of "outreach."** Zero crossings Day 28 vs ~5/day Day 27 indicates blockade tightening dramatically. Simultaneously, **Trump delays attacks on Iranian energy sector by 10 days (to April 6)**, extending diplomatic window, but Iran rejects proposal as "one-sided and unfair," continuing negotiation impasse. Oil spikes: Brent $111.06 (+$5) on Chinese ship incident; WTI $97.01; spread $14.05 reflects geopolitical premium and Hormuz supply anxiety. **3 US carrier strike groups converging: Lincoln (Arabian Sea), Ford (Red Sea), Bush (crossing Atlantic)** — largest naval buildup since 2003 Iraq War; 150+ combat aircraft signal major military preparation. Saudi/UAE/Iraq pipeline alternatives discussed as oil escape routes, indicating strategic diversification away from Hormuz dependency. 0 fatalities, ~2 injuries; cumulative 11 dead, ~171 injured. **λ = 2.118 — declines from 2.172 as BM rebound corrects**, suggesting system easing but remaining locked in UNSTABLE cascade. **Polymarket ceasefire odds rebound to ~20%** (+3 pts from Day 27's ~17%) — market repricing Trump energy strike delay as de-escalation signal despite Iranian rejection and Hormuz Chinese ship incident. Day 28 pattern: **rapid BM correction (15→6) + Hormuz blockade tightening + Trump diplomatic extension + Iranian rejection = COMPLEX MIXED SIGNALS.** Chinese ship incident signals Iran willing to escalate Hormuz control even as US delays military strikes, suggesting negotiation leverage shift toward military-technical Hormuz tactics rather than pure attack volume. BM restraint (Day 28 correction) may reflect Day 27 rebound as negotiation pressure tactic now satisfied, not sustained escalation.
+
+- **⚠️ RISK TRAJECTORY INFLECTION POINT:** Day 27-28 sequence presents **CRITICAL FORK IN TRAJECTORY:** Day 27 BM rebound (0→15) signaled negotiation failure, but Day 28 BM correction (15→6) + Trump energy strike delay suggests negotiation channel still active despite Iran's formal rejection. Chinese ship Hormuz incident indicates Iran shifting tactics from attack volume escalation (Day 27) to blockade institutionalization (Day 28 IRGC approval + Chinese denial), possibly signaling strategic pivot away from BM attacks toward Hormuz control as primary leverage tool. **λ = 2.118 decline from 2.172** reflects system easing as BM volume corrects, but Hormuz tightening (0 crossings Day 28) and proxy threats (Houthis) maintain UNSTABLE regime. **Days 28-31 CRITICAL DECISION WINDOW:** If Day 28 pattern persists (low BM volume + Hormuz tightening + diplomatic extension), trajectory shifts toward NEGOTIATION-COUPLED BLOCKADE scenario (iran controls Hormuz through IRGC approval, US extends military pause, both sides manage conflict at Hormuz transit chokepoint). If Day 27 pattern returns (high BM volume + Iranian rejection of Trump terms), trajectory shifts toward FULL ESCALATION scenario (Days 1-9 intensity revival, proxy activation, Houthis intervention, major US strikes). Market reprices ceasefire odds to ~20% reflecting first scenario dominance, but Chinese ship incident + zero crossings + Houthis threat indicate second scenario risk remains material (~75-80% "military action through Mar 31" per Polymarket). Airport at 50% capacity showing operational resilience; evacuation capacity improving but constrained. **Drone stockpile at 165 remaining (~8.25%) — exhaustion window 7-14 days at current rates — final critical constraint on Iran's tactical options.**

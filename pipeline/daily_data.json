@@ -1019,6 +1019,46 @@
         "air_base_strike": true
       },
       "notes": "DRAMATIC BM REBOUND: After historic first day with 0 BMs (Day 26), Iran fires 15 BMs — largest single-day count since Day 2 (28 BMs). All 15 intercepted but debris kills 2 in Abu Dhabi (Indian + Pakistani on Sweihan Road). 11 drones detected (9 intercepted, 2 fell UAE). Jebel Ali Port fire from interception debris. DXB T3 hit by drone debris. Iran formally rejects direct US talks — oil rebounds sharply (WTI +3.6%, Brent +3.8%). Houthis ready to join war. Cumulative: 372 BMs, 15 cruise, 1,826 drones; 11 dead, ~169 injured. Sources: @modgovae via Gulf News liveblog, AA; The Week India, Kurdistan24, JPost on Abu Dhabi deaths; Emirates247 on Jebel Ali; TravelPirates, LoyaltyLobby on DXB; CNBC on oil; BOE Report on Houthis; Polymarket."
+    },
+    {
+      "day": 28,
+      "date": "2026-03-27",
+      "bm_detected": 6,
+      "bm_intercepted": 6,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 9,
+      "drones_intercepted": 7,
+      "drones_fell_uae": 2,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 2,
+      "airport_capacity_pct": 50,
+      "oil_wti": 97.01,
+      "vlcc_rate": 445000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 0,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 20,
+      "carrier_count": 3,
+      "carrier_effective": 2.3,
+      "key_events": [
+        "@modgovae: 6 BMs intercepted, 9 drones detected; cumulative 378 BMs, 15 cruise, 1,835 drones",
+        "3 Chinese ships (incl. COSCO vessels) turned away from Hormuz — IRGC declares strait 'shut', contradicting Trump claims",
+        "Trump delays attacks on Iranian energy sector by 10 days (to April 6), cites 'very well' talks",
+        "Iran calls US proposal 'one-sided and unfair'; Pakistan relaying messages between Washington and Tehran",
+        "Brent tops $110 again ($111.06) on Chinese ship Hormuz incident; WTI $97.01",
+        "3 US carrier strike groups converging: Lincoln (Arabian Sea), Ford (Red Sea), Bush (crossing Atlantic)",
+        "Saudi/UAE/Iraq pipeline alternatives discussed as oil escape routes from Hormuz dependency",
+        "Cumulative: 11 dead, ~171 injured"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "BM sharply declines from Day 27 rebound: 15→6 (−60%), returning to low-intensity pattern. All 6 BMs intercepted. 9 drones detected (7 intercepted, 2 fell UAE). Chinese ships turned away from Hormuz — IRGC contradicts Trump, declares strait shut — escalation in Hormuz control. Trump delays energy strikes 10 days (de-escalation signal). Iran rejects US proposal as 'one-sided'. Brent tops $111 on Chinese ship incident (Hormuz uncertainty). 3rd carrier (Bush) crossing Atlantic. 0 deaths; ~2 injuries. Cumulative: 378 BMs, 15 cruise, 1,835 drones; 11 dead, ~171 injured. Sources: @modgovae via TAG91.1; CNBC, CBS News on oil/Hormuz; Al Jazeera Day 28 liveblog; Newsweek on Chinese ships; NPR on Trump delay; Fortune on oil prices; Army Recognition on carriers."
     }
   ]
 }
