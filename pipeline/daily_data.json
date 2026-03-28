@@ -6,8 +6,8 @@
     "tel_stockpile_estimate": 40,
     "cascade_thresholds": {
       "launcher_depletion": 0.85,
-      "drone_stockpile_remaining": 0.30,
-      "interception_rate_cumulative": 0.90,
+      "drone_stockpile_remaining": 0.3,
+      "interception_rate_cumulative": 0.9,
       "daily_casualties": 10,
       "new_weapon_type": false
     }
@@ -1059,6 +1059,49 @@
         "air_base_strike": true
       },
       "notes": "BM sharply declines from Day 27 rebound: 15→6 (−60%), returning to low-intensity pattern. All 6 BMs intercepted. 9 drones detected (7 intercepted, 2 fell UAE). Chinese ships turned away from Hormuz — IRGC contradicts Trump, declares strait shut — escalation in Hormuz control. Trump delays energy strikes 10 days (de-escalation signal). Iran rejects US proposal as 'one-sided'. Brent tops $111 on Chinese ship incident (Hormuz uncertainty). 3rd carrier (Bush) crossing Atlantic. 0 deaths; ~2 injuries. Cumulative: 378 BMs, 15 cruise, 1,835 drones; 11 dead, ~171 injured. Sources: @modgovae via TAG91.1; CNBC, CBS News on oil/Hormuz; Al Jazeera Day 28 liveblog; Newsweek on Chinese ships; NPR on Trump delay; Fortune on oil prices; Army Recognition on carriers."
+    },
+    {
+      "day": 29,
+      "date": "2026-03-28",
+      "bm_detected": 20,
+      "bm_intercepted": 20,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 37,
+      "drones_intercepted": 33,
+      "drones_fell_uae": 4,
+      "cruise_missiles": 0,
+      "deaths": 1,
+      "injuries": 6,
+      "airport_capacity_pct": 45,
+      "oil_wti": 99.64,
+      "vlcc_rate": 455000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 2,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 15,
+      "carrier_count": 3,
+      "carrier_effective": 2.4,
+      "key_events": [
+        "@modgovae: 20 BMs intercepted, 37 drones detected (33 intercepted, 4 fell UAE); cumulative 398 BMs, 15 cruise, 1,872 drones",
+        "BM SURGE: 6→20 (+233%) — largest daily count since Day 27 rebound (15); volatile pattern continues (Day 26: 0, Day 27: 15, Day 28: 6, Day 29: 20)",
+        "1 civilian killed (Asian nationality) + 6 injured (5 Indians + 1 Pakistani) from interception debris at Kezad, Abu Dhabi",
+        "US troops injured in Iran attack on Saudi base — war reaches one-month mark (NPR)",
+        "Oil surges sharply: WTI $99.64 (+5.46%, session high $100.04 breaches $100 intraday); Brent $112.57 (+4.22%)",
+        "Iran Hormuz toll booth system continues; ~2 selective transits; IRGC checks nationality/cargo/crew",
+        "Multiple international carriers still suspended (KLM through May 17, Turkish through end March, Air France through Mar 31)",
+        "DXB operating ~45% capacity; Emirates + flydubai maintaining reduced schedules",
+        "3rd carrier (USS George H.W. Bush) crossing Atlantic toward theater; 3 CSGs converging",
+        "Polymarket ceasefire-by-Mar-31 declining to ~15% with only 3 days remaining",
+        "Cumulative: 12 dead, ~177 injured"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "BM VOLATILE PATTERN CONTINUES: After Day 26 zero, Day 27 rebound (15), Day 28 drop (6), Day 29 surges to 20 — highest since Day 27. All 20 BMs intercepted but debris kills 1 at Kezad (Asian civilian) and injures 6 (5 Indians + 1 Pakistani). 37 drones detected (33 intercepted, 4 fell UAE — elevated leakage). Oil breaks $100 WTI intraday for first time since conflict began. US troops injured at Saudi base — proxy escalation. Iran Hormuz toll system continues with minimal traffic (~2 transits). KLM suspended through May 17. War reaches one-month mark with no ceasefire progress. Cumulative: 398 BMs, 15 cruise, 1,872 drones; 12 dead, ~177 injured. Sources: @modgovae via Gulf News, The National, Onmanorama (Kezad casualties); NPR (Saudi base attack); CNBC, FX Leaders (oil); Al Jazeera, Euronews (Hormuz); TimeOut Dubai (DXB); Polymarket."
     }
   ]
 }
