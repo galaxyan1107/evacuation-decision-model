@@ -1184,6 +1184,49 @@
         "air_base_strike": true
       },
       "notes": "BM declines: 16→11 (−31%); 27 drones (−36% from Day 30). All 11 BMs intercepted. 0 deaths, 0 injuries on Day 31. Major new risk: Houthis formally enter war with 2nd strike on Israel + Bab al-Mandeb threat. Oil surges: Brent $115 (+2.5%), WTI $102.85 (+3%) — Brent on pace for steepest monthly gain on record (+55%). SocGen $150 forecast. DXB at ~60% with major international carriers restored (BA, Lufthansa, Air India, IndiGo). Polymarket ceasefire-by-Mar-31 at ~2% (market expires tomorrow). Cumulative: 425 BMs, 15 cruise, 1,941 UAVs; 12 dead, ~178 injured. Sources: @modgovae tweet (X/Twitter), TAG91.1; Gulf News (March 30 intercept article); CNBC on oil/Houthis; Al Jazeera Houthi liveblog; Axios on Houthis/Red Sea; Bloomberg on oil markets; MacroMicro/Polymarket on ceasefire odds; Travel and Tour World on DXB capacity."
+    },
+    {
+      "day": 32,
+      "date": "2026-03-31",
+      "bm_detected": 8,
+      "bm_intercepted": 8,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 36,
+      "drones_intercepted": 32,
+      "drones_fell_uae": 4,
+      "cruise_missiles": 4,
+      "deaths": 0,
+      "injuries": 4,
+      "airport_capacity_pct": 55,
+      "oil_wti": 102.24,
+      "vlcc_rate": 475000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 4,
+      "proxy_active": true,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 1,
+      "carrier_count": 3,
+      "carrier_effective": 2.5,
+      "key_events": [
+        "@modgovae: 8 BMs intercepted, 4 cruise missiles, 36 drones detected (~32 intercepted); cumulative 433 BMs, 19 cruise, 1,977 drones",
+        "CRUISE MISSILES RETURN: First cruise missiles since early March — 4 launched, marking significant escalation in weapon diversity",
+        "Kuwaiti VLCC Al Salmi (2M bbl loaded) struck by Iranian drone at Dubai Port anchorage — fire extinguished, 24 crew safe, no oil spill",
+        "4 Asian nationals injured in southern Dubai from interception debris falling on residential houses",
+        "3 UN peacekeeping troops killed (per Al Jazeera liveblog)",
+        "Trump escalates Iran threats; Polymarket ceasefire-by-Mar-31 expires at ~1% (resolving NO)",
+        "Oil: WTI $102.24, Brent ~$106.56; Brent completes steepest monthly rise on record (~55% in March)",
+        "Houthis continue Bab al-Mandeb threats but pledge to keep strait open 'for now'",
+        "DXB operating limited flights ~55% capacity; BA suspended through May 31; Air France through Mar 31",
+        "Hormuz selective transits continue; ~4 vessels; Iran toll booth system active",
+        "Cumulative: 12 dead, ~182 injured"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "CRUISE MISSILES RETURN — first since early conflict (4 cruise missiles). @modgovae: 8 BMs intercepted (all), 4 cruise missiles, 36 drones detected (~32 intercepted, ~4 fell UAE). Total projectiles: 48 (up from Day 31's 38). Major incident: Iranian drone strikes Kuwaiti VLCC Al Salmi at Dubai Port anchorage — fully loaded with 2M bbl oil; fire extinguished, 24 crew safe, no oil spill. 4 Asian nationals injured in southern Dubai from interception debris. 0 deaths today. Polymarket ceasefire-by-Mar-31 expires at ~1% — resolving NO. Brent completes record monthly surge (~55% in March). Trump escalates rhetoric. 3 UN troops killed (per Al Jazeera). Houthis threaten Bab al-Mandeb but pledge to keep open for now. Cumulative: 433 BMs, 19 cruise, 1,977 drones; 12 dead, ~182 injured. Sources: @modgovae via Dubai Eye 103.8, Radio Shoma, ARN News, TAG91.1, Virgin Radio Dubai; Gulf News Day 32 liveblog; Al Jazeera liveblog; Euronews; Bloomberg, Seatrade Maritime on Al Salmi; Khaleej Times; CNBC on oil; Polymarket."
     }
   ]
 }
