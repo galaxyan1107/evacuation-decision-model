@@ -1227,6 +1227,50 @@
         "air_base_strike": true
       },
       "notes": "CRUISE MISSILES RETURN — first since early conflict (4 cruise missiles). @modgovae: 8 BMs intercepted (all), 4 cruise missiles, 36 drones detected (~32 intercepted, ~4 fell UAE). Total projectiles: 48 (up from Day 31's 38). Major incident: Iranian drone strikes Kuwaiti VLCC Al Salmi at Dubai Port anchorage — fully loaded with 2M bbl oil; fire extinguished, 24 crew safe, no oil spill. 4 Asian nationals injured in southern Dubai from interception debris. 0 deaths today. Polymarket ceasefire-by-Mar-31 expires at ~1% — resolving NO. Brent completes record monthly surge (~55% in March). Trump escalates rhetoric. 3 UN troops killed (per Al Jazeera). Houthis threaten Bab al-Mandeb but pledge to keep open for now. Cumulative: 433 BMs, 19 cruise, 1,977 drones; 12 dead, ~182 injured. Sources: @modgovae via Dubai Eye 103.8, Radio Shoma, ARN News, TAG91.1, Virgin Radio Dubai; Gulf News Day 32 liveblog; Al Jazeera liveblog; Euronews; Bloomberg, Seatrade Maritime on Al Salmi; Khaleej Times; CNBC on oil; Polymarket."
+    },
+    {
+      "day": 33,
+      "date": "2026-04-01",
+      "bm_detected": 5,
+      "bm_intercepted": 5,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 35,
+      "drones_intercepted": 30,
+      "drones_fell_uae": 5,
+      "cruise_missiles": 0,
+      "deaths": 1,
+      "injuries": 2,
+      "airport_capacity_pct": 52,
+      "oil_wti": 100.45,
+      "vlcc_rate": 450000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 4,
+      "proxy_active": true,
+      "new_weapon_event": "Kuwait International Airport fuel tanks struck by Iranian drone; aviation fuel facility fire",
+      "polymarket_ceasefire_mar31": 0,
+      "carrier_count": 3,
+      "carrier_effective": 2.5,
+      "key_events": [
+        "@modgovae: 5 BMs intercepted (all), 0 cruise missiles, 35 drones detected (~30 intercepted, ~5 fell UAE); cumulative 438 BMs, 19 cruise, 2,012 drones",
+        "Bangladeshi national killed by intercepted drone debris falling on farm in Fujairah (Al Rifa'a area)",
+        "Indian expat injured by drone debris in Umm Al Quwain (Umm Al Thaoub industrial zone)",
+        "KUWAIT AIRPORT STRUCK: Iranian drone hits fuel tanks at Kuwait International Airport — aviation fuel facility fire; airport remains closed",
+        "Trump says war could end in 'two to three weeks'; claims Iran's president asked for ceasefire — Tehran denies",
+        "Trump plans address to nation on April 2; signals potential US military wind-down",
+        "Iran rejects ceasefire claim; FM says Iran prepared for 'at least six months' of war",
+        "Polymarket ceasefire-by-Mar-31 resolved NO; ceasefire-by-Apr-30 at ~59%",
+        "Oil pulls back: WTI ~$100.45, Brent ~$104.86 (Brent -$5.83 from Day 32 on Trump de-escalation comments)",
+        "DXB operating at ~52% capacity; Air France suspension through Mar 31 expired; Lufthansa suspended through May 31",
+        "Hormuz selective transits continue; ~4 vessels; Iran toll booth system active",
+        "Cumulative: ~13 dead, ~190 injured"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "DAY 33 — TRUMP SIGNALS WAR END. @modgovae: 5 BMs intercepted (all), 35 drones detected (~30 intercepted, ~5 fell UAE). Total projectiles: 40 (down from Day 32's 48). Attack tempo declining from peak. 1 death: Bangladeshi national killed by drone debris on Fujairah farm. 1 injured: Indian expat in UAQ industrial zone. Major event: Iranian drone strikes Kuwait International Airport fuel tanks — fire at aviation fuel facility, no casualties at airport. Trump says war could end in 2-3 weeks, claims Iran asked for ceasefire; Tehran denies. Trump plans address to nation April 2. Iran FM says prepared for 6+ months of war. Oil sharply lower: Brent -$5.83 to $104.86 on Trump de-escalation signals. Polymarket ceasefire-by-Mar-31 resolved NO; ceasefire-by-Apr-30 at ~59% (up from ~50% on Mar 24). DXB ~52% capacity. Hormuz remains closed to most traffic, selective transits ~4/day. Cumulative: 438 BMs, 19 cruise, 2,012 drones; ~13 dead, ~190 injured. Sources: @modgovae, Gulf News Day 33, Khaleej Times, Al Arabiya, Xinhua, Al Jazeera liveblog, Euronews, CNBC, CNN, US News, Polymarket, S&P Global (VLCC rates)."
     }
   ]
 }

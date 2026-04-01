@@ -258,5 +258,15 @@
     "p_gt_1": 100.0,
     "verdict": "UNSTABLE",
     "breaches": 2
+  },
+  {
+    "timestamp": "2026-04-01T23:06:24.276328",
+    "day": 33,
+    "slug": "day33-april1",
+    "lambda_median": 2.1196787342767385,
+    "lambda_p95": 2.8321031401187238,
+    "p_gt_1": 100.0,
+    "verdict": "UNSTABLE",
+    "breaches": 3
   }
 ]
