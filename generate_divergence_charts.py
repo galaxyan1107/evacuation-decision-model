@@ -27,13 +27,13 @@ CHART_CONFIG = {
 }
 
 # Output directory
-OUTPUT_DIR = Path("/sessions/charming-gifted-sagan/mnt/flea/gitbook-evacuation-model/charts")
+OUTPUT_DIR = Path("/sessions/busy-determined-carson/mnt/flea/gitbook-evacuation-model/charts")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 def load_data():
     """Load daily_data.json and run_log.json"""
-    daily_path = Path("/sessions/charming-gifted-sagan/mnt/flea/gitbook-evacuation-model/pipeline/daily_data.json")
-    run_log_path = Path("/sessions/charming-gifted-sagan/mnt/flea/gitbook-evacuation-model/pipeline/run_log.json")
+    daily_path = Path("/sessions/busy-determined-carson/mnt/flea/gitbook-evacuation-model/pipeline/daily_data.json")
+    run_log_path = Path("/sessions/busy-determined-carson/mnt/flea/gitbook-evacuation-model/pipeline/run_log.json")
 
     with open(daily_path, 'r') as f:
         daily_data = json.load(f)
@@ -364,7 +364,7 @@ def generate_lambda_evolution(run_log):
 
     ax.set_xlabel('Day', fontsize=CHART_CONFIG['label_size'], fontweight='bold')
     ax.set_ylabel('λ Median', fontsize=CHART_CONFIG['label_size'], fontweight='bold')
-    ax.set_title('Lambda Evolution - Queue Stability Across 33 Days',
+    ax.set_title('Lambda Evolution - Queue Stability Across 34 Days',
                 fontsize=CHART_CONFIG['title_size'], fontweight='bold', pad=20)
 
     ax.grid(True, alpha=0.3, linestyle='--')
@@ -375,9 +375,9 @@ def generate_lambda_evolution(run_log):
     ax.set_xlim(min(days) - 0.5, max(days) + 0.5)
 
     plt.tight_layout()
-    plt.savefig(OUTPUT_DIR / 'lambda_evolution_day33.png', dpi=CHART_CONFIG['dpi'], bbox_inches='tight')
+    plt.savefig(OUTPUT_DIR / 'lambda_evolution_day34.png', dpi=CHART_CONFIG['dpi'], bbox_inches='tight')
     plt.close()
-    print("Generated: lambda_evolution_day33.png")
+    print("Generated: lambda_evolution_day34.png")
 
 def generate_bm_trajectory(daily_data):
     """Generate BM trajectory line chart with model overlay"""
@@ -453,7 +453,7 @@ def main():
         OUTPUT_DIR / 'divergence_heatmap.png',
         OUTPUT_DIR / 'model_vs_actual_bars.png',
         OUTPUT_DIR / 'divergence_scorecard.png',
-        OUTPUT_DIR / 'lambda_evolution_day33.png',
+        OUTPUT_DIR / 'lambda_evolution_day34.png',
         OUTPUT_DIR / 'bm_trajectory.png'
     ]
 
