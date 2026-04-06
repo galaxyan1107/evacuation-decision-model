@@ -1403,6 +1403,51 @@
         "air_base_strike": true
       },
       "notes": "DAY 36 -- TRUMP 48-HOUR ULTIMATUM & BUSHEHR NUCLEAR PLANT STRIKE. @modgovae: 23 BMs (~21 intercepted, ~91%; 1 fell sea, 1 fell land), 0 cruise missiles, 56 drones (~48 intercepted, ~86%; ~8 fell UAE). Total projectiles: 79 (23 BM + 56 drones) -- sharp jump from Day 35's 69. Cumulative: 498 BMs, 23 cruise, 2,141 drones. 0 deaths today. 11 injured from debris. Trump posts 48-hour ultimatum on Truth Social: open Hormuz or make a deal or face 'all hell'; reinforces April 6 deadline after extension Mar 26. US-Israeli strike hits Bushehr nuclear power plant grounds -- 1 killed, auxiliary buildings damaged; major escalation signal. US aircraft shot down by Iran; crew member missing. US strikes Iran B1 bridge during Nature Day holiday (8 killed, 95 wounded). UN Security Council votes on Bahrain Hormuz resolution -- Russia/China veto likely. Polymarket ceasefire-by-Apr-30 surges to ~57% on Iran receiving US mediator message (Bitcoin.com/Polymarket). Oil elevated: WTI ~$113.50, Brent ~$111.80. DXB ~55% capacity (Easter Saturday). Hormuz selective transits ~12/day, expanding to French and Japanese vessels. Sources: @modgovae via Gulf News/liveuamap, CBS News live updates, Bloomberg, Trump Truth Social via Haaretz/RFERL/Axios, Polymarket, TravelPirates (DXB), CNBC (oil)."
+    },
+    {
+      "day": 37,
+      "date": "2026-04-05",
+      "bm_detected": 9,
+      "bm_intercepted": 8,
+      "bm_fell_sea": 1,
+      "bm_fell_land": 0,
+      "drones_detected": 50,
+      "drones_intercepted": 42,
+      "drones_fell_uae": 8,
+      "cruise_missiles": 1,
+      "deaths": 0,
+      "injuries": 5,
+      "airport_capacity_pct": 55,
+      "oil_wti": 113.5,
+      "vlcc_rate": 500000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 15,
+      "proxy_active": true,
+      "new_weapon_event": "Borouge petrochemical plant multiple fires from interception debris; operations suspended",
+      "polymarket_ceasefire_mar31": 60,
+      "carrier_count": 3,
+      "carrier_effective": 2.5,
+      "key_events": [
+        "@modgovae: 9 BMs engaged (~8 intercepted, 1 fell sea), 1 cruise missile, 50 drones detected (~42 intercepted, ~8 fell UAE); cumulative ~506 BMs, ~17 cruise, ~2,297 drones",
+        "BOROUGE PETROCHEMICAL FIRES: Multiple fires at Borouge petrochemicals plant in Ruwais from interception debris; 3 separate fires confirmed; operations immediately suspended; no injuries reported (Gulf News, Bloomberg, Khaleej Times)",
+        "US PILOT RESCUED: Missing F-15E weapons system officer rescued by US special forces from Iranian mountains after 36+ hours of evasion; 'seriously wounded' but walking; Trump confirms rescue of 'highly respected Colonel' (NPR, CBS, Axios)",
+        "TRUMP DEADLINE T-24H: Trump's 48-hour ultimatum (issued Apr 4) expires April 6; Trump says US will target Iran's power grid, bridges, and oil infrastructure if Hormuz stays closed (Khaleej Times Day 37 live)",
+        "IRAQ HORMUZ EXEMPTION: Iran grants Iraq special exemption for Hormuz transit; Suezmax Ocean Thunder (Iraqi cargo) seen transiting to Malaysia (Bloomberg)",
+        "Oman and Iran hold talks on measures for smooth Hormuz transit (The National)",
+        "Polymarket ceasefire-by-Apr-30 rises to ~60% on deadline pressure and pilot rescue as face-saving moment; ceasefire-by-Dec-31 at 71% (Polymarket)",
+        "Oil markets closed (Easter Sunday); WTI ~$113.50, Brent ~$111.80 (Friday close carried forward)",
+        "DXB operating at ~55% capacity (Easter Sunday); Emirates ~127 destinations; most European/North American carriers still suspended",
+        "Hormuz expanding selective transits: ~15 vessels/day with Iraqi, French, Japanese, Philippine, Omani flagged vessels; Iran toll system active",
+        "~5 injuries estimated from debris; 0 fatalities; cumulative ~13 dead, ~222 injured",
+        "Vatican issues statement on conflict; Pope calls for immediate ceasefire",
+        "CENTCOM: US forces destroying Iranian attack drone launch sites targeting civilians in neighboring countries"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": true,
+        "air_base_strike": true
+      },
+      "notes": "DAY 37 -- BOROUGE FIRES & TRUMP DEADLINE T-24H. @modgovae: 9 BMs (~8 intercepted, ~89%; 1 fell sea), 1 cruise missile (first since Day 35), 50 drones (~42 intercepted, ~84%; ~8 fell UAE). Total projectiles: 60 (9 BM + 1 CM + 50 drones) -- down from Day 36's 79, lighter Easter Sunday barrage. Critical infrastructure: Borouge petrochemical plant (Ruwais, 200km from Abu Dhabi) hit by interception debris -- 3 separate fires, operations suspended, no injuries (Gulf News, Bloomberg, Khaleej Times). Second major industrial facility hit in 3 days after Habshan gas complex (Day 35). US pilot rescue: Missing F-15E weapons system officer rescued from Iranian mountains by special forces after 36+ hours evasion; seriously wounded but walking (NPR, CBS, Axios). Trump deadline: 48-hour ultimatum from Apr 4 expires Apr 6; threatens Iran infrastructure if Hormuz stays closed. Iraq gets Hormuz exemption -- significant for oil supply. Oman-Iran transit talks. Oil markets closed Easter Sunday; carry forward WTI $113.50, Brent $111.80. DXB ~55% capacity. Polymarket ceasefire-by-Apr-30 rises to ~60% on deadline pressure. Cumulative: ~506 BMs, ~17 cruise, ~2,297 drones; ~13 dead, ~222 injured. Sources: @modgovae via Gulf News/Dubai Eye/Khaleej Times, Bloomberg (Borouge/Hormuz), NPR/CBS/Axios (pilot rescue), Polymarket, The National (Oman-Iran), liveuamap."
     }
   ]
 }
