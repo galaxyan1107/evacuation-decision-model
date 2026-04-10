@@ -348,5 +348,15 @@
     "p_gt_1": 5.140000000000001,
     "verdict": "METASTABLE",
     "breaches": 2
+  },
+  {
+    "timestamp": "2026-04-10T23:05:18.720496",
+    "day": 42,
+    "slug": "day42-april10",
+    "lambda_median": 0.4632411028945364,
+    "lambda_p95": 1.0103824675108137,
+    "p_gt_1": 5.140000000000001,
+    "verdict": "METASTABLE",
+    "breaches": 2
   }
 ]

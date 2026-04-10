@@ -242,7 +242,7 @@
       "carrier_count": 3,
       "carrier_effective": 2.3,
       "key_events": [
-        "9 BMs \u2014 breaks monotonic decay",
+        "9 BMs — breaks monotonic decay",
         "Emirates 40% network",
         "CVN-77 Bush completes training"
       ],
@@ -277,7 +277,7 @@
       "carrier_count": 3,
       "carrier_effective": 2.3,
       "key_events": [
-        "16 BMs detected \u2014 highest since Day 2",
+        "16 BMs detected — highest since Day 2",
         "IRGC claims Al Dhafra air base strike",
         "Dubai shelter-in-place alert 7:05 PM",
         "Emirates 60% network, 106 flights/day"
@@ -287,7 +287,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "BM rebound (Days 5-8: 3\u21927\u21929\u219216), air base escalation"
+      "notes": "BM rebound (Days 5-8: 3→7→9→16), air base escalation"
     },
     {
       "day": 9,
@@ -313,7 +313,7 @@
       "carrier_count": 3,
       "carrier_effective": 2.3,
       "key_events": [
-        "17 BMs \u2014 back-to-back daily high (16\u219217), rebound confirmed",
+        "17 BMs — back-to-back daily high (16→17), rebound confirmed",
         "4th civilian killed: Pakistani driver in Dubai (Al Barsha)",
         "Drone stockpile breaches 30% threshold (28.9%)",
         "Air Arabia resumes operations March 9",
@@ -324,7 +324,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "BM rebound continues (3\u21927\u21929\u219216\u219217), drone stockpile breaches 30%"
+      "notes": "BM rebound continues (3→7→9→16→17), drone stockpile breaches 30%"
     },
     {
       "day": 10,
@@ -350,7 +350,7 @@
       "carrier_count": 3,
       "carrier_effective": 2.5,
       "key_events": [
-        "12 BMs detected \u2014 first daily decline in 5 days, breaks rebound trend",
+        "12 BMs detected — first daily decline in 5 days, breaks rebound trend",
         "2 injured in Abu Dhabi from interception debris",
         "WTI surges past $103; Brent touches $119 intraday",
         "Polymarket ceasefire odds crash to 24% (from 59%)",
@@ -361,7 +361,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "BM rebound breaks (17\u219212), oil surges past $100, ceasefire odds collapse"
+      "notes": "BM rebound breaks (17→12), oil surges past $100, ceasefire odds collapse"
     },
     {
       "day": 11,
@@ -387,8 +387,8 @@
       "carrier_count": 3,
       "carrier_effective": 2.3,
       "key_events": [
-        "Only 35 drones detected \u2014 dramatic 68% drop, lowest since conflict began",
-        "9 BMs detected (8 intercepted, 1 sea) \u2014 continued decline from Day 10",
+        "Only 35 drones detected — dramatic 68% drop, lowest since conflict began",
+        "9 BMs detected (8 intercepted, 1 sea) — continued decline from Day 10",
         "2 additional fatalities; cumulative toll reaches 6 dead, 122 injured",
         "Emirates targeting 100% capacity; DXB operating at ~70%",
         "Hormuz effectively closed to non-Iranian traffic; ~1,000 vessels queued outside strait"
@@ -398,7 +398,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "Dramatic drone drop (110\u219235), BM continues declining (12\u21929), 2 more fatalities"
+      "notes": "Dramatic drone drop (110→35), BM continues declining (12→9), 2 more fatalities"
     },
     {
       "day": 12,
@@ -419,14 +419,14 @@
       "hormuz_status": "closed",
       "hormuz_crossings": 0,
       "proxy_active": true,
-      "new_weapon_event": "DXB airport targeted \u2014 2 drones fell near terminal",
+      "new_weapon_event": "DXB airport targeted — 2 drones fell near terminal",
       "polymarket_ceasefire_mar31": 20,
       "carrier_count": 2,
       "carrier_effective": 1.6,
       "key_events": [
-        "IEA announces record 400M barrel strategic reserve release \u2014 largest in IEA history",
-        "Two drones fall near Dubai International Airport \u2014 4 injured, concourse minor structural damage",
-        "Three cargo ships struck in Gulf \u2014 Thailand-flagged Mayuree Naree engulfed in fire in Hormuz",
+        "IEA announces record 400M barrel strategic reserve release — largest in IEA history",
+        "Two drones fall near Dubai International Airport — 4 injured, concourse minor structural damage",
+        "Three cargo ships struck in Gulf — Thailand-flagged Mayuree Naree engulfed in fire in Hormuz",
         "US destroys 16 Iranian mine-laying vessels near Strait of Hormuz",
         "Ruwais refinery remains shut following Day 11 drone strike; ADNOC planning plant-wide safety shutdown"
       ],
@@ -435,7 +435,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "IEA record 400M bbl reserve release crashes oil $100\u2192$86; Iran targets DXB directly; US mine-clearing ops in Hormuz"
+      "notes": "IEA record 400M bbl reserve release crashes oil $100→$86; Iran targets DXB directly; US mine-clearing ops in Hormuz"
     },
     {
       "day": 13,
@@ -461,7 +461,7 @@
       "carrier_count": 2,
       "carrier_effective": 1.6,
       "key_events": [
-        "10 BMs all intercepted (@modgovae confirmed); 26 drones \u2014 lowest single-day since conflict began",
+        "10 BMs all intercepted (@modgovae confirmed); 26 drones — lowest single-day since conflict began",
         "Two UAE military pilots killed in helicopter crash (operational accident, not combat)",
         "5 injured from interception debris (@modgovae confirmed cumulative 131 injuries)",
         "Oil stabilizes at ~$88 post-IEA release; minor Dubai drone incidents"
@@ -471,7 +471,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "BM rebounds 6\u219210 (+67%); drones collapse to 26 (historic low); no cruise missiles; 2 pilots KIA (operational)"
+      "notes": "BM rebounds 6→10 (+67%); drones collapse to 26 (historic low); no cruise missiles; 2 pilots KIA (operational)"
     },
     {
       "day": 14,
@@ -497,18 +497,18 @@
       "carrier_count": 2,
       "carrier_effective": 1.6,
       "key_events": [
-        "7 BMs all intercepted \u2014 resumes decline (10\u21927); ~27 drones at historic low",
+        "7 BMs all intercepted — resumes decline (10→7); ~27 drones at historic low",
         "Mojtaba Khamenei confirms Hormuz closure publicly for first time",
-        "DIFC Innovation Hub hit by interception debris \u2014 no injuries",
-        "US KC-135 tanker crashes in western Iraq \u2014 4 of 6 crew killed; Iraqi resistance claims responsibility",
-        "Oil rebounds $86\u2192$95 (Khamenei statement erases ~75% of IEA intervention gains)"
+        "DIFC Innovation Hub hit by interception debris — no injuries",
+        "US KC-135 tanker crashes in western Iraq — 4 of 6 crew killed; Iraqi resistance claims responsibility",
+        "Oil rebounds $86→$95 (Khamenei statement erases ~75% of IEA intervention gains)"
       ],
       "realized_tail_risks": {
         "hormuz_closed": true,
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "BM resumes decline 10\u21927; attack volume historic low (~34 total); Khamenei locks Hormuz closure politically; oil rebounds"
+      "notes": "BM resumes decline 10→7; attack volume historic low (~34 total); Khamenei locks Hormuz closure politically; oil rebounds"
     },
     {
       "day": 15,
@@ -610,7 +610,7 @@
       "key_events": [
         "@modgovae: 6 BMs intercepted, 21 drones intercepted (Times of Israel); 1 missile fell on civilian car",
         "Drone attack sparks fire near DXB fuel tank; flights temporarily suspended then gradual resumption",
-        "Abu Dhabi: missile hits civilian car in Al Bahyan area \u2014 1 Palestinian killed (cumulative 7 dead)",
+        "Abu Dhabi: missile hits civilian car in Al Bahyan area — 1 Palestinian killed (cumulative 7 dead)",
         "Fujairah: fire in industrial oil facility from drone attack, no injuries",
         "Iran FM Araghchi: Hormuz 'open but closed to our enemies'",
         "Iran destroys Italian MQ-9A Predator UAV at Ali Al Salem Air Base, Kuwait (The Week)",
@@ -621,7 +621,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "7th death in UAE (Palestinian, Abu Dhabi missile strike). DXB suspended then resumed limited. Fujairah industrial fire. Attack volume rebounds from Day 16 historic low (10\u219232). MQ-9A destroyed in Kuwait."
+      "notes": "7th death in UAE (Palestinian, Abu Dhabi missile strike). DXB suspended then resumed limited. Fujairah industrial fire. Attack volume rebounds from Day 16 historic low (10→32). MQ-9A destroyed in Kuwait."
     },
     {
       "day": 18,
@@ -723,7 +723,7 @@
       "carrier_effective": 1.6,
       "key_events": [
         "@modgovae: 7 BMs intercepted, 15 drones detected (~13 intercepted); cumulative 334 BMs, 1,714 drones, 15 cruise",
-        "Iran strikes Qatar Ras Laffan LNG facility \u2014 17% of Qatar LNG capacity knocked out for 3-5 years; QatarEnergy may declare force majeure",
+        "Iran strikes Qatar Ras Laffan LNG facility — 17% of Qatar LNG capacity knocked out for 3-5 years; QatarEnergy may declare force majeure",
         "Oil briefly hits $119/bbl intraday; Brent closes ~$113; WTI ~$97; largest single-day energy infrastructure hit of conflict",
         "Qatar expels Iranian military attaches following LNG facility strike",
         "Missile warning sent to Dubai and Abu Dhabi residents at 7:30am; DXB operating ~45% capacity",
@@ -762,7 +762,7 @@
       "carrier_effective": 1.6,
       "key_events": [
         "@modgovae: 4 BMs intercepted, 26 drones detected (~22 intercepted); cumulative 338 BMs, 15 cruise, 1,740 drones",
-        "Eid al-Fitr \u2014 conflict continues through holiday; no ceasefire despite diplomatic hopes",
+        "Eid al-Fitr — conflict continues through holiday; no ceasefire despite diplomatic hopes",
         "Foreign airlines remain banned from DXB since Mar 17; only Emirates and flydubai operating (~40% capacity)",
         "US weighs releasing sanctioned Iranian crude to ease oil prices (CNBC)",
         "Brent drops to ~$107 (from $113 close); WTI ~$97; Citi raises forecast to $120 near-term",
@@ -802,9 +802,9 @@
       "carrier_effective": 1.6,
       "key_events": [
         "@modgovae: 3 BMs intercepted, 8 drones detected; cumulative 341 BMs, 15 cruise, 1,748 drones",
-        "US strikes Natanz uranium enrichment facility with bunker busters \u2014 second attack on nuclear site; IAEA reports no radiation leak",
-        "Iran offers Japan safe passage through Hormuz \u2014 selective blockade expanding to China, India, Pakistan, and now Japan",
-        "Iran fires 2 BMs at Diego Garcia (UK-US base in Indian Ocean) \u2014 unsuccessful per UK officials",
+        "US strikes Natanz uranium enrichment facility with bunker busters — second attack on nuclear site; IAEA reports no radiation leak",
+        "Iran offers Japan safe passage through Hormuz — selective blockade expanding to China, India, Pakistan, and now Japan",
+        "Iran fires 2 BMs at Diego Garcia (UK-US base in Indian Ocean) — unsuccessful per UK officials",
         "Trump says mulling 'winding down' the Iran war despite continued strikes",
         "Brent ~$107 (down from $113 peak); WTI ~$95; VLCC rates declining as tankers flee Gulf",
         "Cumulative: 8 dead, ~160 injured (@modgovae); no new casualties today"
@@ -852,7 +852,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "Lowest BM count since Day 16 (4 BMs + 25 drones = 29 total). All BMs intercepted. Trump 48-hour Hormuz ultimatum is major escalation risk \u2014 Iran threatens full closure + energy infrastructure retaliation. US licenses 140M bbl Iranian crude sale. Selective Hormuz transits expanding (~20/day). Polymarket ceasefire-by-Mar-31 steady at 8%. Sources: @modgovae via Manorama Online, Al Jazeera liveblog; Bloomberg, NBC, Euronews on Trump ultimatum; CNN on Iran response; oilpriceapi.com on WTI."
+      "notes": "Lowest BM count since Day 16 (4 BMs + 25 drones = 29 total). All BMs intercepted. Trump 48-hour Hormuz ultimatum is major escalation risk — Iran threatens full closure + energy infrastructure retaliation. US licenses 140M bbl Iranian crude sale. Selective Hormuz transits expanding (~20/day). Polymarket ceasefire-by-Mar-31 steady at 8%. Sources: @modgovae via Manorama Online, Al Jazeera liveblog; Bloomberg, NBC, Euronews on Trump ultimatum; CNN on Iran response; oilpriceapi.com on WTI."
     },
     {
       "day": 24,
@@ -921,7 +921,7 @@
         "@modgovae: 5 BMs intercepted, 17 drones detected (~14 intercepted); cumulative ~357 BMs, 15 cruise, ~1,806 drones",
         "Trump 5-day delay on Iran power plant strikes enters Day 2; Pakistan/Turkey/Egypt/Oman mediating",
         "Iranian source acknowledges US 'outreach' to CNN; possible Vance-Iran meeting in Pakistan this week",
-        "Oil rebounds: WTI $92.39 (+4.8%), Brent $102.47 \u2014 markets skeptical of de-escalation durability",
+        "Oil rebounds: WTI $92.39 (+4.8%), Brent $102.47 — markets skeptical of de-escalation durability",
         "Indian national suffers minor injuries from interception debris in al-Shawamekh, Abu Dhabi",
         "Moroccan civilian contractor Mohammed Aznibla killed in Iranian missile strike on Bahrain while working with UAE Armed Forces; 5 UAE military personnel injured",
         "Polymarket ceasefire-by-Mar-31 surges to ~20% amid suspected insider trading (10 new accounts wagered $160K)",
@@ -958,9 +958,9 @@
       "carrier_count": 2,
       "carrier_effective": 1.6,
       "key_events": [
-        "FIRST DAY WITHOUT BALLISTIC MISSILES \u2014 0 BMs detected since conflict began Feb 28 (@modgovae via Sharjah24, Gulf News)",
+        "FIRST DAY WITHOUT BALLISTIC MISSILES — 0 BMs detected since conflict began Feb 28 (@modgovae via Sharjah24, Gulf News)",
         "Only 9 UAVs engaged (@modgovae); cumulative 357 BMs, 15 cruise, 1,815 UAVs",
-        "Iranian drones hit fuel tank at Kuwait International Airport \u2014 fire ignited; Kuwait airport largely closed to commercial traffic",
+        "Iranian drones hit fuel tank at Kuwait International Airport — fire ignited; Kuwait airport largely closed to commercial traffic",
         "Iran rejects Trump's 15-point peace plan as 'maximalist, unreasonable'; sets 5 counter-conditions including Hormuz sovereignty and reparations",
         "Trump declares war 'won'; claims US-Iran 'in negotiations now'; Iran: 'negotiating with yourselves'",
         "Oil drops: WTI -2.2% to $90.32; Brent -2.2% to $102.22 on diplomatic signals",
@@ -975,7 +975,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "HISTORIC: First day with 0 ballistic missiles since conflict began. Only 9 UAVs (cumulative 1,815). Total projectiles = 9 (all-time low). Kuwait airport fuel tank hit by Iranian drones \u2014 fire ignited. Iran rejects 15-point plan, sets 5 counter-conditions (Hormuz sovereignty, reparations, ceasefire, no future wars, proxy front cessation). Trump declares war 'won'. Oil drops: WTI -2.2% to $90.32, Brent -2.2% to $102.22. 82nd Airborne deploying ~1,000 troops. Emirates at ~60% pre-war capacity, targeting full by Mar 29. Polymarket at ~17% (down from 20%). 0 UAE casualties today. Cumulative: 9 dead, ~166 injured (per Al Jazeera). Sources: @modgovae via Sharjah24, Gulf News; Al Jazeera Day 26 liveblog; CNN Day 26; NPR, Time on 15-point plan; Al Arabiya on Kuwait airport; CNBC on oil; Pittsburgh Post-Gazette on Iran conditions."
+      "notes": "HISTORIC: First day with 0 ballistic missiles since conflict began. Only 9 UAVs (cumulative 1,815). Total projectiles = 9 (all-time low). Kuwait airport fuel tank hit by Iranian drones — fire ignited. Iran rejects 15-point plan, sets 5 counter-conditions (Hormuz sovereignty, reparations, ceasefire, no future wars, proxy front cessation). Trump declares war 'won'. Oil drops: WTI -2.2% to $90.32, Brent -2.2% to $102.22. 82nd Airborne deploying ~1,000 troops. Emirates at ~60% pre-war capacity, targeting full by Mar 29. Polymarket at ~17% (down from 20%). 0 UAE casualties today. Cumulative: 9 dead, ~166 injured (per Al Jazeera). Sources: @modgovae via Sharjah24, Gulf News; Al Jazeera Day 26 liveblog; CNN Day 26; NPR, Time on 15-point plan; Al Arabiya on Kuwait airport; CNBC on oil; Pittsburgh Post-Gazette on Iran conditions."
     },
     {
       "day": 27,
@@ -1002,12 +1002,12 @@
       "carrier_effective": 1.6,
       "key_events": [
         "@modgovae: 15 BMs intercepted, 11 drones detected; cumulative 372 BMs, 15 cruise, 1,826 drones",
-        "MASSIVE BM REBOUND: 0\u219215 \u2014 largest single-day BM surge since Day 1; shatters Day 26 'zero BM' milestone",
+        "MASSIVE BM REBOUND: 0→15 — largest single-day BM surge since Day 1; shatters Day 26 'zero BM' milestone",
         "2 killed in Abu Dhabi: Indian + Pakistani killed by intercepted missile debris on Sweihan Road; 3 injured",
-        "Jebel Ali Port fire from interception debris \u2014 no injuries; Dubai Civil Defense responds",
+        "Jebel Ali Port fire from interception debris — no injuries; Dubai Civil Defense responds",
         "DXB Terminal 3 arrivals roof hit by drone debris early morning; temporary shutdown then resumed",
         "Iran formally rejects direct US talks; oil rebounds: WTI +3.6% to $93.61, Brent +3.8% to $106.12",
-        "Houthis signal readiness to join Iran war if needed \u2014 new escalation risk",
+        "Houthis signal readiness to join Iran war if needed — new escalation risk",
         "Emirates + flydubai operating ~207 departures; DXB ~50% capacity",
         "Hormuz selective transit continues; Iran formalizes crew/cargo manifest + IRGC approval system; ~5 vessels transited",
         "Polymarket ceasefire-by-Mar-31 steady at ~17%; insider trading scrutiny continues",
@@ -1018,7 +1018,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "DRAMATIC BM REBOUND: After historic first day with 0 BMs (Day 26), Iran fires 15 BMs \u2014 largest single-day count since Day 2 (28 BMs). All 15 intercepted but debris kills 2 in Abu Dhabi (Indian + Pakistani on Sweihan Road). 11 drones detected (9 intercepted, 2 fell UAE). Jebel Ali Port fire from interception debris. DXB T3 hit by drone debris. Iran formally rejects direct US talks \u2014 oil rebounds sharply (WTI +3.6%, Brent +3.8%). Houthis ready to join war. Cumulative: 372 BMs, 15 cruise, 1,826 drones; 11 dead, ~169 injured. Sources: @modgovae via Gulf News liveblog, AA; The Week India, Kurdistan24, JPost on Abu Dhabi deaths; Emirates247 on Jebel Ali; TravelPirates, LoyaltyLobby on DXB; CNBC on oil; BOE Report on Houthis; Polymarket."
+      "notes": "DRAMATIC BM REBOUND: After historic first day with 0 BMs (Day 26), Iran fires 15 BMs — largest single-day count since Day 2 (28 BMs). All 15 intercepted but debris kills 2 in Abu Dhabi (Indian + Pakistani on Sweihan Road). 11 drones detected (9 intercepted, 2 fell UAE). Jebel Ali Port fire from interception debris. DXB T3 hit by drone debris. Iran formally rejects direct US talks — oil rebounds sharply (WTI +3.6%, Brent +3.8%). Houthis ready to join war. Cumulative: 372 BMs, 15 cruise, 1,826 drones; 11 dead, ~169 injured. Sources: @modgovae via Gulf News liveblog, AA; The Week India, Kurdistan24, JPost on Abu Dhabi deaths; Emirates247 on Jebel Ali; TravelPirates, LoyaltyLobby on DXB; CNBC on oil; BOE Report on Houthis; Polymarket."
     },
     {
       "day": 28,
@@ -1045,7 +1045,7 @@
       "carrier_effective": 2.3,
       "key_events": [
         "@modgovae: 6 BMs intercepted, 9 drones detected; cumulative 378 BMs, 15 cruise, 1,835 drones",
-        "3 Chinese ships (incl. COSCO vessels) turned away from Hormuz \u2014 IRGC declares strait 'shut', contradicting Trump claims",
+        "3 Chinese ships (incl. COSCO vessels) turned away from Hormuz — IRGC declares strait 'shut', contradicting Trump claims",
         "Trump delays attacks on Iranian energy sector by 10 days (to April 6), cites 'very well' talks",
         "Iran calls US proposal 'one-sided and unfair'; Pakistan relaying messages between Washington and Tehran",
         "Brent tops $110 again ($111.06) on Chinese ship Hormuz incident; WTI $97.01",
@@ -1058,7 +1058,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "BM sharply declines from Day 27 rebound: 15\u21926 (\u221260%), returning to low-intensity pattern. All 6 BMs intercepted. 9 drones detected (7 intercepted, 2 fell UAE). Chinese ships turned away from Hormuz \u2014 IRGC contradicts Trump, declares strait shut \u2014 escalation in Hormuz control. Trump delays energy strikes 10 days (de-escalation signal). Iran rejects US proposal as 'one-sided'. Brent tops $111 on Chinese ship incident (Hormuz uncertainty). 3rd carrier (Bush) crossing Atlantic. 0 deaths; ~2 injuries. Cumulative: 378 BMs, 15 cruise, 1,835 drones; 11 dead, ~171 injured. Sources: @modgovae via TAG91.1; CNBC, CBS News on oil/Hormuz; Al Jazeera Day 28 liveblog; Newsweek on Chinese ships; NPR on Trump delay; Fortune on oil prices; Army Recognition on carriers."
+      "notes": "BM sharply declines from Day 27 rebound: 15→6 (−60%), returning to low-intensity pattern. All 6 BMs intercepted. 9 drones detected (7 intercepted, 2 fell UAE). Chinese ships turned away from Hormuz — IRGC contradicts Trump, declares strait shut — escalation in Hormuz control. Trump delays energy strikes 10 days (de-escalation signal). Iran rejects US proposal as 'one-sided'. Brent tops $111 on Chinese ship incident (Hormuz uncertainty). 3rd carrier (Bush) crossing Atlantic. 0 deaths; ~2 injuries. Cumulative: 378 BMs, 15 cruise, 1,835 drones; 11 dead, ~171 injured. Sources: @modgovae via TAG91.1; CNBC, CBS News on oil/Hormuz; Al Jazeera Day 28 liveblog; Newsweek on Chinese ships; NPR on Trump delay; Fortune on oil prices; Army Recognition on carriers."
     },
     {
       "day": 29,
@@ -1085,9 +1085,9 @@
       "carrier_effective": 2.4,
       "key_events": [
         "@modgovae: 20 BMs intercepted, 37 drones detected (33 intercepted, 4 fell UAE); cumulative 398 BMs, 15 cruise, 1,872 drones",
-        "BM SURGE: 6\u219220 (+233%) \u2014 largest daily count since Day 27 rebound (15); volatile pattern continues (Day 26: 0, Day 27: 15, Day 28: 6, Day 29: 20)",
+        "BM SURGE: 6→20 (+233%) — largest daily count since Day 27 rebound (15); volatile pattern continues (Day 26: 0, Day 27: 15, Day 28: 6, Day 29: 20)",
         "1 civilian killed (Asian nationality) + 6 injured (5 Indians + 1 Pakistani) from interception debris at Kezad, Abu Dhabi",
-        "US troops injured in Iran attack on Saudi base \u2014 war reaches one-month mark (NPR)",
+        "US troops injured in Iran attack on Saudi base — war reaches one-month mark (NPR)",
         "Oil surges sharply: WTI $99.64 (+5.46%, session high $100.04 breaches $100 intraday); Brent $112.57 (+4.22%)",
         "Iran Hormuz toll booth system continues; ~2 selective transits; IRGC checks nationality/cargo/crew",
         "Multiple international carriers still suspended (KLM through May 17, Turkish through end March, Air France through Mar 31)",
@@ -1101,7 +1101,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "BM VOLATILE PATTERN CONTINUES: After Day 26 zero, Day 27 rebound (15), Day 28 drop (6), Day 29 surges to 20 \u2014 highest since Day 27. All 20 BMs intercepted but debris kills 1 at Kezad (Asian civilian) and injures 6 (5 Indians + 1 Pakistani). 37 drones detected (33 intercepted, 4 fell UAE \u2014 elevated leakage). Oil breaks $100 WTI intraday for first time since conflict began. US troops injured at Saudi base \u2014 proxy escalation. Iran Hormuz toll system continues with minimal traffic (~2 transits). KLM suspended through May 17. War reaches one-month mark with no ceasefire progress. Cumulative: 398 BMs, 15 cruise, 1,872 drones; 12 dead, ~177 injured. Sources: @modgovae via Gulf News, The National, Onmanorama (Kezad casualties); NPR (Saudi base attack); CNBC, FX Leaders (oil); Al Jazeera, Euronews (Hormuz); TimeOut Dubai (DXB); Polymarket."
+      "notes": "BM VOLATILE PATTERN CONTINUES: After Day 26 zero, Day 27 rebound (15), Day 28 drop (6), Day 29 surges to 20 — highest since Day 27. All 20 BMs intercepted but debris kills 1 at Kezad (Asian civilian) and injures 6 (5 Indians + 1 Pakistani). 37 drones detected (33 intercepted, 4 fell UAE — elevated leakage). Oil breaks $100 WTI intraday for first time since conflict began. US troops injured at Saudi base — proxy escalation. Iran Hormuz toll system continues with minimal traffic (~2 transits). KLM suspended through May 17. War reaches one-month mark with no ceasefire progress. Cumulative: 398 BMs, 15 cruise, 1,872 drones; 12 dead, ~177 injured. Sources: @modgovae via Gulf News, The National, Onmanorama (Kezad casualties); NPR (Saudi base attack); CNBC, FX Leaders (oil); Al Jazeera, Euronews (Hormuz); TimeOut Dubai (DXB); Polymarket."
     },
     {
       "day": 30,
@@ -1128,7 +1128,7 @@
       "carrier_effective": 2.5,
       "key_events": [
         "@modgovae: 16 BMs intercepted, 42 drones detected (37 intercepted, 5 fell UAE); cumulative 414 BMs, 15 cruise, 1,914 drones",
-        "BM PATTERN STABILIZES: 20\u219216 (\u221220%); still elevated vs Day 28 low (6); volatile week: 0\u219215\u21926\u219220\u219216",
+        "BM PATTERN STABILIZES: 20→16 (−20%); still elevated vs Day 28 low (6); volatile week: 0→15→6→20→16",
         "0 new deaths; 1 minor injury from drone debris in Sharjah; cumulative: 12 dead, ~178 injured",
         "DXB improving to ~55% capacity; Emirates targeting full restoration; flydubai expanding schedule",
         "WTI holds near $100 (Sunday; $99.64 Friday close); Brent $112.57; markets closed for weekend",
@@ -1136,14 +1136,14 @@
         "USS George H.W. Bush (3rd CSG) approaching theater; 3 carrier strike groups converging on region",
         "Polymarket ceasefire-by-Mar-31 drops to ~12% with only 2 days remaining; market pricing near-zero diplomacy odds",
         "Iran rejects all direct negotiation overtures; Pakistan/Oman backchannel continues",
-        "War enters Day 30 \u2014 one full month of sustained Iranian strikes on UAE"
+        "War enters Day 30 — one full month of sustained Iranian strikes on UAE"
       ],
       "realized_tail_risks": {
         "hormuz_closed": true,
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "ONE-MONTH MARK: War reaches Day 30. @modgovae reports 16 BMs intercepted (all), 42 drones detected (37 intercepted, 5 fell UAE). Cumulative: 414 BMs, 15 cruise, 1,914 drones. BM count stabilizes at 16 after volatile week (0\u219215\u21926\u219220\u219216). 0 deaths; 1 minor injury in Sharjah from drone debris. DXB improving to ~55% capacity. Oil steady near $100 WTI (weekend). Hormuz toll system sees ~3 selective transits. 3rd carrier (Bush) approaching theater. Polymarket ceasefire-by-Mar-31 drops to ~12%. Iran continues rejecting direct talks. Sources: @modgovae via Gulf News, Sharjah24, Al Jazeera; oilpriceapi.com (oil); USNI News (Hormuz/carriers); Polymarket; CoinDesk (ceasefire odds)."
+      "notes": "ONE-MONTH MARK: War reaches Day 30. @modgovae reports 16 BMs intercepted (all), 42 drones detected (37 intercepted, 5 fell UAE). Cumulative: 414 BMs, 15 cruise, 1,914 drones. BM count stabilizes at 16 after volatile week (0→15→6→20→16). 0 deaths; 1 minor injury in Sharjah from drone debris. DXB improving to ~55% capacity. Oil steady near $100 WTI (weekend). Hormuz toll system sees ~3 selective transits. 3rd carrier (Bush) approaching theater. Polymarket ceasefire-by-Mar-31 drops to ~12%. Iran continues rejecting direct talks. Sources: @modgovae via Gulf News, Sharjah24, Al Jazeera; oilpriceapi.com (oil); USNI News (Hormuz/carriers); Polymarket; CoinDesk (ceasefire odds)."
     },
     {
       "day": 31,
@@ -1171,11 +1171,11 @@
       "key_events": [
         "@modgovae: 11 BMs engaged, 27 UAVs engaged; cumulative 425 BMs, 15 cruise, 1,941 UAVs",
         "HOUTHIS ENTER WAR: Launch 2nd strike on Israel (cruise missiles + drones); threaten Bab al-Mandeb closure",
-        "Oil surges 3%: WTI $102.85, Brent $115.35 \u2014 Brent on pace for steepest monthly rise on record (+55% in March)",
+        "Oil surges 3%: WTI $102.85, Brent $115.35 — Brent on pace for steepest monthly rise on record (+55% in March)",
         "SocGen forecasts $150/bbl possible in April if Houthis block Bab al-Mandeb",
         "Polymarket ceasefire-by-Mar-31 collapses to ~2% (market expires tomorrow)",
         "DXB improving: Emirates, British Airways, Lufthansa, Air India, IndiGo all operating at ~60% capacity",
-        "Houthis: 'Closing Bab al-Mandeb is among our options' \u2014 dual-strait closure risk emerges",
+        "Houthis: 'Closing Bab al-Mandeb is among our options' — dual-strait closure risk emerges",
         "0 new deaths; 0 new injuries; cumulative: 12 dead, ~178 injured"
       ],
       "realized_tail_risks": {
@@ -1183,7 +1183,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "BM declines: 16\u219211 (\u221231%); 27 drones (\u221236% from Day 30). All 11 BMs intercepted. 0 deaths, 0 injuries on Day 31. Major new risk: Houthis formally enter war with 2nd strike on Israel + Bab al-Mandeb threat. Oil surges: Brent $115 (+2.5%), WTI $102.85 (+3%) \u2014 Brent on pace for steepest monthly gain on record (+55%). SocGen $150 forecast. DXB at ~60% with major international carriers restored (BA, Lufthansa, Air India, IndiGo). Polymarket ceasefire-by-Mar-31 at ~2% (market expires tomorrow). Cumulative: 425 BMs, 15 cruise, 1,941 UAVs; 12 dead, ~178 injured. Sources: @modgovae tweet (X/Twitter), TAG91.1; Gulf News (March 30 intercept article); CNBC on oil/Houthis; Al Jazeera Houthi liveblog; Axios on Houthis/Red Sea; Bloomberg on oil markets; MacroMicro/Polymarket on ceasefire odds; Travel and Tour World on DXB capacity."
+      "notes": "BM declines: 16→11 (−31%); 27 drones (−36% from Day 30). All 11 BMs intercepted. 0 deaths, 0 injuries on Day 31. Major new risk: Houthis formally enter war with 2nd strike on Israel + Bab al-Mandeb threat. Oil surges: Brent $115 (+2.5%), WTI $102.85 (+3%) — Brent on pace for steepest monthly gain on record (+55%). SocGen $150 forecast. DXB at ~60% with major international carriers restored (BA, Lufthansa, Air India, IndiGo). Polymarket ceasefire-by-Mar-31 at ~2% (market expires tomorrow). Cumulative: 425 BMs, 15 cruise, 1,941 UAVs; 12 dead, ~178 injured. Sources: @modgovae tweet (X/Twitter), TAG91.1; Gulf News (March 30 intercept article); CNBC on oil/Houthis; Al Jazeera Houthi liveblog; Axios on Houthis/Red Sea; Bloomberg on oil markets; MacroMicro/Polymarket on ceasefire odds; Travel and Tour World on DXB capacity."
     },
     {
       "day": 32,
@@ -1210,8 +1210,8 @@
       "carrier_effective": 2.5,
       "key_events": [
         "@modgovae: 8 BMs intercepted, 4 cruise missiles, 36 drones detected (~32 intercepted); cumulative 433 BMs, 19 cruise, 1,977 drones",
-        "CRUISE MISSILES RETURN: First cruise missiles since early March \u2014 4 launched, marking significant escalation in weapon diversity",
-        "Kuwaiti VLCC Al Salmi (2M bbl loaded) struck by Iranian drone at Dubai Port anchorage \u2014 fire extinguished, 24 crew safe, no oil spill",
+        "CRUISE MISSILES RETURN: First cruise missiles since early March — 4 launched, marking significant escalation in weapon diversity",
+        "Kuwaiti VLCC Al Salmi (2M bbl loaded) struck by Iranian drone at Dubai Port anchorage — fire extinguished, 24 crew safe, no oil spill",
         "4 Asian nationals injured in southern Dubai from interception debris falling on residential houses",
         "3 UN peacekeeping troops killed (per Al Jazeera liveblog)",
         "Trump escalates Iran threats; Polymarket ceasefire-by-Mar-31 expires at ~1% (resolving NO)",
@@ -1226,7 +1226,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "CRUISE MISSILES RETURN \u2014 first since early conflict (4 cruise missiles). @modgovae: 8 BMs intercepted (all), 4 cruise missiles, 36 drones detected (~32 intercepted, ~4 fell UAE). Total projectiles: 48 (up from Day 31's 38). Major incident: Iranian drone strikes Kuwaiti VLCC Al Salmi at Dubai Port anchorage \u2014 fully loaded with 2M bbl oil; fire extinguished, 24 crew safe, no oil spill. 4 Asian nationals injured in southern Dubai from interception debris. 0 deaths today. Polymarket ceasefire-by-Mar-31 expires at ~1% \u2014 resolving NO. Brent completes record monthly surge (~55% in March). Trump escalates rhetoric. 3 UN troops killed (per Al Jazeera). Houthis threaten Bab al-Mandeb but pledge to keep open for now. Cumulative: 433 BMs, 19 cruise, 1,977 drones; 12 dead, ~182 injured. Sources: @modgovae via Dubai Eye 103.8, Radio Shoma, ARN News, TAG91.1, Virgin Radio Dubai; Gulf News Day 32 liveblog; Al Jazeera liveblog; Euronews; Bloomberg, Seatrade Maritime on Al Salmi; Khaleej Times; CNBC on oil; Polymarket."
+      "notes": "CRUISE MISSILES RETURN — first since early conflict (4 cruise missiles). @modgovae: 8 BMs intercepted (all), 4 cruise missiles, 36 drones detected (~32 intercepted, ~4 fell UAE). Total projectiles: 48 (up from Day 31's 38). Major incident: Iranian drone strikes Kuwaiti VLCC Al Salmi at Dubai Port anchorage — fully loaded with 2M bbl oil; fire extinguished, 24 crew safe, no oil spill. 4 Asian nationals injured in southern Dubai from interception debris. 0 deaths today. Polymarket ceasefire-by-Mar-31 expires at ~1% — resolving NO. Brent completes record monthly surge (~55% in March). Trump escalates rhetoric. 3 UN troops killed (per Al Jazeera). Houthis threaten Bab al-Mandeb but pledge to keep open for now. Cumulative: 433 BMs, 19 cruise, 1,977 drones; 12 dead, ~182 injured. Sources: @modgovae via Dubai Eye 103.8, Radio Shoma, ARN News, TAG91.1, Virgin Radio Dubai; Gulf News Day 32 liveblog; Al Jazeera liveblog; Euronews; Bloomberg, Seatrade Maritime on Al Salmi; Khaleej Times; CNBC on oil; Polymarket."
     },
     {
       "day": 33,
@@ -1255,8 +1255,8 @@
         "@modgovae: 5 BMs intercepted (all), 0 cruise missiles, 35 drones detected (~30 intercepted, ~5 fell UAE); cumulative 438 BMs, 19 cruise, 2,012 drones",
         "Bangladeshi national killed by intercepted drone debris falling on farm in Fujairah (Al Rifa'a area)",
         "Indian expat injured by drone debris in Umm Al Quwain (Umm Al Thaoub industrial zone)",
-        "KUWAIT AIRPORT STRUCK: Iranian drone hits fuel tanks at Kuwait International Airport \u2014 aviation fuel facility fire; airport remains closed",
-        "Trump says war could end in 'two to three weeks'; claims Iran's president asked for ceasefire \u2014 Tehran denies",
+        "KUWAIT AIRPORT STRUCK: Iranian drone hits fuel tanks at Kuwait International Airport — aviation fuel facility fire; airport remains closed",
+        "Trump says war could end in 'two to three weeks'; claims Iran's president asked for ceasefire — Tehran denies",
         "Trump plans address to nation on April 2; signals potential US military wind-down",
         "Iran rejects ceasefire claim; FM says Iran prepared for 'at least six months' of war",
         "Polymarket ceasefire-by-Mar-31 resolved NO; ceasefire-by-Apr-30 at ~59%",
@@ -1270,7 +1270,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "DAY 33 \u2014 TRUMP SIGNALS WAR END. @modgovae: 5 BMs intercepted (all), 35 drones detected (~30 intercepted, ~5 fell UAE). Total projectiles: 40 (down from Day 32's 48). Attack tempo declining from peak. 1 death: Bangladeshi national killed by drone debris on Fujairah farm. 1 injured: Indian expat in UAQ industrial zone. Major event: Iranian drone strikes Kuwait International Airport fuel tanks \u2014 fire at aviation fuel facility, no casualties at airport. Trump says war could end in 2-3 weeks, claims Iran asked for ceasefire; Tehran denies. Trump plans address to nation April 2. Iran FM says prepared for 6+ months of war. Oil sharply lower: Brent -$5.83 to $104.86 on Trump de-escalation signals. Polymarket ceasefire-by-Mar-31 resolved NO; ceasefire-by-Apr-30 at ~59% (up from ~50% on Mar 24). DXB ~52% capacity. Hormuz remains closed to most traffic, selective transits ~4/day. Cumulative: 438 BMs, 19 cruise, 2,012 drones; ~13 dead, ~190 injured. Sources: @modgovae, Gulf News Day 33, Khaleej Times, Al Arabiya, Xinhua, Al Jazeera liveblog, Euronews, CNBC, CNN, US News, Polymarket, S&P Global (VLCC rates)."
+      "notes": "DAY 33 — TRUMP SIGNALS WAR END. @modgovae: 5 BMs intercepted (all), 35 drones detected (~30 intercepted, ~5 fell UAE). Total projectiles: 40 (down from Day 32's 48). Attack tempo declining from peak. 1 death: Bangladeshi national killed by drone debris on Fujairah farm. 1 injured: Indian expat in UAQ industrial zone. Major event: Iranian drone strikes Kuwait International Airport fuel tanks — fire at aviation fuel facility, no casualties at airport. Trump says war could end in 2-3 weeks, claims Iran asked for ceasefire; Tehran denies. Trump plans address to nation April 2. Iran FM says prepared for 6+ months of war. Oil sharply lower: Brent -$5.83 to $104.86 on Trump de-escalation signals. Polymarket ceasefire-by-Mar-31 resolved NO; ceasefire-by-Apr-30 at ~59% (up from ~50% on Mar 24). DXB ~52% capacity. Hormuz remains closed to most traffic, selective transits ~4/day. Cumulative: 438 BMs, 19 cruise, 2,012 drones; ~13 dead, ~190 injured. Sources: @modgovae, Gulf News Day 33, Khaleej Times, Al Arabiya, Xinhua, Al Jazeera liveblog, Euronews, CNBC, CNN, US News, Polymarket, S&P Global (VLCC rates)."
     },
     {
       "day": 34,
@@ -1297,12 +1297,12 @@
       "carrier_effective": 2.5,
       "key_events": [
         "@modgovae: 19 BMs intercepted, 26 drones detected (~22 intercepted, ~4 fell UAE); 0 cruise missiles; cumulative 457 BMs, 19 cruise, 2,038 drones",
-        "IRAN ESCALATES BMs: 19 ballistic missiles \u2014 highest single-day BM count since Day 4 (likely response to US Isfahan nuclear site strikes Mar 31)",
+        "IRAN ESCALATES BMs: 19 ballistic missiles — highest single-day BM count since Day 4 (likely response to US Isfahan nuclear site strikes Mar 31)",
         "Trump primetime address to nation: war 'nearing completion,' pledges 'extremely hard' strikes next 2-3 weeks, threatens Iran's power grid and oil infrastructure",
-        "UK gathers 30+ nations for Hormuz summit in London \u2014 diplomatic push to reopen strait",
+        "UK gathers 30+ nations for Hormuz summit in London — diplomatic push to reopen strait",
         "Bloomberg: ships paying Iran yuan and crypto tolls for Hormuz safe passage",
         "Oil surges: Brent $111.69 (+$6.83), WTI $105.57 (+$5.12) on BM escalation and Hormuz fears",
-        "Polymarket ceasefire-by-Apr-30 drops to ~25% (from ~59% Day 33) \u2014 markets skeptical despite Trump optimism",
+        "Polymarket ceasefire-by-Apr-30 drops to ~25% (from ~59% Day 33) — markets skeptical despite Trump optimism",
         "Air France expected to resume Paris-Dubai; DXB ~55% capacity; Emirates serving ~127 destinations, 20 routes still suspended",
         "Asia-Pacific markets fall: Nikkei -1.4%, Kospi -2.82% after Trump address",
         "No fatalities reported; ~3 minor injuries from missile/drone debris",
@@ -1313,7 +1313,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "DAY 34 \u2014 IRAN BM ESCALATION + TRUMP ADDRESS. @modgovae: 19 BMs (highest since Day 4), 26 drones, 0 cruise. Total projectiles: 45 (up from Day 33's 40). Iran escalates ballistic missile attacks \u2014 likely retaliation for US bunker-buster strikes on Isfahan nuclear/ammunition sites Mar 31. BM interception: ~17/19 (89.5%); 1 fell sea, 1 fell land. Drone interception: ~22/26 (84.6%). No fatalities; ~3 minor injuries. Trump primetime address: says war 'nearing completion,' pledges 'extremely hard' strikes, threatens Iran power grid + oil infrastructure if no deal. UK hosts 30+ nation summit on Hormuz reopening. Bloomberg reports ships paying Iran yuan/crypto tolls. Oil surges: Brent $111.69 (+$6.83), WTI $105.57 (+$5.12). Polymarket ceasefire-by-Apr-30 collapses to ~25% (from ~59%) \u2014 markets don't believe Trump's optimism given Iran's BM escalation. DXB ~55% capacity (slight recovery as Air France resumes). Hormuz remains closed; selective transits ~4/day. Asia markets down: Nikkei -1.4%, Kospi -2.82%. Cumulative: 457 BMs, 19 cruise, 2,038 drones; ~13 dead, ~194 injured. Sources: @modgovae, Gulf News, Al Jazeera, CNBC, Bloomberg, Washington Post, NPR, Polymarket, TravelPirates, FX Leaders."
+      "notes": "DAY 34 — IRAN BM ESCALATION + TRUMP ADDRESS. @modgovae: 19 BMs (highest since Day 4), 26 drones, 0 cruise. Total projectiles: 45 (up from Day 33's 40). Iran escalates ballistic missile attacks — likely retaliation for US bunker-buster strikes on Isfahan nuclear/ammunition sites Mar 31. BM interception: ~17/19 (89.5%); 1 fell sea, 1 fell land. Drone interception: ~22/26 (84.6%). No fatalities; ~3 minor injuries. Trump primetime address: says war 'nearing completion,' pledges 'extremely hard' strikes, threatens Iran power grid + oil infrastructure if no deal. UK hosts 30+ nation summit on Hormuz reopening. Bloomberg reports ships paying Iran yuan/crypto tolls. Oil surges: Brent $111.69 (+$6.83), WTI $105.57 (+$5.12). Polymarket ceasefire-by-Apr-30 collapses to ~25% (from ~59%) — markets don't believe Trump's optimism given Iran's BM escalation. DXB ~55% capacity (slight recovery as Air France resumes). Hormuz remains closed; selective transits ~4/day. Asia markets down: Nikkei -1.4%, Kospi -2.82%. Cumulative: 457 BMs, 19 cruise, 2,038 drones; ~13 dead, ~194 injured. Sources: @modgovae, Gulf News, Al Jazeera, CNBC, Bloomberg, Washington Post, NPR, Polymarket, TravelPirates, FX Leaders."
     },
     {
       "day": 35,
@@ -1340,17 +1340,17 @@
       "carrier_effective": 2.5,
       "key_events": [
         "@modgovae: 18 BMs engaged (~16 intercepted, 1 fell sea, 1 fell land), 4 cruise missiles, 47 drones detected (~40 intercepted, ~7 fell UAE); cumulative 475 BMs, 23 cruise, 2,085 drones",
-        "CRUISE MISSILES RETURN AGAIN: 4 cruise missiles fired \u2014 second consecutive salvo after Day 32's 4; cumulative now 23",
+        "CRUISE MISSILES RETURN AGAIN: 4 cruise missiles fired — second consecutive salvo after Day 32's 4; cumulative now 23",
         "HABSHAN GAS COMPLEX FIRE: Falling debris from successful interception ignites fire at Abu Dhabi Habshan gas facility; operations suspended; no injuries reported",
-        "12 injured in Ajban area from falling interception debris \u2014 7 Nepalese, 5 Indian nationals",
-        "Iran expands Hormuz selective passage \u2014 Philippine-flagged vessels and Filipino seafarers now permitted after talks",
-        "12 vessels transit Hormuz (up from ~4/day in late March) \u2014 Iran toll booth system continues",
+        "12 injured in Ajban area from falling interception debris — 7 Nepalese, 5 Indian nationals",
+        "Iran expands Hormuz selective passage — Philippine-flagged vessels and Filipino seafarers now permitted after talks",
+        "12 vessels transit Hormuz (up from ~4/day in late March) — Iran toll booth system continues",
         "WTI surpasses Brent in rare inversion: WTI ~$111.54, Brent ~$109.03; WTI surges 12%+ on Iran escalation fears",
         "UK 30+ nation Hormuz summit continues; 3 ships attempt new Oman coast route to bypass Iranian waters",
         "Iran rejects US 15-point ceasefire proposal transmitted via Pakistan; issues counter-demands",
-        "Polymarket ceasefire-by-Apr-30 at ~22% (down from ~25% Day 34) \u2014 markets increasingly skeptical",
+        "Polymarket ceasefire-by-Apr-30 at ~22% (down from ~25% Day 34) — markets increasingly skeptical",
         "DXB operating at ~53% capacity; most European/North American carriers remain suspended",
-        "Total projectiles today: 69 (18 BM + 4 CM + 47 drones) \u2014 highest since early conflict days",
+        "Total projectiles today: 69 (18 BM + 4 CM + 47 drones) — highest since early conflict days",
         "Cumulative: ~13 dead, ~206 injured"
       ],
       "realized_tail_risks": {
@@ -1358,7 +1358,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "DAY 35 \u2014 MAJOR ESCALATION: HIGHEST PROJECTILE COUNT IN WEEKS. @modgovae: 18 BMs (~16 intercepted, ~89%; 1 fell sea, 1 fell land), 4 cruise missiles (second consecutive salvo), 47 drones (~40 intercepted, ~85%; ~7 fell UAE). Total projectiles: 69 \u2014 up sharply from Day 34's 45 and highest since early conflict. Critical infrastructure hit: Habshan gas complex fire from interception debris \u2014 Abu Dhabi's major gas processing facility forced to suspend operations (no injuries). 12 injured in Ajban from debris (7 Nepalese, 5 Indian). 0 deaths. Oil market shock: WTI surpasses Brent in rare inversion \u2014 WTI ~$111.54, Brent ~$109.03. Iran expands Hormuz selective passage to Philippines; 12 vessels transited (up from ~4/day). Iran rejects US 15-point ceasefire via Pakistan. Polymarket ceasefire-by-Apr-30 drops to ~22%. DXB ~53% capacity. Sources: @modgovae via Gulf News, Khaleej Times, The National, Al Jazeera, Bloomberg (Hormuz ships/tolls), CNBC (oil), Rigzone (WTI>Brent), Polymarket, TravelPirates (DXB)."
+      "notes": "DAY 35 — MAJOR ESCALATION: HIGHEST PROJECTILE COUNT IN WEEKS. @modgovae: 18 BMs (~16 intercepted, ~89%; 1 fell sea, 1 fell land), 4 cruise missiles (second consecutive salvo), 47 drones (~40 intercepted, ~85%; ~7 fell UAE). Total projectiles: 69 — up sharply from Day 34's 45 and highest since early conflict. Critical infrastructure hit: Habshan gas complex fire from interception debris — Abu Dhabi's major gas processing facility forced to suspend operations (no injuries). 12 injured in Ajban from debris (7 Nepalese, 5 Indian). 0 deaths. Oil market shock: WTI surpasses Brent in rare inversion — WTI ~$111.54, Brent ~$109.03. Iran expands Hormuz selective passage to Philippines; 12 vessels transited (up from ~4/day). Iran rejects US 15-point ceasefire via Pakistan. Polymarket ceasefire-by-Apr-30 drops to ~22%. DXB ~53% capacity. Sources: @modgovae via Gulf News, Khaleej Times, The National, Al Jazeera, Bloomberg (Hormuz ships/tolls), CNBC (oil), Rigzone (WTI>Brent), Polymarket, TravelPirates (DXB)."
     },
     {
       "day": 36,
@@ -1474,9 +1474,9 @@
       "carrier_effective": 2.5,
       "key_events": [
         "@modgovae: 12 BMs engaged (~11 intercepted, 1 fell sea), 2 cruise missiles, 19 drones detected (~16 intercepted, ~3 fell UAE); cumulative 519 BMs, 26 cruise, 2,210 drones",
-        "TRUMP DEADLINE EXTENDS: Apr 4 48-hour ultimatum passes; Trump extends to Tuesday Apr 7 8PM ET \u2014 'Power Plant Day, and Bridge Day' in Iran; expletive-laden Truth Social post",
+        "TRUMP DEADLINE EXTENDS: Apr 4 48-hour ultimatum passes; Trump extends to Tuesday Apr 7 8PM ET — 'Power Plant Day, and Bridge Day' in Iran; expletive-laden Truth Social post",
         "IRAN REJECTS CEASEFIRE: Iran rejects temporary ceasefire proposed by regional mediators; says Hormuz will open when war damage is compensated through new legal regime",
-        "ISLAMABAD ACCORD FRAMEWORK: Egyptian, Pakistani, Turkish envoys submit 45-day ceasefire proposal ('Islamabad Accord') \u2014 immediate ceasefire + Hormuz reopening, 15-20 days for broader settlement; Pakistan army chief in contact with VP Vance and Iranian FM Araqchi",
+        "ISLAMABAD ACCORD FRAMEWORK: Egyptian, Pakistani, Turkish envoys submit 45-day ceasefire proposal ('Islamabad Accord') — immediate ceasefire + Hormuz reopening, 15-20 days for broader settlement; Pakistan army chief in contact with VP Vance and Iranian FM Araqchi",
         "Israel strikes Iran's largest petrochemical complex (Euronews); IDF kills 2 senior IRGC officials",
         "Du telecom building in Fujairah targeted by drone; Ghanaian national in Abu Dhabi sustains moderate injuries from falling shrapnel",
         "Oil drops on ceasefire proposal framework: WTI ~$110.72 (-$2.78), Brent ~$108.34 (-$3.46); markets cautiously optimistic despite Iran rejection",
@@ -1491,7 +1491,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "DAY 38 \u2014 IRAN REJECTS CEASEFIRE & TRUMP EXTENDS DEADLINE. @modgovae (confirmed via X): 12 BMs (~11 intercepted, ~92%; 1 fell sea), 2 cruise missiles (cumulative now 26), 19 drones (~16 intercepted, ~84%; ~3 fell UAE). Total projectiles: 33 (12 BM + 2 CM + 19 drones) \u2014 lowest since Day 30, sharp drop from Day 37's 60. Cumulative confirmed: 519 BMs, 26 cruise, 2,210 drones. Lighter Monday barrage but politically critical day. Iran formally rejects temporary ceasefire from regional mediators \u2014 says Hormuz reopening requires war damage compensation. Pakistani-brokered 'Islamabad Accord' 45-day framework exchanged with both sides. Trump extends deadline to Tue Apr 7 8PM ET with 'Power Plant Day' threats. Israel strikes Iran's largest petrochemical complex. 0 deaths; ~3 injuries (Ghanaian national + debris). Oil drops: WTI $110.72, Brent $108.34 on ceasefire framework. Polymarket ceasefire-by-Apr-30 crashes to ~15% from 60%. DXB ~55% capacity. Hormuz ~15 vessels/day selective. Sources: @modgovae via X/TAG91.1, Al Jazeera liveblog, CNN live, Bloomberg, CNBC (oil/ceasefire), Euronews (petrochemical strike), NPR, Gulf News (Hormuz), Polymarket."
+      "notes": "DAY 38 — IRAN REJECTS CEASEFIRE & TRUMP EXTENDS DEADLINE. @modgovae (confirmed via X): 12 BMs (~11 intercepted, ~92%; 1 fell sea), 2 cruise missiles (cumulative now 26), 19 drones (~16 intercepted, ~84%; ~3 fell UAE). Total projectiles: 33 (12 BM + 2 CM + 19 drones) — lowest since Day 30, sharp drop from Day 37's 60. Cumulative confirmed: 519 BMs, 26 cruise, 2,210 drones. Lighter Monday barrage but politically critical day. Iran formally rejects temporary ceasefire from regional mediators — says Hormuz reopening requires war damage compensation. Pakistani-brokered 'Islamabad Accord' 45-day framework exchanged with both sides. Trump extends deadline to Tue Apr 7 8PM ET with 'Power Plant Day' threats. Israel strikes Iran's largest petrochemical complex. 0 deaths; ~3 injuries (Ghanaian national + debris). Oil drops: WTI $110.72, Brent $108.34 on ceasefire framework. Polymarket ceasefire-by-Apr-30 crashes to ~15% from 60%. DXB ~55% capacity. Hormuz ~15 vessels/day selective. Sources: @modgovae via X/TAG91.1, Al Jazeera liveblog, CNN live, Bloomberg, CNBC (oil/ceasefire), Euronews (petrochemical strike), NPR, Gulf News (Hormuz), Polymarket."
     },
     {
       "day": 39,
@@ -1517,13 +1517,13 @@
       "carrier_count": 3,
       "carrier_effective": 2.5,
       "key_events": [
-        "@modgovae OFFICIAL (corrected): 1 BM intercepted, 11 drones intercepted \u2014 Iran holds back on Trump deadline day; cumulative officially 520 BMs, 26 cruise, 2,221 drones",
+        "@modgovae OFFICIAL (corrected): 1 BM intercepted, 11 drones intercepted — Iran holds back on Trump deadline day; cumulative officially 520 BMs, 26 cruise, 2,221 drones",
         "TRUMP DEADLINE DAY: 8 PM ET Tuesday deadline for Iran to reopen Hormuz or face 'Power Plant Day and Bridge Day'; highest-stakes day of conflict since Feb 28",
         "ISLAMABAD ACCORD TALKS CONTINUE: 45-day ceasefire framework negotiations ongoing between Pakistani intermediaries, US, and Iran; outcome pending before deadline",
         "Iran's presidential spokesperson calls Trump's threats 'sheer desperation and anger'; says Hormuz will open under new legal regime",
         "Markets tense ahead of 8 PM deadline; WTI ~$112 (elevated), Brent ~$110; traders pricing in potential major escalation",
-        "Polymarket ceasefire-by-Apr-30 collapses to ~4% (from ~15% Day 38, ~60% Day 37) \u2014 market sees near-zero chance of April deal",
-        "Polymarket ceasefire-by-Jun-30 at ~53%, ceasefire-by-Dec-31 at ~75% \u2014 market expects eventual deal but not soon",
+        "Polymarket ceasefire-by-Apr-30 collapses to ~4% (from ~15% Day 38, ~60% Day 37) — market sees near-zero chance of April deal",
+        "Polymarket ceasefire-by-Jun-30 at ~53%, ceasefire-by-Dec-31 at ~75% — market expects eventual deal but not soon",
         "DXB operating at ~55% capacity; airlines on alert for potential escalation disrupting operations",
         "Hormuz: 15 vessels/day selective transit; no change in Iran's selective passage policy",
         "3 US carrier strike groups in region (Lincoln, Ford, Bush); maximum force posture ahead of deadline",
@@ -1534,7 +1534,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "DAY 39 \u2014 TRUMP 'POWER PLANT DAY' DEADLINE (CORRECTED WITH OFFICIAL DATA). \u2705 @modgovae official (via The National): 1 BM intercepted, 11 drones intercepted. SIGNIFICANTLY LOWER than previous estimate (8 BMs, 25 drones) \u2014 Iran held back on deadline day. Critical political day: Trump's 8 PM ET Tuesday deadline for Hormuz reopening \u2014 threatens strikes on Iran's power plants and bridges. Islamabad Accord 45-day ceasefire talks reach breakthrough: US and Iran agree in principle to 2-week truce, to be announced on April 8. Polymarket ceasefire-by-Apr-30 collapses to 4% during day but rebounds late as ceasefire announced. Ceasefire announced ~11 PM ET Tuesday; takes effect April 8 (Day 40). Sources: @modgovae via The National (confirmed official figures), Al Jazeera/CNN/NPR (deadline coverage), Polymarket, CBS News (ceasefire announcement)."
+      "notes": "DAY 39 — TRUMP 'POWER PLANT DAY' DEADLINE (CORRECTED WITH OFFICIAL DATA). ✅ @modgovae official (via The National): 1 BM intercepted, 11 drones intercepted. SIGNIFICANTLY LOWER than previous estimate (8 BMs, 25 drones) — Iran held back on deadline day. Critical political day: Trump's 8 PM ET Tuesday deadline for Hormuz reopening — threatens strikes on Iran's power plants and bridges. Islamabad Accord 45-day ceasefire talks reach breakthrough: US and Iran agree in principle to 2-week truce, to be announced on April 8. Polymarket ceasefire-by-Apr-30 collapses to 4% during day but rebounds late as ceasefire announced. Ceasefire announced ~11 PM ET Tuesday; takes effect April 8 (Day 40). Sources: @modgovae via The National (confirmed official figures), Al Jazeera/CNN/NPR (deadline coverage), Polymarket, CBS News (ceasefire announcement)."
     },
     {
       "day": 40,
@@ -1562,9 +1562,9 @@
       "key_events": [
         "@modgovae OFFICIAL: 17 BMs (~16 intercepted, 1 fell sea), 0 cruise missiles, 35 drones (~33 intercepted, ~2 fell UAE); cumulative 537 BMs, 26 cruise, 2,256 drones",
         "US-IRAN 2-WEEK CEASEFIRE ANNOUNCED: Pakistan-brokered truce takes effect Day 40; Iran agrees to 'complete, immediate and safe opening' of Strait of Hormuz; US pauses strikes claiming military objectives 'met' (CBS News, NBC News, NPR)",
-        "ATTACKS CONTINUE DESPITE CEASEFIRE: 17 BMs and 35 drones intercepted after ceasefire announcement \u2014 ceasefire implementation fragile; Al Jazeera: 'Saudi Arabia, UAE, Kuwait, Bahrain report attacks after Iran-US ceasefire' (Al Jazeera, CNBC)",
-        "HABSHAN GAS COMPLEX FIRE: Debris from interception hits Habshan gas complex (Abu Dhabi) \u2014 fires started, 3 injured (2 Emiratis, 1 Indian), operations temporarily suspended; second Habshan incident after April 5 debris fire (Khaleej Times, Liveuamap)",
-        "HORMUZ REOPENING \u2014 EXTREMELY SLOW: Iran agreed to open Hormuz but only 2 ships (Liberia-flagged Daytona Beach, Greek-owned NJ Earth) passed in first 12 hours; 426 tankers + 34 LPG + 19 LNG vessels still waiting (Bloomberg, 19FortyFive)",
+        "ATTACKS CONTINUE DESPITE CEASEFIRE: 17 BMs and 35 drones intercepted after ceasefire announcement — ceasefire implementation fragile; Al Jazeera: 'Saudi Arabia, UAE, Kuwait, Bahrain report attacks after Iran-US ceasefire' (Al Jazeera, CNBC)",
+        "HABSHAN GAS COMPLEX FIRE: Debris from interception hits Habshan gas complex (Abu Dhabi) — fires started, 3 injured (2 Emiratis, 1 Indian), operations temporarily suspended; second Habshan incident after April 5 debris fire (Khaleej Times, Liveuamap)",
+        "HORMUZ REOPENING — EXTREMELY SLOW: Iran agreed to open Hormuz but only 2 ships (Liberia-flagged Daytona Beach, Greek-owned NJ Earth) passed in first 12 hours; 426 tankers + 34 LPG + 19 LNG vessels still waiting (Bloomberg, 19FortyFive)",
         "OIL CRASHES ~17%: WTI falls to ~$93.10 (from ~$112 Day 39 estimate); Brent ~$91.50; largest single-day oil drop since COVID crash in 2020 on ceasefire news (CNBC, Trading Economics)",
         "UAE TRIUMPHANT: Dr Gargash (UAE presidential advisor) says UAE has 'triumphed in war it sought to avoid'; UAE's air defense system performance praised globally (The National, Khaleej Times)",
         "ISLAMABAD TALKS FRIDAY: US-Iran delegations to meet in Islamabad to negotiate longer-term deal; Iran's 10-point proposal: sanctions lifted, uranium enrichment recognized, US forces leave region, war damage compensated",
@@ -1579,7 +1579,7 @@
         "proxy_activated": true,
         "air_base_strike": true
       },
-      "notes": "DAY 40 \u2014 CEASEFIRE DAY. US-Iran 2-week ceasefire announced by Pakistan after Trump's extended deadline. @modgovae OFFICIAL (via Khaleej Times, The National, ARN News, Gulf News): 17 BMs (~16 intercepted ~94%; ~1 fell sea), 0 cruise missiles, 35 drones (~33 intercepted ~94%; ~2 fell UAE). Total projectiles Day 40: 52. Cumulative official: 537 BMs, 26 cruise, 2,256 drones. CEASEFIRE: Pakistan-brokered 2-week truce \u2014 Iran agrees to 'complete, immediate, safe' Hormuz reopening; US claims military objectives 'met'. But attacks CONTINUE into Day 40 morning hours after announcement \u2014 Iran's forces didn't immediately stand down. Hormuz technically open but only 2 ships in 12 hours (426 tankers still waiting). Habshan gas complex hit by debris again: 3 injured, operations suspended. Oil crashes ~17%: WTI ~$93.10, Brent ~$91.50. DXB ~62% capacity (improving). Polymarket ceasefire surges to ~97%. US-Iran to meet in Islamabad Friday for longer-term negotiations. Dr Gargash: UAE 'triumphed in war it sought to avoid'. Sources: @modgovae (official via Khaleej Times/The National/ARN/Gulf News), CBS News/NBC News/NPR (ceasefire announcement), Al Jazeera (attacks continue), Bloomberg/19FortyFive (Hormuz reopening status), Khaleej Times/Liveuamap (Habshan 3 injured), CNBC/Trading Economics (oil crash), Polymarket (ceasefire odds), The National/Khaleej Times (Dr Gargash)."
+      "notes": "DAY 40 — CEASEFIRE DAY. US-Iran 2-week ceasefire announced by Pakistan after Trump's extended deadline. @modgovae OFFICIAL (via Khaleej Times, The National, ARN News, Gulf News): 17 BMs (~16 intercepted ~94%; ~1 fell sea), 0 cruise missiles, 35 drones (~33 intercepted ~94%; ~2 fell UAE). Total projectiles Day 40: 52. Cumulative official: 537 BMs, 26 cruise, 2,256 drones. CEASEFIRE: Pakistan-brokered 2-week truce — Iran agrees to 'complete, immediate, safe' Hormuz reopening; US claims military objectives 'met'. But attacks CONTINUE into Day 40 morning hours after announcement — Iran's forces didn't immediately stand down. Hormuz technically open but only 2 ships in 12 hours (426 tankers still waiting). Habshan gas complex hit by debris again: 3 injured, operations suspended. Oil crashes ~17%: WTI ~$93.10, Brent ~$91.50. DXB ~62% capacity (improving). Polymarket ceasefire surges to ~97%. US-Iran to meet in Islamabad Friday for longer-term negotiations. Dr Gargash: UAE 'triumphed in war it sought to avoid'. Sources: @modgovae (official via Khaleej Times/The National/ARN/Gulf News), CBS News/NBC News/NPR (ceasefire announcement), Al Jazeera (attacks continue), Bloomberg/19FortyFive (Hormuz reopening status), Khaleej Times/Liveuamap (Habshan 3 injured), CNBC/Trading Economics (oil crash), Polymarket (ceasefire odds), The National/Khaleej Times (Dr Gargash)."
     },
     {
       "day": 41,
@@ -1620,6 +1620,49 @@
         "air_base_strike": false
       },
       "notes": "Day 1 of US-Iran 2-week ceasefire. First zero-attack day since Day 1. Ceasefire fragile: Iran re-threatened Hormuz closure after alleged Israeli ceasefire violation in Lebanon. Chinese tankers testing Hormuz passage. EASA review Apr 10. WTI at 101.28 (rebound from 93.1 on ceasefire announcement). Polymarket: ceasefire extension to Apr 21 at 71%; breakdown by Apr 14 at 18%. UAE seeks Iran accountability. Sources: CNN live blog, NBC News, Al Jazeera, Khaleej Times, Bloomberg, The Soufan Center, CNBC"
+    },
+    {
+      "day": 42,
+      "date": "2026-04-10",
+      "bm_detected": 0,
+      "bm_intercepted": 0,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 0,
+      "drones_intercepted": 0,
+      "drones_fell_uae": 0,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 0,
+      "airport_capacity_pct": 75,
+      "oil_wti": 98.7,
+      "vlcc_rate": 350000,
+      "hormuz_status": "open",
+      "hormuz_crossings": 7,
+      "proxy_active": false,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 75,
+      "carrier_count": 3,
+      "carrier_effective": 3.0,
+      "key_events": [
+        "Ceasefire Day 2: Second consecutive zero-attack day since conflict began Feb 28",
+        "ISLAMABAD LOCKDOWN: Pakistan capital under security lockdown ahead of high-stakes US-Iran talks; VP JD Vance leads US delegation, FM Araghchi and Speaker Ghalibaf lead Iran delegation",
+        "EASA AIRSPACE REVIEW: EASA Conflict Zone Information Bulletin review due today; Air France pre-emptively extended suspension Apr 9, signaling likely extension of advisory",
+        "CEASEFIRE TENSIONS: Iran Speaker Ghalibaf accuses US of violating 3 parts of 10-point ceasefire proposal; Trump accuses Iran of not properly reopening Hormuz",
+        "HORMUZ STILL BOTTLENECKED: 7 vessels transited Thursday (up from 5 Wed); 600+ vessels including 325 tankers still stranded; Russian-flagged supertanker makes rare passage into Gulf",
+        "ADNOC CEO Al Jaber: Strait of Hormuz \"not open\" — access being restricted, conditioned and controlled by Iran; passage subject to permission and political leverage",
+        "OIL VOLATILE: WTI ~$98.70 (rebounding from $93.10 ceasefire crash); Brent ~$96; markets pricing ceasefire fragility premium",
+        "DXB at ~75% capacity: Emirates + flydubai operating 220+ daily flights, highest since conflict began; European carriers still suspended pending EASA review",
+        "Polymarket: ceasefire extension to Apr 21 at ~75% (up from 71% Day 41); ceasefire-by-Apr-30 at ~98%; permanent peace deal by Jun-30 at ~40%",
+        "GCC foreign ministers coordination call on post-ceasefire reconstruction planning and Iran accountability",
+        "Cumulative (official): 537 BMs, 26 cruise missiles, 2,256 drones; ~13 dead, ~230 injured"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": false,
+        "proxy_activated": false,
+        "air_base_strike": false
+      },
+      "notes": "DAY 42 — CEASEFIRE DAY 2 (ISLAMABAD TALKS BEGIN). Second consecutive zero-attack day. Ceasefire holding but fragile: Iran accuses US of violating ceasefire terms (Israeli attacks on Lebanon); Trump accuses Iran of not reopening Hormuz properly. Islamabad under lockdown for US-Iran negotiations — VP Vance leads US team, FM Araghchi/Speaker Ghalibaf lead Iran team. EASA airspace review due today — Air France pre-emptively extended suspensions, suggesting advisory extension likely. Hormuz: 7 vessels Thursday (up from 5 Wed), but 600+ vessels still stranded including 325 tankers. ADNOC CEO says Hormuz \"not open\" — access restricted and conditional. Oil volatile: WTI ~$98.70 (rebound from $93.10), Brent ~$96. DXB ~75% capacity (220+ flights, highest since conflict). Polymarket ceasefire extension to Apr 21 at 75%. Sources: Al Jazeera (Hormuz standstill Apr 10), CNBC (oil prices, Hormuz traffic), NBC News (Hormuz standstill), Bloomberg (Russian tanker), Times of Israel (Islamabad lockdown), CBS News (ceasefire violations), IBTimes (DXB 220+ flights), TravelPirates (EASA review), Polymarket."
     }
   ]
 }

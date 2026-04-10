@@ -2,7 +2,7 @@
 
 > 🌐 **EN** | [中文](../zh/updates/daily-tracker.md)
 
-**Last Updated: April 9, 2026 (Day 41)**
+**Last Updated: April 10, 2026 (Day 42)**
 
 This page tracks daily changes across all model inputs, compares model predictions against observed data, and flags breaches as they occur.
 
@@ -32,7 +32,7 @@ Stacked divergence shows lambda (purple) dominating total model error. Verdict t
 
 λ jumped from 0.47 → 1.70 on Day 3 (Hormuz closure), peaked at 2.71 on Day 9 (drone stockpile breach + BM rebound), then eased to a plateau ~2.1 from Day 10 onward. Days 12-18 showed remarkable stability at 2.14-2.16. Day 19 saw λ surge to 2.596 on BM rebound signal (3-day acceleration 7→10→13). Days 20-25: λ holds steady at ~2.16-2.17 as BMs remain low (7→4→3→4→7→5). Day 26: λ = 2.171 — marginal uptick from 2.170 despite historic 0 BMs. Day 27: λ = 2.172 — marginal uptick from 2.171 despite MASSIVE BM REBOUND (0→15: largest since Day 2); 2 killed Abu Dhabi; Jebel Ali fire. **Day 35: λ = 2.127** — marginal uptick from 2.122; BMs ESCALATE 19→18 (sustained high); 47 drones detected (highest since Day 2: 332); 0 killed, 12 injured (7 Nepalese + 5 Indian from Ajban debris); Habshan gas complex fire; Iran rejects US ceasefire, issues counter-demands; Iran expands Hormuz to Philippines; 3 ships attempt Oman route; WTI $111.54 SURPASSES Brent $109.03 (rare inversion); VLCC $480K/d; Hormuz ~12 crossings (up from ~4); Polymarket ceasefire-by-Apr-30 drops to ~22%; P(λ>1)=100%; **FIRST TIME: 5/5 cascade breaches (launcher, drone_stockpile, casualties, new_weapon, interception_day)**; Daily BM interception 89% (2nd day <90%); Drone stockpile EXHAUSTED (2,085 vs 2,000 = -85). **Day 34: λ = 2.122** — marginal uptick from 2.120; BMs SURGE 5→19 (highest since Day 4); 26 drones detected; 0 killed, ~3 injuries; Trump primetime address: war "nearing completion"; UK 30+ nation Hormuz summit; oil surges Brent $111.69 (+$6.83); Polymarket ceasefire-by-Apr-30 COLLAPSES to ~25% (from ~59%); P(λ>1)=100%; 3/5 breaches. **Day 33: λ = 2.120** — marginal uptick from 2.116; BMs decline 8→5 (−38%); 35 drones detected; 1 killed Bangladeshi, 2 injured; Kuwait airport fuel tanks struck; Trump signals 2-3 week war end; Iran FM says prepared for 6+ months; oil sharply lower; P(λ>1)=100%; 3/5 breaches. **Day 36 cumulative: 498 BMs, 2,141 drones, 23 cruise missiles; 13 dead, 217 injured; Trump 48h ultimatum + Bushehr nuclear strike escalate to nuclear dimension.** **Day 35 cumulative: 475 BMs, 2,085 drones, 23 cruise missiles; ~13 dead, ~206 injured.**
 
-![Lambda Evolution](../charts/lambda_evolution_day41.png)
+![Lambda Evolution](../charts/lambda_evolution_day42.png)
 
 ### Ballistic Missile Trajectory
 
@@ -91,6 +91,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **39** | **Apr 7** | **1** ✓ | ~0 | **11** ✓ | ~130 | **0** | **12** | **@modgovae OFFICIAL (corrected): 1 BM intercepted, 11 drones; TRUMP "POWER PLANT DAY" DEADLINE 8PM ET; Iran holds back on deadline day; Ceasefire announced ~11 PM ET; Polymarket collapses to 4% then rebounds** |
 | **40** | **Apr 8** | **17** | ~0 | **35** | ~130 | **0** | **52** | **🕊️ CEASEFIRE DAY: 17 BMs (16 intercepted, 1 fell sea) + 35 drones — attacks CONTINUE despite ceasefire announcement; Habshan gas complex fires (3 injured); Hormuz technically open but only 2 ships in 12h; Oil crashes ~17% (WTI $93.10, Brent $91.50); Polymarket ceasefire surges to ~97%** |
 | **41** | **Apr 9** | **0** ✅ | ~0 | **0** ✅ | ~130 | **0** | **0** | **🕊️ CEASEFIRE DAY 2: FIRST ZERO-ATTACK DAY since Feb 28 conflict start — ceasefire holds overnight; Chinese tankers queue at Hormuz testing passage; WTI rebounds to $101.28; EASA decision April 10; Islamabad talks scheduled; λ collapses to 0.463 (METASTABLE)** |
+| **42** | **Apr 10** | **0** ✅ | ~0 | **0** ✅ | ~130 | **0** | **0** | **🕊️ CEASEFIRE DAY 3: Second consecutive zero-attack day; EASA airspace review completed — decision pending; Islamabad talks in progress (VP Vance leads US, FM Araghchi/Speaker Ghalibaf lead Iran); λ = 0.463 (METASTABLE); Trump accuses Iran of not opening Hormuz properly; Iran threatens closure if violations occur; Hormuz: 7 vessels crossed Thursday (up from 5 Wed), 600+ vessels stranded** |
 
 ### Cumulative Totals
 
@@ -137,6 +138,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **39** | **Apr 7** | **520** ✓ | **2,221** ✓ | **26** | **2,767** |
 | **40** | **Apr 8** | **537** | **2,256** | **26** | **2,819** |
 | **41** | **Apr 9** | **537** | **2,256** | **26** | **2,819** |
+| **42** | **Apr 10** | **537** | **2,256** | **26** | **2,819** |
 
 ---
 
@@ -185,6 +187,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **39** | **Apr 7** | **1** ✓ | **1** ✓ | **100%** | **~92.2%** | OK | @modgovae OFFICIAL (corrected): 1 BM all intercepted; Trump deadline day — Iran holds back; ceasefire announced end of day |
 | **40** | **Apr 8** | **17** | **16** | **94.1%** | **~92.3%** | OK | 16/17 BMs intercepted; 1 fell sea; CEASEFIRE ANNOUNCED — attacks continue hours into truce; Habshan fires; Hormuz technically opens |
 | **41** | **Apr 9** | **0** | **0** | **N/A** | **~92.3%** | N/A (0 BMs) | **🕊️ ZERO ATTACKS: First day with no BMs/drones/cruise missiles since Day 1; ceasefire holding; cumulative rate unchanged at ~92.3%** |
+| **42** | **Apr 10** | **0** | **0** | **N/A** | **~92.3%** | N/A (0 BMs) | **🕊️ ZERO ATTACKS: Second consecutive day with no BMs/drones/cruise missiles; ceasefire holding; cumulative BM interception rate unchanged at ~92.3%** |
 
 **Day 6 breach note:** 1 ballistic missile landed inside UAE territory on March 5 — first confirmed BM ground impact.
 
@@ -243,6 +246,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **39** | **Apr 7** | 11 ✓ | 2,221 ✓ | -221 | -11.1% | ⚠️ EXHAUSTED |
 | **40** | **Apr 8** | 35 | 2,256 | -256 | -12.8% | ⚠️ EXHAUSTED — ceasefire announced; Iran fires 35 more drones in first hours of truce |
 | **41** | **Apr 9** | **0** | **2,256** | **-256** | **-12.8%** | **🕊️ EXHAUSTED — zero launches on Day 1 of ceasefire; stockpile breach remains since Day 9; ceasefire halts consumption** |
+| **42** | **Apr 10** | **0** | **2,256** | **-256** | **-12.8%** | **🕊️ EXHAUSTED — second consecutive zero-launch day; stockpile frozen at 2,256 cumulative; ceasefire holds** |
 
 †**@modgovae correction:** Official cumulative through Day 18 is 1,672 UAVs (per @modgovae verified data), lower than tracker estimates (~1,727 through Day 17). Previous daily drone estimates used "~" approximations. @modgovae authoritative cumulative now adopted as baseline. Remaining stockpile revised upward to ~328 (16.4%).
 
@@ -252,14 +256,14 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 
 ## Cascade Threshold Tracker
 
-| Metric | D1 | D3 | D5 | D7 | D8 | D9 | D10 | D11 | D12 | D13 | D14 | D15 | D16 | D17 | D18 | D19 | D20 | D21 | D22 | D23 | D24 | D25 | D26 | D27 | D28 | D29 | D30 | D31 | D32 | D33 | D34 | D35 | D36 | D37 | D38 | D39 | D40 | D41 | Threshold |
-|--------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------------|------|------|------|
-| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | > 85% |
-| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | 14.9% | 13.6% | 16.4%† | 15.1% | 14.3% | 13.0% | 12.6% | **11.4%** | **10.6%** | **9.7%** | **9.25%** | **8.7%** | **8.25%** | **6.4%** | **4.3%** | **2.9%** | **1.15%** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | < 30% |
-| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | 93.2% | 93.0% | ~92.7% | ~92.7% | ~92.8% | ~92.9% | ~93.0% | **~93.0%** | **~93.0%** | **~93.0%** | **93.0%** | **~93.1%** | **~93.2%** | **~93.2%** | **~93.2%** | **~93.2%** | **~93.3%** | **~93.3%** | **~93.1%** | **~93.1%** | **~95.3%** | **~92.3%** | **~92.2%** | **~92.3%** | **~92.3%** | < 90% |
-| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | 100% | 100% | 100% | 100% | 100% | **100%** | **100%** | **100%** | **N/A (0 BMs)** | **100%** | **100%** | **100%** | **100%** | **100%** | **100%** | **100%** | **89.5%** | **88.9%** | **91.3%** | **88.9%** | **91.7%** | **100%** | **94.1%** | **N/A (0 BMs)** | < 90% |
-| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | 0 | 6 | 12 | ~5 | 0 | 3 | 0 | **2** | **0** | **0** | **0** | **5** | **~2** | **7** | **1** | **0** | **4** | **3** | **3** | **12** | **11** | **5** | **3** | **0** | **3** | **0** | > 10 |
-| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | No | DXB fuel/car | Fujairah port | No | No | No | No | **No** | **No** | **No** | **No** | **Jebel Ali** | **No** | **No** | **No** | **No** | **Tanker attack** | **Kuwait airport** | **No** | **Habshan gas fire** | **Trump ultimatum** | **Borouge fires** | **No** | **No** | **Ceasefire** | **No** | Yes |
+| Metric | D1 | D3 | D5 | D7 | D8 | D9 | D10 | D11 | D12 | D13 | D14 | D15 | D16 | D17 | D18 | D19 | D20 | D21 | D22 | D23 | D24 | D25 | D26 | D27 | D28 | D29 | D30 | D31 | D32 | D33 | D34 | D35 | D36 | D37 | D38 | D39 | D40 | D41 | D42 | Threshold |
+|--------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------------|------|------|------|
+| Launcher Dep. | ~39% | ~50% | ~54% | 86% | ~73% | ~67% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | ~99% | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | **~99%** | > 85% |
+| Drone Stock. | 89.6% | 65.6% | 53.0% | 40.8% | 34.5% | 28.9% | 23.2% | 21.4% | 19.5% | 18.2% | 16.9% | 15.2% | 14.9% | 13.6% | 16.4%† | 15.1% | 14.3% | 13.0% | 12.6% | **11.4%** | **10.6%** | **9.7%** | **9.25%** | **8.7%** | **8.25%** | **6.4%** | **4.3%** | **2.9%** | **1.15%** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | **EXHAUSTED** | < 30% |
+| Int. Rate (cum) | 96.4% | 93.6% | 93.1% | 92.7% | 92.8% | 92.9% | 92.8% | 92.7% | 92.8% | 93.1% | 93.3% | 93.1% | 93.2% | 93.0% | ~92.7% | ~92.7% | ~92.8% | ~92.9% | ~93.0% | **~93.0%** | **~93.0%** | **~93.0%** | **93.0%** | **~93.1%** | **~93.2%** | **~93.2%** | **~93.2%** | **~93.2%** | **~93.3%** | **~93.3%** | **~93.1%** | **~93.1%** | **~95.3%** | **~92.3%** | **~92.2%** | **~92.3%** | **~92.3%** | **~92.3%** | < 90% |
+| Int. Rate (day) | 96.4% | 100% | 100% | 100% | 93.8% | 94.1% | 91.7% | 88.9% | 100% | 100% | ~100% | 88.9% | 100% | 85.7% | 100% | 100% | 100% | 100% | 100% | **100%** | **100%** | **100%** | **N/A (0 BMs)** | **100%** | **100%** | **100%** | **100%** | **100%** | **100%** | **100%** | **89.5%** | **88.9%** | **91.3%** | **88.9%** | **91.7%** | **100%** | **94.1%** | **N/A (0 BMs)** | **N/A (0 BMs)** | < 90% |
+| Daily Casualties | ~22 | ~18 | ~15 | ~16 | ~14 | ~15 | 2 | 10 | 4 | 0 | 0 | 10 | 0 | 6 | 12 | ~5 | 0 | 3 | 0 | **2** | **0** | **0** | **0** | **5** | **~2** | **7** | **1** | **0** | **4** | **3** | **3** | **12** | **11** | **5** | **3** | **0** | **3** | **0** | **0** | > 10 |
+| New Weapon | No | No | No | No | Air base | Air base | Air base | Refinery | DXB | No | No | No | No | DXB fuel/car | Fujairah port | No | No | No | No | **No** | **No** | **No** | **No** | **Jebel Ali** | **No** | **No** | **No** | **No** | **Tanker attack** | **Kuwait airport** | **No** | **Habshan gas fire** | **Trump ultimatum** | **Borouge fires** | **No** | **No** | **Ceasefire** | **No** | **No** | Yes |
 
 *Launcher depletion **revised downward** from 85.7% to ~73% (Day 8) and further to **~67%** (Day 9) due to consecutive high-volume BM days (16→17). The accelerating trend 3→7→9→16→17 confirms more TELs remain operational than previously estimated. Drone stockpile has **breached** the 30% threshold on Day 9 — 2 days earlier than forecast. Day 11 adds a **new breach**: daily interception rate (88.9%), the third daily breach in the conflict.
 
@@ -303,6 +307,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **39** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **40** | **2/5** (launcher + drone_stockpile) | **UNSTABLE** |
 | **41** | **2/5** (launcher + drone_stockpile) | **🕊️ METASTABLE** — λ collapses to 0.463; ceasefire holds; first zero-attack day |
+| **42** | **2/5** (launcher + drone_stockpile) | **🕊️ METASTABLE** — λ remains 0.463; ceasefire holding; second zero-attack day |
 
 ---
 
@@ -351,6 +356,7 @@ The model's exponential decay assumption (β=0.25/day) broke down from Day 5 onw
 | **39** | **2.143** | **100%** | **~2.35** | **UNSTABLE** | TRUMP "POWER PLANT DAY" DEADLINE: @modgovae OFFICIAL (corrected): 1 BM, 11 drones (minimum Iran hold-back); Islamabad Accord talks reach breakthrough; Ceasefire announced ~11 PM ET; Polymarket collapses to 4% during day then surges to ~97% at close; 2/5 breaches (corrected — interception day removed) |
 | **40** | **2.105** | **100%** | **~2.30** | **UNSTABLE** | 🕊️ CEASEFIRE DAY: 17 BMs + 35 drones (attacks continue into truce); Hormuz formally opened (2 ships only in 12h); Oil crashes ~17% (WTI $93.10); Habshan fires (3 injured); Polymarket ceasefire surges to ~97%; 2/5 breaches (launcher, drone_stockpile); λ drops 2.143→2.105 on ceasefire signal |
 | **41** | **0.463** | **5.1%** | **~0.80** | **🕊️ METASTABLE** | **CEASEFIRE DAY 2: λ COLLAPSES 2.105→0.463 (−78%); FIRST ZERO-ATTACK DAY in 41 days; zero BMs/drones/cruise; Hormuz: Chinese tankers queue (traffic not yet resumed); EASA review Apr 10; WTI rebounds to $101.28 (+8.8%); Islamabad talks Friday; ceasefire extension to Apr 21 at 71% Polymarket; 2/5 structural breaches remain (launcher+drone_stockpile); P(λ>1) collapses to 5.1%** |
+| **42** | **0.463** | **5.1%** | **~0.80** | **🕊️ METASTABLE** | **CEASEFIRE DAY 3: λ remains 0.463 (METASTABLE); Second consecutive zero-attack day; EASA decision decision pending; Islamabad talks in progress (VP Vance leads US, FM Araghchi/Speaker Ghalibaf lead Iran); Hormuz: 7 vessels crossed (up from 5), 600+ tankers stranded; ceasefire extension to Apr 21: 75% Polymarket (up from 71%); 2/5 structural breaches (launcher+drone_stockpile); P(λ>1)=5.1%; WTI $98.70, Brent ~$96** |
 
 ### What Changed on Day 8
 
@@ -476,6 +482,7 @@ Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). M
 | **39** | **Apr 7** | ~55% | ~100% | ~252 | ⚠️ Reduced — airlines on alert for Trump deadline; busiest day since crisis start (Apr 7: 223 outbound) |
 | **40** | **Apr 8** | **62%** | ~100% | ~300+ | ⚠️ IMPROVING — ceasefire announced; DXB operating at ~62%; Apr 7 was busiest day since crisis (223 outbound = Emirates 70% + flydubai 40%); ceasefire accelerating airline resumption planning |
 | **41** | **Apr 9** | **70%** | ~100% | ~350+ | ✅ RECOVERING — ceasefire holds; DXB operating at ~70%; Emirates+flydubai scheduled 220+ flights; European carriers await EASA decision (due Apr 10); airlines submitting revised schedules targeting 70%+ by mid-week pending ceasefire compliance |
+| **42** | **Apr 10** | **75%** | ~100% | ~220+ | ✅ IMPROVING — ceasefire holding second day; DXB operating at ~75%; EASA airspace review completed; Air France pre-emptively extended suspension pending decision |
 
 **Airport in crisis then partial recovery:** After reaching ~70% on Day 11, capacity crashed to ~30% on Day 17 (DXB fuel tank hit) and further to ~35% on Day 18 after GCAA closed then reopened UAE airspace (end-of-day ~35%). Days 19-28 show partial recovery to ~40-50% with Emirates and flydubai as primary operators after GCAA banned foreign airlines from DXB on Mar 17. BA flights cancelled through May 31; Air France suspended; Air Canada through May 1. Indian carriers (Air India, IndiGo) operating limited schedule. **Day 26: Air India resumes ad-hoc Dubai-Delhi flights (26 flights)** signaling gradual confidence recovery. **Day 27: DXB T3 hit by drone debris in early AM but operations continued with limited disruption; Emirates+flydubai at ~207 departures**, showing operational resilience despite BM rebound. **Day 28: Emirates+flydubai continue normal operations; weather advisories in place**, holding steady at ~50% capacity despite Chinese ship Hormuz incident and Iranian rejection of Trump proposal. **Day 31: DXB improves to ~60%** — best capacity since Day 11. Houthis entering the war (2nd Israel strike + Bab al-Mandeb threat) creates new risk for Red Sea flight corridors, but Dubai-bound capacity continues recovering as Emirates + flydubai expand and cautious European/Indian carriers resume limited routes. Model predicts 85% vs reality 60% — gap narrowing. **Day 30: DXB improves to ~55%** from 45% — best since Day 16 (55%). Emirates targeting full capacity restoration (per pre-conflict announcement); flydubai expanding schedule. Some international carriers beginning to resume limited operations. Model predicts 84% vs reality 55% — 1.53× gap narrowing. ONE-MONTH MARK shows airport recovering despite sustained Iranian strikes. Day 30 marks first significant capacity improvement in two weeks. **Day 29: airport dips to ~45%** from 50% as KLM extends suspension through May 17.
 
@@ -526,6 +533,7 @@ Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). M
 | **39** | **Apr 7** | 0 | 0 ✓ | ~13 | ~227 | OK |
 | **40** | **Apr 8** | **0** | **3** | **~13** | **~230** | OK — 3 injured from Habshan gas complex debris fire; CEASEFIRE DAY |
 | **41** | **Apr 9** | **0** | **0** | **~13** | **~230** | ✅ OK — zero casualties; first complete zero-attack/zero-casualty day since Day 14 (zero) and Day 26 (zero BMs, some drones fell); ceasefire holding |
+| **42** | **Apr 10** | **0** | **0** | **~13** | **~230** | ✅ OK — second consecutive zero-casualty day; ceasefire holding; cumulative casualties unchanged |
 
 †**@modgovae cumulative correction:** Official cumulative injuries as of Day 20 is 158 per @modgovae, lower than tracker running total (~162). Adopting @modgovae authoritative figure.
 
@@ -602,6 +610,7 @@ Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). M
 | **39** | **Apr 7** | ~$112 | ~$110 | Closed | ~$505K | Markets tense ahead of 8PM ET deadline; Trump threatens infrastructure strikes |
 | **40** | **Apr 8** | **$93.10 (-17%)** | **$91.50** | **Open (barely)** | **~$480K** | **🕊️ CEASEFIRE: Oil crashes ~17% (largest single-day drop since COVID crash); WTI $93.10, Brent $91.50; Iran agrees to Hormuz reopening; only 2 ships through in 12h (426 tankers still waiting); VLCC eases to $480K** |
 | **41** | **Apr 9** | **$101.28 (+8.8%)** | **~$98.50** | **Open (restricted)** | **~$380K** | **🕊️ CEASEFIRE DAY 2: WTI REBOUNDS +8.8% to $101.28 as Iran threatens Hormuz re-closure if ceasefire violated; Chinese tankers queue to test passage; vessel traffic not yet fully resumed; VLCC eases further to ~$380K on ceasefire optimism; Hormuz transit clarity awaited; IRGC conflicting signals** |
+| **42** | **Apr 10** | **$98.70** | **~$96** | **Open (7 crossings, up from 5)** | **$350K/day** | **🕊️ CEASEFIRE DAY 3: WTI eases to $98.70 (−2.6%) on ceasefire extension optimism (75% Polymarket); Brent ~$96; VLCC eases further to $350K/day on restricted Hormuz opening (7 vessels crossed vs 5 Wed); 600+ tankers still stranded awaiting full transit normalization; Islamabad talks in progress** |
 
 ---
 
@@ -856,6 +865,7 @@ Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). M
 | **40** | **Apr 8** | POLITICS | Dr Gargash: UAE has 'triumphed in war it sought to avoid'; GCC emergency summit called Apr 10 | UAE presidential advisor |
 | **40** | **Apr 8** | DIPLOMACY | US-Iran delegations to meet in Islamabad Friday; Iran's 10-point terms: sanctions lifted, enrichment recognized, US forces leave region | Long road to full settlement |
 | **41** | **Apr 9** | **🕊️ CEASEFIRE HOLDS** | **FIRST ZERO-ATTACK DAY in 41 days** — no BMs/drones/cruise missiles launched; first complete overnight silence since Feb 28 | **λ collapses 2.105→0.463; METASTABLE** |
+| **42** | **Apr 10** | **🕊️ CEASEFIRE DAY 3** | **SECOND CONSECUTIVE ZERO-ATTACK DAY** — ceasefire holds into Day 3; EASA airspace review decision pending; Islamabad talks (VP Vance leads US, FM Araghchi/Speaker Ghalibaf lead Iran) underway Friday; Hormuz: 7 vessels crossed (up from 5 Wed), 600+ tankers stranded; Iran threatens closure if ceasefire violated; Trump accuses Iran of not opening Hormuz properly | **λ remains 0.463; P(λ>1)=5.1%; Polymarket ceasefire extension to Apr 21: 75% (up from 71%)** |
 | **41** | **Apr 9** | HORMUZ | Chinese tankers queue to test Hormuz passage; Iran makes conflicting signals (IRGC threatens re-closure if ceasefire violated); vessel traffic not yet fully resumed; 800+ ships still waiting | Oil rebounds WTI $101.28 (+8.8%) |
 | **41** | **Apr 9** | OIL | WTI rebounds to $101.28 (+$8.18, +8.8%) on Hormuz uncertainty; Brent ~$98.50; market pricing ceasefire uncertainty vs reopening optimism | WTI-Brent spread widens |
 | **41** | **Apr 9** | AVIATION | DXB ~70% capacity; Emirates+flydubai scheduling 220+ flights; EASA advisory review due April 10 — decision on whether EU carriers can return | European carrier return pending |
@@ -884,6 +894,8 @@ Ceasefire odds surge to ~20% on Day 25 — a dramatic jump from ~12% (Day 24). M
 **Day 40 Rating: 0 MATCHES, 9 DIVERGENT — CEASEFIRE IN EFFECT (fragile)** (Hormuz partially reopening provides first positive indicator; oil crash signals market relief; 2/5 breaches is lower than conflict avg; but λ=2.105 remains UNSTABLE; attacks continued into truce)
 
 **Day 41 Rating: 1 MATCH (BM monotonic decay — zero BMs ✅), 9 DIVERGENT — CEASEFIRE HOLDING; λ METASTABLE FOR FIRST TIME SINCE DAY 2** (Zero attacks is first-ever match on BM decay; airport still below model; Hormuz technically open but restricted; drone stockpile breach persists; ceasefire fragility keeps 9 checks in DIVERGENT territory)
+
+**Day 42 Rating: 1 MATCH (BM monotonic decay — zero BMs ✅), 9 DIVERGENT — CEASEFIRE HOLDS DAY 3; λ METASTABLE PERSISTS** (Second consecutive zero-attack day maintains BM decay match; airport improving to 75% but still below model ~100%; Hormuz traffic increasing (7 crossings up from 5) but 600+ vessels stranded; drone stockpile breach persists; ceasefire strength improving but 9 checks remain DIVERGENT due to historical breaches and Hormuz fragility)
 
 Day 26-27 key developments: **Day 26 historic milestone: FIRST DAY WITH ZERO BALLISTIC MISSILES** — 0 BMs detected since conflict began Feb 28. Day 26 attack volume drops to all-time low 9 projectiles (0 BMs + 9 drones, 7 intercepted + 2 fell UAE). All BMs intercepted for 9th consecutive day; cumulative BM interception rate holds at 93.0%. λ ticks up marginally to 2.171 from 2.170, maintaining stable cascade plateau despite zero-BM achievement. Iran rejects Trump's 15-point peace plan; Trump declares war "won"; ~1,000 US 82nd Airborne troops deploying to Middle East.
 
@@ -934,6 +946,7 @@ Day 26-27 key developments: **Day 26 historic milestone: FIRST DAY WITH ZERO BAL
 | **39** | **Apr 7** | HIGH | 2.143 | UNSTABLE | **EVACUATE** — Trump deadline day; maximum uncertainty; ceasefire announced but attacks continue |
 | **40** | **Apr 8** | **ELEVATED** | **2.105** | **UNSTABLE** | **MONITOR — Ceasefire announced; 2-week truce period; Hormuz reopening; oil crash; BUT attacks continued into truce; fragile implementation; 2/5 breaches; λ still UNSTABLE; await ceasefire holding confirmation before changing evacuation posture** |
 | **41** | **Apr 9** | **MODERATE** | **0.463** | **🕊️ METASTABLE** | **HOLD — Ceasefire holding; first zero-attack day; λ collapses to 0.463 (first METASTABLE since Day 2); airport recovering to 70%; monitor EASA Apr 10 decision; Hormuz passage not yet fully normalized; Islamabad talks in progress; ceasefire extension probability 71%; 2-week window; re-evaluate daily** |
+| **42** | **Apr 10** | **MODERATE** | **0.463** | **🕊️ METASTABLE** | **CONTINUE HOLDING — Ceasefire holds Day 3; λ remains 0.463 (METASTABLE); zero attacks sustained; airport improving to 75%; EASA decision pending; Hormuz traffic increasing (7 vessels/day, up from 5) but 600+ tankers stranded; Islamabad talks underway; ceasefire extension to Apr 21: 75% Polymarket; 2-week ceasefire window stable; re-evaluate daily pending EASA decision and Hormuz transit normalization** |
 
 λ = 2.120 — marginal uptick from Day 32 (2.116). Day 32 brings critical escalation signals: **CRUISE MISSILES RETURN (4, first since Day 12)** — weapon diversity escalation; **Kuwaiti VLCC Al Salmi struck at Dubai Port** — maritime infrastructure under attack; **Polymarket ceasefire-by-Mar-31 EXPIRES at ~1% (resolves NO)** — market confirms diplomatic failure. BM declines 11→8 (−27%); drones surge 27→36 (+33%). Drone stockpile at 1.15% (~23 remaining) — exhaustion within 1-2 days. Brent holds $106.56 (+55% MTD, steepest monthly rise on record). VLCC rates spike to ~$475K/d due to tanker attack. Houthis continue Bab al-Mandeb threats while pledging strait open "for now" — dual-strait risk unresolved. **ONE MONTH + TWO DAYS of sustained conflict with complete ceasefire failure.**
 
