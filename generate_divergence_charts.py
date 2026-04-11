@@ -27,13 +27,13 @@ CHART_CONFIG = {
 }
 
 # Output directory
-OUTPUT_DIR = Path("/sessions/focused-gallant-einstein/mnt/flea/gitbook-evacuation-model/charts")
+OUTPUT_DIR = Path("/sessions/pensive-busy-heisenberg/mnt/flea/gitbook-evacuation-model/charts")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 def load_data():
     """Load daily_data.json and run_log.json"""
-    daily_path = Path("/sessions/focused-gallant-einstein/mnt/flea/gitbook-evacuation-model/pipeline/daily_data.json")
-    run_log_path = Path("/sessions/focused-gallant-einstein/mnt/flea/gitbook-evacuation-model/pipeline/run_log.json")
+    daily_path = Path("/sessions/pensive-busy-heisenberg/mnt/flea/gitbook-evacuation-model/pipeline/daily_data.json")
+    run_log_path = Path("/sessions/pensive-busy-heisenberg/mnt/flea/gitbook-evacuation-model/pipeline/run_log.json")
 
     with open(daily_path, 'r') as f:
         daily_data = json.load(f)
