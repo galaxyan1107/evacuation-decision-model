@@ -20,6 +20,9 @@
 ## Daily Updates
 
 * [📊 Day-by-Day Tracker](updates/daily-tracker.md)
+* [Day 45 — April 13 ⚠️ UNSTABLE](updates/day45-april13.md)
+* [Day 44 — April 12 🟡 METASTABLE](updates/day44-april12.md)
+* [Day 43 — April 11 🟡 METASTABLE](updates/day43-april11.md)
 * [Day 42 — April 10 🟡 METASTABLE](updates/day42-april10.md)
 * [Day 41 — April 9 🟡 METASTABLE](updates/day41-april9.md)
 * [Day 40 — April 8 🕊️ CEASEFIRE/UNSTABLE](updates/day40-april8.md)
@@ -55,7 +58,6 @@
 * [Day 10 — March 9 ⚠️ UNSTABLE](updates/day10-march9.md)
 * [Day 9 — March 8 ⚠️ UNSTABLE](updates/day9-march8.md)
 * [Day 8 — March 7 ⚠️ UNSTABLE](updates/day8-march7.md)
-* [Day 43 — April 11 🟡 METASTABLE](updates/day43-april11.md)
 
 ## Reference
 
@@ -83,6 +85,9 @@
 ### 每日更新
 
 * [📊 逐日追踪](zh/updates/daily-tracker.md)
+* [第45天 — 4月13日 ⚠️ 不稳定](zh/updates/day45-april13.md)
+* [第44天 — 4月12日 🟡 亚稳态](zh/updates/day44-april12.md)
+* [第43天 — 4月11日 🟡 亚稳态](zh/updates/day43-april11.md)
 * [第42天 — 4月10日 🟡 亚稳态](zh/updates/day42-april10.md)
 * [第41天 — 4月9日 🟡 亚稳态](zh/updates/day41-april9.md)
 * [第40天 — 4月8日 🕊️ 停火/不稳定](zh/updates/day40-april8.md)
@@ -118,7 +123,6 @@
 * [第10天 — 3月9日 ⚠️ 不稳定](zh/updates/day10-march9.md)
 * [第9天 — 3月8日 ⚠️ 不稳定](zh/updates/day9-march8.md)
 * [第8天 — 3月7日 ⚠️ 不稳定](zh/updates/day8-march7.md)
-* [第43天 — 4月11日 🟡 亚稳态](zh/updates/day43-april11.md)
 
 ### 参考
 
