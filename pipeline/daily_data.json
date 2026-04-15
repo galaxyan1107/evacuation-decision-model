@@ -1790,6 +1790,51 @@
         "air_base_strike": false
       },
       "notes": "DAY 45 \u2014 US NAVAL BLOCKADE BEGINS. Fifth consecutive zero-attack day \u2014 ceasefire technically holds even as political situation deteriorates dramatically. US naval blockade of Iranian ports in Strait of Hormuz takes effect 10 AM ET Monday. Trump warns Iran 'attack ships to stay away'. Hormuz effectively re-closed: only ~3 vessels transit (down from 12 Sunday). Blockade costs Iran ~$435M/day. Oil surges ~8%: Brent $101.82 (+6.95%), WTI ~$103 \u2014 both back above $100/bbl. Iran calls blockade 'piracy', threatens to turn Hormuz into 'graveyard'. Hezbollah rejects Israeli talks. Stock markets volatile but S&P partially recovers. DXB stable at ~80%. Polymarket ceasefire extension drops to ~45%. VLCC rates surge to ~$380K/day. This is the most significant escalation since the ceasefire \u2014 blockade transforms the conflict from air campaign to naval confrontation. Sources: CNBC (blockade start, oil, Iran threats), CNN (live updates, oil), Al Jazeera (Iran response, Hezbollah), FDD (blockade analysis, $435M/day cost), Fortune (oil $103.72 Brent), Trading Economics (Brent $101.82), CBC News (markets), Polymarket."
+    },
+    {
+      "day": 46,
+      "date": "2026-04-14",
+      "bm_detected": 0,
+      "bm_intercepted": 0,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 0,
+      "drones_intercepted": 0,
+      "drones_fell_uae": 0,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 0,
+      "airport_capacity_pct": 80,
+      "oil_wti": 97.0,
+      "vlcc_rate": 390000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 11,
+      "proxy_active": false,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 42,
+      "carrier_count": 3,
+      "carrier_effective": 3.0,
+      "key_events": [
+        "Ceasefire Day 6: Sixth consecutive zero-attack day; no BMs, drones, or cruise missiles \u2014 ceasefire holds despite US naval blockade of Iranian ports",
+        "US BLOCKADE DAY 2: Naval blockade of Iranian ports continues; 14 total ships have transited Hormuz since blockade began (~11 today vs ~3 Monday). US allows non-Iranian port traffic through strait",
+        "SECOND ROUND TALKS DISCUSSED: Pakistan working to set up second round of US-Iran peace talks in Islamabad after first round (21-hour marathon Apr 11-12) collapsed. Both sides reportedly open to resuming negotiations",
+        "Iran considering pausing Hormuz shipping to avoid testing US blockade and derailing potential talks (Bloomberg). Shows restraint despite rhetoric",
+        "CHINA CONDEMNS BLOCKADE: Beijing calls US naval blockade of Hormuz \"dangerous and irresponsible act\" that will further inflame tensions (CNBC)",
+        "Sanctioned tankers testing blockade: US-sanctioned tanker attempts Hormuz transit, testing enforcement resolve (Bloomberg)",
+        "OIL DROPS ~6%: WTI falls to ~7/bbl (from 03 Monday), Brent ~7.89 \u2014 both drop ~5-6% as markets price in potential second round of talks. Biggest single-day drop since ceasefire began",
+        "DXB ~80% capacity: Emirates operating ~145-150 departures/day to ~125 destinations (~70% of normal). EASA conflict zone bulletin extended to Apr 24. Foreign carrier one-rotation cap starts Apr 20",
+        "Polymarket: Ceasefire extension by Apr 21 market at 71%. General ceasefire sentiment drops to ~42% as blockade creates uncertainty",
+        "Trump says ceasefire \"holding well\" but \"I don't care\" whether Iran returns to negotiating table. Contradictory signals from White House",
+        "Hezbollah-Israel escalation continues separately from Iran ceasefire; Israel asserts ceasefire does not cover Lebanon",
+        "VLCC rates surge to ~90K/day as war-risk premiums remain extreme; major P&I clubs suspend war risk cover for Gulf transits",
+        "Cumulative (official): 537 BMs, 26 cruise missiles, 2,256 drones; ~13 dead, ~230 injured (unchanged \u2014 sixth consecutive zero-casualty day)"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": false,
+        "air_base_strike": false
+      },
+      "notes": "DAY 46 \u2014 US BLOCKADE DAY 2 / SECOND ROUND TALKS DISCUSSED. Sixth consecutive zero-attack day \u2014 ceasefire holds. 14 total ships transit Hormuz since blockade (~11 today). Pakistan working to arrange second round of US-Iran talks in Islamabad after first round collapsed Apr 12. Iran considering pausing Hormuz shipping to avoid derailing talks (Bloomberg). China condemns blockade as \"dangerous and irresponsible\" (CNBC). Oil drops sharply: WTI ~$97/bbl (-6% from $103), Brent ~$97.89 \u2014 markets optimistic on diplomatic resumption. Sanctioned tankers testing blockade enforcement. Trump says ceasefire holding but \"doesn't care\" about return to talks. DXB stable ~80%; EASA bulletin extended to Apr 24; foreign carrier cap starts Apr 20. Polymarket ceasefire extension by Apr 21 at 71%; general sentiment ~42%. VLCC rates ~$390K/day. Hezbollah-Israel fighting continues separately. Sources: CNBC (China condemns blockade), CNN (live updates, second round talks), Bloomberg (Iran pausing Hormuz, sanctioned tankers), Time (second round talks), NBC News (blockade live updates), Al Jazeera (Day 46 summary, Hormuz crossings), Business Today (14 ships, oil), TravelPirates (DXB status), Polymarket (ceasefire odds), Trading Economics (oil prices)."
     }
   ]
 }

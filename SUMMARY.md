@@ -20,6 +20,7 @@
 ## Daily Updates
 
 * [📊 Day-by-Day Tracker](updates/daily-tracker.md)
+* [Day 46 — April 14 ⚠️ UNSTABLE](updates/day46-april14.md)
 * [Day 45 — April 13 ⚠️ UNSTABLE](updates/day45-april13.md)
 * [Day 44 — April 12 🟡 METASTABLE](updates/day44-april12.md)
 * [Day 43 — April 11 🟡 METASTABLE](updates/day43-april11.md)
@@ -85,6 +86,7 @@
 ### 每日更新
 
 * [📊 逐日追踪](zh/updates/daily-tracker.md)
+* [第46天 — 4月14日 ⚠️ 不稳定](zh/updates/day46-april14.md)
 * [第45天 — 4月13日 ⚠️ 不稳定](zh/updates/day45-april13.md)
 * [第44天 — 4月12日 🟡 亚稳态](zh/updates/day44-april12.md)
 * [第43天 — 4月11日 🟡 亚稳态](zh/updates/day43-april11.md)
