@@ -1835,6 +1835,91 @@
         "air_base_strike": false
       },
       "notes": "DAY 46 \u2014 US BLOCKADE DAY 2 / SECOND ROUND TALKS DISCUSSED. Sixth consecutive zero-attack day \u2014 ceasefire holds. 14 total ships transit Hormuz since blockade (~11 today). Pakistan working to arrange second round of US-Iran talks in Islamabad after first round collapsed Apr 12. Iran considering pausing Hormuz shipping to avoid derailing talks (Bloomberg). China condemns blockade as \"dangerous and irresponsible\" (CNBC). Oil drops sharply: WTI ~$97/bbl (-6% from $103), Brent ~$97.89 \u2014 markets optimistic on diplomatic resumption. Sanctioned tankers testing blockade enforcement. Trump says ceasefire holding but \"doesn't care\" about return to talks. DXB stable ~80%; EASA bulletin extended to Apr 24; foreign carrier cap starts Apr 20. Polymarket ceasefire extension by Apr 21 at 71%; general sentiment ~42%. VLCC rates ~$390K/day. Hezbollah-Israel fighting continues separately. Sources: CNBC (China condemns blockade), CNN (live updates, second round talks), Bloomberg (Iran pausing Hormuz, sanctioned tankers), Time (second round talks), NBC News (blockade live updates), Al Jazeera (Day 46 summary, Hormuz crossings), Business Today (14 ships, oil), TravelPirates (DXB status), Polymarket (ceasefire odds), Trading Economics (oil prices)."
+    },
+    {
+      "day": 47,
+      "date": "2026-04-15",
+      "bm_detected": 0,
+      "bm_intercepted": 0,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 0,
+      "drones_intercepted": 0,
+      "drones_fell_uae": 0,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 0,
+      "airport_capacity_pct": 80,
+      "oil_wti": 91.8,
+      "vlcc_rate": 395000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 10,
+      "proxy_active": false,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 68,
+      "carrier_count": 3,
+      "carrier_effective": 3.0,
+      "key_events": [
+        "Ceasefire Day 7: Seventh consecutive zero-attack day; ceasefire holds despite political complexity",
+        "IN-PRINCIPLE EXTENSION AGREEMENT: US and Iran have 'in-principle agreement' to extend ceasefire per regional officials (AP); however US officially states it has not formally agreed to extension (Jerusalem Post)",
+        "PAKISTANI ARMY CHIEF IN TEHRAN: Gen. Asim Munir arrives in Tehran delivering US message to Iranian leadership; White House 'optimistic' about Iran deal (CNN, CNBC)",
+        "SECOND ROUND TALKS IMMINENT: Second round of Islamabad talks 'very likely' next week per senior Pakistani officials (CNBC); US officials say both sides 'inch toward framework deal' (Axios)",
+        "Trump says Iran war 'close to over' (CBS News); Hegseth separately urges Iran to 'choose wisely', says US is 'reloading' (ABC7)",
+        "Iran warns US naval blockade threatens ceasefire (Al Jazeera); key sticking points: Hormuz sovereignty, nuclear program, war damage compensation",
+        "HORMUZ: US naval blockade continues; ~9-10 total ship crossings this week; VLCC rates ~$395K/day (CNBC factbox); EIA boosts 2026 Brent projection to $96 (Rigzone)",
+        "OIL: WTI ~$91.8/bbl, Brent ~$95.5 \u2014 prices easing on diplomatic optimism; 'possible US-Iran talks revive hopes of easing Hormuz tensions' (CNBC)",
+        "DXB ~80%: 124 flights delayed, 22 cancelled across Dubai/Abu Dhabi; Emirates ~145-150 departures/day to ~125 destinations (~70% of normal)",
+        "Polymarket: ceasefire extension by Apr 21 rises to 78% (from 71% Day 46); general ceasefire sentiment ~68%; conflict ends by Dec at ~95%",
+        "Cumulative (official): 537 BMs, 26 cruise missiles, 2,256 drones; ~13 dead, ~230 injured (unchanged \u2014 seventh consecutive zero-casualty day)"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": false,
+        "air_base_strike": false
+      },
+      "notes": "DAY 47 \u2014 CEASEFIRE DAY 7 / IN-PRINCIPLE EXTENSION AGREEMENT. Seventh consecutive zero-attack day \u2014 ceasefire holds. US and Iran have 'in-principle agreement' to extend ceasefire per regional officials (AP); US officially states it has not formally agreed (Jerusalem Post). Pakistani Army Chief Gen. Asim Munir arrives in Tehran delivering US message to Iranian leadership. White House 'optimistic' about Iran deal (CNN). Second round of Islamabad talks 'very likely' next week per senior Pakistani officials (CNBC). US officials say both sides 'inch toward framework deal' (Axios). Trump says Iran war 'close to over' (CBS). Hegseth urges Iran to 'choose wisely', says US is 'reloading' (ABC7). Iran warns US naval blockade threatens ceasefire (Al Jazeera). Three key sticking points: Hormuz sovereignty, nuclear program, war damage compensation. Hormuz: US blockade continues; ~9-10 ship crossings this week (CNBC); EIA boosts 2026 Brent forecast to $96 (Rigzone). Oil: WTI ~$91.8, Brent ~$95.5 \u2014 prices easing on diplomatic hopes. DXB ~80%; 124 delays, 22 cancellations; Emirates at ~70% normal capacity. Polymarket: ceasefire extension by Apr 21 rises to 78%; general sentiment 68%. 3 US CSGs in region. Sources: Bloomberg (ceasefire extension, Hormuz status), CNBC (talks, Trump hints, Hormuz tankers, EIA forecast), CNN (White House optimistic, Pakistani delegation Tehran), Axios (framework deal), Al Jazeera (Iran warns blockade, mediation update), PBS (Pakistani delegation Tehran), Jerusalem Post (no formal extension), CBS (Trump 'close to over'), ABC7 (Hegseth), TravelPirates (DXB status), Polymarket."
+    },
+    {
+      "day": 48,
+      "date": "2026-04-16",
+      "bm_detected": 0,
+      "bm_intercepted": 0,
+      "bm_fell_sea": 0,
+      "bm_fell_land": 0,
+      "drones_detected": 0,
+      "drones_intercepted": 0,
+      "drones_fell_uae": 0,
+      "cruise_missiles": 0,
+      "deaths": 0,
+      "injuries": 0,
+      "airport_capacity_pct": 82,
+      "oil_wti": 91.9,
+      "vlcc_rate": 390000,
+      "hormuz_status": "closed",
+      "hormuz_crossings": 9,
+      "proxy_active": false,
+      "new_weapon_event": null,
+      "polymarket_ceasefire_mar31": 70,
+      "carrier_count": 3,
+      "carrier_effective": 3.0,
+      "key_events": [
+        "Ceasefire Day 8: Eighth consecutive zero-attack day; ceasefire holds as diplomatic momentum builds ahead of April 21 expiry",
+        "DIPLOMATIC BREAKTHROUGH HOPES: Al Jazeera: 'Hopes grow for a breakthrough in US-Iran talks as Pakistan mediates'; Bloomberg: 'Pakistan Steps Up Mediation as US, Iran Consider Extending Ceasefire'",
+        "SECOND ROUND TALKS EXPECTED IMMINENTLY: Second round of Islamabad talks expected before ceasefire expires April 21; Trump says Iran war 'close to over' as Pakistan pushes hard for peace (CBS News, CNN)",
+        "Pakistan mediation intensifying: Pakistani delegation working both sides; ceasefire extension and second round talks now appear likely before April 21 deadline",
+        "HORMUZ: US naval blockade continues; ~9 ship crossings; first Western ships reportedly crossing paying Iran in Yuan (House of Saud report); VLCC rates ~$390K/day easing from peak",
+        "OIL: Brent $94.89 (-0.04%), WTI $91.91 (+0.68%) \u2014 market stabilizing, pricing in ceasefire extension and diplomatic progress (oilpriceapi.com)",
+        "DXB OPEN APRIL 16: Emirates, flydubai, Air Arabia maintaining schedules; airport running 220+ flights; full recovery gaining momentum (IBTimes, TravelPirates); EASA bulletin extended to Apr 24",
+        "USS George H.W. Bush CSG now operational in CENTCOM AOR \u2014 3 US carrier strike groups in region; ~27 Navy vessels deployed (~41% of actively-at-sea ships)",
+        "Polymarket: ceasefire extension by Apr 21 at ~78%; general ceasefire sentiment rises to ~70% as Pakistan intensifies mediation and diplomatic signals improve",
+        "Cumulative (official): 537 BMs, 26 cruise missiles, 2,256 drones; ~13 dead, ~230 injured (unchanged \u2014 eighth consecutive zero-casualty day)"
+      ],
+      "realized_tail_risks": {
+        "hormuz_closed": true,
+        "proxy_activated": false,
+        "air_base_strike": false
+      },
+      "notes": "DAY 48 \u2014 CEASEFIRE DAY 8 / BREAKTHROUGH HOPES GROW. Eighth consecutive zero-attack day \u2014 ceasefire holds as diplomatic momentum builds. Al Jazeera: 'Hopes grow for a breakthrough in US-Iran talks as Pakistan mediates.' Bloomberg: 'Pakistan Steps Up Mediation as US, Iran Consider Extending Ceasefire.' Second round of Islamabad talks now expected before ceasefire expiry April 21. Trump says Iran war 'close to over' (CBS News). Ceasefire extension agreement in-principle from Day 47 appears more solid; both sides under pressure to get deal done. Hormuz: US naval blockade continues; ~9 ship crossings; first Western ships crossing paying Iran in Yuan (House of Saud). VLCC rates ~$390K/day slightly easing from peak of $423K+. Oil: Brent $94.89, WTI $91.91 \u2014 market stable/slightly up; US-Iran talks boosting sentiment. DXB open April 16; Emirates/flydubai/Air Arabia all operating; 220+ flights; full recovery gaining momentum (IBTimes). Airport at ~82% with EASA bulletin extended to April 24; foreign carrier one-rotation cap starts April 20. USS George H.W. Bush CSG now operational in CENTCOM \u2014 3 US CSGs in region with ~27 Navy vessels. Polymarket: ceasefire extension by Apr 21 at ~78%; general sentiment rises to ~70%. Sources: Al Jazeera (hopes grow, Pakistan mediates), Bloomberg (Pakistan mediation, ceasefire extension), CBS News (Trump 'close to over'), CNN live updates, oilpriceapi.com (Brent/WTI April 16), TravelPirates (DXB April 16), IBTimes (DXB 220+ flights), Stars & Stripes (3 CSGs, 27 vessels), CNBC (Hormuz tanker traffic), House of Saud (Western ships paying yuan)."
     }
   ]
 }
