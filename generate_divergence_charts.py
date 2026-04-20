@@ -27,13 +27,13 @@ CHART_CONFIG = {
 }
 
 # Output directory
-OUTPUT_DIR = Path("/sessions/loving-blissful-carson/mnt/flea/gitbook-evacuation-model/charts")
+OUTPUT_DIR = Path("/sessions/quirky-gifted-shannon/mnt/flea/gitbook-evacuation-model/charts")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 def load_data():
     """Load daily_data.json and run_log.json"""
-    daily_path = Path("/sessions/loving-blissful-carson/mnt/flea/gitbook-evacuation-model/pipeline/daily_data.json")
-    run_log_path = Path("/sessions/loving-blissful-carson/mnt/flea/gitbook-evacuation-model/pipeline/run_log.json")
+    daily_path = Path("/sessions/quirky-gifted-shannon/mnt/flea/gitbook-evacuation-model/pipeline/daily_data.json")
+    run_log_path = Path("/sessions/quirky-gifted-shannon/mnt/flea/gitbook-evacuation-model/pipeline/run_log.json")
 
     with open(daily_path, 'r') as f:
         daily_data = json.load(f)
@@ -453,7 +453,7 @@ def main():
         OUTPUT_DIR / 'divergence_heatmap.png',
         OUTPUT_DIR / 'model_vs_actual_bars.png',
         OUTPUT_DIR / 'divergence_scorecard.png',
-        OUTPUT_DIR / 'lambda_evolution_day39.png',
+        OUTPUT_DIR / 'lambda_evolution_day51.png',
         OUTPUT_DIR / 'bm_trajectory.png'
     ]
 

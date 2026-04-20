@@ -428,5 +428,25 @@
     "p_gt_1": 5.140000000000001,
     "verdict": "METASTABLE",
     "breaches": 2
+  },
+  {
+    "timestamp": "2026-04-19T13:18:40.541416",
+    "day": 50,
+    "slug": "day50-april18",
+    "lambda_median": 1.1009130303298547,
+    "lambda_p95": 1.5149175434855162,
+    "p_gt_1": 67.274,
+    "verdict": "UNSTABLE",
+    "breaches": 2
+  },
+  {
+    "timestamp": "2026-04-19T13:18:51.706253",
+    "day": 51,
+    "slug": "day51-april19",
+    "lambda_median": 1.1009130303298547,
+    "lambda_p95": 1.5149175434855162,
+    "p_gt_1": 67.274,
+    "verdict": "UNSTABLE",
+    "breaches": 2
   }
 ]
